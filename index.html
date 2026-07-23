@@ -275,7 +275,7 @@ let selectedSingleYears = new Set();
 let singleQueue = [], singleIdx = 0;
 let currentLevel = 'mid'; // low/mid/high
 let hintsOn = true;
-let zhOn = true;
+let zhOn = false;
 
 const CATS = ["搭配詞／固定用法","字義辨析／多義字","詞性判斷","同義改寫／替代指涉","句型／固定搭配句構","上下文線索／邏輯推論"];
 
@@ -375,6 +375,7 @@ function startPractice(){
   } else {
     const pid = window.__selectedPassage;
     if(!pid){ alert('請先選擇一篇文章'); return; }
+    revealedBlanks = new Set();
     document.getElementById('homeView').style.display='none';
     document.getElementById('practiceView').style.display='block';
     renderFull(pid);
@@ -429,6 +430,7 @@ function renderSingle(){
 function viewFullFromSingle(pid){
   window.__lastPid = pid;
   window.__returnToSingle = true;
+  revealedBlanks = new Set();
   const items = ITEMS.filter(it=>it.passageId===pid).sort((a,b)=>a.blankNum-b.blankNum);
   document.getElementById('progText').innerHTML = `<span>全文模式(從單題模式跳轉，可點選其他空格查看提示)</span><span>${PASSAGES[pid].year}</span>`;
   renderFull(pid);
@@ -474,7 +476,7 @@ function renderFull(pid){
     <div class="level-btn ${currentLevel==='high'?'active':''}" onclick="setLevel('high')">高分群考生(關提示)</div>
   </div>
   <div class="hint-toggle"><span class="switch ${hintsOn?'on':''}" onclick="toggleHints()"><span class="dot"></span></span> 主旨句／轉折詞提示：${hintsOn?'開':'關'}</div>
-  <div class="hint-toggle"><span class="switch ${zhOn?'on':''}" onclick="toggleZh()"><span class="dot"></span></span> 逐段中譯：${zhOn?'開':'關'}</div>
+  <div class="hint-toggle"><span class="switch ${zhOn?'on':''}" onclick="toggleZh()"><span class="dot"></span></span> 逐段中譯：${zhOn?'開':'關'}<span style="color:var(--ink-soft); font-size:11px; margin-left:4px;">(開啟後，每段中譯需點開該段所有空格才會顯示，不會提前洩題)</span></div>
   <div class="legend"><span class="lg-both">兩者皆是</span><span class="lg-thesis">全文中心思想</span><span class="lg-topic">段落主旨句</span><span class="lg-trans">轉折詞</span></div>
   <div style="font-size:12px; color:var(--ink-soft); margin:-6px 0 14px; line-height:1.7;">📌 並非每段都有一句「明講」的主旨句，也不是每篇文章的核心思想都剛好對應某一句話——本站標示的是「最能呼應」的代表句，僅供參考，不代表唯一答案。</div>
   <div class="passage-text ${hintsOn?'':'hints-off'}" id="passageText"></div>`;
@@ -496,18 +498,26 @@ function renderFull(pid){
 function setLevel(l){ currentLevel = l; hintsOn = (l !== 'high'); renderFull(window.__lastPid); }
 function toggleHints(){ hintsOn = !hintsOn; renderFull(window.__lastPid); }
 function toggleZh(){ zhOn = !zhOn; renderFull(window.__lastPid); }
+let revealedBlanks = new Set();
 function renderPassageText(p, items){
   window.__lastPid = p.id;
+  window.__lastItems = items;
   const el = document.getElementById('passageText');
   const itemMap = {}; items.forEach(it => itemMap[it.blankNum] = it);
   let out = '';
   p.paras.forEach((para, idx) => {
     out += `<div class="p-label">${para.label}</div><p>`;
+    const blankNumsInPara = [];
     para.segs.forEach(seg => {
       let [text, type] = seg;
       if(type === 'blank'){
+        blankNumsInPara.push(String(text));
         const it = itemMap[text];
-        out += ` <span class="blankTag" onclick="revealBlank(this,'${text}')" data-n="${text}">?${text}</span> `;
+        if(revealedBlanks.has(String(text))){
+          out += ` <span class="blankTag answered correct" title="${it?it.explanation:''}">(${it.answer}) ${it.options[it.answer]}</span> `;
+        } else {
+          out += ` <span class="blankTag" onclick="revealBlank(this,'${text}')" data-n="${text}">?${text}</span> `;
+        }
       } else if(!hintsOn && (type==='topic'||type==='thesis'||type==='gradient'||type==='trans')){
         out += `${text}`;
       } else if(type){
@@ -518,19 +528,20 @@ function renderPassageText(p, items){
     });
     out += `</p>`;
     const zh = (p.zhTranslation && p.zhTranslation[idx]) ? p.zhTranslation[idx] : null;
+    const allRevealedInPara = blankNumsInPara.length > 0 && blankNumsInPara.every(n => revealedBlanks.has(n));
     if(zh && zhOn){
-      out += `<p style="color:var(--ink-soft); font-size:14.5px; line-height:1.9; background:#F6F1E4; padding:10px 14px; border-radius:4px; margin:-6px 0 18px;">${zh}</p>`;
+      if(allRevealedInPara){
+        out += `<p style="color:var(--ink-soft); font-size:14.5px; line-height:1.9; background:#F6F1E4; padding:10px 14px; border-radius:4px; margin:-6px 0 18px;">${zh}</p>`;
+      } else {
+        out += `<p style="color:#B8B0A0; font-size:12.5px; line-height:1.6; background:#F6F1E4; padding:8px 14px; border-radius:4px; margin:-6px 0 18px; font-style:italic;">🔒 這段還有空格尚未查看，中譯先隱藏，避免洩題。點擊上方空格題號查看答案後，這裡會自動顯示該段中譯。</p>`;
+      }
     }
   });
   el.innerHTML = out;
 }
 function revealBlank(el, num){
-  const it = ITEMS.find(x=>x.passageId===window.__lastPid && String(x.blankNum)===String(num));
-  if(!it) return;
-  el.textContent = `(${it.answer}) ${it.options[it.answer]}`;
-  el.classList.add('answered','correct');
-  el.onclick = null;
-  el.title = it.explanation;
+  revealedBlanks.add(String(num));
+  renderPassageText(PASSAGES[window.__lastPid], window.__lastItems);
 }
 init();
 </script>
