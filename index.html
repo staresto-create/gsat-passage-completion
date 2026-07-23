@@ -143,9 +143,14 @@
       <div class="stats-box" id="statsBox"></div>
       <div class="stats-actions">
         <button class="link-btn" onclick="startWrongBook()">📕 只練錯題本(<span id="wrongCount">0</span>題)</button>
+        <button class="link-btn" onclick="showHistoryDetail()">📊 查看詳細記錄</button>
         <button class="link-btn" onclick="clearHistory()">清除學習歷程統計</button>
         <button class="link-btn" onclick="clearWrongBook()">清除錯題本</button>
       </div>
+      <label style="display:flex; align-items:center; gap:8px; margin:4px 0 16px; font-size:12.5px; color:var(--ink-soft); cursor:pointer; font-family:'IBM Plex Mono',monospace;">
+        <input type="checkbox" id="testModeToggle" style="width:15px; height:15px; cursor:pointer;">
+        測試模式（本次作答不計入學習歷程與錯題本）
+      </label>
 
       <span class="strategy-toggle" onclick="toggleStrategy()">📖 展開／收合：作答前必看的五大戰術與隱形連結</span>
       <div class="strategy-box" id="strategyBox" style="display:none;">
@@ -201,6 +206,18 @@
     <div class="prog" id="progText"></div>
     <div class="bar"><div class="bar-fill" id="progBar" style="width:0%;"></div></div>
     <div id="practiceBody"></div>
+  </div>
+
+  <div id="historyView" style="display:none;">
+    <span class="backLink" onclick="goHome()">← 回選單</span>
+    <div class="card">
+      <div class="home-lead">學習歷程詳細記錄</div>
+      <div id="histOverall" style="text-align:center; margin:16px 0;"></div>
+      <div class="sec-title">各分類表現</div>
+      <div id="histByCategory"></div>
+      <div class="sec-title">最近作答記錄</div>
+      <div id="histRecent"></div>
+    </div>
   </div>
 
   <footer>
@@ -384,6 +401,50 @@ function startPractice(){
 function goHome(){
   document.getElementById('homeView').style.display='block';
   document.getElementById('practiceView').style.display='none';
+  document.getElementById('historyView').style.display='none';
+}
+function showHistoryDetail(){
+  const hist = loadHistory();
+  document.getElementById('homeView').style.display='none';
+  document.getElementById('historyView').style.display='block';
+  const total = hist.length;
+  const correctCount = hist.filter(h=>h.correct).length;
+  const rate = total>0 ? Math.round(correctCount/total*100) : 0;
+  document.getElementById('histOverall').innerHTML = `
+    <div style="font-family:'Noto Serif TC',serif; font-weight:900; font-size:40px; color:var(--crimson);">${rate}%</div>
+    <div style="font-size:12.5px; color:var(--ink-soft);">整體正確率（共 ${total} 題）</div>
+  `;
+  // 各分類表現
+  const catStats = {};
+  CATS.forEach(c => catStats[c] = {total:0, correct:0});
+  hist.forEach(h => {
+    const it = ITEMS.find(x=>x.id===h.id);
+    if(!it) return;
+    const mainCat = it.categories[0];
+    if(!catStats[mainCat]) catStats[mainCat] = {total:0, correct:0};
+    catStats[mainCat].total++;
+    if(h.correct) catStats[mainCat].correct++;
+  });
+  let catHtml = '';
+  CATS.forEach(c => {
+    const s = catStats[c];
+    if(!s || s.total===0){ catHtml += `<div class="year-item"><span>${c}</span><span class="cnt">尚未作答</span></div>`; return; }
+    const r = Math.round(s.correct/s.total*100);
+    catHtml += `<div class="year-item"><span>${c}</span><span class="cnt">${s.correct}/${s.total}（${r}%）</span></div>`;
+  });
+  document.getElementById('histByCategory').innerHTML = `<div class="year-list">${catHtml}</div>`;
+  // 最近作答記錄
+  const recent = hist.slice(-20).reverse();
+  let recHtml = '';
+  if(recent.length===0){ recHtml = '<div class="year-item">尚無作答記錄</div>'; }
+  recent.forEach(h => {
+    const it = ITEMS.find(x=>x.id===h.id);
+    const label = it ? `${it.year} 第${it.blankNum}題` : h.id;
+    const mark = h.correct ? '<span style="color:var(--sage);">✓ 答對</span>' : '<span style="color:var(--crimson);">✕ 答錯</span>';
+    const time = new Date(h.t).toLocaleString('zh-TW', {month:'numeric', day:'numeric', hour:'2-digit', minute:'2-digit'});
+    recHtml += `<div class="year-item"><span>${label}</span><span class="cnt">${mark}　${time}</span></div>`;
+  });
+  document.getElementById('histRecent').innerHTML = `<div class="year-list">${recHtml}</div>`;
 }
 function paraTextForBlank(p, blankNum){
   // 找出該空格所在的段落，重組該段文字；目標空格標記醒目，其餘空格顯示為 ___
@@ -441,7 +502,8 @@ function viewFullFromSingle(pid){
 function answerSingle(letter){
   const it = singleQueue[singleIdx];
   const correct = letter === it.answer;
-  recordAnswer(it.id, correct);
+  const testMode = document.getElementById('testModeToggle') && document.getElementById('testModeToggle').checked;
+  if(!testMode) recordAnswer(it.id, correct);
   document.querySelectorAll('.choice').forEach(c=>{
     c.onclick = null;
     if(c.dataset.l === it.answer) c.classList.add('correct');
