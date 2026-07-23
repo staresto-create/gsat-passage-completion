@@ -158,7 +158,9 @@
       </div>
 
       <div id="singleControls">
-        <div class="sec-title">依單題模式分類篩選</div>
+        <div class="sec-title">依年度篩選<span style="font-weight:400; text-transform:none; letter-spacing:0; font-size:11px; margin-left:6px;">（可複選，不選則不限年度）</span></div>
+        <div class="cat-grid" id="singleYearGrid"></div>
+        <div class="sec-title">依單題模式分類篩選<span style="font-weight:400; text-transform:none; letter-spacing:0; font-size:11px; margin-left:6px;">（可複選，不選則不限分類）</span></div>
         <div class="cat-grid" id="catGrid"></div>
         <div class="sec-title">依難易度篩選<span style="font-weight:400; text-transform:none; letter-spacing:0; font-size:11px; margin-left:6px;">（選填，可複選；勾選後不限分類直接開始）</span></div>
         <div class="cat-grid" id="diffGrid"></div>
@@ -195,6 +197,7 @@ let PASSAGES = {}, ITEMS = [];
 let currentMode = 'single';
 let selectedCats = new Set();
 let selectedDiffs = new Set();
+let selectedSingleYears = new Set();
 let singleQueue = [], singleIdx = 0;
 let currentLevel = 'mid'; // low/mid/high
 let hintsOn = true;
@@ -207,6 +210,7 @@ async function init(){
   ITEMS = await iRes.json();
   passagesArr.forEach(p => PASSAGES[p.id] = p);
   buildCatGrid();
+  buildSingleYearGrid();
   buildDiffGrid();
   buildYearList();
 }
@@ -220,6 +224,17 @@ function setMode(m){
   document.getElementById('modeFullCard').classList.toggle('active', m==='full');
   document.getElementById('singleControls').style.display = m==='single' ? 'block' : 'none';
   document.getElementById('fullControls').style.display = m==='full' ? 'block' : 'none';
+}
+function buildSingleYearGrid(){
+  const grid = document.getElementById('singleYearGrid');
+  grid.innerHTML = '';
+  Object.values(PASSAGES).sort((a,b)=> yearSortKey(a) - yearSortKey(b)).forEach(p => {
+    const chip = document.createElement('div');
+    chip.className = 'chip'; chip.textContent = p.year;
+    chip.title = p.title;
+    chip.onclick = () => { chip.classList.toggle('active'); selectedSingleYears.has(p.id) ? selectedSingleYears.delete(p.id) : selectedSingleYears.add(p.id); };
+    grid.appendChild(chip);
+  });
 }
 function buildCatGrid(){
   const grid = document.getElementById('catGrid');
@@ -265,10 +280,11 @@ function startPractice(){
   if(currentMode === 'single'){
     let pool = ITEMS.filter(it => {
       const catOk = selectedCats.size===0 || it.categories.some(c=>selectedCats.has(c));
+      const yearOk = selectedSingleYears.size===0 || selectedSingleYears.has(it.passageId);
       const tier = tierOf(it.accuracyRate);
       const diffOk = selectedDiffs.size===0 || (tier && selectedDiffs.has(tier));
-      if(selectedDiffs.size>0) return diffOk;
-      return catOk;
+      if(selectedDiffs.size>0) return diffOk && yearOk;
+      return catOk && yearOk;
     });
     if(pool.length===0){ alert('這個篩選條件下沒有題目'); return; }
     singleQueue = pool.sort(()=>Math.random()-0.5);
@@ -352,6 +368,7 @@ function answerSingle(letter){
   document.getElementById('fbBox').innerHTML = `
     <div class="feedback">
       ${correct?'✓ 正確！':'✕ 正解是 ('+it.answer+') '+it.options[it.answer]}
+      <div class="exp"><b>中譯：</b>${it.gloss}</div>
       <div class="exp"><b>字詞搭配線索：</b>${it.collocation}</div>
       <div class="exp"><b>常見誤區：</b>${it.explanation}</div>
       ${pd}
