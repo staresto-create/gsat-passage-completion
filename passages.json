@@ -5885,5 +5885,205 @@
    "「沒有痛苦，就沒有收穫」這種運動觀念，如今已經被認為過時了。事實上，最新的健康研究證實，運動不必讓人感到疼痛，也能有效果。你或許會主張，如果運動時不會痛，那就代表沒有效果。但根據健身教練的說法，體力消耗較大的運動，可能會讓你呼吸急促、肌肉暫時痠痛，但運動本身不應該讓人感到疼痛。事實上，如果運動會痛，這反而可能是受傷或肌肉拉傷的警訊。",
    "許多很棒的運動方式——像是散步、游泳，或是輕度伸展——都不需要讓人感到痠痛不適，卻仍然能帶來成效，儘管有些人總以為運動就該伴隨這些不適感。為了自己的健康著想，是時候把規律運動變成生活的一部分了。切記，即使是短時間的低強度運動，也能成為改善健康的強大方法。因此，不管你有多忙，都要盡量每天挪出時間運動，例如遛狗散步15分鐘。你的身體，會用許多方式感謝你。"
   ]
+ },
+ {
+  "id": "y112",
+  "year": "112年",
+  "title": "喝水的迷思（Is Water Always the Best Drink?）",
+  "flagNote": "此為112年學測正式考題(第21-30題，10選10，選項A-J)，已附上大考中心官方答對率(P)/鑑別度(D)，資料來源為《112學年度學科能力測驗各科答對率及鑑別度表》英文科。本篇無負D值，不會出現「特殊」難易度分級。篇章結構部分(第31-34題)依約定先擱置。",
+  "options": {
+   "A": "absorption",
+   "B": "active",
+   "C": "alert",
+   "D": "combat",
+   "E": "option",
+   "F": "effective",
+   "G": "even",
+   "H": "status",
+   "I": "pass through",
+   "J": "reach for"
+  },
+  "paras": [
+   {
+    "label": "【第一段】破除迷思：白開水不一定是最健康的選擇",
+    "segs": [
+     [
+      "Water makes up more than half of our body weight. To sustain this amount of fluid in our bodies, plain water is considered our best choice, for it contains no sugar and no calories. ",
+      null
+     ],
+     [
+      "Yet",
+      "trans"
+     ],
+     [
+      ", is water always the healthiest drink we can",
+      "gradient"
+     ],
+     [
+      " ",
+      "gradient"
+     ],
+     [
+      "21",
+      "blank"
+     ],
+     [
+      "? Well, it depends on who and where we are, and what we're doing.",
+      "gradient"
+     ],
+     [
+      " ",
+      null
+     ],
+     [
+      "Obviously",
+      "trans"
+     ],
+     [
+      ", a physically ",
+      null
+     ],
+     [
+      "22",
+      "blank"
+     ],
+     [
+      " person with an outdoor job under the sun will need to drink more fluid than a desk-bound person who lives and works in an air-conditioned place. ",
+      null
+     ],
+     [
+      "But there's more to it than that",
+      "trans"
+     ],
+     [
+      ". When a person sweats, he loses water and salt, so he needs to replace both. Replacing lost fluid with just plain water means the body has too much water and not enough salt. To ",
+      null
+     ],
+     [
+      "23",
+      "blank"
+     ],
+     [
+      " things out, the body will get rid of water by producing urine. ",
+      null
+     ],
+     [
+      "For this reason",
+      "trans"
+     ],
+     [
+      ", milk can actually be more ",
+      null
+     ],
+     [
+      "24",
+      "blank"
+     ],
+     [
+      " than drinking water. Milk naturally contains salt and lactose, a sugar which the human body needs in small amounts to help stimulate water ",
+      null
+     ],
+     [
+      "25",
+      "blank"
+     ],
+     [
+      ". Coconut water, which contains salt and carbohydrates, is also more functional than water at restoring and maintaining a normal fluid ",
+      null
+     ],
+     [
+      "26",
+      "blank"
+     ],
+     [
+      " after exercise.",
+      null
+     ]
+    ]
+   },
+   {
+    "label": "【第二段】回到一般人：水仍是好選擇，但要「會喝」",
+    "segs": [
+     [
+      "For the average person, ",
+      "topic"
+     ],
+     [
+      "however",
+      "trans"
+     ],
+     [
+      ", water remains a very good",
+      "topic"
+     ],
+     [
+      " ",
+      "topic"
+     ],
+     [
+      "27",
+      "blank"
+     ],
+     [
+      " for keeping hydrated—if you know how to drink it.",
+      "topic"
+     ],
+     [
+      " The secret is: Never wait until the body is telling you you're thirsty, since there must already have been significant changes in your body for it to eventually ",
+      null
+     ],
+     [
+      "28",
+      "blank"
+     ],
+     [
+      " your consciousness. At that point, it might be well past the best moment to take in fluid. ",
+      null
+     ],
+     [
+      "Also",
+      "trans"
+     ],
+     [
+      ", drinking a lot of liquid in one go can cause more water to ",
+      null
+     ],
+     [
+      "29",
+      "blank"
+     ],
+     [
+      " the body quickly and come out as urine. To ",
+      null
+     ],
+     [
+      "30",
+      "blank"
+     ],
+     [
+      " this, you need to drink water throughout the day to maintain your hydration levels.",
+      null
+     ]
+    ]
+   }
+  ],
+  "thesis": "“Yet, is water always the healthiest drink we can reach for? Well, it depends on who and where we are, and what we're doing.”",
+  "thesisExplain": "前兩句先鋪陳一般人的common sense——白開水無糖、無熱量，是補水首選；接著用 Yet 帶出反問句推翻這個直覺，並立刻自答「it depends on who and where we are, and what we're doing」。這一問一答就是全文的核心主張：水並非在任何情況下都是最健康的飲品，要看人、看場合、看活動。第一段後半用流汗同時失水失鹽的生理機制，以及牛奶、椰子水兩個反例來支撐；第二段再用 however 把焦點拉回一般人，補上「該怎麼喝」的方法，前後都扣住同一個中心思想。",
+  "macro": {
+   "structure": "破除迷思型 — 背景鋪陳(水佔體重一半、白開水看似最佳選擇) → 反問破題(水永遠最健康嗎？答案因人、因地、因活動而異，全文中心思想) → 生理機制說明(流汗同時流失水與鹽，只補白開水反而以排尿失衡) → 反例佐證(牛奶、椰子水在特定情況更有效) → 轉折回到一般人(水仍是好選擇) → 提出正確喝水方法(別等口渴、全天分次補充)",
+   "patterns": "說明文 (Expository) ＋ 比較對比 (Compare/Contrast)",
+   "transitions": "Yet（轉折，推翻「白開水最健康」的直覺，帶出全文中心思想）→ Obviously（舉例佐證，戶外勞動者vs.坐辦公室者，呼應「看你在做什麼」）→ But there's more to it than that（句子型轉折，慣用語，意思是「事情不只如此、還有更深一層的原因」——單字都很簡單，卻是本篇最容易讀錯的一句；it 指前面「該喝多少水」這件事，that 指前一句「活動量大小」這個理由，作者用這句宣告要從「活動量」推進到「體液平衡」的生理機制）→ For this reason（因果，導出牛奶比白開水更有效）→ however（第二段轉折，把焦點從特殊族群拉回一般人）→ Also（補充第二個喝水要點）",
+   "outline": [
+    "1. 背景：水分佔體重一半以上，白開水無糖無熱量，被視為補水首選",
+    "2. 反問破題：水是否永遠是最健康的飲品？取決於「誰、在哪裡、在做什麼」(全文中心思想)",
+    "3. 生理機制：流汗會同時流失水與鹽，只補白開水會造成水多鹽少，身體便以製造尿液的方式排水求取平衡",
+    "4. 反例佐證：牛奶(含鹽與乳糖)、椰子水(含鹽與碳水化合物)在特定情況下比白開水更有效、更具功能性",
+    "5. 回到一般人：水仍是保持體內水分充足的好選擇，但要會喝——不等口渴才喝、不一次灌太多，應全天分次補充"
+   ]
+  },
+  "zhTranslation": [
+   "水分佔了我們體重的一半以上。為了維持體內這麼多的水分，白開水被認為是最好的選擇，因為它不含糖，也沒有熱量。然而，水真的永遠是我們能選用的最健康飲品嗎？這其實要看我們是誰、身在何處，以及正在做什麼。顯然，一個在太陽底下從事戶外工作、身體活動量大的人，會比長時間坐辦公室、在冷氣房裡生活與工作的人需要補充更多水分。但事情還不只如此。人在流汗時，會同時流失水分和鹽分，因此兩者都必須補回來。如果只用白開水補充流失的體液，就等於讓身體水分過多、鹽分不足。為了讓兩者恢復平衡，身體會藉由製造尿液把水分排掉。正因如此，牛奶其實可能比喝白開水更有效。牛奶本身就含有鹽分與乳糖；乳糖是一種人體需要少量攝取、有助於促進水分吸收的糖。而含有鹽分與碳水化合物的椰子水，在運動後恢復並維持正常的體液狀態上，也比白開水更具功能性。",
+   "不過，對一般人來說，只要懂得怎麼喝，水仍然是保持體內水分充足的絕佳選擇。訣竅是：千萬不要等到身體告訴你口渴了才喝，因為要讓這個訊息最終引起你的意識察覺，你的身體必定早已產生明顯的變化。到了那個時候，可能早就錯過補充水分的最佳時機了。此外，一次灌下大量液體，反而會使更多水分快速通過身體，再以尿液的形式排出。為了避免這種情況，你必須整天分次喝水，以維持身體的水分含量。"
+  ]
  }
 ]
