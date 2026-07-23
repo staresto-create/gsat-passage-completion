@@ -1451,7 +1451,9 @@
   "passageId": "y104",
   "blankNum": 34,
   "categories": [
-   "搭配詞／固定用法"
+   "搭配詞／固定用法",
+   "句型／固定搭配句構",
+   "詞性判斷"
   ],
   "options": {
    "A": "familiar",
@@ -1466,9 +1468,9 @@
    "J": "historical"
   },
   "answer": "I",
-  "gloss": "與…有關聯",
-  "collocation": "The name most frequently __ the paperclip invention；be associated with 固定搭配",
-  "explanation": "associated with 是常考固定搭配，「與…相關聯」，考生需掌握完整片語不能只選 associate。",
+  "gloss": "（動詞片語．過去分詞）與…相關聯",
+  "collocation": "The name most frequently ___ the paperclip invention is Johan Vaaler；be associated with…；associate A with B",
+  "explanation": "答對率 38%。卡住學生的不是字義，而是 be 動詞不見了。學生腦中的規則是「associated with 前面一定要有 be 動詞」（is／are associated with），但本句是 The name most frequently ___ the paperclip invention is Johan Vaaler，空格前後都沒有 be，於是不敢填。【文法依據】這是減化關係子句：完整說法為 The name which is most frequently associated with the paperclip invention is Johan Vaaler.，關係代名詞 which 與 be 動詞 is 一併省略，只留下過去分詞片語後位修飾 The name；句子真正的主要動詞是後面那個 is。這與 106 年第 36 格 paintings (which were) discovered inside pyramids 是同一個結構，兩題可以並列講解。【搭配依據】associate A with B 意為「把 A 與 B 聯想在一起」，改為被動即 A be associated with B。本句主詞是「名字」、受詞是「這項發明」，中文即「最常被連在一起的名字」，也就是「這項發明最常被歸在誰名下」。【文內驗證：同段有現成對照組】同一段最後一句 This clip is therefore sometimes known as the Gem clip. 用的是完整被動（有 is），本句則是減化後的分詞片語（沒有 be）——同一段裡兩種形式並排，回頭一比就知道空格該放分詞而非完整子句。也正因如此，(E) known as 要留給第 36 格。【辨析 known as】be known as 是「以…為名、被稱為」，前後兩者必須指同一件東西（this clip ＝ the Gem clip）；本句的 the name 與 the paperclip invention 並非同一物，講的是人名與發明之間的關聯，只能用 associated with。【常考搭配】be associated with、associate A with B、be linked to、be related to、in association with。",
   "accuracyRate": 38,
   "discrimination": 61
  },
@@ -1586,7 +1588,9 @@
   "passageId": "y104",
   "blankNum": 39,
   "categories": [
-   "搭配詞／固定用法"
+   "詞性判斷",
+   "搭配詞／固定用法",
+   "上下文線索／邏輯推論"
   ],
   "options": {
    "A": "familiar",
@@ -1601,9 +1605,9 @@
    "J": "historical"
   },
   "answer": "F",
-  "gloss": "抗議",
-  "collocation": "in __, they started wearing paperclips；in protest 固定片語",
-  "explanation": "in protest 是固定片語，「以示抗議」，考生需認出此介系詞片語用法。",
+  "gloss": "（名詞）抗議",
+  "collocation": "Thus, in ___, they started wearing paperclips；in protest（以示抗議）；protest against／at + 事件",
+  "explanation": "答對率 33%。學生腦中的 protest 幾乎都是動詞（protest against the policy、上街抗議），沒想到它在這裡是名詞，而且用在不加冠詞的固定片語 in protest 之中。【文法依據】英文有一組「介系詞＋零冠詞抽象名詞」的固定副詞片語，名詞前不加 a/an 或 the：in protest（以示抗議）、in silence（默默地）、in secret（祕密地）、in public（公開地）、in return（作為回報）、in vain（徒勞地）、on purpose（故意地）。這類片語應整組記誦，日後看到 in 後面接沒有冠詞的抽象名詞就不會誤判。【詞性判斷】空格前是介系詞 in、後面是逗號，中間只能放名詞。選項中的名詞為 device、honor、protest、symbol：device 用於第 31 格、symbol 用於第 38 格（any symbol of their national unity）、honor 則在第 40 格當動詞（to honor Vaaler），僅餘 protest。【文內驗證：因果鏈】前一句 Norwegians were prohibited from wearing any symbol of their national unity（挪威人被禁止配戴任何象徵國家團結之物），本句以 Thus 開頭表結果，句末 to show their solidarity 說明目的——先有禁令、後有配戴迴紋針的舉動，中間的動機正是「以示抗議」。段末又補上 Paperclips were a Norwegian invention whose original function was to bind together（迴紋針原本的功能就是把東西夾在一起），與 solidarity 前後呼應。【常考搭配】in protest、protest against／at + 事件、stage a protest、a protest march、in silence／in return／in vain。",
   "accuracyRate": 33,
   "discrimination": 65
  },
@@ -2775,7 +2779,9 @@
   "passageId": "y99",
   "blankNum": 33,
   "categories": [
-   "上下文線索／邏輯推論"
+   "詞性判斷",
+   "上下文線索／邏輯推論",
+   "句型／固定搭配句構"
   ],
   "options": {
    "A": "cooperation",
@@ -2790,9 +2796,9 @@
    "J": "remember"
   },
   "answer": "G",
-  "gloss": "更好的",
-  "collocation": "prepares them to be __ citizens；比較級形容詞修飾 citizens",
-  "explanation": "此格需邏輯推論：football 訓練帶來的正面效果，讓球員成為「更好的」公民，屬於上下文語意判斷。",
+  "gloss": "（形容詞比較級）更好的",
+  "collocation": "It prepares them to be ___ citizens and persons；a better citizen；比較對象隱含、句中不出現 than",
+  "explanation": "答對率 33%。學生對比較級的印象是「一定要有 than」，看到 to be ___ citizens and persons 後面沒有 than，就認定不可能是 better，轉而去找原級形容詞。【文法依據】比較級並不強制出現 than。當比較的對象在上下文中已經清楚，或指的是「比原本的狀態更…」時，than 可以不寫，這種用法稱為隱含比較，在日常英文中十分普遍：a better life（更好的生活）、Let's buy the bigger car.、the younger generation、higher education。本句隱含的比較對象就是「未受過這種訓練的自己」——足球訓練使他們成為比原本更好的公民。【詞性判斷】to be ___ citizens and persons：be 動詞後接名詞 citizens and persons，空格夾在中間，只能放修飾名詞的形容詞。選項中的形容詞為 isolated、essential、better，前兩者分別用於第 36 格（remain isolated from the society）與第 39 格（teamwork is essential）。【文內驗證：全篇的推論鏈】第一段先說足球是 an invaluable teacher，教會球員 the necessity of teamwork in society；緊接著就是本句 It prepares them to be ___ citizens and persons，主詞 It 指的正是這項訓練，結果自然是正面的。第四段 every citizen must do his part、he has little difficulty in adjusting himself to his role in family life 一路呼應，回頭對照即可確認語意方向。【常考搭配】a better citizen、make the world a better place、for the better（好轉）、the sooner, the better、change for the better。",
   "accuracyRate": 33,
   "discrimination": 49
  },
@@ -2883,7 +2889,9 @@
   "passageId": "y99",
   "blankNum": 37,
   "categories": [
-   "搭配詞／固定用法"
+   "搭配詞／固定用法",
+   "同義改寫／替代指涉",
+   "詞性判斷"
   ],
   "options": {
    "A": "cooperation",
@@ -2898,9 +2906,9 @@
    "J": "remember"
   },
   "answer": "D",
-  "gloss": "使自己表現、行為端正",
-  "collocation": "must __ himself as such；behave oneself 固定搭配",
-  "explanation": "behave oneself 是固定搭配，「使自己循規蹈矩」，考生易漏接反身代名詞 himself。",
+  "gloss": "（動詞原形）行事、表現（behave oneself）",
+  "collocation": "he ... must ___ himself as such；behave oneself（依合宜的方式行事）；as such（以那樣的身分）",
+  "explanation": "答對率 35%。學生學過的 behave 是不及物動詞（behave well、behave badly），後面不接受詞；本句卻是 must ___ himself as such，多出一個 himself，於是判定這個字用不上。【搭配依據】behave 另有反身用法 behave oneself：Collins 的說明是，behave 或 behave yourself 指依照眾人認為合宜的方式行事（They were expected to behave themselves.）；劍橋詞庫也把 behave yourself 單獨立為詞條，同義詞列為 conduct yourself。本句 must behave himself as such 即「必須以那樣的身分行事」。【接上學生已經會的東西】反身代名詞當受詞並非新概念，國中就學過 enjoy yourself（玩得盡興）、help yourself（自行取用）、make yourself at home（不用客氣）；behave oneself 屬同一組用法，動作的發出者與承受者是同一人。【as such 是替代詞】as such 的 such 指代前面剛提過的身分——he is a member of society，因此 as such ＝ as a member of society，用兩個字取代整個名詞片語以避免重複。這與 Halliday & Hasan (1976)《Cohesion in English》所談的替代（substitution）是同一回事，也與國中的簡答 Do you like it?—Yes, I do.（用 do 代替 like it）同理，差別只在這裡替代的是名詞而非動詞。【文內驗證】同句前半 he knows he is a member of society and must... 已先講明身分；上一句 He understands his place in the team 是同義的鋪陳，回頭一看便知 as such 指的是什麼。【常考搭配】behave oneself、conduct oneself、as such、enjoy oneself、help yourself to、devote oneself to。",
   "accuracyRate": 35,
   "discrimination": 53
  },
@@ -4797,6 +4805,8 @@
   "passageId": "y92",
   "blankNum": 37,
   "categories": [
+   "詞性判斷",
+   "字義辨析／多義字",
    "搭配詞／固定用法"
   ],
   "options": {
@@ -4812,9 +4822,9 @@
    "J": "leading"
   },
   "answer": "A",
-  "gloss": "大約",
-  "collocation": "account for __ twelve percent；about + 數字",
-  "explanation": "about 修飾數字，「大約」，考生需辨認此為約數用法。",
+  "gloss": "（副詞）大約、將近",
+  "collocation": "health care costs account for ___ twelve percent；account for + 比例（占…比例）；about／around／nearly + 數字",
+  "explanation": "答對率 32%。學生腦中的 about 幾乎只有介系詞「關於」（a book about animals、talk about stress），看到 account for 後面已經有介系詞 for，就覺得再擺一個 about 是重複，反而把正解排除。【字義依據】劍橋詞典 about 條目同時列出介系詞與副詞兩種詞性：當副詞時意思是「大約、將近」，與 approximately、around、roughly 同義，專門用在數量詞前面（about twelve percent、about thirty people、about an hour）。這一格的 about 不是介系詞，而是修飾 twelve percent 的副詞。【句構線索】account for 是「占（多少比例）」的固定用法，for 是這個片語自帶的介系詞，後面接名詞組 twelve percent of the gross domestic product；空格夾在 for 與數字之間，能站在這個位置的只有修飾數量的副詞，其他介系詞（as、like）文法上根本進不來。這也是文意選填判斷詞性的快速法：句中若已經有片語自帶的介系詞，空格多半就不是介系詞。【文內驗證】整個第二段都是統計數據——Forty-three percent of all adults…、the six leading causes of death…，這種數據段落幾乎必然出現約數；本句講健保支出占 GDP 的比重，本來就是估算，不會是精確值。【易混提醒】about 當「關於」時後面接名詞（worry about the exam），當「大約」時後面接數字或時間；同一個字兩種詞性，是文意選填最愛考的類型。【常考搭配】account for + 比例／原因、about twelve percent、nearly／around／over + 數字、be about to V（即將）、talk／worry／think about。",
   "accuracyRate": 32,
   "discrimination": 48
  },
@@ -4824,7 +4834,9 @@
   "passageId": "y92",
   "blankNum": 38,
   "categories": [
-   "句型／固定搭配句構"
+   "句型／固定搭配句構",
+   "詞性判斷",
+   "上下文線索／邏輯推論"
   ],
   "options": {
    "A": "about",
@@ -4839,9 +4851,9 @@
    "J": "leading"
   },
   "answer": "C",
-  "gloss": "甚至",
-  "collocation": "necessary, __ desirable；necessary, even desirable 遞進強調句型",
-  "explanation": "even 在此為遞進強調副詞，「甚至」，連接兩個程度遞增的形容詞。",
+  "gloss": "（副詞）甚至",
+  "collocation": "it is sometimes necessary, ___ desirable；A, even B（逗號＋even 表遞進）；not only... but even...",
+  "explanation": "答對率 31%，鑑別度只有 34，是全站鑑別度最低的幾題之一——換句話說連高分群考生也常錯，問題不在單字難，而在結構沒讀出來。學生記得的 even 幾乎都站在動詞前面（He can't even swim.、I didn't even know.），或是 even if／even though 的讓步用法；本題的 even 卻獨自站在逗號後面、後面直接接形容詞，位置陌生，於是改去找連接詞（and、or），發現選項沒有就亂填。【文法依據】even 是焦點副詞（focusing adverb），劍橋《English Grammar Today》說明它用來強調令人意外、出乎預期的訊息，並放在所要強調的成分前面；該條目的例句 Human beings, we are told, will live for 150, even 200 years 與本題結構一模一樣——逗號＋even＋程度更強的字，表示「不只如此，甚至到了…的地步」。本句 it is sometimes necessary, even desirable 就是「有時是必要的，甚至是求之不得的」。【接上學生已經會的東西】國中背過的 not only... but also... 走的正是同一條遞進路線，even 只是語氣更強：not only necessary but even desirable；另外 Even a child can do it.（連小孩都會）也是 even 直接放在被強調成分前面。【文內驗證：語意鏈】本段開頭 Yet, while stress may damage our health, it is sometimes necessary——Yet 加 while 已經把語氣從「有害」翻轉到「有用」；necessary（必要）到 desirable（值得擁有）是正面程度再上一階，中間需要的正是標示遞進的 even。段末 And without stress, life would be dull. 更確認作者是在替壓力說話，可回頭對照。【常見誤選】不少考生填 as，讀成「as desirable」，但 as 無法在此連接兩個形容詞補語，而且 as 要留給第 40 格的 as much stress as。【常考搭配】A, even B（逗號遞進）、not only... but even...、even if／even though ＋子句（讓步）、even better／even more ＋比較級（加強語氣）。",
   "accuracyRate": 31,
   "discrimination": 34
  },
@@ -4851,7 +4863,10 @@
   "passageId": "y92",
   "blankNum": 39,
   "categories": [
-   "字義辨析／多義字"
+   "字義辨析／多義字",
+   "詞性判斷",
+   "同義改寫／替代指涉",
+   "句型／固定搭配句構"
   ],
   "options": {
    "A": "about",
@@ -4866,9 +4881,9 @@
    "J": "leading"
   },
   "answer": "F",
-  "gloss": "像是、例如",
-  "collocation": "Exciting or challenging events __ the birth of a child；like 舉例用法",
-  "explanation": "like 在此當介系詞舉例，「例如」，考生易與動詞「喜歡」混淆。",
+  "gloss": "（介系詞）像是、例如（＝such as）",
+  "collocation": "Exciting or challenging events ___ the birth of a child...；N + like／such as + 具體例子；as much + N + as...",
+  "explanation": "答對率 31%。學生腦中的 like 第一個跳出來的是動詞「喜歡」，第二個是「像…一樣」的比喻，而本格用的是它當介系詞舉例的意思，等於 such as。更麻煩的是主詞與動詞被一長串例子隔開——Exciting or challenging events like the birth of a child, completion of a major project at work, or moving to a new city generate...——把 like 讀成動詞，主詞和動詞就全找錯了。【字義依據】劍橋詞典 like 當介系詞有兩層用法：一是「像…、與…相似」，二是舉例，等於 such as，後面接名詞或名詞片語（cities like Taipei and Tokyo）。判斷方式很簡單：like 後面若是「前面那個名詞的具體例子」，就是舉例用法。本句的 the birth of a child、completion of a major project、moving to a new city 三者都是 exciting or challenging events 的實例。【句構線索：先找真正的動詞】把 like 到 city 這一整串舉例遮起來，句子剩下 Exciting or challenging events generate as much stress as does tragedy or disaster.，主詞 events、動詞 generate 一目瞭然。長主詞題型的第一個動作，就是把插入的舉例與修飾語劃掉，先確定主要子句。【接上學生已經會的東西】句尾 as does tragedy or disaster 藏了兩個國中觀念的進階版：一是 does 代替 generate stress，這跟 Do you like it?—Yes, I do.（do 代替 like it）、Do in Rome as the Romans do. 完全同理，Halliday & Hasan (1976)《Cohesion in English》把這種手段稱為替代（substitution）；二是在正式書面語中，比較句的 as／than 之後可以把動詞放到主詞前面，例如 I knew the answer, as did Tony.，本句正是這種倒裝。【文內驗證】第 40 格是完整的 as much stress as 比較結構，as 已經用在那裡；第 39 格若再填 as，第 40 格就無字可用，兩格互相牽制，回頭一對就能確認。【常考搭配】N like／such as + 例子、as much + 不可數名詞 + as…、as many + 可數名詞 + as…、feel like + V-ing、be like（像）。",
   "accuracyRate": 31,
   "discrimination": 41
  },
@@ -6177,7 +6192,9 @@
   "passageId": "y111r",
   "blankNum": 28,
   "categories": [
-   "字義辨析／多義字"
+   "字義辨析／多義字",
+   "詞性判斷",
+   "上下文線索／邏輯推論"
   ],
   "options": {
    "A": "possible",
@@ -6192,9 +6209,9 @@
    "J": "career"
   },
   "answer": "E",
-  "gloss": "見證、經歷",
-  "collocation": "The 1960s and '70s __ the development；witness 主詞為時代(非人)",
-  "explanation": "witness 常見主詞是「人」(目擊)，此處主詞是「1960與70年代」這個時間段，屬於「時代見證了…」的擬人化多義用法，考生易只知常見義。",
+  "gloss": "（動詞過去式）（某時期或地點）見證、出現了…",
+  "collocation": "The 1960s and '70s ___ the development of most modern stunt technology；時期／地點 + witness + 事件；Recent years have witnessed…",
+  "explanation": "答對率 35%。學生腦中的 witness 綁死在「人目擊」——目擊證人、witness a car accident；本句主詞卻是 The 1960s and '70s（兩個年代），一時無法接受「年代」怎麼會「目擊」，於是跳過正解。【字義依據】這不是臨時的比喻，而是詞典明列的義項：劍橋詞典 witness 條目寫明，當地點或時期 witness 某事件時，意思是該事件在那個地點或那段期間發生，例句 Those years witnessed momentous changes throughout Europe.；牛津詞典的說法是「作為某些事件發生的所在地或時期」，例句 Recent years have witnessed a growing social mobility.。這是新聞與學術寫作的高頻句型，中文可譯為「某年代出現了、見證了某項發展」。同一類用法還有 see：The 20th century saw great progress in medicine.。【詞性判斷】主詞 The 1960s and '70s 之後需要及物動詞，受詞是 the development of most modern stunt technology，且全文敘述過去，須用過去式。選項中的動詞片語 tried out 用於第 24 格、called for 用於第 26 格，語意都不合此格。【文內驗證：時間軸】下一句 That technology has continued to evolve into the present.（那些技術一路演進至今）明確把 1960、70 年代設定為技術發展的起點；第三段開頭 Beginning around 1910 也是同一種以時間帶出發展的寫法，全篇按時間順序推進，回頭一看即可確認。【常考搭配】The 1960s witnessed…、Recent years have witnessed…、the century saw…、witness an accident、an eyewitness。",
   "accuracyRate": 35,
   "discrimination": 63
  },
@@ -6231,7 +6248,9 @@
   "passageId": "y111r",
   "blankNum": 30,
   "categories": [
-   "搭配詞／固定用法"
+   "詞性判斷",
+   "字義辨析／多義字",
+   "句型／固定搭配句構"
   ],
   "options": {
    "A": "possible",
@@ -6246,9 +6265,9 @@
    "J": "career"
   },
   "answer": "B",
-  "gloss": "感受、震撼感",
-  "collocation": "the realism and thrilling __；thrilling sensation 固定搭配",
-  "explanation": "thrilling sensation 是常見固定搭配，「刺激的感受」。",
+  "gloss": "（名詞）感受、刺激感",
+  "collocation": "the realism and thrilling ___ of an actual stunt；a thrilling sensation；cause a sensation（造成轟動）",
+  "explanation": "答對率 36%。學生對 sensation 的印象多半停在「轟動」（The film caused a sensation.），或以為它只是 sense 的名詞形；本句用的是它最基本的一義——身體或心理上的「感受」，此處指真人特技帶來的刺激感。【詞性判斷：先看對等結構】the realism and thrilling ___ of an actual stunt 中，and 連接的必須是同詞性、同功能的成分：前面是名詞 the realism（真實感），空格自然也要是名詞，並由形容詞 thrilling 修飾。選項中的名詞有 sensation、cost、necessity、career，後三者分別用於第 25、22、27 格。【字義依據】劍橋詞典 sensation 的第一義是身體所感覺到的知覺（a burning sensation 灼熱感、a tingling sensation 刺痛感），第二義才是「引起轟動的人事物」。本句與 thrilling 搭配，取的是第一義。【字族一起記】sense（感官、感覺）／sensation（感受）／sensational（轟動的）／sensitive（敏感的）／sensible（明智的）——最後兩個是學生最常混淆的一組：sensitive skin 是敏感肌，a sensible decision 是明智的決定。【文內驗證：轉折後的對比】前一句說 CGI 已能製作 very lifelike scenes（極逼真的畫面），緊接著 However, CGI has difficulties of its own, and there will always be a demand for the realism and thrilling ___ of an actual stunt——However 標示轉折，作者要強調電腦特效仍取代不了真人特技的「真實感」與「刺激感」，兩個並列名詞語意方向一致。末句 the stunt industry is probably in no immediate danger of dying off 也印證這個推論。【常考搭配】a thrilling／burning／tingling sensation、cause a sensation、a media sensation、lose all sensation（失去知覺）。",
   "accuracyRate": 36,
   "discrimination": 50
  },
@@ -6799,7 +6818,9 @@
   "passageId": "y113",
   "blankNum": 21,
   "categories": [
-   "字義辨析／多義字"
+   "字義辨析／多義字",
+   "同義改寫／替代指涉",
+   "詞性判斷"
   ],
   "options": {
    "A": "passed on",
@@ -6814,9 +6835,9 @@
    "J": "brought forth"
   },
   "answer": "E",
-  "gloss": "已故的",
-  "collocation": "their __ loved ones；the departed 固定用法(委婉語，指亡者)",
-  "explanation": "departed 在此是委婉語形容詞，「已故的」，考生易誤解為「離開的」字面義，需理解此為對死者的委婉稱呼。",
+  "gloss": "（形容詞）已故的",
+  "collocation": "their ___ loved ones who died in the tsunami；departed／deceased loved ones；the departed（死者）",
+  "explanation": "答對率 35%。學生腦中的 depart 是機場的字——班機起飛、departure gate、depart from Taipei，一律讀成「離開、啟程」，於是 their departed loved ones 被理解成「離開的親人」，覺得語意怪就跳過。【字義依據】departed 當形容詞的意思就是「已故的」：劍橋詞典 departed 的第一義直接標為 dead；Merriam-Webster 詞庫特別註明 departed 通常用作委婉語（euphemism）；Collins 收有 the departed（死者），其語料庫例句正是 their departed loved ones，與本題一字不差。英文談死亡習慣用委婉語，這一組要一起記：the departed／the deceased／pass away／pass on／lose someone。【接上學生已經會的東西】the departed 就是國中學過的「the ＋形容詞＝一群人」，跟 the rich、the poor、the young 同一條規則；懂了這條，the deceased、the injured、the unemployed 都不必另外背。【詞性判斷】空格夾在所有格 their 與名詞 loved ones 之間，只能放形容詞；選項中的形容詞是 departed、fateful、manageable，後兩者分別由第 22 格（that fateful day）與第 27 格（more manageable）用掉。【文內驗證：同義改寫】答案就寫在同一句裡——loved ones who died in the tsunami，關係子句等於把 departed 翻譯了一遍；再看全篇的同義詞鏈：those they have lost（第一段）、the death of his cousin、the dead relative（第二段）、between the living and the dead（第三段）、reach the deceased（最後一句），deceased 正是 departed 的同義改寫，回頭一對即可確認。【易混提醒：本文的 pass on 取哪一義】第 26 格的 passed on 在本文取的是「傳遞」義（thoughts couldn't be passed on through a regular phone line，心意無法透過一般電話線傳達）。但必須提醒學生，pass on 另有「過世」的委婉義：劍橋詞典把它列為 B2 用法，釋義直接寫成 die 的委婉說法（I'm sorry to hear that your grandfather has passed on.），Collins 也在 die 的辨析欄把 pass away 與 pass on 並列為同一組委婉語。本篇通篇談死亡，學生很容易把第 26 格也讀成「過世」，判斷關鍵在主詞：第 26 格的主詞是 thoughts（心意）而非人，只能取「傳遞」義。附帶一提，英文的死亡委婉語幾乎都建立在「離開、前往他處」的意象上——depart、pass away、pass on、be gone，與本格的 departed 同出一源，一起講學生記得最牢。【常考搭配】departed loved ones、the departed、the deceased、pass away／pass on、a departed era（逝去的年代）。",
   "accuracyRate": 35,
   "discrimination": 65
  },
@@ -6853,7 +6874,9 @@
   "passageId": "y113",
   "blankNum": 23,
   "categories": [
-   "搭配詞／固定用法"
+   "搭配詞／固定用法",
+   "句型／固定搭配句構",
+   "字義辨析／多義字"
   ],
   "options": {
    "A": "passed on",
@@ -6868,9 +6891,9 @@
    "J": "brought forth"
   },
   "answer": "J",
-  "gloss": "提出",
-  "collocation": "The idea...was first __ by...；bring forth 固定搭配(被動)",
-  "explanation": "bring forth 是常考固定搭配，「提出、產生」，此處為被動語態 be brought forth by。",
+  "gloss": "（動詞片語．過去分詞）被提出、被催生",
+  "collocation": "The idea ... was first ___ by a Japanese garden designer；bring forth an idea／a proposal；被動 be brought forth by",
+  "explanation": "答對率 37%。學生認得的是 bring up（提起話題、養育）和 bring back，bring forth 幾乎沒在課本出現過；再加上 forth 長得像 fourth（第四），常被看錯，於是即使句型讀得懂也不敢選。【字義依據】劍橋詞典把 bring forth sth 收為片語動詞，意思是使某件事發生、被看見或被知道；Merriam-Webster 的義項之一是 to set forth for consideration（提出以供考慮）。用在 idea、proposal、plan 這類抽象名詞上，中文就是「提出、催生」，語氣比 bring up 正式。forth 本身是「向前、向外」，與 forward 同源：set forth（出發、闡明）、henceforth（自此以後）、back and forth（來回），一起記就不會再跟 fourth 混淆。【句構線索】was first ___ by… 是標準的被動語態：be 動詞＋空格＋by，空格只能放過去分詞。選項中的動詞片語有 passed on 與 brought forth，語意上「想法被提出」才通，passed on 要留給第 26 格的「傳遞」。【文內驗證】同句後半 by a Japanese garden designer named Itaru Sasaki, who was grieving over the death of his cousin in 2010, before the tsunami，交代了這個構想最初出自誰、在什麼情況下產生；再看第三段 Sasaki opened his wind phone to the public in 2011——先有構想、後才開放，時間先後也印證 first brought forth 是「最早提出」。【常考搭配】bring forth an idea／a proposal、put forward a plan、come up with an idea、bring up a topic（提起話題）、bring about a change（帶來改變）、bring out（推出、使顯現）——bring 的片語一組一起記，考試最常混的就是 forth／up／about／out。",
   "accuracyRate": 37,
   "discrimination": 65
  },
@@ -6907,7 +6930,9 @@
   "passageId": "y113",
   "blankNum": 25,
   "categories": [
-   "詞性判斷"
+   "詞性判斷",
+   "字義辨析／多義字",
+   "句型／固定搭配句構"
   ],
   "options": {
    "A": "passed on",
@@ -6922,9 +6947,9 @@
    "J": "brought forth"
   },
   "answer": "G",
-  "gloss": "容納、裝有",
-  "collocation": "The booth he built __ only an old dial phone；house 當動詞(容納)",
-  "explanation": "house 在此當動詞用，「內部裝有/容納」，考生易只認得常見名詞「房子」的用法，是常見詞性陷阱。",
+  "gloss": "（動詞過去式）容納、裡面裝有",
+  "collocation": "The booth he built ___ only an old dial phone；the museum houses a collection；be housed in…",
+  "explanation": "答對率 37%。學生腦中的 house 只有名詞「房子」，連讀音都固定成 /haʊs/；但 house 當動詞不只意思變成「容納、裡面裝有」，發音也要濁化為 /haʊz/——劍橋詞典把動詞 house 標為 C2 難度，Collins 更特別註明名詞讀 /haʊs/、動詞讀 /haʊz/，這是課堂上一定要念出聲的細節。【字義依據】劍橋詞典 house 當及物動詞有兩義：給人或動物居住的地方，以及「為某物提供空間」，例句 The museum houses the biggest collection of antique toys in Europe.（這座博物館收藏了全歐洲最大的古董玩具）；牛津詞典的定義同樣是「某物存放或運作的所在地」。本句就是「他蓋的這座亭子裡只裝著一支斷線的舊式轉盤電話」。【句構線索：先把修飾語拆掉】真正卡住學生的是開頭 The booth he built ___：he built 是省略了受格關係代名詞的形容詞子句（＝The booth (that) he built），學生把 built 當成主要動詞，就找不到空格該放什麼。這跟國中學過的 The book (that) I bought yesterday is interesting. 完全同一結構——受格關係代名詞可以省略。把子句遮起來讀：The booth ___ only an old dial phone，空格顯然是全句唯一的主要動詞，且全文敘述過去，須用過去式。【文內驗證】下一句 When he stepped into the booth, he could pick up the phone to call his cousin——亭子裡確實裝著一支電話，答案被下一句直接印證。【同類名詞轉動詞】house（容納）、head（率領）、face（面對）、water（澆水）、book（預訂）、air（表達）；文意選填最愛考這種「熟字轉詞性」，看到熟悉的名詞出現在該放動詞的位置，先想它有沒有動詞用法。【常考搭配】the museum／building houses…、be housed in…、house up to 2,000 people、under one roof。",
   "accuracyRate": 37,
   "discrimination": 57
  },
@@ -7673,7 +7698,9 @@
   "passageId": "y110",
   "blankNum": 33,
   "categories": [
-   "搭配詞／固定用法"
+   "搭配詞／固定用法",
+   "句型／固定搭配句構",
+   "詞性判斷"
   ],
   "options": {
    "A": "means",
@@ -7688,9 +7715,9 @@
    "J": "modest"
   },
   "answer": "F",
-  "gloss": "遵守、奉行",
-  "collocation": "a motto to __；abide by 固定搭配",
-  "explanation": "abide by 是常考固定搭配，「遵守、奉行」，此處指「奉行的座右銘」。",
+  "gloss": "（動詞片語原形）遵守、奉行",
+  "collocation": "make \"start slow and have fun\" a motto to ___；abide by the rules／the law；a motto to abide by",
+  "explanation": "答對率 35%，鑑別度高達 71，是本篇最能分出高下的一格。難點有二：一是 abide by 這個片語課本少見；二是句尾那個孤零零的 by 讓學生覺得句子沒寫完。【搭配依據】劍橋詞典 abide by sth 的釋義是接受或遵守協議、決定或規則，例句 Competitors must abide by the judge's decision.；朗文詞典補上一層語氣：即使未必認同也照樣遵守。用在 motto（座右銘）上，中文即「奉行的座右銘」。【文法依據：不定詞修飾名詞時，介系詞要留在後面】a motto to abide by 的完整意思是「一句拿來奉行的座右銘」——因為 abide by 的受詞本來就是 motto（abide by the motto），當這個動詞片語倒過來修飾 motto 時，介系詞 by 後面已無受詞可接，只能留在句尾。這正是國中學過的老規則：a friend to talk to（可以談心的朋友）、a pen to write with（可以拿來寫字的筆）、a chair to sit on（可以坐的椅子）。句尾多一個介系詞不是印刷錯誤，而是這個結構的標誌。【句構線索】本句是 make + 受詞 + 受詞補語的結構：make \"start slow and have fun\" a motto，把「慢慢開始、樂在其中」變成一句座右銘；空格所在的 to ___ 是修飾 motto 的不定詞，因此填原形動詞片語。【文內驗證】下一句 Then you'll be well on your way to using physical activity as a tool to make you feel better every day.（照著做，你就已經走在以運動改善心情的路上）——「照著做」正是奉行座右銘的意思，答案在下一句得到印證。【常考搭配】abide by the rules／the law／an agreement、comply with、adhere to、stick to、live by a motto。",
   "accuracyRate": 35,
   "discrimination": 71
  },
@@ -7837,7 +7864,9 @@
   "passageId": "y110",
   "blankNum": 39,
   "categories": [
-   "搭配詞／固定用法"
+   "詞性判斷",
+   "字義辨析／多義字",
+   "同義改寫／替代指涉"
   ],
   "options": {
    "A": "means",
@@ -7852,9 +7881,9 @@
    "J": "modest"
   },
   "answer": "A",
-  "gloss": "方法、手段",
-  "collocation": "a powerful __ to improve your health；means to V 固定搭配",
-  "explanation": "means to V 是常考固定搭配，「達成…的方法」，means 單複數同形，考生易誤判詞性。",
+  "gloss": "（名詞．單複數同形）方法、手段",
+  "collocation": "serve as a powerful ___ to improve your health；a means to + V／a means of + V-ing；by all means",
+  "explanation": "答對率 37%。學生看到字尾的 s，第一反應是動詞 mean 的第三人稱單數（意思是…），第二反應是複數名詞，兩種判斷都會讓人放棄這一格；事實上 means 是單複數同形的名詞，意思是「方法、手段」。【文法依據】劍橋《English Grammar Today》在 mean 條目下特別註明：means 雖以 s 結尾，卻是單數名詞，須搭配單數動詞，並舉 The most economical means of travelling to Aberdeen is by plane. 為例（動詞用 is）。單數寫成 a means，複數形式不變，全靠冠詞、上下文與動詞來判斷。【句構線索】空格前是 a powerful——冠詞 a 加形容詞之後必須接單數可數名詞，這個 a 就是最直接的證據：若 means 是動詞或純複數名詞，前面不可能有 a。空格後的 to improve your health 是不定詞，修飾 means，說明這個方法的用途。【文內驗證：同義改寫】同一個概念在第二段已用另一種說法出現過——using physical activity as a tool to make you feel better every day（把身體活動當成讓自己每天更愉快的工具）；本句 serve as a powerful means to improve your health 只是把 tool 換成 means、feel better 換成 improve your health，前後互為改寫，回頭一對就能確認。附帶一提，這裡的 serve as 與 106 年第 37 格的 function as 屬同一組「充當…之用」的說法。【常考搭配】a means to an end（達到目的的手段）、a means of transport／communication、by means of（藉由）、by all means（當然可以）、by no means（絕非）。",
   "accuracyRate": 37,
   "discrimination": 58
  },
