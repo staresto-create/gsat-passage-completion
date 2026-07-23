@@ -3541,8 +3541,8 @@
   "gloss": "吵鬧的",
   "collocation": "the boys were particularly __；particularly + adj",
   "explanation": "此格需邏輯推論：呼應第一句「boys playing cricket and making a lot of noise」的困擾，此處特別強調「特別吵鬧的那一晚」。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 58,
+  "discrimination": 78
  },
  {
   "id": "Vy96_32",
@@ -3568,8 +3568,8 @@
   "gloss": "最喜愛的",
   "collocation": "playing his __ game；favorite game 固定搭配",
   "explanation": "favorite game 是常見固定搭配，「最喜愛的遊戲」。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 77,
+  "discrimination": 52
  },
  {
   "id": "Vy96_33",
@@ -3595,8 +3595,8 @@
   "gloss": "喜愛、享受",
   "collocation": "something they __；關係子句省略關代 that/which",
   "explanation": "此格為關係子句動詞，指男孩「本來就喜歡做的事」，考生需理解省略關代的子句結構。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 59,
+  "discrimination": 75
  },
  {
   "id": "Vy96_34",
@@ -3622,8 +3622,8 @@
   "gloss": "開心地",
   "collocation": "went away __ their 25 rupees；副詞修飾 went away",
   "explanation": "happily 是副詞，修飾 went away，考生需辨認詞性(易與形容詞選項混淆)。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 52,
+  "discrimination": 87
  },
  {
   "id": "Vy96_35",
@@ -3649,8 +3649,8 @@
   "gloss": "用完",
   "collocation": "he had __ money；run out of 固定搭配",
   "explanation": "run out of money 是常考固定搭配，「錢用完了」。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 55,
+  "discrimination": 74
  },
  {
   "id": "Vy96_36",
@@ -3676,8 +3676,8 @@
   "gloss": "薪水支票",
   "collocation": "had not yet received his __ from the government；receive one's paycheck 固定搭配",
   "explanation": "此格需邏輯推論：老人假裝自己也是靠政府發薪水過活，用來解釋為何要減少給男孩的錢。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 44,
+  "discrimination": 65
  },
  {
   "id": "Vy96_37",
@@ -3703,8 +3703,8 @@
   "gloss": "失望的",
   "collocation": "The boys were very __；be disappointed 固定搭配",
   "explanation": "be disappointed 是常見固定搭配，「感到失望」。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 59,
+  "discrimination": 86
  },
  {
   "id": "Vy96_38",
@@ -3730,8 +3730,8 @@
   "gloss": "獎賞、報酬",
   "collocation": "waiting for their __；reward 同指前文的「25盧比酬勞」",
   "explanation": "reward 在此同指男孩每週領到的酬勞，是跨句改寫的手法。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 42,
+  "discrimination": 65
  },
  {
   "id": "Vy96_39",
@@ -3757,8 +3757,8 @@
   "gloss": "承諾過",
   "collocation": "pay them 25 rupees as he had __；as + had + p.p. 過去完成式子句",
   "explanation": "as he had promised 是常考固定搭配，「如同他先前承諾的」，注意過去完成式表示「比過去更早」的時間點。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 57,
+  "discrimination": 79
  },
  {
   "id": "Vy96_40",
@@ -3784,8 +3784,8 @@
   "gloss": "僅僅",
   "collocation": "play seven days a week for __ five rupees；merely 修飾金額，語帶不滿",
   "explanation": "此格需邏輯推論：男孩用 merely 強調金額少得可憐，語氣中帶著憤怒與諷刺，是全文情緒轉折的高點。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 50,
+  "discrimination": 81
  },
  {
   "id": "Vy95_31",
@@ -3811,8 +3811,8 @@
   "gloss": "看診、拜訪",
   "collocation": "a quick __ to a doctor；visit to 固定搭配",
   "explanation": "visit to a doctor 是常見固定搭配，「看醫生一趟」。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 60,
+  "discrimination": 47
  },
  {
   "id": "Vy95_32",
@@ -3838,8 +3838,8 @@
   "gloss": "責任",
   "collocation": "has to be your own __；one's own responsibility 固定搭配",
   "explanation": "one's own responsibility 是常見固定搭配，「自己的責任」。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 58,
+  "discrimination": 79
  },
  {
   "id": "Vy95_33",
@@ -3865,8 +3865,8 @@
   "gloss": "忽視",
   "collocation": "__ symptoms of illness；與 keeping、ignoring 並列的動名詞",
   "explanation": "此格為三個並列動名詞之一(keeping bad habits, neglecting symptoms, ignoring rules)，考生需辨認平行結構詞性。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 52,
+  "discrimination": 67
  },
  {
   "id": "Vy95_34",
@@ -3892,8 +3892,8 @@
   "gloss": "推廣",
   "collocation": "health specialists __ the idea of wellness；promote an idea 固定搭配",
   "explanation": "promote an idea 是常見固定搭配，「推廣某個理念」。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 36,
+  "discrimination": 61
  },
  {
   "id": "Vy95_35",
@@ -3919,8 +3919,8 @@
   "gloss": "達成",
   "collocation": "Wellness means __ the best possible health；mean + 動名詞",
   "explanation": "mean 後面接動名詞作受詞，achieving 表示「達成」，考生需辨認此文法結構。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 33,
+  "discrimination": 57
  },
  {
   "id": "Vy95_36",
@@ -3946,8 +3946,8 @@
   "gloss": "較輕鬆的",
   "collocation": "a lot of __ exercise；與後文 more challenging exercise 相對",
   "explanation": "easier 與後文的 more challenging 形成語意對照，考生需理解前後對比關係才能判斷正確形容詞。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 46,
+  "discrimination": 71
  },
  {
   "id": "Vy95_37",
@@ -3973,8 +3973,8 @@
   "gloss": "關鍵",
   "collocation": "Understanding...is the __；key 此處為名詞「關鍵」(非「鑰匙」)",
   "explanation": "key 是多義字，此處取抽象義「關鍵」，而非具體物品「鑰匙」，考生易只知常見義。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 58,
+  "discrimination": 72
  },
  {
   "id": "Vy95_38",
@@ -4000,8 +4000,8 @@
   "gloss": "慢性的",
   "collocation": "avoiding __ disease；chronic disease 固定搭配",
   "explanation": "chronic disease 是常見固定搭配，「慢性疾病」。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 31,
+  "discrimination": 51
  },
  {
   "id": "Vy95_39",
@@ -4027,8 +4027,8 @@
   "gloss": "破壞",
   "collocation": "carelessness can __ good health；ruin + N(健康) 固定搭配",
   "explanation": "ruin good health 是常見固定搭配，「破壞健康」。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 41,
+  "discrimination": 68
  },
  {
   "id": "Vy95_40",
@@ -4054,8 +4054,8 @@
   "gloss": "降低",
   "collocation": "you can __ the risk；lower the risk 固定搭配",
   "explanation": "lower the risk 是常見固定搭配，「降低風險」。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 32,
+  "discrimination": 61
  },
  {
   "id": "Vy94_31",
@@ -4081,8 +4081,8 @@
   "gloss": "永遠",
   "collocation": "love will last __；last forever 固定搭配",
   "explanation": "last forever 是常見固定搭配，「永遠持續」。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 43,
+  "discrimination": 66
  },
  {
   "id": "Vy94_32",
@@ -4108,8 +4108,8 @@
   "gloss": "免於…的",
   "collocation": "we are __ from the problems；free from 固定搭配",
   "explanation": "free from 是常考固定搭配，「免於…」。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 30,
+  "discrimination": 57
  },
  {
   "id": "Vy94_33",
@@ -4135,8 +4135,8 @@
   "gloss": "接管、取代",
   "collocation": "daily life __；take over 固定搭配",
   "explanation": "take over 是常見固定搭配，「接管、佔上風」，此處指日常生活取代了戀愛初期的浪漫。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 36,
+  "discrimination": 55
  },
  {
   "id": "Vy94_34",
@@ -4162,8 +4162,8 @@
   "gloss": "同樣地",
   "collocation": "women, __, expect men to...；插入語，與前句 men...expect women 平行對照",
   "explanation": "similarly 是插入語副詞，用來連接與前句平行對照的句子結構(男生如何、女生同樣地如何)，考生需理解對稱句型。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 42,
+  "discrimination": 63
  },
  {
   "id": "Vy94_35",
@@ -4189,8 +4189,8 @@
   "gloss": "不…而是",
   "collocation": "__ taking time to understand...；instead of + 動名詞",
   "explanation": "instead of 後面接動名詞，是常考固定搭配，「不…而是」。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 58,
+  "discrimination": 60
  },
  {
   "id": "Vy94_36",
@@ -4216,8 +4216,8 @@
   "gloss": "因此",
   "collocation": "__, our relationships are filled with...；句首連接副詞，表結果",
   "explanation": "Consequently 是常見句首連接副詞，表示「因此、結果」，考生需辨認邏輯連接詞的語意方向(因果非對比)。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 68,
+  "discrimination": 54
  },
  {
   "id": "Vy94_37",
@@ -4243,8 +4243,8 @@
   "gloss": "瓦解、故障",
   "collocation": "communication __；communication breaks down 固定搭配",
   "explanation": "communication breaks down 是常見固定搭配，「溝通破裂」。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 38,
+  "discrimination": 55
  },
  {
   "id": "Vy94_38",
@@ -4270,8 +4270,8 @@
   "gloss": "很少的",
   "collocation": "Very __ people are able to grow in love；very few + 複數名詞",
   "explanation": "very few 是常見固定搭配，「非常少的」，修飾複數名詞 people。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 69,
+  "discrimination": 63
  },
  {
   "id": "Vy94_39",
@@ -4297,8 +4297,8 @@
   "gloss": "只要",
   "collocation": "__ men and women are able to respect...；連接詞引導條件子句",
   "explanation": "as long as 是常考連接詞，「只要」，引導條件子句，考生需辨認此連接詞的邏輯用法。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 57,
+  "discrimination": 64
  },
  {
   "id": "Vy94_40",
@@ -4324,8 +4324,8 @@
   "gloss": "的確",
   "collocation": "Love is, __, magical；插入語加強語氣",
   "explanation": "indeed 是插入語副詞，用來加強語氣「的確如此」，呼應開頭第一句話，是首尾呼應的關鍵字。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 25,
+  "discrimination": 48
  },
  {
   "id": "Vy93_31",
@@ -4351,8 +4351,8 @@
   "gloss": "生物、存在體",
   "collocation": "Many people believe that __ from outer space；beings 泛稱「生物」",
   "explanation": "beings 是抽象泛稱詞，指「(外星)生物、存在體」，考生需理解此字可泛指任何生命形式。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 41,
+  "discrimination": 59
  },
  {
   "id": "Vy93_32",
@@ -4378,8 +4378,8 @@
   "gloss": "起源",
   "collocation": "life on Earth __ “out there”；originate 不及物動詞",
   "explanation": "originate 是常考不及物動詞，「起源於」，考生需辨認詞性避免誤加受詞。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 27,
+  "discrimination": 47
  },
  {
   "id": "Vy93_33",
@@ -4405,8 +4405,8 @@
   "gloss": "密切注意",
   "collocation": "aliens have __ what happens on Earth；keep an eye on 固定片語",
   "explanation": "keep an eye on 是常考固定片語，「密切注意、監視」。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 47,
+  "discrimination": 77
  },
  {
   "id": "Vy93_34",
@@ -4432,8 +4432,8 @@
   "gloss": "以及",
   "collocation": "the ancient Greek and Roman gods, __ the fairies and dwarfs；as well as 連接對等成分",
   "explanation": "as well as 是常考連接詞，「以及」，連接兩個對等的名詞成分。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 32,
+  "discrimination": 37
  },
  {
   "id": "Vy93_35",
@@ -4459,8 +4459,8 @@
   "gloss": "另有人",
   "collocation": "Still __ say that...；Some...Others...Still others 平行列舉結構",
   "explanation": "此為 Some say...Others say...Still others say... 的平行列舉句型，考生需辨認第三層列舉的用詞。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 59,
+  "discrimination": 69
  },
  {
   "id": "Vy93_36",
@@ -4486,8 +4486,8 @@
   "gloss": "從那之後",
   "collocation": "civilizations which have __ perished；since 當副詞(非連接詞「因為」)",
   "explanation": "since 在此當副詞用，「從那之後」，考生易誤認為連接詞「因為」，是常見多義字陷阱。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 15,
+  "discrimination": 28
  },
  {
   "id": "Vy93_37",
@@ -4513,8 +4513,8 @@
   "gloss": "像是、例如",
   "collocation": "ancient civilizations, __ the Egyptians...；like 舉例用法",
   "explanation": "like 在此當介系詞，「例如」，考生易與動詞「喜歡」混淆，是常見多義字陷阱。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 56,
+  "discrimination": 62
  },
  {
   "id": "Vy93_38",
@@ -4540,8 +4540,8 @@
   "gloss": "圖畫",
   "collocation": "left writings and __；writings and drawings 並列名詞",
   "explanation": "writings and drawings 是常見並列搭配，「文字與圖畫」。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 63,
+  "discrimination": 60
  },
  {
   "id": "Vy93_39",
@@ -4567,8 +4567,8 @@
   "gloss": "傷害",
   "collocation": "the aliens intend us __；intend sb harm 固定搭配",
   "explanation": "intend someone harm 是常考固定搭配，「意圖傷害某人」。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 36,
+  "discrimination": 55
  },
  {
   "id": "Vy93_40",
@@ -4594,8 +4594,8 @@
   "gloss": "以任何方式",
   "collocation": "no interest in helping us __；in any way 固定片語",
   "explanation": "in any way 是常見固定片語，「以任何方式」，常用於否定句加強語氣。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 53,
+  "discrimination": 53
  },
  {
   "id": "Vy92_31",
@@ -4621,8 +4621,8 @@
   "gloss": "不尋常的",
   "collocation": "It is not __ to hear...；not unusual 雙重否定表「常見」",
   "explanation": "not unusual 是雙重否定的委婉說法，意思其實是「很常見」，考生需理解此邏輯而非直譯「不尋常」。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 48,
+  "discrimination": 66
  },
  {
   "id": "Vy92_32",
@@ -4648,8 +4648,8 @@
   "gloss": "應付、管理",
   "collocation": "the difficulty they have in __ the stress；have difficulty in V-ing 固定句型",
   "explanation": "have difficulty in V-ing 是常考固定句型，「在…方面有困難」，介系詞 in 後面需接動名詞。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 40,
+  "discrimination": 53
  },
  {
   "id": "Vy92_33",
@@ -4675,8 +4675,8 @@
   "gloss": "(關係代名詞)",
   "collocation": "the events __ cause stress；關係代名詞引導形容詞子句",
   "explanation": "that 在此是關係代名詞，引導修飾 events 的形容詞子句，考生需辨認關代的文法功能。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 29,
+  "discrimination": 56
  },
  {
   "id": "Vy92_34",
@@ -4702,8 +4702,8 @@
   "gloss": "對於",
   "collocation": "our reactions __ stress；reaction to 固定搭配",
   "explanation": "reaction to 是常見固定搭配，「對…的反應」。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 28,
+  "discrimination": 34
  },
  {
   "id": "Vy92_35",
@@ -4729,8 +4729,8 @@
   "gloss": "來自",
   "collocation": "suffer health effects __ stress；effects from 固定搭配",
   "explanation": "effects from 是常見固定搭配，「來自…的影響」。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 51,
+  "discrimination": 67
  },
  {
   "id": "Vy92_36",
@@ -4756,8 +4756,8 @@
   "gloss": "主要的、首要的",
   "collocation": "the six __ causes of death；leading cause 固定搭配",
   "explanation": "leading cause 是常考固定搭配，「主要成因」，考生易與 lead 的其他形式混淆。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 24,
+  "discrimination": 41
  },
  {
   "id": "Vy92_37",
@@ -4783,8 +4783,8 @@
   "gloss": "大約",
   "collocation": "account for __ twelve percent；about + 數字",
   "explanation": "about 修飾數字，「大約」，考生需辨認此為約數用法。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 32,
+  "discrimination": 48
  },
  {
   "id": "Vy92_38",
@@ -4810,8 +4810,8 @@
   "gloss": "甚至",
   "collocation": "necessary, __ desirable；necessary, even desirable 遞進強調句型",
   "explanation": "even 在此為遞進強調副詞，「甚至」，連接兩個程度遞增的形容詞。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 31,
+  "discrimination": 34
  },
  {
   "id": "Vy92_39",
@@ -4837,8 +4837,8 @@
   "gloss": "像是、例如",
   "collocation": "Exciting or challenging events __ the birth of a child；like 舉例用法",
   "explanation": "like 在此當介系詞舉例，「例如」，考生易與動詞「喜歡」混淆。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 31,
+  "discrimination": 41
  },
  {
   "id": "Vy92_40",
@@ -4864,8 +4864,8 @@
   "gloss": "同樣地",
   "collocation": "generate __ much stress as does tragedy；as much...as 比較句型",
   "explanation": "as much...as 是常考比較句型，「和…一樣多」，考生需辨認此固定句構。",
-  "accuracyRate": null,
-  "discrimination": null
+  "accuracyRate": 46,
+  "discrimination": 48
  },
  {
   "id": "Vy92b_31",
