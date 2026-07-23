@@ -108,6 +108,12 @@
   .so-w{font-family:'Lora',serif; font-size:15.5px; flex:1 1 auto;}
   .so-used{font-size:11px; color:var(--gold); flex:0 0 auto; white-space:nowrap;}
   .blankTag.picked{border-color:var(--gold); background:#FDF7E8; color:var(--ink);}
+  .grade-btn{display:block; width:100%; max-width:420px; margin:0 auto; padding:15px 20px; border-radius:4px;
+    border:none; background:var(--crimson); color:#fff; font-family:'Noto Serif TC',serif; font-weight:700;
+    font-size:17px; letter-spacing:.06em; cursor:pointer; box-shadow:0 2px 8px rgba(174,54,38,.28);}
+  .grade-btn:active{transform:translateY(1px);}
+  .next-row{display:flex; gap:10px; margin-top:22px;}
+  .grade-btn .gb-count{display:block; font-size:12px; font-weight:400; letter-spacing:0; margin-top:3px; opacity:.85;}
   .score-box{font-family:'IBM Plex Mono',monospace; font-size:20px; text-align:center; padding:14px; background:#F6F1E4; border-radius:4px;}
   .score-box b{color:var(--crimson); font-size:26px;}
   .rv-list{margin-top:14px;}
@@ -558,14 +564,14 @@ function renderFull(pid){
   const items = ITEMS.filter(it=>it.passageId===pid).sort((a,b)=>a.blankNum-b.blankNum);
   if(window.__lastPid !== pid){ fullGraded = false; window.__blankChoices = {}; }
   document.getElementById('progText').innerHTML = `<span>全文模式</span><span>${p.year} · ${p.title}</span>`;
-  document.getElementById('progBar').style.width = '100%';
+  updateFullProgress();
 
   let html = '';
   if(p.flagNote) html += `<div class="feedback" style="margin-bottom:16px;">⚠ ${p.flagNote}</div>`;
   html += `<div class="level-row">
     <div class="level-btn ${currentLevel==='low'?'active':''}" onclick="setLevel('low')">低分群考生(開提示)</div>
     <div class="level-btn ${currentLevel==='mid'?'active':''}" onclick="setLevel('mid')">中間群考生(開提示)</div>
-    <div class="level-btn ${currentLevel==='high'?'active':''}" onclick="setLevel('high')">高分群考生(關提示)</div>
+    <div class="level-btn ${currentLevel==='high'?'active':''}" onclick="setLevel('high')">高分群考生(關提示，模擬考場)</div>
   </div>
   <div class="hint-toggle"><span class="switch ${hintsOn?'on':''}" onclick="toggleHints()"><span class="dot"></span></span> 主旨句／轉折詞提示：${hintsOn?'開':'關'}</div>
   <div class="legend"><span class="lg-both">兩者皆是</span><span class="lg-thesis">全文中心思想</span><span class="lg-topic">段落主旨句</span><span class="lg-trans">轉折詞</span></div>
@@ -574,16 +580,21 @@ function renderFull(pid){
   <div class="opts-table" id="optsTable"></div>
   <div class="passage-text ${hintsOn?'':'hints-off'}" id="passageText"></div>
   <div style="text-align:center; margin:22px 0;">
-    <button class="btn" id="gradeBtn" onclick="gradeFullPassage()">對答案</button>
-    <div style="font-size:11.5px; color:var(--ink-soft); margin-top:8px;">十格全部填完再對答案，中途不會公布正解；交卷後會顯示逐題解析、官方答對率與全文中譯。</div>
+    <button class="grade-btn" id="gradeBtn" onclick="gradeFullPassage()">送出批改<span class="gb-count" id="gbCount"></span></button>
+    <div style="font-size:11.5px; color:var(--ink-soft); margin-top:8px;">全部填完再送出，中途不會公布正解；送出後會顯示逐題解析、官方答對率與全文中譯。</div>
   </div>
   <div id="gradeResult"></div>`;
 
-  html += `<div class="sec-title">巨觀結構分析</div><div class="feedback">
+  if(hintsOn) html += `<div class="sec-title">巨觀結構分析</div><div class="feedback">
     <b>主要結構：</b>${p.macro.structure}<br>
     <b>文章結構類型：</b>${p.macro.patterns||'—'}<br>
     <b>關鍵轉折詞：</b>${p.macro.transitions}<br>
     <b>綱要：</b><br>${p.macro.outline.map(o=>o).join('<br>')}
+  </div>`;
+
+  html += `  <div class="next-row">
+    <button class="ghost-btn" onclick="goHome()">← 回首頁</button>
+    <button class="ghost-btn" id="fullNextBtn" style="display:none;" onclick="nextFullPassage()">下一篇 →</button>
   </div>`;
 
   document.getElementById('practiceBody').innerHTML = html;
@@ -601,7 +612,7 @@ function renderPassageText(p, items){
   const letters = Object.keys(p.options).sort();
   let out = '';
   p.paras.forEach((para, idx) => {
-    out += `<div class="p-label">${para.label}</div><p>`;
+    out += (hintsOn ? `<div class="p-label">${para.label}</div>` : '') + `<p>`;
     const blankNumsInPara = [];
     para.segs.forEach((seg, si) => {
       let [text, type] = seg;
@@ -641,6 +652,15 @@ function renderPassageText(p, items){
     out += `</p>`;
   });
   el.innerHTML = out;
+
+  // 按鈕上顯示作答進度
+  const gb = document.getElementById('gbCount');
+  if(gb && !fullGraded){
+    const total = (window.__lastItems||[]).length;
+    const done = Object.keys(window.__blankChoices||{}).length;
+    gb.textContent = `已填 ${done} / ${total} 格`;
+  }
+  if(!fullGraded) updateFullProgress();
 
   // 選項總覽：同步標示已用掉的選項（刪去法）
   const ot = document.getElementById('optsTable');
@@ -693,7 +713,7 @@ function gradeFullPassage(){
   const ch = window.__blankChoices || {};
   const blank = items.filter(it => !ch[it.blankNum]);
   if(blank.length){
-    if(!confirm(`還有 ${blank.length} 格未作答（第 ${blank.map(i=>i.blankNum).join('、')} 題）。確定要對答案嗎？`)) return;
+    if(!confirm(`還有 ${blank.length} 格未作答（第 ${blank.map(i=>i.blankNum).join('、')} 題）。確定要送出批改嗎？`)) return;
   }
   const testMode = document.getElementById('testModeToggle') && document.getElementById('testModeToggle').checked;
   let correctCount = 0, review = '', priority = '';
@@ -715,7 +735,7 @@ function gradeFullPassage(){
     }
   });
   const zh = (Array.isArray(p_zh()) ? p_zh().join('<br><br>') : (p_zh()||'（本篇尚無中譯）'));
-  let box = `<div class="sec-title">對答案結果</div>
+  let box = `<div class="sec-title">批改結果</div>
     <div class="score-box">答對 <b>${correctCount}</b> / ${items.length}</div>`;
   if(priority){
     box += `<div class="feedback" style="border-left:3px solid var(--crimson);">
@@ -727,7 +747,27 @@ function gradeFullPassage(){
   document.getElementById('gradeBtn').style.display = 'none';
   document.getElementById('gradeResult').innerHTML = box;
   renderPassageText(PASSAGES[window.__lastPid], window.__lastItems);
+  const nb = document.getElementById('fullNextBtn'); if(nb) nb.style.display = '';
+  const bar = document.getElementById('progBar'); if(bar) bar.style.width = '100%';
   document.getElementById('gradeResult').scrollIntoView({behavior:'smooth', block:'start'});
+}
+function updateFullProgress(){
+  const total = (window.__lastItems||[]).length;
+  const done = Object.keys(window.__blankChoices||{}).length;
+  const bar = document.getElementById('progBar');
+  if(bar) bar.style.width = (total ? (done/total*100) : 0) + '%';
+}
+function fullPassageOrder(){
+  return Object.values(PASSAGES).sort((a,b)=> yearSortKey(a) - yearSortKey(b)).map(x=>x.id);
+}
+function nextFullPassage(){
+  const order = fullPassageOrder();
+  const i = order.indexOf(window.__lastPid);
+  if(i < 0 || i >= order.length - 1){ alert('已經是最後一篇了。'); return; }
+  const nid = order[i+1];
+  window.__blankChoices = {}; fullGraded = false; window.__lastPid = null;
+  renderFull(nid);
+  window.scrollTo({top:0, behavior:'smooth'});
 }
 function p_zh(){ const p = PASSAGES[window.__lastPid]; return p ? p.zhTranslation : null; }
 init();
