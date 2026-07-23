@@ -164,7 +164,7 @@
         <div class="cat-grid" id="catGrid"></div>
         <div class="sec-title">依難易度篩選<span style="font-weight:400; text-transform:none; letter-spacing:0; font-size:11px; margin-left:6px;">（選填，可複選；勾選後不限分類直接開始）</span></div>
         <div class="cat-grid" id="diffGrid"></div>
-        <div class="diff-note">難易度依大考中心公布的「全體考生答對率」（P值）分成三級：<b>難</b>（P≤25%）／<b>中</b>（25~75%）／<b>易</b>（＞75%）。部分年度目前尚無官方數據，暫不納入難易度篩選。</div>
+        <div class="diff-note">難易度依大考中心公布的「全體考生答對率」（P值）分成三級：<b>難</b>（P≤25%）／<b>中</b>（25~75%）／<b>易</b>（＞75%）。<b>特殊</b>指鑑別度（D值＝高分群答對率－低分群答對率）為負值的題目——大考中心官方說明指出「良好試題的鑑別度應大於0」，若為負值，代表低分群考生答對率反而高於高分群，是官方標準認定設計有瑕疵的題目，特別適合拿來討論、練習。部分年度目前尚無官方數據，暫不納入難易度篩選。</div>
       </div>
 
       <div id="fullControls" style="display:none;">
@@ -201,6 +201,7 @@ let selectedSingleYears = new Set();
 let singleQueue = [], singleIdx = 0;
 let currentLevel = 'mid'; // low/mid/high
 let hintsOn = true;
+let zhOn = true;
 
 const CATS = ["搭配詞／固定用法","字義辨析／多義字","詞性判斷","同義改寫／替代指涉","句型／固定搭配句構","上下文線索／邏輯推論"];
 
@@ -249,14 +250,18 @@ function buildCatGrid(){
 function buildDiffGrid(){
   const grid = document.getElementById('diffGrid');
   grid.innerHTML = '';
-  ['難','中','易'].forEach(d => {
+  ['難','中','易','特殊'].forEach(d => {
     const chip = document.createElement('div');
     chip.className = 'chip'; chip.textContent = d;
     chip.onclick = () => { chip.classList.toggle('active'); selectedDiffs.has(d) ? selectedDiffs.delete(d) : selectedDiffs.add(d); };
     grid.appendChild(chip);
   });
 }
-function tierOf(p){ if(p==null) return null; return p<=25?'難':p<=75?'中':'易'; }
+function tierOf(p, d){
+  if(d != null && d < 0) return '特殊';
+  if(p==null) return null;
+  return p<=25?'難':p<=75?'中':'易';
+}
 function yearSortKey(p){
   const m = p.year.match(/^(\d+)/);
   const num = m ? parseInt(m[1]) : 999;
@@ -281,7 +286,7 @@ function startPractice(){
     let pool = ITEMS.filter(it => {
       const catOk = selectedCats.size===0 || it.categories.some(c=>selectedCats.has(c));
       const yearOk = selectedSingleYears.size===0 || selectedSingleYears.has(it.passageId);
-      const tier = tierOf(it.accuracyRate);
+      const tier = tierOf(it.accuracyRate, it.discrimination);
       const diffOk = selectedDiffs.size===0 || (tier && selectedDiffs.has(tier));
       if(selectedDiffs.size>0) return diffOk && yearOk;
       return catOk && yearOk;
@@ -364,7 +369,7 @@ function answerSingle(letter){
     if(c.dataset.l === it.answer) c.classList.add('correct');
     else if(c.dataset.l === letter && !correct) c.classList.add('wrong');
   });
-  const pd = (it.accuracyRate!=null) ? `<div class="pdTag">官方答對率 <b>P=${it.accuracyRate}%</b> ／ 鑑別度 <b>D=${it.discrimination}</b> ／ 難易度：<b>${tierOf(it.accuracyRate)}</b></div>` : '';
+  const pd = (it.accuracyRate!=null) ? `<div class="pdTag">官方答對率 <b>P=${it.accuracyRate}%</b> ／ 鑑別度 <b>D=${it.discrimination}</b> ／ 難易度：<b>${tierOf(it.accuracyRate, it.discrimination)}</b></div>` : '';
   document.getElementById('fbBox').innerHTML = `
     <div class="feedback">
       ${correct?'✓ 正確！':'✕ 正解是 ('+it.answer+') '+it.options[it.answer]}
@@ -393,6 +398,7 @@ function renderFull(pid){
     <div class="level-btn ${currentLevel==='high'?'active':''}" onclick="setLevel('high')">高分群考生(關提示)</div>
   </div>
   <div class="hint-toggle"><span class="switch ${hintsOn?'on':''}" onclick="toggleHints()"><span class="dot"></span></span> 主旨句／轉折詞提示：${hintsOn?'開':'關'}</div>
+  <div class="hint-toggle"><span class="switch ${zhOn?'on':''}" onclick="toggleZh()"><span class="dot"></span></span> 逐段中譯：${zhOn?'開':'關'}</div>
   <div class="legend"><span class="lg-both">兩者皆是</span><span class="lg-thesis">全文中心思想</span><span class="lg-topic">段落主旨句</span><span class="lg-trans">轉折詞</span></div>
   <div class="passage-text ${hintsOn?'':'hints-off'}" id="passageText"></div>`;
 
@@ -412,12 +418,13 @@ function renderFull(pid){
 }
 function setLevel(l){ currentLevel = l; hintsOn = (l !== 'high'); renderFull(window.__lastPid); }
 function toggleHints(){ hintsOn = !hintsOn; renderFull(window.__lastPid); }
+function toggleZh(){ zhOn = !zhOn; renderFull(window.__lastPid); }
 function renderPassageText(p, items){
   window.__lastPid = p.id;
   const el = document.getElementById('passageText');
   const itemMap = {}; items.forEach(it => itemMap[it.blankNum] = it);
   let out = '';
-  p.paras.forEach(para => {
+  p.paras.forEach((para, idx) => {
     out += `<div class="p-label">${para.label}</div><p>`;
     para.segs.forEach(seg => {
       let [text, type] = seg;
@@ -433,6 +440,10 @@ function renderPassageText(p, items){
       }
     });
     out += `</p>`;
+    const zh = (p.zhTranslation && p.zhTranslation[idx]) ? p.zhTranslation[idx] : null;
+    if(zh && zhOn){
+      out += `<p style="color:var(--ink-soft); font-size:14.5px; line-height:1.9; background:#F6F1E4; padding:10px 14px; border-radius:4px; margin:-6px 0 18px;">${zh}</p>`;
+    }
   });
   el.innerHTML = out;
 }
