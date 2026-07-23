@@ -392,7 +392,7 @@ function startPractice(){
   } else {
     const pid = window.__selectedPassage;
     if(!pid){ alert('請先選擇一篇文章'); return; }
-    revealedBlanks = new Set();
+    revealedBlanks = new Set(); window.__blankChoices = {};
     document.getElementById('homeView').style.display='none';
     document.getElementById('practiceView').style.display='block';
     renderFull(pid);
@@ -491,7 +491,7 @@ function renderSingle(){
 function viewFullFromSingle(pid){
   window.__lastPid = pid;
   window.__returnToSingle = true;
-  revealedBlanks = new Set();
+  revealedBlanks = new Set(); window.__blankChoices = {};
   const items = ITEMS.filter(it=>it.passageId===pid).sort((a,b)=>a.blankNum-b.blankNum);
   document.getElementById('progText').innerHTML = `<span>全文模式(從單題模式跳轉，可點選其他空格查看提示)</span><span>${PASSAGES[pid].year}</span>`;
   renderFull(pid);
@@ -560,12 +560,13 @@ function renderFull(pid){
 function setLevel(l){ currentLevel = l; hintsOn = (l !== 'high'); renderFull(window.__lastPid); }
 function toggleHints(){ hintsOn = !hintsOn; renderFull(window.__lastPid); }
 function toggleZh(){ zhOn = !zhOn; renderFull(window.__lastPid); }
-let revealedBlanks = new Set();
+let revealedBlanks = new Set(); window.__blankChoices = {};
 function renderPassageText(p, items){
   window.__lastPid = p.id;
   window.__lastItems = items;
   const el = document.getElementById('passageText');
   const itemMap = {}; items.forEach(it => itemMap[it.blankNum] = it);
+  const letters = Object.keys(p.options).sort();
   let out = '';
   p.paras.forEach((para, idx) => {
     out += `<div class="p-label">${para.label}</div><p>`;
@@ -576,9 +577,11 @@ function renderPassageText(p, items){
         blankNumsInPara.push(String(text));
         const it = itemMap[text];
         if(revealedBlanks.has(String(text))){
-          out += ` <span class="blankTag answered correct" title="${it?it.explanation:''}">(${it.answer}) ${it.options[it.answer]}</span> `;
+          const isCorrect = window.__blankChoices && window.__blankChoices[text] === it.answer;
+          out += ` <span class="blankTag answered ${isCorrect?'correct':'wrong'}" title="${it?it.explanation:''}">(${it.answer}) ${it.options[it.answer]}</span> `;
         } else {
-          out += ` <span class="blankTag" onclick="revealBlank(this,'${text}')" data-n="${text}">?${text}</span> `;
+          const opts = letters.map(l => `<option value="${l}">(${l}) ${p.options[l]}</option>`).join('');
+          out += ` <select class="blank-select" data-n="${text}" onchange="chooseBlank(this,'${text}')" style="font-family:'IBM Plex Mono',monospace; font-size:13px; border:1.5px solid var(--ink); border-radius:3px; padding:2px 4px; margin:0 3px;"><option value="">第${text}題 ▾</option>${opts}</select> `;
         }
       } else if(!hintsOn && (type==='topic'||type==='thesis'||type==='gradient'||type==='trans')){
         out += `${text}`;
@@ -595,13 +598,20 @@ function renderPassageText(p, items){
       if(allRevealedInPara){
         out += `<p style="color:var(--ink-soft); font-size:14.5px; line-height:1.9; background:#F6F1E4; padding:10px 14px; border-radius:4px; margin:-6px 0 18px;">${zh}</p>`;
       } else {
-        out += `<p style="color:#B8B0A0; font-size:12.5px; line-height:1.6; background:#F6F1E4; padding:8px 14px; border-radius:4px; margin:-6px 0 18px; font-style:italic;">🔒 這段還有空格尚未查看，中譯先隱藏，避免洩題。點擊上方空格題號查看答案後，這裡會自動顯示該段中譯。</p>`;
+        out += `<p style="color:#B8B0A0; font-size:12.5px; line-height:1.6; background:#F6F1E4; padding:8px 14px; border-radius:4px; margin:-6px 0 18px; font-style:italic;">🔒 這段還有空格尚未作答，中譯先隱藏，避免洩題。選好上方空格的答案後，這裡會自動顯示該段中譯。</p>`;
       }
     }
   });
   el.innerHTML = out;
 }
-function revealBlank(el, num){
+function chooseBlank(selectEl, num){
+  const it = ITEMS.find(x=>x.passageId===window.__lastPid && String(x.blankNum)===String(num));
+  if(!it || !selectEl.value) return;
+  window.__blankChoices = window.__blankChoices || {};
+  window.__blankChoices[num] = selectEl.value;
+  const correct = selectEl.value === it.answer;
+  const testMode = document.getElementById('testModeToggle') && document.getElementById('testModeToggle').checked;
+  if(!testMode) recordAnswer(it.id, correct);
   revealedBlanks.add(String(num));
   renderPassageText(PASSAGES[window.__lastPid], window.__lastItems);
 }
