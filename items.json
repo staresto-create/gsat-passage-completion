@@ -59,7 +59,10 @@
   "passageId": "y109",
   "blankNum": 33,
   "categories": [
-   "上下文線索／邏輯推論"
+   "上下文線索／邏輯推論",
+   "字義辨析／多義字",
+   "同義改寫／替代指涉",
+   "詞性判斷"
   ],
   "options": {
    "A": "flaw",
@@ -74,9 +77,9 @@
    "J": "presence"
   },
   "answer": "A",
-  "gloss": "缺陷",
-  "collocation": "a genetic __ caused by...；genetic 修飾名詞",
-  "explanation": "考生常以為酒窩正面=優點，忽略 Though...but actually 的語意反轉，誤選 (D) attractiveness——但該格前有 Though，句意已轉為「其實是缺陷」。",
+  "gloss": "（名詞）缺陷、瑕疵",
+  "collocation": "most dimples are actually a genetic ___；a genetic flaw／defect；a fatal flaw",
+  "explanation": "答對率 36%。第 32 格才剛出現過 a sign of attractiveness，學生讀到這一句時仍停留在「酒窩＝好看」的正面印象，很容易回頭去搶 (D) attractiveness；但本句的語意方向恰好相反。【句構線索：讓步加轉折】Though often associated with beauty, most dimples are actually a genetic ___ caused by shortened facial muscles.——句首 Though 表讓步（雖然常與美貌連在一起），主要子句用 actually（事實上）翻轉語氣，答案必須是負面的字。這裡還藏了一個省略：Though often associated with beauty 的完整寫法是 Though they are often associated with beauty，從屬連接詞後的主詞與 be 動詞一併省略。這正是國中學過的規則：While (he was) walking home, he saw an accident.，從屬子句主詞與主要子句相同時，主詞連同 be 動詞可以一起省略。【字義依據】劍橋詞典 flaw 的釋義是使某物不完美的缺點、毛病或弱點（a fatal flaw 致命缺陷、a design flaw 設計瑕疵），其同義詞欄列有 defect。本句 a genetic flaw 即「基因上的缺陷」。【文內驗證：同義改寫】第二段第一句 Not all dimples are formed by a genetic defect（並非所有酒窩都由基因缺陷造成）——defect 正是 flaw 的同義改寫，作者換一個字重述同一概念，回頭一對就能確認第 33 格要填的是「缺陷」而非「吸引力」。緊接的 caused by shortened facial muscles（由比正常短的臉部肌肉造成）也說明這是構造上的異常。【詞性判斷】a genetic ___：冠詞 a 加形容詞之後必須接單數可數名詞，而 attractiveness 是不可數名詞，且已用於第 32 格。【常考搭配】a genetic flaw／defect、a fatal flaw、a design flaw、a flaw in one's reasoning、flawless（完美無瑕的）。",
   "accuracyRate": 36,
   "discrimination": 59
  },
@@ -254,7 +257,8 @@
   "blankNum": 40,
   "categories": [
    "搭配詞／固定用法",
-   "詞性判斷"
+   "詞性判斷",
+   "同義改寫／替代指涉"
   ],
   "options": {
    "A": "flaw",
@@ -269,9 +273,9 @@
    "J": "presence"
   },
   "answer": "G",
-  "gloss": "範圍涵蓋、從…到…",
-  "collocation": "These methods __ from A to B；range from A to B 固定搭配",
-  "explanation": "此為經典固定搭配 range from...to...，若不熟悉此搭配詞考生常誤選其他選項；此格也是本文唯一動詞詞性的收尾句。",
+  "gloss": "（動詞原形）範圍涵蓋、從…到…不等",
+  "collocation": "These methods ___ from a simple step like makeup to a drastic one like surgery；range from A to B；a wide range of",
+  "explanation": "答對率 39%。學生對 range 的印象幾乎全是名詞——a wide range of products（各式各樣的產品）、the price range（價格區間）；本句的 range 卻是動詞，而且要與後面的 from...to... 合起來看才成立。【搭配依據】range from A to B 是固定用法，表示「範圍從 A 到 B 不等」，A 與 B 通常是同類事物的兩個極端。本句 from a simple step like makeup to a drastic one like surgery（從化妝這種簡單方式，到動手術這種激烈手段）正是一輕一重的兩端；同義說法是 vary from A to B。【詞性判斷】主詞 These methods 之後全句沒有別的動詞，空格就是主要動詞；主詞為複數、全文用現在式，因此填原形 range。這也是最後一格常見的驗證方式：把前面用掉的選項逐一劃掉，最末格往往自動浮現。【文內驗證：介系詞把答案框住】空格後緊接 from…to… 這組介系詞，前面必須是能與之搭配的動詞，光靠這個框架就能鎖定答案。另外句中 a simple step 與 a drastic one 形成對比，one 是用來代替 step 以免重複——這與國中學過的 I don't like this one; I want that one. 同屬名詞替代，也就是 Halliday & Hasan (1976)《Cohesion in English》所談的替代（substitution）。【常考搭配】range from A to B、vary from A to B、a wide／broad range of、within range、out of range、beyond one's range。",
   "accuracyRate": 39,
   "discrimination": 69
  },
@@ -1752,7 +1756,9 @@
   "passageId": "y103",
   "blankNum": 35,
   "categories": [
-   "詞性判斷"
+   "詞性判斷",
+   "句型／固定搭配句構",
+   "字義辨析／多義字"
   ],
   "options": {
    "A": "drawn to",
@@ -1767,9 +1773,9 @@
    "J": "unique"
   },
   "answer": "D",
-  "gloss": "涉及、包含",
-  "collocation": "names __ things of beauty；分詞片語修飾 names",
-  "explanation": "involving 是現在分詞，修飾前面的 names(涉及美好事物的名字)，考生易誤用其他詞性。",
+  "gloss": "（現在分詞）含有、與…有關",
+  "collocation": "names ___ things of beauty are often favored；names involving…；be involved in",
+  "explanation": "答對率 35%。學生對 involve 有兩層落差：一是意思，課本上多半出現在 be involved in an accident（捲入事故）、get involved in trouble 這類負面語境，不容易想到它可以中性地表示「含有、與…有關」；二是形式，學生習慣被動的 be involved in，看到主動的 involving 反而不敢選。【文法依據】names involving things of beauty 是現在分詞片語後位修飾，完整寫法為 names which involve things of beauty（含有美好事物之意的名字）。要判斷用現在分詞還是過去分詞，就看被修飾的名詞與該動詞的關係：名字「含有」美好事物，屬主動，所以用 -ing；若是被動就得用過去分詞，例如 106 年第 36 格的 paintings (which were) discovered inside pyramids、104 年第 34 格的 The name (which is) most frequently associated with...。這三題可以並排講，一次講清「主動用 -ing、被動用 p.p.」的分辨方式。【句構線索：先找主要動詞】本句主詞是 names，修飾語一路延伸到 of beauty，真正的主要動詞是後面的 are favored（受到偏愛）。學生若把 involving 當成主要動詞，就會覺得整句沒有動詞可用。遇到長主詞，第一個動作永遠是先把修飾語括起來。【文內驗證】下一句 Flower and plant names like Heather, Rosemary, and Iris fall into this category.（Heather、Rosemary、Iris 這類花草名屬於這一類）——花草正是句中所說的 things of beauty，用實例回頭印證 involving 的意思是「含有、涉及」。【常考搭配】a project involving…、be involved in、get involved、involve + V-ing（牽涉到做某事）、involvement。",
   "accuracyRate": 35,
   "discrimination": 61
  },
@@ -3192,7 +3198,9 @@
   "passageId": "y98",
   "blankNum": 38,
   "categories": [
-   "搭配詞／固定用法"
+   "詞性判斷",
+   "字義辨析／多義字",
+   "上下文線索／邏輯推論"
   ],
   "options": {
    "A": "arranged",
@@ -3207,9 +3215,9 @@
    "J": "teamwork"
   },
   "answer": "H",
-  "gloss": "對面的",
-  "collocation": "swims to the __ bank of the river；opposite bank 固定搭配",
-  "explanation": "opposite bank 是常見固定搭配，「對岸」。",
+  "gloss": "（形容詞）對面的、另一側的",
+  "collocation": "swims to the ___ bank of the river；the opposite bank／side／direction；the opposite sex",
+  "explanation": "答對率 39%。這一格有兩個字同時卡住學生：一是 opposite，學生記住的是「相反的」（the opposite meaning）或介系詞「在…對面」（sit opposite me），沒想到它可以直接修飾名詞表示「對面的」；二是 bank，多數學生看到就想到「銀行」，一旦這樣讀，整句都講不通——這裡的 bank 是「河岸」。【詞性判斷】the ___ bank of the river：定冠詞 the 與名詞 bank 之間，只能放形容詞。選項中的形容詞為 same（用於第 31 格 the same fable）、fast（用於第 33 格 fast, consistent）與 opposite，前兩者都已用掉。【字義提醒：bank 的多義】bank 除了銀行，還有河岸（the river bank）、堤岸，以及「庫」的概念（a blood bank 血庫、a data bank 資料庫）；動詞片語 bank on 則是「指望、仰賴」。文意選填常拿熟字的冷門義設陷阱，讀到認得的字卻覺得語意不通時，第一個動作就是回想它有沒有第二個意思。【文內驗證：三段接力的空間順序】本段把最後一場比賽拆成三個步驟：Firstly, the hare carries the tortoise on its back to the river.（兔子背烏龜到河邊）→ Then, the tortoise carries the hare and swims to the ___ bank of the river.（烏龜載兔子游到河的某一岸）→ Lastly, the hare carries the tortoise again on its back.（兔子再背烏龜跑）。既然是渡河，游過去的當然是「對岸」；末句 Thus they reach the finishing line together. 也確認兩者最後一起抵達終點。【常考搭配】the opposite bank／side／direction、the opposite sex（異性）、in the opposite direction、on the opposite side of the street、be the opposite of。",
   "accuracyRate": 39,
   "discrimination": 69
  },
@@ -3355,6 +3363,8 @@
   "passageId": "y97",
   "blankNum": 34,
   "categories": [
+   "字義辨析／多義字",
+   "詞性判斷",
    "搭配詞／固定用法"
   ],
   "options": {
@@ -3370,9 +3380,9 @@
    "J": "sharpened"
   },
   "answer": "I",
-  "gloss": "一擊、一刀",
-  "collocation": "with one __ of your knife；one stroke of 固定搭配",
-  "explanation": "one stroke of a knife 是常見固定搭配，「手起刀落的一擊」。",
+  "gloss": "（名詞）一擊、一刀",
+  "collocation": "with one ___ of your knife, slaughter it；with one stroke of a knife／pen；at a single stroke",
+  "explanation": "答對率 38%。學生腦中的 stroke 幾乎只有「中風」（have a stroke），少數人記得「撫摸」（stroke a cat）；本句用的卻是它最核心的一義——「揮動一次的動作」。【字義依據】劍橋詞典 stroke 的名詞義項中，有一項是書寫或繪畫時的一筆（With a stroke of his pen, the governor signed the bill into law. 州長筆一揮就簽署了法案），另有片語 at a single stroke／in one stroke（一舉、一下子）。把這些義項串起來看，核心概念很清楚：筆揮一次是一筆，刀揮一次就是一刀，游泳划水一次也是一個 stroke。本句 with one stroke of your knife 即「一刀」。中文的「筆畫」恰好也是 stroke，這個對應能幫學生記住核心概念。【詞性判斷】with one ___ of your knife：介系詞 with 之後、數詞 one 之後，只能放單數可數名詞；選項中的名詞有 promise、conversation、shock、stroke，前三者分別用於第 31、36、39 格。【文內驗證】本句後半 slaughter it（把牠宰了）已點明是宰殺的動作；第三段 the disciple sharpened his knife（弟子磨了刀）、When he was about to cut its throat（正要割喉時）描寫的是同一個動作，回頭對照即可確認這裡講的是「一刀了結」。【常考搭配】with one stroke of a knife／pen、at a single stroke、a stroke of luck（意外的好運）、have／suffer a stroke（中風）、stroke a cat（摸貓）。",
   "accuracyRate": 38,
   "discrimination": 57
  },
@@ -4146,7 +4156,9 @@
   "passageId": "y94",
   "blankNum": 33,
   "categories": [
-   "搭配詞／固定用法"
+   "搭配詞／固定用法",
+   "上下文線索／邏輯推論",
+   "詞性判斷"
   ],
   "options": {
    "A": "breaks down",
@@ -4161,9 +4173,9 @@
    "J": "As long as"
   },
   "answer": "H",
-  "gloss": "接管、取代",
-  "collocation": "daily life __；take over 固定搭配",
-  "explanation": "take over 是常見固定搭配，「接管、佔上風」，此處指日常生活取代了戀愛初期的浪漫。",
+  "gloss": "（動詞片語第三人稱單數）取而代之、佔據主導",
+  "collocation": "as the magic fades and daily life ___；take over（接手、取代）；take over a company",
+  "explanation": "答對率 36%。學生對 take over 的印象多半來自商業新聞的「接管、併購」（take over a company），因此很難想像主詞會是 daily life（日常生活）。其實這個片語的核心概念是「接手、接替前一者的位置」，主詞不必是人或公司。【句構線索：兩組並列的主詞與動詞】as the magic fades and daily life ___：as 引導時間副詞子句，其中 and 連接的是兩組主詞加動詞——the magic fades（魔力褪去）、daily life ___（日常生活…）。學生常誤以為 and 之後接的仍是同一個主詞，因而找不到第二個動詞的位置。兩個動詞都用現在式，第二個主詞 daily life 為單數，動詞須加 s。【語意對照】fade（褪去、消退）與 take over（接手、頂上）是一退一進的對照：戀愛初期的魔力退場，柴米油鹽的日常隨即上場。這種「一方消退、另一方接手」的敘述，正是 take over 最典型的語境。【文內驗證：全篇的語意鏈】第一段 Falling in love is always magical.、It feels eternal 先建立「魔力」的意象；本句 as the magic fades 開始翻轉；第三段末 The magic of love is then lost.（愛的魔力就此消失）收束同一條線索，前後對照即可確認。【常考搭配】take over（接手、取代）、take over a company、take charge of、take the place of、fade away。",
   "accuracyRate": 36,
   "discrimination": 55
  },
@@ -4254,7 +4266,9 @@
   "passageId": "y94",
   "blankNum": 37,
   "categories": [
-   "搭配詞／固定用法"
+   "搭配詞／固定用法",
+   "字義辨析／多義字",
+   "上下文線索／邏輯推論"
   ],
   "options": {
    "A": "breaks down",
@@ -4269,9 +4283,9 @@
    "J": "As long as"
   },
   "answer": "A",
-  "gloss": "瓦解、故障",
-  "collocation": "communication __；communication breaks down 固定搭配",
-  "explanation": "communication breaks down 是常見固定搭配，「溝通破裂」。",
+  "gloss": "（動詞片語第三人稱單數）破裂、失靈",
+  "collocation": "problems creep in, resentments build, and communication ___；communication／talks break down；a breakdown in communication",
+  "explanation": "答對率 38%。學生對 break down 的印象停在兩個畫面：車子拋錨，或人情緒崩潰大哭；因此看到主詞是 communication（溝通）就卡住了。【字義依據】break down 用在討論、關係、制度這類抽象事物上時，意思是「因問題或分歧而失敗、破裂」——Collins 的說明正是如此，例句 Talks with business leaders broke down last night.（與企業領袖的會談昨晚破裂）；劍橋詞典名詞形 breakdown 的例句 a breakdown in communication between management and staff（管理層與員工之間的溝通破裂）更與本句完全對應。【句構線索：三個並列子句】Somehow, problems creep in, resentments build, and communication ___.——三個子句以逗號與 and 並列，主詞分別是 problems、resentments、communication，動詞都用現在式；第三個主詞是不可數名詞，動詞須加 s。三個動詞的語意方向一致，都在描寫情況逐步惡化。【文內驗證：一路下滑的語意鏈】下一句 Mistrust increases and rejection and repression surface.（不信任升高，排斥與壓抑浮現），再下一句 The magic of love is then lost.（愛的魔力就此消失）——整段是負面連鎖，空格必須填負面意義的動詞。【常考搭配】communication／talks／negotiations break down、a marriage breaks down、a breakdown in communication、break down in tears（崩潰痛哭）、break down into（分解為）。",
   "accuracyRate": 38,
   "discrimination": 55
  },
@@ -4585,7 +4599,9 @@
   "passageId": "y93",
   "blankNum": 39,
   "categories": [
-   "搭配詞／固定用法"
+   "搭配詞／固定用法",
+   "句型／固定搭配句構",
+   "上下文線索／邏輯推論"
   ],
   "options": {
    "A": "as well as",
@@ -4600,9 +4616,9 @@
    "J": "harm"
   },
   "answer": "J",
-  "gloss": "傷害",
-  "collocation": "the aliens intend us __；intend sb harm 固定搭配",
-  "explanation": "intend someone harm 是常考固定搭配，「意圖傷害某人」。",
+  "gloss": "（名詞）傷害",
+  "collocation": "others hold that the aliens intend us ___；do somebody harm／mean somebody no harm；do more harm than good",
+  "explanation": "答對率 36%。harm 這個字學生都認得，難的是句型：intend us ___ 這種「動詞＋人＋harm」的用法課本少見，學生只學過 intend to V（打算做某事），因此看到 intend 後面直接接 us 就亂了。【搭配依據】harm 當名詞時，習慣與「人」構成雙受詞式的搭配：劍橋詞典把 do someone harm 單獨立為詞條（He needs protection from a rival who wants to do him harm. 他需要防範一個想加害他的對手），另收有 mean no harm（無意傷害）一條。本句 the aliens intend us harm 屬同一組用法，意思是「外星人打算加害我們」。【接上學生已經會的東西】這個結構就是國中學過的授與動詞語序：give me a book、send him a letter——動詞後面先接「人」，再接「物」，harm 在這裡就站在「物」的位置。同類說法還有 wish somebody well（祝某人順利）、wish somebody harm、do somebody a favor。【文內驗證：while 標示的正反對比】本句完整讀為 Many believe that the aliens are here to help us, while others hold that the aliens intend us ___.——while 在此表對比，前半是 help us（來幫助我們），後半自然要相反。help 與 harm 這組反義字並排出現，是本格最直接的驗證點；下一句 have no interest in helping us in any way 也再次呼應「幫助或傷害」這條爭論主軸。【常考搭配】do somebody harm、mean somebody no harm、do more harm than good（弊大於利）、come to no harm（平安無事）、be harmful to。",
   "accuracyRate": 36,
   "discrimination": 55
  },
@@ -5435,7 +5451,9 @@
   "passageId": "y91",
   "blankNum": 40,
   "categories": [
-   "上下文線索／邏輯推論"
+   "詞性判斷",
+   "上下文線索／邏輯推論",
+   "搭配詞／固定用法"
   ],
   "options": {
    "A": "dutifully",
@@ -5450,9 +5468,9 @@
    "J": "troubled"
   },
   "answer": "A",
-  "gloss": "盡責地",
-  "collocation": "__ carried Amir's salt to the market；dutifully 修飾 carried",
-  "explanation": "此格需邏輯推論：呼應前句「驢子學到教訓」，此後盡責運送不再耍花招，是全文結局的總結性副詞。",
+  "gloss": "（副詞）盡責地",
+  "collocation": "the donkey learned the lesson, and ___ carried Amir's salt；dutifully carry out；do one's duty",
+  "explanation": "答對率僅 31%，是本篇最難的一格。學生認得 duty（責任、值班），卻沒有把 dutifully 當成一個獨立的副詞記住；加上這個字在課本出現的頻率低，掃過選項時不會停下來。【詞性判斷】and ___ carried Amir's salt：連接詞 and 之後、動詞 carried 之前，這個位置只能放副詞。選項中的副詞有 finally（已用於第 37 格 he finally came up with a good idea）與 dutifully，另一個 not 則用於第 38 格的 not...but... 結構（loaded the sacks not with salt but with sand），因此只剩 dutifully。看到「動詞前面空一格」就先想副詞，是這類題目最快的切入點。【構詞】duty（名詞．責任）→ dutiful（形容詞．盡責的）→ dutifully（副詞．盡責地）。拼字上要注意 duty 加字尾時 y 須改成 i，與 beauty→beautiful、happy→happily 同一條規則。【文內驗證：寓言的結局句】本句是全篇最後一句，前半 From then on, the donkey learned the lesson（從此以後，驢子學到了教訓），後半 without ruining it（不再毀掉鹽）——前後都指向行為徹底轉變、老實做事，中間需要的正是一個正面、表示盡責的副詞。寓言的最後一句通常在總結角色的改變，讀懂這個結構就能鎖定語意方向。【常考搭配】dutifully carry out（盡責執行）、do one's duty、on duty／off duty、a sense of duty、a dutiful son。",
   "accuracyRate": 31,
   "discrimination": 61
  },
@@ -7123,7 +7141,9 @@
   "passageId": "y114",
   "blankNum": 22,
   "categories": [
-   "搭配詞／固定用法"
+   "搭配詞／固定用法",
+   "字義辨析／多義字",
+   "詞性判斷"
   ],
   "options": {
    "A": "reference",
@@ -7138,9 +7158,9 @@
    "J": "silent"
   },
   "answer": "A",
-  "gloss": "提及、記載",
-  "collocation": "documented __ to the ringing of bells；reference to 固定搭配",
-  "explanation": "reference to 是常考固定搭配，「對…的提及/記載」。",
+  "gloss": "（名詞）提及、記載",
+  "collocation": "there is documented ___ to the ringing of bells；reference to sth；make reference to",
+  "explanation": "答對率 37%。學生腦中的 reference 是「參考書」（a reference book）與「推薦信」（a letter of reference），本句用的卻是它另一個常見義——「提及、記載」，相當於 mention。【搭配依據】劍橋詞典 reference 的義項之一即為對某事的「提及」，並固定接介系詞 to：reference to sth、make reference to sth（提到某事）、with／in reference to（關於）。本句 documented reference to the ringing of bells 就是「關於鳴鐘的文獻記載」。動詞形 refer to 學生較熟，兩者一起記即可：refer to（提到）對應名詞 reference（提及）。【詞性判斷】there is documented ___ to：there is 之後需要名詞當主詞，documented（有文獻可考的）是修飾它的過去分詞形容詞，空格後又接 to，正符合 reference to 的搭配；此處 reference 作不可數用法，因此前面沒有冠詞。【文內驗證】同句後半 dating as far back as the 12th century（可上溯至十二世紀）——能被追溯到某個世紀的，正是文字記載；再看語意邏輯，這段記載出現在 even before the cathedral's construction was completed（甚至早於大教堂完工），作者要證明的就是「有白紙黑字為憑」。【同篇一起看的熟字陷阱】第 21 格的 noted 也是同類考點：學生看到 noted 直覺讀成動詞「做筆記」，但 be noted for 是「以…著稱」，等於 be famous for；第 27 格的 the faithful 則是「the ＋形容詞」表一群人，意思是「信眾」，而非形容詞「忠實的」。這三格可以一起提醒學生：熟字未必是熟義。【常考搭配】make reference to、in／with reference to（關於）、a reference book、a letter of reference、refer to。",
   "accuracyRate": 37,
   "discrimination": 53
  },
