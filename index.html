@@ -86,6 +86,36 @@
   @media (max-width:560px){ .opts-table{grid-template-columns:repeat(2,1fr);} }
   .opt-cell{border:1px solid var(--rule); border-radius:4px; padding:8px 6px; font-size:13px; text-align:center; background:#fff;}
   .opt-cell b{color:var(--crimson);}
+  .opt-cell.used{opacity:.42; background:#F2EEE2; text-decoration:line-through;}
+  /* 空格彈出選單 */
+  .sheet-mask{position:fixed; inset:0; background:rgba(34,31,26,.42); opacity:0; pointer-events:none; transition:opacity .18s; z-index:90;}
+  .sheet-mask.on{opacity:1; pointer-events:auto;}
+  .sheet{position:fixed; left:0; right:0; bottom:0; z-index:91; background:var(--paper-card);
+    border-top-left-radius:14px; border-top-right-radius:14px; box-shadow:0 -6px 28px rgba(34,31,26,.22);
+    transform:translateY(102%); transition:transform .2s ease; max-height:72vh; display:flex; flex-direction:column;
+    padding-bottom:env(safe-area-inset-bottom);}
+  .sheet.on{transform:translateY(0);}
+  .sheet-hd{display:flex; align-items:center; justify-content:space-between; padding:14px 18px 10px;
+    border-bottom:1px solid var(--rule); font-family:'IBM Plex Mono',monospace; font-size:13px; font-weight:600; color:var(--crimson);}
+  .sheet-x{font-size:19px; color:var(--ink-soft); cursor:pointer; padding:0 4px;}
+  .sheet-tip{padding:8px 18px 0; font-size:11.5px; color:var(--ink-soft); line-height:1.6;}
+  .sheet-body{overflow-y:auto; padding:8px 12px 18px;}
+  .sheet-opt{display:flex; align-items:baseline; gap:8px; padding:11px 12px; border:1px solid var(--rule);
+    border-radius:5px; margin-bottom:6px; background:#fff; cursor:pointer;}
+  .sheet-opt:active{background:#FBF1EE; border-color:var(--crimson);}
+  .sheet-opt.used{background:#F2EEE2; border-style:dashed; opacity:.72;}
+  .so-l{font-family:'IBM Plex Mono',monospace; font-weight:700; color:var(--crimson); flex:0 0 auto;}
+  .so-w{font-family:'Lora',serif; font-size:15.5px; flex:1 1 auto;}
+  .so-used{font-size:11px; color:var(--gold); flex:0 0 auto; white-space:nowrap;}
+  .blankTag.picked{border-color:var(--gold); background:#FDF7E8; color:var(--ink);}
+  .score-box{font-family:'IBM Plex Mono',monospace; font-size:20px; text-align:center; padding:14px; background:#F6F1E4; border-radius:4px;}
+  .score-box b{color:var(--crimson); font-size:26px;}
+  .rv-list{margin-top:14px;}
+  .rv-item{border:1px solid var(--rule); border-left-width:3px; border-radius:4px; padding:11px 13px; margin-bottom:9px; background:#fff; font-size:13.5px; line-height:1.8;}
+  .rv-item.ok{border-left-color:var(--sage);} .rv-item.ng{border-left-color:var(--crimson);}
+  .rv-hd{font-family:'IBM Plex Mono',monospace; font-size:12.5px; margin-bottom:6px;}
+  .rv-item.ok .rv-hd{color:var(--sage);} .rv-item.ng .rv-hd{color:var(--crimson);}
+  .rv-col{color:var(--gold); font-size:12.5px;}
 
   .single-card{border:1px solid var(--rule); border-radius:4px; padding:22px; background:#fff; margin-bottom:16px;}
   .single-sentence{font-family:'Lora',serif; font-size:17px; line-height:1.9; margin-bottom:16px;}
@@ -292,7 +322,6 @@ let selectedSingleYears = new Set();
 let singleQueue = [], singleIdx = 0;
 let currentLevel = 'mid'; // low/mid/high
 let hintsOn = true;
-let zhOn = false;
 
 const CATS = ["搭配詞／固定用法","字義辨析／多義字","詞性判斷","同義改寫／替代指涉","句型／固定搭配句構","上下文線索／邏輯推論"];
 
@@ -392,7 +421,7 @@ function startPractice(){
   } else {
     const pid = window.__selectedPassage;
     if(!pid){ alert('請先選擇一篇文章'); return; }
-    revealedBlanks = new Set(); window.__blankChoices = {};
+    revealedBlanks = new Set(); window.__blankChoices = {}; fullGraded = false;
     document.getElementById('homeView').style.display='none';
     document.getElementById('practiceView').style.display='block';
     renderFull(pid);
@@ -491,7 +520,7 @@ function renderSingle(){
 function viewFullFromSingle(pid){
   window.__lastPid = pid;
   window.__returnToSingle = true;
-  revealedBlanks = new Set(); window.__blankChoices = {};
+  revealedBlanks = new Set(); window.__blankChoices = {}; fullGraded = false;
   const items = ITEMS.filter(it=>it.passageId===pid).sort((a,b)=>a.blankNum-b.blankNum);
   document.getElementById('progText').innerHTML = `<span>全文模式(從單題模式跳轉，可點選其他空格查看提示)</span><span>${PASSAGES[pid].year}</span>`;
   renderFull(pid);
@@ -527,6 +556,7 @@ function nextSingle(){
 function renderFull(pid){
   const p = PASSAGES[pid];
   const items = ITEMS.filter(it=>it.passageId===pid).sort((a,b)=>a.blankNum-b.blankNum);
+  if(window.__lastPid !== pid){ fullGraded = false; window.__blankChoices = {}; }
   document.getElementById('progText').innerHTML = `<span>全文模式</span><span>${p.year} · ${p.title}</span>`;
   document.getElementById('progBar').style.width = '100%';
 
@@ -538,14 +568,16 @@ function renderFull(pid){
     <div class="level-btn ${currentLevel==='high'?'active':''}" onclick="setLevel('high')">高分群考生(關提示)</div>
   </div>
   <div class="hint-toggle"><span class="switch ${hintsOn?'on':''}" onclick="toggleHints()"><span class="dot"></span></span> 主旨句／轉折詞提示：${hintsOn?'開':'關'}</div>
-  <div class="hint-toggle"><span class="switch ${zhOn?'on':''}" onclick="toggleZh()"><span class="dot"></span></span> 逐段中譯：${zhOn?'開':'關'}<span style="color:var(--ink-soft); font-size:11px; margin-left:4px;">(開啟後，每段中譯需點開該段所有空格才會顯示，不會提前洩題)</span></div>
   <div class="legend"><span class="lg-both">兩者皆是</span><span class="lg-thesis">全文中心思想</span><span class="lg-topic">段落主旨句</span><span class="lg-trans">轉折詞</span></div>
   <div style="font-size:12px; color:var(--ink-soft); margin:-6px 0 14px; line-height:1.7;">📌 並非每段都有一句「明講」的主旨句，也不是每篇文章的核心思想都剛好對應某一句話——本站標示的是「最能呼應」的代表句，僅供參考，不代表唯一答案。</div>
-  <div class="passage-text ${hintsOn?'':'hints-off'}" id="passageText"></div>`;
-
-  html += `<div class="sec-title">選項</div><div class="opts-table">`;
-  Object.keys(p.options).sort().forEach(l => { html += `<div class="opt-cell"><b>(${l})</b> ${p.options[l]}</div>`; });
-  html += `</div>`;
+  <div class="sec-title">選項<span style="font-weight:400; text-transform:none; letter-spacing:0; font-size:11px; margin-left:6px;">（十個選項，每個只用一次；點文章中的空格即可作答）</span></div>
+  <div class="opts-table" id="optsTable"></div>
+  <div class="passage-text ${hintsOn?'':'hints-off'}" id="passageText"></div>
+  <div style="text-align:center; margin:22px 0;">
+    <button class="btn" id="gradeBtn" onclick="gradeFullPassage()">對答案</button>
+    <div style="font-size:11.5px; color:var(--ink-soft); margin-top:8px;">十格全部填完再對答案，中途不會公布正解；交卷後會顯示逐題解析、官方答對率與全文中譯。</div>
+  </div>
+  <div id="gradeResult"></div>`;
 
   html += `<div class="sec-title">巨觀結構分析</div><div class="feedback">
     <b>主要結構：</b>${p.macro.structure}<br>
@@ -559,8 +591,8 @@ function renderFull(pid){
 }
 function setLevel(l){ currentLevel = l; hintsOn = (l !== 'high'); renderFull(window.__lastPid); }
 function toggleHints(){ hintsOn = !hintsOn; renderFull(window.__lastPid); }
-function toggleZh(){ zhOn = !zhOn; renderFull(window.__lastPid); }
 let revealedBlanks = new Set(); window.__blankChoices = {};
+let fullGraded = false;
 function renderPassageText(p, items){
   window.__lastPid = p.id;
   window.__lastItems = items;
@@ -571,17 +603,32 @@ function renderPassageText(p, items){
   p.paras.forEach((para, idx) => {
     out += `<div class="p-label">${para.label}</div><p>`;
     const blankNumsInPara = [];
-    para.segs.forEach(seg => {
+    para.segs.forEach((seg, si) => {
       let [text, type] = seg;
       if(type === 'blank'){
         blankNumsInPara.push(String(text));
         const it = itemMap[text];
-        if(revealedBlanks.has(String(text))){
-          const isCorrect = window.__blankChoices && window.__blankChoices[text] === it.answer;
-          out += ` <span class="blankTag answered ${isCorrect?'correct':'wrong'}" title="${it?it.explanation:''}">(${it.answer}) ${it.options[it.answer]}</span> `;
+        let inner;
+        const chosen = (window.__blankChoices||{})[text];
+        if(fullGraded){
+          const isCorrect = chosen === it.answer;
+          inner = isCorrect
+            ? `<span class="blankTag answered correct">${text} (${it.answer}) ${it.options[it.answer]}</span>`
+            : `<span class="blankTag answered wrong">${text} 你選 ${chosen?'('+chosen+') '+it.options[chosen]:'未作答'} → 正解 (${it.answer}) ${it.options[it.answer]}</span>`;
+        } else if(chosen){
+          inner = `<span class="blankTag picked" onclick="openSheet('${text}')">${text} (${chosen}) ${it.options[chosen]}</span>`;
         } else {
-          const opts = letters.map(l => `<option value="${l}">(${l}) ${p.options[l]}</option>`).join('');
-          out += ` <select class="blank-select" data-n="${text}" onchange="chooseBlank(this,'${text}')" style="font-family:'IBM Plex Mono',monospace; font-size:13px; border:1.5px solid var(--ink); border-radius:3px; padding:2px 4px; margin:0 3px;"><option value="">第${text}題 ▾</option>${opts}</select> `;
+          inner = `<span class="blankTag" onclick="openSheet('${text}')">?${text}</span>`;
+        }
+        // 若空格夾在同一個標示句中間，底色要連續跨過空格，不可被切斷
+        const HL = ['topic','thesis','gradient'];
+        let prevT = null, nextT = null;
+        for(let i=si-1; i>=0; i--){ if(para.segs[i][1] !== 'blank'){ prevT = para.segs[i][1]; break; } }
+        for(let i=si+1; i<para.segs.length; i++){ if(para.segs[i][1] !== 'blank'){ nextT = para.segs[i][1]; break; } }
+        if(hintsOn && prevT && prevT === nextT && HL.indexOf(prevT) >= 0){
+          out += `<span class="${prevT}"> ${inner} </span>`;
+        } else {
+          out += ` ${inner} `;
         }
       } else if(!hintsOn && (type==='topic'||type==='thesis'||type==='gradient'||type==='trans')){
         out += `${text}`;
@@ -592,30 +639,105 @@ function renderPassageText(p, items){
       }
     });
     out += `</p>`;
-    const zh = (p.zhTranslation && p.zhTranslation[idx]) ? p.zhTranslation[idx] : null;
-    const allRevealedInPara = blankNumsInPara.length > 0 && blankNumsInPara.every(n => revealedBlanks.has(n));
-    if(zh && zhOn){
-      if(allRevealedInPara){
-        out += `<p style="color:var(--ink-soft); font-size:14.5px; line-height:1.9; background:#F6F1E4; padding:10px 14px; border-radius:4px; margin:-6px 0 18px;">${zh}</p>`;
-      } else {
-        out += `<p style="color:#B8B0A0; font-size:12.5px; line-height:1.6; background:#F6F1E4; padding:8px 14px; border-radius:4px; margin:-6px 0 18px; font-style:italic;">🔒 這段還有空格尚未作答，中譯先隱藏，避免洩題。選好上方空格的答案後，這裡會自動顯示該段中譯。</p>`;
-      }
-    }
   });
   el.innerHTML = out;
+
+  // 選項總覽：同步標示已用掉的選項（刪去法）
+  const ot = document.getElementById('optsTable');
+  if(ot){
+    const used = usedLetterMap();
+    ot.innerHTML = letters.map(l =>
+      `<div class="opt-cell ${used[l]?'used':''}"><b>(${l})</b> ${p.options[l]}</div>`
+    ).join('');
+  }
 }
-function chooseBlank(selectEl, num){
-  const it = ITEMS.find(x=>x.passageId===window.__lastPid && String(x.blankNum)===String(num));
-  if(!it || !selectEl.value) return;
+
+// 回傳 { 字母: 已用於第幾題 }
+function usedLetterMap(){
+  const used = {};
+  const ch = window.__blankChoices || {};
+  Object.keys(ch).forEach(n => { if(ch[n]) used[ch[n]] = n; });
+  return used;
+}
+function openSheet(num){
+  const p = PASSAGES[window.__lastPid];
+  if(!p) return;
+  const used = usedLetterMap();
+  const letters = Object.keys(p.options).sort();
+  document.getElementById('sheetTitle').textContent = `第 ${num} 題`;
+  document.getElementById('sheetBody').innerHTML = letters.map(l => {
+    const u = used[l];
+    return `<div class="sheet-opt ${u?'used':''}" onclick="pickOption('${num}','${l}')">
+      <span class="so-l">(${l})</span><span class="so-w">${p.options[l]}</span>
+      ${u?`<span class="so-used">已用於第${u}題</span>`:''}</div>`;
+  }).join('');
+  document.getElementById('sheetMask').classList.add('on');
+  document.getElementById('sheet').classList.add('on');
+}
+function closeSheet(){
+  document.getElementById('sheetMask').classList.remove('on');
+  document.getElementById('sheet').classList.remove('on');
+}
+function pickOption(num, letter){
+  closeSheet();
+  if(fullGraded) return;
   window.__blankChoices = window.__blankChoices || {};
-  window.__blankChoices[num] = selectEl.value;
-  const correct = selectEl.value === it.answer;
-  const testMode = document.getElementById('testModeToggle') && document.getElementById('testModeToggle').checked;
-  if(!testMode) recordAnswer(it.id, correct);
-  revealedBlanks.add(String(num));
+  window.__blankChoices[num] = letter;
   renderPassageText(PASSAGES[window.__lastPid], window.__lastItems);
 }
+
+// ===== 交卷批改 =====
+function gradeFullPassage(){
+  if(fullGraded) return;
+  const items = window.__lastItems || [];
+  const ch = window.__blankChoices || {};
+  const blank = items.filter(it => !ch[it.blankNum]);
+  if(blank.length){
+    if(!confirm(`還有 ${blank.length} 格未作答（第 ${blank.map(i=>i.blankNum).join('、')} 題）。確定要對答案嗎？`)) return;
+  }
+  const testMode = document.getElementById('testModeToggle') && document.getElementById('testModeToggle').checked;
+  let correctCount = 0, review = '', priority = '';
+  items.forEach(it => {
+    const chosen = ch[it.blankNum];
+    const ok = chosen === it.answer;
+    if(ok) correctCount++;
+    if(!testMode) recordAnswer(it.id, ok);
+    const pd = (it.accuracyRate != null)
+      ? `<div class="pdTag">官方答對率 <b>P=${it.accuracyRate}%</b> ／ 鑑別度 <b>D=${it.discrimination}</b> ／ 難易度：<b>${tierOf(it.accuracyRate, it.discrimination)}</b></div>`
+      : `<div class="pdTag">本年度尚無官方答對率資料</div>`;
+    review += `<div class="rv-item ${ok?'ok':'ng'}">
+      <div class="rv-hd"><b>第${it.blankNum}題</b>　${ok ? '✓ 答對' : '✕ 你選 '+(chosen?'('+chosen+') '+it.options[chosen]:'未作答')+'　正解 ('+it.answer+') '+it.options[it.answer]}</div>
+      <div class="rv-bd"><b>${it.options[it.answer]}</b>　${it.gloss||''}<br>
+        <span class="rv-col">字詞搭配：${it.collocation||'—'}</span><br>${it.explanation||''}</div>
+      ${pd}</div>`;
+    if(!ok && it.accuracyRate != null && it.accuracyRate >= 70){
+      priority += `<li>第${it.blankNum}題（全體考生答對率 ${it.accuracyRate}%）</li>`;
+    }
+  });
+  const zh = (Array.isArray(p_zh()) ? p_zh().join('<br><br>') : (p_zh()||'（本篇尚無中譯）'));
+  let box = `<div class="sec-title">對答案結果</div>
+    <div class="score-box">答對 <b>${correctCount}</b> / ${items.length}</div>`;
+  if(priority){
+    box += `<div class="feedback" style="border-left:3px solid var(--crimson);">
+      <b>⚠ 優先檢討</b>：以下題目全體考生答對率偏高，屬於「本來該拿到」的分數<ul style="margin:6px 0 0 18px;">${priority}</ul></div>`;
+  }
+  box += `<div class="rv-list">${review}</div>
+    <div class="sec-title">全文中譯</div><div class="feedback">${zh}</div>`;
+  fullGraded = true;
+  document.getElementById('gradeBtn').style.display = 'none';
+  document.getElementById('gradeResult').innerHTML = box;
+  renderPassageText(PASSAGES[window.__lastPid], window.__lastItems);
+  document.getElementById('gradeResult').scrollIntoView({behavior:'smooth', block:'start'});
+}
+function p_zh(){ const p = PASSAGES[window.__lastPid]; return p ? p.zhTranslation : null; }
 init();
 </script>
+
+<div class="sheet-mask" id="sheetMask" onclick="closeSheet()"></div>
+<div class="sheet" id="sheet">
+  <div class="sheet-hd"><span id="sheetTitle"></span><span class="sheet-x" onclick="closeSheet()">✕</span></div>
+  <div class="sheet-tip">📌 文意選填十個選項各用一次，標示「已用於第N題」的選項通常可先排除；但仍可點選，方便你自行判斷。</div>
+  <div class="sheet-body" id="sheetBody"></div>
+</div>
 </body>
 </html>
