@@ -86,8 +86,9 @@
   "passageId": "y109",
   "blankNum": 34,
   "categories": [
-   "搭配詞／固定用法",
-   "詞性判斷"
+   "詞性判斷",
+   "字義辨析／多義字",
+   "搭配詞／固定用法"
   ],
   "options": {
    "A": "flaw",
@@ -103,8 +104,8 @@
   },
   "answer": "H",
   "gloss": "傳遞",
-  "collocation": "the __ of dimples from parents to children；of 片語限定名詞",
-  "explanation": "與 (B) exhibit(展現)詞性/語意都不合，此格需要「遺傳傳遞」的動作名詞，注意 the __ of A from B to C 的搭配結構。",
+  "collocation": "the __ of dimples from parents to children；the transfer of + 抽象名詞；transfer from A to B",
+  "explanation": "答對率 30%。transfer 學生只記動詞的「轉乘、轉學、轉帳」，沒學過它同時是名詞「轉移、傳遞」。【句構線索】the ___ of A from B to C，夾在 the 與 of 中間的一定是名詞。transfer 是名詞動詞同形字，只有重音不同（名詞重音在前 TRANS-fer，動詞在後 trans-FER），這種字很適合拿來提醒學生「同形不同詞性」。【常見誤選】exhibit——它也是名動同形，但語意是「展品、展示」，接不上「從父母傳給小孩」。【常考搭配】the transfer of power／knowledge／data、transfer from A to B、a bank transfer。",
   "accuracyRate": 30,
   "discrimination": 59
  },
@@ -142,6 +143,7 @@
   "passageId": "y109",
   "blankNum": 36,
   "categories": [
+   "字義辨析／多義字",
    "搭配詞／固定用法"
   ],
   "options": {
@@ -158,8 +160,8 @@
   },
   "answer": "J",
   "gloss": "存在",
-  "collocation": "due to the __ of excessive fat；due to the N of...",
-  "explanation": "與32題 (D) attractiveness 選項互相干擾，需依語意「因為脂肪的存在」而非「吸引力」判斷，注意 due to + N 的名詞用法。",
+  "collocation": "due to the __ of excessive fat；the presence of + N；反義 the absence of + N",
+  "explanation": "答對率 24%。due to 後面要接名詞，選項中的名詞有 flaw、attractiveness、range、presence，語意上要的是「臉部多餘脂肪的存在」。學生卡在兩點：一是 presence 只記「出席、在場」，沒學過它就是 present 的名詞形、可以指「存在」（the presence of oxygen／the presence of a virus）；二是容易被前文的 attractiveness 干擾。【中英差異】中文會說「因為臉上有多餘的脂肪」，用動詞「有」；英文則習慣名詞化成 the presence of excessive fat。這種「中文用動詞、英文用名詞」的轉換是科普文章的常態，也是文意選填愛考的地方。【常考搭配】in the presence of...、the presence of + 抽象名詞、the absence of...。",
   "accuracyRate": 24,
   "discrimination": 38
  },
@@ -2253,6 +2255,7 @@
   "passageId": "y101",
   "blankNum": 34,
   "categories": [
+   "字義辨析／多義字",
    "搭配詞／固定用法"
   ],
   "options": {
@@ -2269,8 +2272,8 @@
   },
   "answer": "F",
   "gloss": "慣例、做法",
-  "collocation": "against the original naming __；naming practice 固定搭配",
-  "explanation": "naming practice 是固定搭配，「命名慣例」。",
+  "collocation": "against the original naming __；common／standard practice；put sth into practice",
+  "explanation": "答對率 30%。practice 學生幾乎只記「練習」，沒學過它更常見的另一義「慣例、做法、常規」。【句構線索】the original naming ___ 前有冠詞與修飾語，空格要名詞。【文章線索】前文說當時颱風以委員的女友或妻子命名，1979 年才加入男性名字——女性抗議的正是這個「命名的慣例」，不是「命名的練習」。【常考搭配】common practice（常見做法）、standard practice、business practices、put sth into practice（付諸實行）、in practice（實際上，對比 in theory）。",
   "accuracyRate": 30,
   "discrimination": 57
  },
@@ -2901,7 +2904,9 @@
   "passageId": "y99",
   "blankNum": 38,
   "categories": [
-   "搭配詞／固定用法"
+   "搭配詞／固定用法",
+   "字義辨析／多義字",
+   "詞性判斷"
   ],
   "options": {
    "A": "cooperation",
@@ -2916,9 +2921,9 @@
    "J": "remember"
   },
   "answer": "H",
-  "gloss": "本分、份內的事",
-  "collocation": "can he do his __；do one's share 固定搭配",
-  "explanation": "do one's share 是常考固定搭配，「盡自己的本分」。",
+  "gloss": "本分、該盡的一份",
+  "collocation": "only by cooperating can he do his __；do one's share（盡自己的本分）；a fair share of...",
+  "explanation": "答對率 11%、鑑別度 18，是全站最難、也最缺乏鑑別度的一題——代表連高分群考生都大多答不出來，不是單純的程度差距。癥結有兩層：一是 do one's share（盡自己的本分）這個搭配在台灣課本少見，學生熟的是 do one's best；二是 share 只記得「分享」與「股份」，沒學過名詞「該負擔的一份、本分」。【句構線索】do his ___ 中間有所有格 his，後面必須接名詞；選項中的名詞只有 cooperation、teacher、field、share，語意上只有 share 說得通。【文章內線索】下一段出現 every citizen must do his part，part 與 share 在此同義，是回頭確認答案的關鍵。【另一個障礙】這句是 only by cooperating can he do…，only 開頭的副詞片語放句首時主要子句要倒裝，讀不順這個結構也會影響判斷。【常考搭配】do one's share、do one's part、a fair share of...、share of the responsibility。",
   "accuracyRate": 11,
   "discrimination": 18
  },
@@ -2955,7 +2960,9 @@
   "passageId": "y99",
   "blankNum": 40,
   "categories": [
-   "上下文線索／邏輯推論"
+   "句型／固定搭配句構",
+   "上下文線索／邏輯推論",
+   "詞性判斷"
   ],
   "options": {
    "A": "cooperation",
@@ -2971,8 +2978,8 @@
   },
   "answer": "B",
   "gloss": "繁榮、興盛",
-  "collocation": "if the nation is to __；if 條件句 + 原形動詞",
-  "explanation": "此格需邏輯推論：「若國家要興盛」的條件句意，考生需理解 if...is to V 的句型判斷動詞語意方向。",
+  "collocation": "if the nation is to __；be to V（將要、打算）；prosper／thrive／flourish",
+  "explanation": "答對率 29%。真正的門檻在 be to V 這個句型：is to ___ 不是「是要去…」的字面翻譯，而是表示「將要、預定、若要達成」，所以 if the nation is to prosper＝「若國家要興盛」。學生沒學過這個用法，看到 is to 後面接原形動詞會覺得句子怪。【句構線索】to 後面必須是原形動詞，選項中的原形動詞只有 prosper、behave、remember，語意上只有「繁榮」接得上前面的 every citizen must do his part。【同類例句】If you are to succeed, you must work hard.／The meeting is to be held tomorrow.。【常考搭配】prosper／thrive／flourish 三個同義字常互換，名詞 prosperity。",
   "accuracyRate": 29,
   "discrimination": 43
  },
@@ -4090,6 +4097,7 @@
   "passageId": "y94",
   "blankNum": 32,
   "categories": [
+   "字義辨析／多義字",
    "搭配詞／固定用法"
   ],
   "options": {
@@ -4106,8 +4114,8 @@
   },
   "answer": "I",
   "gloss": "免於…的",
-  "collocation": "we are __ from the problems；free from 固定搭配",
-  "explanation": "free from 是常考固定搭配，「免於…」。",
+  "collocation": "we are __ from the problems；be free from（免於）；對比 be free of",
+  "explanation": "答對率 30%。學生的 free 只有「自由的」和「免費的」兩義，沒把 be free from（免於、不受…之苦）當成一組搭配記起來。【句構線索】we are ___ from…，be 動詞後面接形容詞，而且要能與 from 搭配。【辨析】be free from 多接負面事物（free from worry／danger／pain）；be free of 則常指「不含某成分」（sugar-free、free of charge）。【語意鏈】這句在說熱戀時天真地以為自己不會重蹈父母的問題，正好呼應下一段 But as the magic fades 的轉折。",
   "accuracyRate": 30,
   "discrimination": 57
  },
@@ -4306,7 +4314,9 @@
   "passageId": "y94",
   "blankNum": 40,
   "categories": [
-   "句型／固定搭配句構"
+   "詞性判斷",
+   "句型／固定搭配句構",
+   "上下文線索／邏輯推論"
   ],
   "options": {
    "A": "breaks down",
@@ -4322,8 +4332,8 @@
   },
   "answer": "D",
   "gloss": "的確",
-  "collocation": "Love is, __, magical；插入語加強語氣",
-  "explanation": "indeed 是插入語副詞，用來加強語氣「的確如此」，呼應開頭第一句話，是首尾呼應的關鍵字。",
+  "collocation": "Love is, __, magical；indeed 作插入語加強語氣",
+  "explanation": "答對率 25%。Love is, ___, magical 中間被兩個逗號隔開，是插入語的位置，只能放副詞。常見誤選 similarly（此處沒有在做類比）與 forever（意思是「永遠」，不是加強語氣）。indeed 在這裡是「的確、確實」，回頭肯定文章開頭的 Falling in love is always magical，形成首尾呼應。【文法依據】indeed 屬於強調用的評注副詞，插在主詞與補語之間，作用是對整個命題表態，等於用一個副詞取代 This is true 這樣的完整句子。【常考用法】加強前一句：It was cold. Indeed, it was freezing.；也可放句尾：Thank you very much indeed.",
   "accuracyRate": 25,
   "discrimination": 48
  },
@@ -4360,6 +4370,7 @@
   "passageId": "y93",
   "blankNum": 32,
   "categories": [
+   "詞性判斷",
    "搭配詞／固定用法"
   ],
   "options": {
@@ -4376,8 +4387,8 @@
   },
   "answer": "H",
   "gloss": "起源",
-  "collocation": "life on Earth __ “out there”；originate 不及物動詞",
-  "explanation": "originate 是常考不及物動詞，「起源於」，考生需辨認詞性避免誤加受詞。",
+  "collocation": "life on Earth __ “out there”；originate in／from（不及物，不可用被動）",
+  "explanation": "答對率 27%。originate 是不及物動詞「起源、發源」，後面接 in／from 或直接接地方副詞（本題的 out there），最常見的錯誤是加受詞或寫成被動 was originated。【文章內線索】同一個主詞 life on Earth 帶兩個並列動詞：___ “out there” and was seeded here——後者用被動、前者用主動，這個對比本身就在提示前一格不能是被動，正解必須是不及物動詞。【字族一起記】origin (n.) 起源／original (adj.) 最初的、原創的／originally (adv.) 原本／originate (vi.) 起源。【常考搭配】originate in／from、trace its origins to。",
   "accuracyRate": 27,
   "discrimination": 47
  },
@@ -4414,7 +4425,8 @@
   "passageId": "y93",
   "blankNum": 34,
   "categories": [
-   "句型／固定搭配句構"
+   "句型／固定搭配句構",
+   "搭配詞／固定用法"
   ],
   "options": {
    "A": "as well as",
@@ -4430,8 +4442,8 @@
   },
   "answer": "A",
   "gloss": "以及",
-  "collocation": "the ancient Greek and Roman gods, __ the fairies and dwarfs；as well as 連接對等成分",
-  "explanation": "as well as 是常考連接詞，「以及」，連接兩個對等的名詞成分。",
+  "collocation": "the ancient Greek and Roman gods, __ the fairies and dwarfs；A, as well as B, + 動詞（動詞與 A 一致）",
+  "explanation": "空格夾在兩個逗號中間，是插入語位置，as well as 在此連接兩組對等的名詞（希臘羅馬諸神／童話裡的精靈與矮人），兩者地位相同。常見誤選 like——like 是「像、例如」，會把精靈矮人降級成舉例，但作者要說的是這兩組「都」其實是外星人。【文法依據】as well as 後面出現省略（ellipsis）：the fairies and dwarfs (were in fact “space people”) 沒有寫出來，因為主要子句已經交代過，上下文可以還原。【常考陷阱】用 as well as 連接主詞時，動詞要跟前面那個主詞一致：The teacher, as well as the students, is here.（不是 are）。",
   "accuracyRate": 32,
   "discrimination": 37
  },
@@ -4441,7 +4453,8 @@
   "passageId": "y93",
   "blankNum": 35,
   "categories": [
-   "句型／固定搭配句構"
+   "句型／固定搭配句構",
+   "詞性判斷"
   ],
   "options": {
    "A": "as well as",
@@ -4457,8 +4470,8 @@
   },
   "answer": "G",
   "gloss": "另有人",
-  "collocation": "Still __ say that...；Some...Others...Still others 平行列舉結構",
-  "explanation": "此為 Some say...Others say...Still others say... 的平行列舉句型，考生需辨認第三層列舉的用詞。",
+  "collocation": "Still __ say that...；Some... Others... Still others...；others＝other people",
+  "explanation": "Some say… Others say… Still others say… 是三層平行列舉，Still others 表示「還有一些人」。【文法依據】others 是名詞性替代（nominal substitution）：它替代的是 other people，名詞已含在字裡，所以後面直接接動詞 say，不再接名詞。Halliday & Hasan (1976) 把 one／ones／others 這類字歸為名詞性替代詞，功能是避免重複前文已出現的名詞。學生常寫成 Still other say 或 Still others people say，就是沒認出這一層。【一次辨清】other + 複數名詞（other people）／others 單獨使用（＝other people、other things）／the others 剩下的全部／another 另一個（單數）。",
   "accuracyRate": 59,
   "discrimination": 69
  },
@@ -4468,7 +4481,9 @@
   "passageId": "y93",
   "blankNum": 36,
   "categories": [
-   "字義辨析／多義字"
+   "字義辨析／多義字",
+   "詞性判斷",
+   "句型／固定搭配句構"
   ],
   "options": {
    "A": "as well as",
@@ -4483,9 +4498,9 @@
    "J": "harm"
   },
   "answer": "I",
-  "gloss": "從那之後",
-  "collocation": "civilizations which have __ perished；since 當副詞(非連接詞「因為」)",
-  "explanation": "since 在此當副詞用，「從那之後」，考生易誤認為連接詞「因為」，是常見多義字陷阱。",
+  "gloss": "（副詞）自那之後（＝since then）",
+  "collocation": "civilizations which have __ perished；have since + p.p.；since 單獨當副詞用＝since then／ever since",
+  "explanation": "答對率僅 15%，是全站第二難的題目。癥結不在 since 的意思，而在學生腦中只有兩種 since：一是從屬連接詞，Since he went home, he has slept for two hours.（自從…以來，後面接子句）；二是介系詞，since last month（後面接時間點）。【文法依據】劍橋《English Grammar Today》明確列出 since 有三種身分——介系詞、從屬連接詞，以及時間副詞：當時間點在上下文中已經清楚時，可以單獨用 since 或 since then，例如 They had an argument a couple of years ago and they haven't spoken since.（＝since they had the argument）。本題的 which have since perished 正是第三種，since 單獨作時間副詞，意思等於 since then。【接上學生已經會的東西】這跟國中就練過的簡答是同一個道理：Do you like it?—Yes, I do.（用 do 代替 like it）；Do in Rome as the Romans do.（後面的 do 代替 do in Rome）。語言學上這叫替代（substitution）與省略（ellipsis）——Halliday & Hasan (1976)《Cohesion in English》把它們列為英語語篇銜接的基本手段，並把省略定義為「以零形式替代」：上下文能還原的成分就不再說一次。since 這裡省掉的就是 then／that time。【句構線索】have ___ perished 是完成式，have 與過去分詞中間只能放副詞（already、just、never、recently、since），連接詞和介系詞都插不進去——先判斷詞性，這一格就出來了。【同類考點一起記】(1) Jim moved to Tainan last month and has since lived there.（since＝since then）(2) So did I.／As did many others.（助動詞替代整個動詞片語）(3) While (he was) walking home, he saw an accident.（從屬子句省略主詞與 be 動詞）。【常考搭配】have since + p.p.、ever since、since then。",
   "accuracyRate": 15,
   "discrimination": 28
  },
@@ -4657,7 +4672,8 @@
   "passageId": "y92",
   "blankNum": 33,
   "categories": [
-   "句型／固定搭配句構"
+   "句型／固定搭配句構",
+   "詞性判斷"
   ],
   "options": {
    "A": "about",
@@ -4673,8 +4689,8 @@
   },
   "answer": "H",
   "gloss": "(關係代名詞)",
-  "collocation": "the events __ cause stress；關係代名詞引導形容詞子句",
-  "explanation": "that 在此是關係代名詞，引導修飾 events 的形容詞子句，考生需辨認關代的文法功能。",
+  "collocation": "the events __ cause stress；主格關係代名詞 that 引導形容詞子句",
+  "explanation": "空格後面是動詞 cause、前面是名詞 the events，中間缺的是主格關係代名詞，引導形容詞子句修飾 events（會造成壓力的那些事件）。常見誤選介系詞 to、from、about，多半是把 cause 讀成名詞了。【文法依據】關係代名詞屬於銜接手段中的指涉（reference）：用一個代名詞回指前面出現過的名詞，把兩句併為一句而不重複。還原就是 They try to control the events. ＋ The events cause stress. → the efforts they make to control the events that cause stress。【注意】主格關代不可省略（只有受格才能省），所以這一格一定要填。",
   "accuracyRate": 29,
   "discrimination": 56
  },
@@ -4684,7 +4700,8 @@
   "passageId": "y92",
   "blankNum": 34,
   "categories": [
-   "搭配詞／固定用法"
+   "搭配詞／固定用法",
+   "詞性判斷"
   ],
   "options": {
    "A": "about",
@@ -4700,8 +4717,8 @@
   },
   "answer": "G",
   "gloss": "對於",
-  "collocation": "our reactions __ stress；reaction to 固定搭配",
-  "explanation": "reaction to 是常見固定搭配，「對…的反應」。",
+  "collocation": "our reactions __ stress；reaction to／response to（名詞決定介系詞）",
+  "explanation": "答對率 28%、鑑別度只有 34。學生受中文「對壓力的反應」影響，常填 for 或 about，但英文的 reaction 固定接 to。這類題不能靠語意猜，要把「名詞＋固定介系詞」當成一組背：reaction to、response to、solution to、the key to、an approach to、attitude toward(s)。【容易搞混的一點】這裡的 to 是介系詞，後面接名詞 stress，不是不定詞的 to（不接原形動詞）——跟 look forward to、be used to、object to 後面接名詞或動名詞是同一個道理，這是學生最常出錯的地方。【文章內對照】下一句 suffer terrible health effects from stress 用的是 from，兩句放在一起正好練習介系詞的分辨。",
   "accuracyRate": 28,
   "discrimination": 34
  },
@@ -4738,7 +4755,9 @@
   "passageId": "y92",
   "blankNum": 36,
   "categories": [
-   "搭配詞／固定用法"
+   "詞性判斷",
+   "搭配詞／固定用法",
+   "字義辨析／多義字"
   ],
   "options": {
    "A": "about",
@@ -4754,8 +4773,8 @@
   },
   "answer": "J",
   "gloss": "主要的、首要的",
-  "collocation": "the six __ causes of death；leading cause 固定搭配",
-  "explanation": "leading cause 是常考固定搭配，「主要成因」，考生易與 lead 的其他形式混淆。",
+  "collocation": "the six __ causes of death；the leading cause of...；分詞當形容詞",
+  "explanation": "答對率 24%。the six ___ causes 夾在數字與名詞之間，需要形容詞；leading 是 lead 的現在分詞轉品當形容詞，意思是「主要的、居首的」，不是「領導的」。學生只把 leading 當成動詞 lead 的變化形，沒有把它當一個獨立的形容詞來記，所以掃過去不會停下來。【常考搭配】the leading cause of death（死亡主因，健康類文章的高頻用語）、a leading expert、a leading role、a leading brand。【同類】類似的分詞形容詞還有 growing concern、lasting impact、rising costs、a promising student，形容詞用法都比原動詞更常考。",
   "accuracyRate": 24,
   "discrimination": 41
  },
@@ -4846,7 +4865,8 @@
   "passageId": "y92",
   "blankNum": 40,
   "categories": [
-   "句型／固定搭配句構"
+   "句型／固定搭配句構",
+   "同義改寫／替代指涉"
   ],
   "options": {
    "A": "about",
@@ -4862,8 +4882,8 @@
   },
   "answer": "D",
   "gloss": "同樣地",
-  "collocation": "generate __ much stress as does tragedy；as much...as 比較句型",
-  "explanation": "as much...as 是常考比較句型，「和…一樣多」，考生需辨認此固定句構。",
+  "collocation": "generate __ much stress as does tragedy；as much...as；as + 助動詞 + 主詞（倒裝）",
+  "explanation": "as much… as 的比較句型，前一個 as 是副詞（修飾 much），後一個 as 是連接詞。【真正的難點在後半】as does tragedy or disaster——這裡的 does 是動詞替代（verbal substitution），代替前面的 generates much stress，並且倒裝。Halliday & Hasan (1976) 舉的典型例子就是 I have coffee every morning and he does too.，其中 does 替代 have coffee every morning；跟學生國中練過的簡答 Do you like it?—Yes, I do. 是完全同一個機制，只是搬到書面語裡。還原本句就是：Exciting events generate as much stress as tragedy or disaster generates (much stress)。學生沒有把簡答的 do 和這裡的 does 連起來，才會覺得 as does tragedy 多了一個字。【同類一起教】So did I.／As did many others.／Neither do I.／Do in Rome as the Romans do.。【常考】as much/many… as、not so much A as B。",
   "accuracyRate": 46,
   "discrimination": 48
  },
@@ -4900,7 +4920,8 @@
   "passageId": "y92b",
   "blankNum": 32,
   "categories": [
-   "搭配詞／固定用法"
+   "搭配詞／固定用法",
+   "詞性判斷"
   ],
   "options": {
    "A": "these",
@@ -4916,8 +4937,8 @@
   },
   "answer": "D",
   "gloss": "其他的",
-  "collocation": "housing, and __ necessities；other + N(複數)",
-  "explanation": "other necessities 是常見固定搭配，「其他必需品」，與前面列舉的 food, clean water, housing 並列。",
+  "collocation": "food, clean water, housing, and __ necessities；and other + 複數名詞",
+  "explanation": "and 連接的是同類並列，前面已列出三項具體必需品，空格要的是「其他的」來收尾清單：other + 複數名詞。【學生最常混的一組，一次辨清】other + 複數名詞（other necessities）／others 單獨使用，後面不接名詞（＝other people/things）／the other 兩者中的另一個／the others 剩下的全部／another 三者以上中的另一個（單數）。本題空格後面已經有名詞 necessities，所以只能用 other，不能用 others。",
   "accuracyRate": null,
   "discrimination": null
  },
@@ -5980,7 +6001,8 @@
   "passageId": "y111r",
   "blankNum": 22,
   "categories": [
-   "搭配詞／固定用法"
+   "搭配詞／固定用法",
+   "上下文線索／邏輯推論"
   ],
   "options": {
    "A": "possible",
@@ -5996,8 +6018,8 @@
   },
   "answer": "I",
   "gloss": "必要性、需求",
-  "collocation": "emerged out of __；out of necessity 固定搭配",
-  "explanation": "out of necessity 是常考固定搭配，「因應需求/情勢所迫」。",
+  "collocation": "emerged out of __；out of necessity／curiosity／respect／habit",
+  "explanation": "答對率 29%。out of ＋抽象名詞是表示動機或原因的固定用法：out of necessity（情勢所需）、out of curiosity（出於好奇）、out of respect（出於尊重）、out of habit（出於習慣）。學生熟悉的 out of 多半是「從…出來」或「用完了」（out of money），碰到這種抽象用法就轉不過來。【句構線索】out of 是介系詞，後面接名詞；選項中的名詞有 sensation、cost、necessity、career。【語意鏈】下一句說早期演員自己拍危險場面、直到開始受傷——正是「出於需要」才催生了特技演員這一行。【常見誤選】cost（沒有 out of cost 這個搭配）。",
   "accuracyRate": 29,
   "discrimination": 50
  },
@@ -7034,7 +7056,9 @@
   "passageId": "y114",
   "blankNum": 21,
   "categories": [
-   "搭配詞／固定用法"
+   "字義辨析／多義字",
+   "搭配詞／固定用法",
+   "同義改寫／替代指涉"
   ],
   "options": {
    "A": "reference",
@@ -7050,8 +7074,8 @@
   },
   "answer": "I",
   "gloss": "以…聞名的",
-  "collocation": "this cathedral is __ for...；be noted for 固定搭配",
-  "explanation": "be noted for 是常考固定搭配，「以…聞名」，與 be known for 同義。",
+  "collocation": "this cathedral is __ for...；be noted for＝be known for；對比 be familiar with／to",
+  "explanation": "答對率 29%。學生腦中的 note 只有兩個檔案：名詞「筆記」（take notes）與動詞「記下」（note it down），所以看到 noted 直覺讀成「被記下來的」，跟後面的 for 接不起來，就把正解跳過了。本題的 noted 是形容詞「著名的」，來自 note 的另一個意思「注意、注目」——值得被注意的，就是有名的。【文章內線索】第一句已經說 one of the most famous cathedrals in Europe，第二句換句話說改用 be noted for。前面用 famous、後面改用 noted／known／renowned，正是文意選填典型的同義改寫考法。【常見誤選】familiar——它的搭配是 be familiar with（人熟悉某事）或 be familiar to（某事為人所熟悉），沒有 be familiar for 這種用法。【常考搭配】be noted for／be known for／be famous for／be renowned for／be celebrated for；另外 noteworthy（值得注意的）、of note（重要的）、take note of（留意）也一起記。",
   "accuracyRate": 29,
   "discrimination": 53
  },
@@ -7088,7 +7112,9 @@
   "passageId": "y114",
   "blankNum": 23,
   "categories": [
-   "字義辨析／多義字"
+   "字義辨析／多義字",
+   "詞性判斷",
+   "句型／固定搭配句構"
   ],
   "options": {
    "A": "reference",
@@ -7103,9 +7129,9 @@
    "J": "silent"
   },
   "answer": "B",
-  "gloss": "帶有",
-  "collocation": "each __ a name；bear a name 固定搭配",
-  "explanation": "bear a name 是常考固定搭配，「帶有名字」，bear 在此有「擁有、帶有」的多義用法，是常考詞彙。",
+  "gloss": "帶有、具有",
+  "collocation": "The 10 bells vary in size, each __ a name；bear a name／bear a resemblance to；獨立分詞構句",
+  "explanation": "答對率 22%，難在兩層。第一層是 bear 的多義：學生只記「忍受、生育、熊」，不熟「帶有、具有」（bear a name／bear a resemblance to／bear no relation to）。第二層更關鍵，是句構：逗號前面 The 10 bells vary in size 已經是完整句子，逗號後不能再放一個限定動詞，所以空格要的是現在分詞，構成獨立分詞構句 each bearing a name（每一口鐘各有其名）。學生常誤選 retained、survived、noted 這些過去式或過去分詞，就是沒判斷出這裡需要 V-ing。【文法依據】分詞構句是省略（ellipsis）的產物：…, and each of them bears a name 省去了連接詞與主詞的重複部分，只留下分詞。這與 While (he was) walking home, he saw an accident 省略主詞與 be 動詞是同一類機制。【常考搭配】bear a name、bear a resemblance to、bear in mind、bear fruit。",
   "accuracyRate": 22,
   "discrimination": 42
  },
@@ -7196,7 +7222,9 @@
   "passageId": "y114",
   "blankNum": 27,
   "categories": [
-   "詞性判斷"
+   "詞性判斷",
+   "句型／固定搭配句構",
+   "字義辨析／多義字"
   ],
   "options": {
    "A": "reference",
@@ -7211,9 +7239,9 @@
    "J": "silent"
   },
   "answer": "E",
-  "gloss": "信徒",
-  "collocation": "call the __ to prayer；the faithful 固定用法(the+形容詞=一群人)",
-  "explanation": "the faithful 是常考「the+形容詞＝一群人」的文法規則，指「信徒們」，考生易誤以為 faithful 只能當形容詞用。",
+  "gloss": "信徒（the faithful＝信眾）",
+  "collocation": "call the __ to prayer；the + 形容詞＝一群人（複數概念）",
+  "explanation": "答對率 26%。學生只認得形容詞的 faithful（忠實的，be faithful to），看到 call the ___ to prayer 需要一個受詞，就先把 faithful 排除了。本題考的是「the + 形容詞＝某一群人」這條文法規則：the faithful 就是「信眾、信徒」。【句構線索】call 是及物動詞，the 後面、to prayer 前面必須是名詞性成分；選項中能與 the 結合成「一群人」的只有 faithful。【文法要點】the + 形容詞是複數概念，動詞要用複數：The faithful are gathering in the square.。【常考同類】the rich／the poor／the young／the elderly／the homeless／the injured／the accused／the unemployed；宗教與正式語境還有 the departed（逝者，113 年也考過 departed 這個字）。",
   "accuracyRate": 26,
   "discrimination": 40
  },
@@ -7574,7 +7602,9 @@
   "passageId": "y110",
   "blankNum": 31,
   "categories": [
-   "字義辨析／多義字"
+   "字義辨析／多義字",
+   "詞性判斷",
+   "上下文線索／邏輯推論"
   ],
   "options": {
    "A": "means",
@@ -7590,8 +7620,8 @@
   },
   "answer": "J",
   "gloss": "適度的、不多的",
-  "collocation": "__ amounts of exercise；modest amount of 固定搭配",
-  "explanation": "modest amount of 是常見固定搭配，「適度、不多的量」，考生易誤解 modest 只有「謙虛的」這個常見義。",
+  "collocation": "__ amounts of exercise；a modest amount／increase／improvement",
+  "explanation": "答對率 30%。學生只記 modest 的「謙虛的」（be modest about one's success），不知道它更常用來形容數量「不多的、適度的」。【句構線索】___ amounts of exercise，空格要形容詞。【文章線索】破折號後面的 even just 15 minutes a day 就是 modest 的具體註解——文意選填很愛用同位補充、破折號、括號來直接解釋空格的意思，看到破折號要習慣往後看一眼。【常考搭配】a modest amount／increase／income／improvement／success。",
   "accuracyRate": 30,
   "discrimination": 61
  },
@@ -7601,7 +7631,9 @@
   "passageId": "y110",
   "blankNum": 32,
   "categories": [
-   "搭配詞／固定用法"
+   "詞性判斷",
+   "搭配詞／固定用法",
+   "上下文線索／邏輯推論"
   ],
   "options": {
    "A": "means",
@@ -7617,8 +7649,8 @@
   },
   "answer": "G",
   "gloss": "狂熱者",
-  "collocation": "a fitness __；fitness fanatic 固定搭配",
-  "explanation": "fitness fanatic 是常見固定搭配，「健身狂熱者」。",
+  "collocation": "a fitness __；fitness fanatic；out of + 名詞",
+  "explanation": "答對率 27%。fanatic 對學生偏生，多數人只認得縮寫後的 fan（粉絲），不知道 fan 就是從 fanatic 來的。fanatic 是名詞「狂熱者」，也可當形容詞。【句構線索】a fitness ___ 前面有冠詞 a、又有名詞 fitness 當修飾語，空格必須是單數名詞。【語意線索】前一句才說 15 分鐘就有效果，這句順著說「你不必是健身狂也能做」，語氣是安撫讀者。【常考搭配】a fitness／sports／music fanatic；同義字 enthusiast、buff，口語的 freak（a fitness freak）。",
   "accuracyRate": 27,
   "discrimination": 47
  },
@@ -7709,7 +7741,9 @@
   "passageId": "y110",
   "blankNum": 36,
   "categories": [
-   "搭配詞／固定用法"
+   "詞性判斷",
+   "搭配詞／固定用法",
+   "字義辨析／多義字"
   ],
   "options": {
    "A": "means",
@@ -7725,8 +7759,8 @@
   },
   "answer": "E",
   "gloss": "費力的、高要求的",
-  "collocation": "physically __ exercises；physically demanding 固定搭配",
-  "explanation": "physically demanding 是常見固定搭配，「體力上費力的」。",
+  "collocation": "physically __ exercises；physically demanding；a demanding job／schedule",
+  "explanation": "答對率 26%。學生把 demanding 只讀成動詞 demand 加 -ing（要求），沒有把它當成一個獨立的形容詞「費力的、要求高的」來記，所以掃過選項時不會停下來。【句構線索】physically 是副詞，後面必接形容詞——這跟 112 年第 22 題 physically active 是同一個考點，可以兩題一起教。【語意線索】後半句 make you breathe heavily and your muscles may ache temporarily 正好說明「費力」的程度。【常考搭配】physically demanding、a demanding job／boss／schedule。【同類分詞形容詞】challenging、rewarding、exhausting、time-consuming，形容詞用法都比原動詞更常考。",
   "accuracyRate": 26,
   "discrimination": 52
  },
