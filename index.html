@@ -272,6 +272,29 @@ function saveHistory(h){ localStorage.setItem(HISTORY_KEY, JSON.stringify(h)); }
 function loadWrongIds(){ try{ return JSON.parse(localStorage.getItem(WRONG_KEY)) || []; }catch(e){ return []; } }
 function saveWrongIds(w){ localStorage.setItem(WRONG_KEY, JSON.stringify(w)); }
 
+/* 一次性資料轉移：109年題目 id 由 V109_XX 改為 Vy109_XX（全站 id 統一加 y 前綴），
+   將使用者瀏覽器裡既有的作答紀錄與錯題清單一併改寫，避免舊紀錄對不上題目。 */
+const MIGRATION_KEY = 'gsat_pc_migrated_y109';
+function migrateY109(){
+  if(localStorage.getItem(MIGRATION_KEY)) return;
+  try{
+    const hist = loadHistory();
+    let changed = false;
+    hist.forEach(r => {
+      if(r && typeof r.id === 'string' && r.id.indexOf('V109_') === 0){
+        r.id = 'Vy109_' + r.id.slice(5);
+        changed = true;
+      }
+    });
+    if(changed) saveHistory(hist);
+    const wrong = loadWrongIds();
+    const fixed = wrong.map(id => (typeof id === 'string' && id.indexOf('V109_') === 0) ? ('Vy109_' + id.slice(5)) : id);
+    if(JSON.stringify(fixed) !== JSON.stringify(wrong)) saveWrongIds(fixed);
+    localStorage.setItem(MIGRATION_KEY, '1');
+  }catch(e){ /* 轉移失敗不影響其他功能 */ }
+}
+migrateY109();
+
 function recordAnswer(itemId, correct){
   const hist = loadHistory();
   hist.push({ id: itemId, correct, t: Date.now() });
