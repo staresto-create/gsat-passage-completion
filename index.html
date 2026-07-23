@@ -259,7 +259,7 @@
   <footer>
     資料來源：90–115年學測歷屆文意選填 · 部分年度含大考中心公布之官方答對率／鑑別度<br>
     © 2026 staresto-create ZZSH 版權所有。誠摯歡迎學生自由使用、分享本題庫進行練習；惟請勿用於商業用途；如需轉載，敬請註明出處，勿逕行據為己作。<br>
-    <a class="report-btn" href="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?entry.1257494378=文意選填" target="_blank" rel="noopener">🐛 回報錯誤</a>
+    <a class="report-btn" id="reportLink" href="https://docs.google.com/forms/d/e/1FAIpQLSd6P1s7HqjvOmGqOzNDWcBQQ3F539SifSNiAfXvi6NqD2YP-Q/viewform?usp=pp_url&entry.1257494378=%E5%AD%B8%E6%B8%AC%E6%96%87%E6%84%8F%E9%81%B8%E5%A1%AB" target="_blank" rel="noopener">🐛 回報錯誤</a>
   </footer>
 </div>
 
@@ -512,6 +512,8 @@ function renderSingle(){
     <div class="single-card">
       <div class="p-label">${p.year} · ${p.title} · 第${it.blankNum}題　
         <span style="color:var(--crimson); text-decoration:underline; cursor:pointer;" onclick="viewFullFromSingle('${it.passageId}')">📖 查看全文</span>
+        <a class="report-btn" style="margin-left:10px;" target="_blank" rel="noopener"
+           href="https://docs.google.com/forms/d/e/1FAIpQLSd6P1s7HqjvOmGqOzNDWcBQQ3F539SifSNiAfXvi6NqD2YP-Q/viewform?usp=pp_url&entry.1257494378=${encodeURIComponent(it.id)}">🐛 回報這題</a>
       </div>
       <div class="catTagBar">${it.categories.map((c,i)=>`<span class="catTag ${i===0?'primary':''}">${c}</span>`).join('')}</div>
       <div class="single-sentence">${context}</div>
@@ -729,7 +731,9 @@ function gradeFullPassage(){
       <div class="rv-hd"><b>第${it.blankNum}題</b>　${ok ? '✓ 答對' : '✕ 你選 '+(chosen?'('+chosen+') '+it.options[chosen]:'未作答')+'　正解 ('+it.answer+') '+it.options[it.answer]}</div>
       <div class="rv-bd"><b>${it.options[it.answer]}</b>　${it.gloss||''}<br>
         <span class="rv-col">字詞搭配：${it.collocation||'—'}</span><br>${it.explanation||''}</div>
-      ${pd}</div>`;
+      ${pd}
+      <a class="report-btn" style="margin-top:6px;" target="_blank" rel="noopener"
+         href="https://docs.google.com/forms/d/e/1FAIpQLSd6P1s7HqjvOmGqOzNDWcBQQ3F539SifSNiAfXvi6NqD2YP-Q/viewform?usp=pp_url&entry.1257494378=${encodeURIComponent(it.id)}">🐛 回報這題</a></div>`;
     if(!ok && it.accuracyRate != null && it.accuracyRate >= 70){
       priority += `<li>第${it.blankNum}題（全體考生答對率 ${it.accuracyRate}%）</li>`;
     }
