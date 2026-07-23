@@ -242,10 +242,17 @@ function buildDiffGrid(){
   });
 }
 function tierOf(p){ if(p==null) return null; return p<=25?'難':p<=75?'中':'易'; }
+function yearSortKey(p){
+  const m = p.year.match(/^(\d+)/);
+  const num = m ? parseInt(m[1]) : 999;
+  const isMakeup = p.year.includes('補考') ? 1 : 0;
+  const isRef = (p.year.includes('課綱')||p.year.includes('參考試卷')||p.year.includes('＝')) ? 1 : 0;
+  return num*10 + isMakeup*2 + isRef;
+}
 function buildYearList(){
   const list = document.getElementById('yearList');
   list.innerHTML = '';
-  Object.values(PASSAGES).sort((a,b)=> a.id.localeCompare(b.id)).forEach(p => {
+  Object.values(PASSAGES).sort((a,b)=> yearSortKey(a) - yearSortKey(b)).forEach(p => {
     const cnt = ITEMS.filter(it=>it.passageId===p.id).length;
     const row = document.createElement('div');
     row.className = 'year-item'; row.style.cursor='pointer';
@@ -281,6 +288,25 @@ function goHome(){
   document.getElementById('homeView').style.display='block';
   document.getElementById('practiceView').style.display='none';
 }
+function paraTextForBlank(p, blankNum){
+  // 找出該空格所在的段落，重組該段文字；目標空格標記醒目，其餘空格顯示為 ___
+  for(const para of p.paras){
+    const hasIt = para.segs.some(seg => seg[1]==='blank' && String(seg[0])===String(blankNum));
+    if(!hasIt) continue;
+    let out = '';
+    para.segs.forEach(seg => {
+      const [text, type] = seg;
+      if(type === 'blank'){
+        if(String(text) === String(blankNum)) out += ` <span style="color:#AE3626; font-weight:700; text-decoration:underline;">___(${text})___</span> `;
+        else out += ` ___(${text})___ `;
+      } else {
+        out += text;
+      }
+    });
+    return out;
+  }
+  return '';
+}
 function renderSingle(){
   const it = singleQueue[singleIdx];
   document.getElementById('progText').innerHTML = `<span>單題模式</span><span>${singleIdx+1} / ${singleQueue.length}</span>`;
@@ -288,11 +314,14 @@ function renderSingle(){
   const p = PASSAGES[it.passageId];
   const letters = Object.keys(it.options).sort();
   let choicesHtml = letters.map(l => `<div class="choice" data-l="${l}" onclick="answerSingle('${l}')">(${l}) ${it.options[l]}</div>`).join('');
+  const context = paraTextForBlank(p, it.blankNum);
   document.getElementById('practiceBody').innerHTML = `
     <div class="single-card">
-      <div class="p-label">${p.year} · ${p.title} · 第${it.blankNum}題</div>
+      <div class="p-label">${p.year} · ${p.title} · 第${it.blankNum}題　
+        <span style="color:var(--crimson); text-decoration:underline; cursor:pointer;" onclick="viewFullFromSingle('${it.passageId}')">📖 查看全文</span>
+      </div>
       <div class="catTagBar">${it.categories.map((c,i)=>`<span class="catTag ${i===0?'primary':''}">${c}</span>`).join('')}</div>
-      <div class="single-sentence">${(it.collocation||'').split('；')[0]}</div>
+      <div class="single-sentence">${context}</div>
       <div class="choice-grid">${choicesHtml}</div>
       <div id="fbBox"></div>
     </div>
@@ -300,6 +329,16 @@ function renderSingle(){
       <button class="ghost-btn" onclick="nextSingle()">下一題 →</button>
     </div>
   `;
+}
+function viewFullFromSingle(pid){
+  window.__lastPid = pid;
+  window.__returnToSingle = true;
+  const items = ITEMS.filter(it=>it.passageId===pid).sort((a,b)=>a.blankNum-b.blankNum);
+  document.getElementById('progText').innerHTML = `<span>全文模式(從單題模式跳轉，可點選其他空格查看提示)</span><span>${PASSAGES[pid].year}</span>`;
+  renderFull(pid);
+  const backBtn = document.createElement('div');
+  backBtn.innerHTML = `<button class="ghost-btn" style="margin-top:16px;" onclick="renderSingle()">← 回到單題模式繼續作答</button>`;
+  document.getElementById('practiceBody').appendChild(backBtn);
 }
 function answerSingle(letter){
   const it = singleQueue[singleIdx];
