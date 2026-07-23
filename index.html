@@ -116,6 +116,15 @@
   .strategy-box h3{margin:0 0 8px; font-family:'Noto Serif TC',serif; font-size:15px;}
   .strategy-box b{color:var(--crimson);}
   .strategy-toggle{font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--crimson); cursor:pointer; text-decoration:underline; margin-bottom:10px; display:inline-block;}
+  .stats-box{display:flex; gap:10px; flex-wrap:wrap; margin-bottom:16px;}
+  .stat-pill{flex:1; min-width:100px; background:#fff; border:1px solid var(--rule); border-radius:4px; padding:12px; text-align:center;}
+  .stat-pill .num{font-family:'Noto Serif TC',serif; font-weight:900; font-size:22px; color:var(--crimson);}
+  .stat-pill .lbl{font-size:11px; color:var(--ink-soft); margin-top:2px;}
+  .stats-actions{display:flex; gap:8px; margin-bottom:6px;}
+  .link-btn{font-size:11.5px; color:var(--ink-soft); text-decoration:underline; cursor:pointer; background:none; border:none; padding:0;}
+  .link-btn:hover{color:var(--crimson);}
+  .wrongbook-chip{border:1.5px solid var(--gold); border-radius:20px; padding:6px 14px; font-size:13px; cursor:pointer; background:#FBF6E8; display:inline-flex; align-items:center; gap:6px;}
+  .wrongbook-chip:hover{border-color:var(--crimson);}
 </style>
 </head>
 <body>
@@ -130,6 +139,14 @@
       <div class="home-lead">開始練習前</div>
       <p class="home-desc">本題庫收錄90–115年學測文意選填歷屆試題與部分參考試卷，附逐格解析、單題模式七大分類篩選，並收錄部分年度大考中心公布的官方逐題答對率。</p>
 
+      <div class="sec-title">我的學習歷程</div>
+      <div class="stats-box" id="statsBox"></div>
+      <div class="stats-actions">
+        <button class="link-btn" onclick="startWrongBook()">📕 只練錯題本(<span id="wrongCount">0</span>題)</button>
+        <button class="link-btn" onclick="clearHistory()">清除學習歷程統計</button>
+        <button class="link-btn" onclick="clearWrongBook()">清除錯題本</button>
+      </div>
+
       <span class="strategy-toggle" onclick="toggleStrategy()">📖 展開／收合：作答前必看的五大戰術與隱形連結</span>
       <div class="strategy-box" id="strategyBox" style="display:none;">
         <h3>⚠️ 黃金鐵則：找不到「前後連結」，答案九成是錯的！</h3>
@@ -143,6 +160,7 @@
         <b>邏輯勾環(轉折詞)</b>：however轉折、therefore因果、for example舉例。</p>
         <h3>🎯 五大核心戰術</h3>
         <p>1. 作答前先標記選項詞性　2. 利用句型分析定位空格詞性　3. 對照前後<b>字詞搭配</b>(Collocations)　4. 追蹤代名詞與脈絡指涉　5. 對照段落主旨(黃底標示)</p>
+        <p style="background:#F6F1E4; padding:10px 12px; border-radius:4px; font-size:13px;">📌 <b>提醒</b>：並非每一段都有一句「明講」的主旨句——開頭鋪陳段、承接前段的延伸段，主旨常常是「隱含」的，沒有一句能直接畫線。遇到這種段落，與其硬找一句話，不如問自己「這段在做什麼」，用自己的話歸納出這段的重點即可。<b>全文中心思想(藍底)也是同樣道理</b>：有些文章的核心思想是綜合全文歸納出來的，不一定剛好對應到某一句話，本站標示的藍底句是「最能呼應核心思想」的代表句，並非唯一標準答案，僅供參考。</p>
         <p style="font-style:italic; color:var(--ink-soft);">💡 小叮嚀：先看「詞性與句型」，再看「前後字詞搭配」，最後才讀「完整句子」。不要盲目把選項逐一帶入試翻譯！</p>
       </div>
 
@@ -193,6 +211,62 @@
 </div>
 
 <script>
+const HISTORY_KEY = 'gsat_pc_history_v1';
+const WRONG_KEY = 'gsat_pc_wrong_ids_v1';
+
+function loadHistory(){ try{ return JSON.parse(localStorage.getItem(HISTORY_KEY)) || []; }catch(e){ return []; } }
+function saveHistory(h){ localStorage.setItem(HISTORY_KEY, JSON.stringify(h)); }
+function loadWrongIds(){ try{ return JSON.parse(localStorage.getItem(WRONG_KEY)) || []; }catch(e){ return []; } }
+function saveWrongIds(w){ localStorage.setItem(WRONG_KEY, JSON.stringify(w)); }
+
+function recordAnswer(itemId, correct){
+  const hist = loadHistory();
+  hist.push({ id: itemId, correct, t: Date.now() });
+  saveHistory(hist);
+  let wrong = loadWrongIds();
+  if(correct){
+    wrong = wrong.filter(id => id !== itemId);
+  } else if(!wrong.includes(itemId)){
+    wrong.push(itemId);
+  }
+  saveWrongIds(wrong);
+  renderStatsBox();
+}
+function renderStatsBox(){
+  const hist = loadHistory();
+  const wrong = loadWrongIds();
+  const total = hist.length;
+  const correctCount = hist.filter(h=>h.correct).length;
+  const rate = total>0 ? Math.round(correctCount/total*100) : 0;
+  document.getElementById('statsBox').innerHTML = `
+    <div class="stat-pill"><div class="num">${total}</div><div class="lbl">已作答題數</div></div>
+    <div class="stat-pill"><div class="num">${rate}%</div><div class="lbl">整體正確率</div></div>
+    <div class="stat-pill"><div class="num">${wrong.length}</div><div class="lbl">錯題本題數</div></div>
+  `;
+  const wc = document.getElementById('wrongCount');
+  if(wc) wc.textContent = wrong.length;
+}
+function clearHistory(){
+  if(!confirm('確定要清除「學習歷程統計」嗎？(不會影響錯題本)')) return;
+  localStorage.removeItem(HISTORY_KEY);
+  renderStatsBox();
+}
+function clearWrongBook(){
+  if(!confirm('確定要清除「錯題本」嗎？(不會影響學習歷程統計)')) return;
+  localStorage.removeItem(WRONG_KEY);
+  renderStatsBox();
+}
+function startWrongBook(){
+  const wrong = loadWrongIds();
+  if(wrong.length === 0){ alert('錯題本目前是空的，還沒有答錯的題目。'); return; }
+  singleQueue = ITEMS.filter(it => wrong.includes(it.id)).sort(()=>Math.random()-0.5);
+  singleIdx = 0;
+  currentMode = 'single';
+  document.getElementById('homeView').style.display='none';
+  document.getElementById('practiceView').style.display='block';
+  renderSingle();
+}
+
 let PASSAGES = {}, ITEMS = [];
 let currentMode = 'single';
 let selectedCats = new Set();
@@ -214,6 +288,7 @@ async function init(){
   buildSingleYearGrid();
   buildDiffGrid();
   buildYearList();
+  renderStatsBox();
 }
 function toggleStrategy(){
   const el = document.getElementById('strategyBox');
@@ -364,6 +439,7 @@ function viewFullFromSingle(pid){
 function answerSingle(letter){
   const it = singleQueue[singleIdx];
   const correct = letter === it.answer;
+  recordAnswer(it.id, correct);
   document.querySelectorAll('.choice').forEach(c=>{
     c.onclick = null;
     if(c.dataset.l === it.answer) c.classList.add('correct');
@@ -400,6 +476,7 @@ function renderFull(pid){
   <div class="hint-toggle"><span class="switch ${hintsOn?'on':''}" onclick="toggleHints()"><span class="dot"></span></span> 主旨句／轉折詞提示：${hintsOn?'開':'關'}</div>
   <div class="hint-toggle"><span class="switch ${zhOn?'on':''}" onclick="toggleZh()"><span class="dot"></span></span> 逐段中譯：${zhOn?'開':'關'}</div>
   <div class="legend"><span class="lg-both">兩者皆是</span><span class="lg-thesis">全文中心思想</span><span class="lg-topic">段落主旨句</span><span class="lg-trans">轉折詞</span></div>
+  <div style="font-size:12px; color:var(--ink-soft); margin:-6px 0 14px; line-height:1.7;">📌 並非每段都有一句「明講」的主旨句，也不是每篇文章的核心思想都剛好對應某一句話——本站標示的是「最能呼應」的代表句，僅供參考，不代表唯一答案。</div>
   <div class="passage-text ${hintsOn?'':'hints-off'}" id="passageText"></div>`;
 
   html += `<div class="sec-title">選項</div><div class="opts-table">`;
