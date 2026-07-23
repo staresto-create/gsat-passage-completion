@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>學測文意選填 · 90–115年</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700;900&family=Noto+Sans+TC:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F6F1E4; --paper-card:#FFFDF7; --ink:#221F1A; --ink-soft:#5B5648;
+    --rule:#DCD3BB; --crimson:#AE3626; --sage:#3E6E52; --gold:#A9812E;
+    --yellow:#FFF2A8; --blue:#BEE0F5; --grad:#CFE8C9;
+    --shadow: 0 1px 0 rgba(34,31,26,.06), 0 8px 24px rgba(34,31,26,.08);
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background: var(--paper);
+    background-image:
+      radial-gradient(circle at 100% 0%, rgba(174,54,38,.05), transparent 40%),
+      repeating-linear-gradient(0deg, rgba(34,31,26,0.025) 0px, rgba(34,31,26,0.025) 1px, transparent 1px, transparent 34px);
+    color: var(--ink); font-family:'Noto Sans TC', sans-serif;
+    -webkit-font-smoothing:antialiased; min-height:100vh; padding:32px 16px 60px;
+  }
+  .wrap{max-width:820px; width:100%; margin:0 auto;}
+  header.top{text-align:center; border-bottom:3px double var(--ink); padding-bottom:16px; margin-bottom:26px;}
+  header.top .title{font-family:'Noto Serif TC',serif; font-weight:900; font-size:26px; letter-spacing:.02em;}
+  header.top .sub{font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--ink-soft); margin-top:6px;}
+  .card{background:var(--paper-card); border:1px solid var(--rule); border-radius:4px; box-shadow:var(--shadow); padding:26px; margin-bottom:18px;}
+  .home-lead{font-family:'Noto Serif TC',serif; font-weight:700; font-size:19px; margin:0 0 4px;}
+  .home-desc{color:var(--ink-soft); font-size:14px; line-height:1.7; margin:0 0 18px;}
+
+  .mode-grid{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:20px;}
+  @media (max-width:560px){ .mode-grid{grid-template-columns:1fr;} }
+  .mode-card{border:1.5px solid var(--rule); border-radius:4px; padding:16px; cursor:pointer; transition:border-color .12s, background .12s; background:#fff;}
+  .mode-card:hover{border-color:var(--ink);}
+  .mode-card.active{border-color:var(--crimson); background:#FBF1EE;}
+  .mode-card .m-name{font-family:'Noto Serif TC',serif; font-weight:700; font-size:16px; margin-bottom:5px;}
+  .mode-card .m-desc{font-size:12.5px; color:var(--ink-soft); line-height:1.6;}
+
+  .sec-title{font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.12em; color:var(--crimson); text-transform:uppercase; margin:22px 0 10px; display:flex; align-items:center; gap:8px;}
+  .sec-title::after{content:""; flex:1; height:1px; background:var(--rule);}
+  .cat-grid{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:6px;}
+  .chip{border:1.5px solid var(--rule); border-radius:20px; padding:6px 14px; font-size:13px; cursor:pointer; background:#fff; user-select:none;}
+  .chip.active{border-color:var(--crimson); background:var(--crimson); color:#fff;}
+  .diff-note{font-size:12px; color:var(--ink-soft); line-height:1.7; margin:8px 0 4px;}
+  .diff-note a{color:var(--crimson);}
+
+  .row{display:flex; gap:10px;}
+  .ghost-btn{flex:1; padding:12px; border-radius:4px; border:1.5px solid var(--ink); background:var(--ink); color:#fff; font-family:'Noto Serif TC',serif; font-weight:700; font-size:15px; cursor:pointer;}
+  .ghost-btn:hover{opacity:.88;}
+  .ghost-btn[disabled]{opacity:.4; cursor:not-allowed;}
+
+  .year-list{max-height:220px; overflow-y:auto; border:1px solid var(--rule); border-radius:4px; padding:10px; background:#fff;}
+  .year-item{display:flex; justify-content:space-between; padding:6px 4px; font-size:13.5px; border-bottom:1px dashed var(--rule);}
+  .year-item:last-child{border-bottom:none;}
+  .year-item .cnt{color:var(--ink-soft); font-family:'IBM Plex Mono',monospace; font-size:12px;}
+  .year-item.disabled{color:#b8b0a0;}
+
+  /* practice view */
+  #practiceView{display:none;}
+  .prog{font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--ink-soft); display:flex; justify-content:space-between; margin-bottom:8px;}
+  .bar{height:4px; background:var(--rule); border-radius:2px; overflow:hidden; margin-bottom:22px;}
+  .bar-fill{height:100%; background:var(--crimson); transition:width .2s;}
+  .level-row{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:14px;}
+  .level-btn{flex:1; min-width:120px; padding:10px; border:1.5px solid var(--rule); border-radius:4px; background:#fff; cursor:pointer; font-size:13px; text-align:center;}
+  .level-btn.active{border-color:var(--gold); background:#FBF6E8;}
+  .hint-toggle{display:flex; align-items:center; gap:8px; font-size:13px; margin-bottom:18px;}
+  .switch{width:36px; height:20px; border-radius:10px; background:var(--rule); position:relative; cursor:pointer;}
+  .switch .dot{width:16px; height:16px; border-radius:50%; background:#fff; position:absolute; top:2px; left:2px; transition:left .15s; box-shadow:0 1px 2px rgba(0,0,0,.3);}
+  .switch.on{background:var(--sage);} .switch.on .dot{left:18px;}
+  .legend{display:flex; flex-wrap:wrap; gap:8px; font-size:12px; margin-bottom:16px;}
+  .legend span{padding:3px 8px; border-radius:3px;}
+  .lg-both{background:var(--grad); font-weight:700;} .lg-thesis{background:var(--blue);} .lg-topic{background:var(--yellow);} .lg-trans{color:var(--crimson); font-weight:700;}
+
+  .passage-text{font-family:'Lora',serif; font-size:16.5px; line-height:2; color:var(--ink);}
+  .passage-text .topic{background:var(--yellow);} .passage-text .thesis{background:var(--blue);} .passage-text .gradient{background:var(--grad); font-weight:700;}
+  .passage-text .trans{color:var(--crimson); font-weight:700;}
+  .blankTag{display:inline-block; margin:0 2px; padding:1px 4px; border:1.5px solid var(--ink); border-radius:3px; font-family:'IBM Plex Mono',monospace; font-size:13px; font-weight:700; cursor:pointer; background:#fff;}
+  .blankTag.answered.correct{border-color:var(--sage); background:#E7F3EA; color:var(--sage);}
+  .blankTag.answered.wrong{border-color:var(--crimson); background:#FBEAE8; color:var(--crimson);}
+  .p-label{font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--ink-soft); margin:18px 0 4px;}
+
+  .opts-table{display:grid; grid-template-columns:repeat(5,1fr); gap:6px; margin:16px 0;}
+  @media (max-width:560px){ .opts-table{grid-template-columns:repeat(2,1fr);} }
+  .opt-cell{border:1px solid var(--rule); border-radius:4px; padding:8px 6px; font-size:13px; text-align:center; background:#fff;}
+  .opt-cell b{color:var(--crimson);}
+
+  .single-card{border:1px solid var(--rule); border-radius:4px; padding:22px; background:#fff; margin-bottom:16px;}
+  .single-sentence{font-family:'Lora',serif; font-size:17px; line-height:1.9; margin-bottom:16px;}
+  .catTagBar{display:flex; flex-wrap:wrap; gap:6px; margin-bottom:14px;}
+  .catTag{font-size:11px; padding:3px 8px; border-radius:10px; background:#F0EAD8; color:var(--ink-soft);}
+  .catTag.primary{background:var(--gold); color:#fff; font-weight:700;}
+  .choice-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:8px; margin-bottom:16px;}
+  @media (max-width:480px){ .choice-grid{grid-template-columns:1fr;} }
+  .choice{border:1.5px solid var(--rule); border-radius:4px; padding:10px 12px; cursor:pointer; font-size:14px; background:#fff;}
+  .choice:hover{border-color:var(--ink);}
+  .choice.correct{border-color:var(--sage); background:#E7F3EA;}
+  .choice.wrong{border-color:var(--crimson); background:#FBEAE8;}
+  .feedback{margin-top:14px; padding:14px; border-radius:4px; background:#F6F1E4; font-size:13.5px; line-height:1.8;}
+  .feedback .exp{margin-top:6px;}
+  .pdTag{font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--ink-soft); margin-top:8px;}
+  .pdTag b{color:var(--ink);}
+
+  .navRow{display:flex; gap:10px; margin-top:16px;}
+  .navRow button{flex:1;}
+  .backLink{display:inline-block; margin-bottom:14px; font-size:13px; color:var(--ink-soft); cursor:pointer;}
+  .backLink:hover{color:var(--crimson);}
+
+  footer{text-align:center; font-size:11.5px; color:var(--ink-soft); margin-top:40px; line-height:1.8;}
+  footer a{color:var(--crimson);}
+  .report-btn{display:inline-block; margin-top:10px; padding:8px 16px; border:1px solid var(--rule); border-radius:20px; font-size:12px; text-decoration:none; color:var(--ink-soft); background:#fff;}
+  .report-btn:hover{border-color:var(--crimson); color:var(--crimson);}
+  .strategy-box{background:#FBF6E8; border:1px solid var(--gold); border-radius:4px; padding:18px; margin-bottom:20px; font-size:13.5px; line-height:1.9;}
+  .strategy-box h3{margin:0 0 8px; font-family:'Noto Serif TC',serif; font-size:15px;}
+  .strategy-box b{color:var(--crimson);}
+  .strategy-toggle{font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--crimson); cursor:pointer; text-decoration:underline; margin-bottom:10px; display:inline-block;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="title">學測文意選填</div>
+    <div class="sub">90–115年歷屆文意選填 · 單題模式 / 全文模式</div>
+  </header>
+
+  <div id="homeView">
+    <div class="card">
+      <div class="home-lead">開始練習前</div>
+      <p class="home-desc">本題庫收錄90–115年學測文意選填歷屆試題與部分參考試卷，附逐格解析、單題模式七大分類篩選，並收錄部分年度大考中心公布的官方逐題答對率。</p>
+
+      <span class="strategy-toggle" onclick="toggleStrategy()">📖 展開／收合：作答前必看的五大戰術與隱形連結</span>
+      <div class="strategy-box" id="strategyBox" style="display:none;">
+        <h3>⚠️ 黃金鐵則：找不到「前後連結」，答案九成是錯的！</h3>
+        <p>任何填入空格的詞，必定與前後文有詞性、介系詞或脈絡上的隱形連結。若只是憑感覺「順順的」卻找不到具體線索，絕對是陷阱！</p>
+        <h3>🚨 陷阱預警（一詞多性與多義）</h3>
+        <p>大考選項常出現可當兩種以上詞性或字義的單字。若按常見意思代入不順，請立刻檢查它是否有第二種詞性或延伸字義！</p>
+        <h3>🔍 隱形連結：4大勾環</h3>
+        <p><b>指標勾環(代名詞)</b>：this、such+N 或同義字，務必比對前一句對應的人事物。<br>
+        <b>同義勾環(近義詞)</b>：留意選項跟前後文的字詞是否為同義字或詞性轉換。<br>
+        <b>主題勾環(核心軸線)</b>：確認選項是否緊扣文章的核心人物／事件／現象。<br>
+        <b>邏輯勾環(轉折詞)</b>：however轉折、therefore因果、for example舉例。</p>
+        <h3>🎯 五大核心戰術</h3>
+        <p>1. 作答前先標記選項詞性　2. 利用句型分析定位空格詞性　3. 對照前後<b>字詞搭配</b>(Collocations)　4. 追蹤代名詞與脈絡指涉　5. 對照段落主旨(黃底標示)</p>
+        <p style="font-style:italic; color:var(--ink-soft);">💡 小叮嚀：先看「詞性與句型」，再看「前後字詞搭配」，最後才讀「完整句子」。不要盲目把選項逐一帶入試翻譯！</p>
+      </div>
+
+      <div class="mode-grid">
+        <div class="mode-card active" id="modeSingleCard" onclick="setMode('single')">
+          <div class="m-name">單題模式</div>
+          <div class="m-desc">一次專注一格空格，依「單題模式七大分類」篩選練習，作答後立即看答案與解析。</div>
+        </div>
+        <div class="mode-card" id="modeFullCard" onclick="setMode('full')">
+          <div class="m-name">全文模式</div>
+          <div class="m-desc">顯示整篇文章，含段落主旨句、全文中心思想、轉折詞標記與巨觀結構分析。</div>
+        </div>
+      </div>
+
+      <div id="singleControls">
+        <div class="sec-title">依單題模式分類篩選</div>
+        <div class="cat-grid" id="catGrid"></div>
+        <div class="sec-title">依難易度篩選<span style="font-weight:400; text-transform:none; letter-spacing:0; font-size:11px; margin-left:6px;">（選填，可複選；勾選後不限分類直接開始）</span></div>
+        <div class="cat-grid" id="diffGrid"></div>
+        <div class="diff-note">難易度依大考中心公布的「全體考生答對率」（P值）分成三級：<b>難</b>（P≤25%）／<b>中</b>（25~75%）／<b>易</b>（＞75%）。部分年度目前尚無官方數據，暫不納入難易度篩選。</div>
+      </div>
+
+      <div id="fullControls" style="display:none;">
+        <div class="sec-title">選擇年度／文章</div>
+        <div class="year-list" id="yearList"></div>
+      </div>
+
+      <div class="row" style="margin-top:16px;">
+        <button class="ghost-btn" id="startBtn" onclick="startPractice()">開始練習</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="practiceView">
+    <span class="backLink" onclick="goHome()">← 回選單</span>
+    <div class="prog" id="progText"></div>
+    <div class="bar"><div class="bar-fill" id="progBar" style="width:0%;"></div></div>
+    <div id="practiceBody"></div>
+  </div>
+
+  <footer>
+    資料來源：90–115年學測歷屆文意選填 · 部分年度含大考中心公布之官方答對率／鑑別度<br>
+    © 2026 staresto-create ZZSH 版權所有。誠摯歡迎學生自由使用、分享本題庫進行練習；惟請勿用於商業用途；如需轉載，敬請註明出處，勿逕行據為己作。<br>
+    <a class="report-btn" href="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?entry.1257494378=文意選填" target="_blank" rel="noopener">🐛 回報錯誤</a>
+  </footer>
+</div>
+
+<script>
+let PASSAGES = {}, ITEMS = [];
+let currentMode = 'single';
+let selectedCats = new Set();
+let selectedDiffs = new Set();
+let singleQueue = [], singleIdx = 0;
+let currentLevel = 'mid'; // low/mid/high
+let hintsOn = true;
+
+const CATS = ["搭配詞／固定用法","字義辨析／多義字","詞性判斷","同義改寫／替代指涉","句型／固定搭配句構","上下文線索／邏輯推論"];
+
+async function init(){
+  const [pRes, iRes] = await Promise.all([fetch('passages.json'), fetch('items.json')]);
+  const passagesArr = await pRes.json();
+  ITEMS = await iRes.json();
+  passagesArr.forEach(p => PASSAGES[p.id] = p);
+  buildCatGrid();
+  buildDiffGrid();
+  buildYearList();
+}
+function toggleStrategy(){
+  const el = document.getElementById('strategyBox');
+  el.style.display = el.style.display === 'none' ? 'block' : 'none';
+}
+function setMode(m){
+  currentMode = m;
+  document.getElementById('modeSingleCard').classList.toggle('active', m==='single');
+  document.getElementById('modeFullCard').classList.toggle('active', m==='full');
+  document.getElementById('singleControls').style.display = m==='single' ? 'block' : 'none';
+  document.getElementById('fullControls').style.display = m==='full' ? 'block' : 'none';
+}
+function buildCatGrid(){
+  const grid = document.getElementById('catGrid');
+  grid.innerHTML = '';
+  CATS.forEach(c => {
+    const chip = document.createElement('div');
+    chip.className = 'chip'; chip.textContent = c;
+    chip.onclick = () => { chip.classList.toggle('active'); selectedCats.has(c) ? selectedCats.delete(c) : selectedCats.add(c); };
+    grid.appendChild(chip);
+  });
+}
+function buildDiffGrid(){
+  const grid = document.getElementById('diffGrid');
+  grid.innerHTML = '';
+  ['難','中','易'].forEach(d => {
+    const chip = document.createElement('div');
+    chip.className = 'chip'; chip.textContent = d;
+    chip.onclick = () => { chip.classList.toggle('active'); selectedDiffs.has(d) ? selectedDiffs.delete(d) : selectedDiffs.add(d); };
+    grid.appendChild(chip);
+  });
+}
+function tierOf(p){ if(p==null) return null; return p<=25?'難':p<=75?'中':'易'; }
+function buildYearList(){
+  const list = document.getElementById('yearList');
+  list.innerHTML = '';
+  Object.values(PASSAGES).sort((a,b)=> a.id.localeCompare(b.id)).forEach(p => {
+    const cnt = ITEMS.filter(it=>it.passageId===p.id).length;
+    const row = document.createElement('div');
+    row.className = 'year-item'; row.style.cursor='pointer';
+    row.innerHTML = `<span>${p.year} · ${p.title}</span><span class="cnt">${cnt}題</span>`;
+    row.onclick = () => { document.querySelectorAll('.year-item').forEach(r=>r.style.background=''); row.style.background='#FBF1EE'; row.dataset.selected='1'; window.__selectedPassage = p.id; };
+    list.appendChild(row);
+  });
+}
+function startPractice(){
+  if(currentMode === 'single'){
+    let pool = ITEMS.filter(it => {
+      const catOk = selectedCats.size===0 || it.categories.some(c=>selectedCats.has(c));
+      const tier = tierOf(it.accuracyRate);
+      const diffOk = selectedDiffs.size===0 || (tier && selectedDiffs.has(tier));
+      if(selectedDiffs.size>0) return diffOk;
+      return catOk;
+    });
+    if(pool.length===0){ alert('這個篩選條件下沒有題目'); return; }
+    singleQueue = pool.sort(()=>Math.random()-0.5);
+    singleIdx = 0;
+    document.getElementById('homeView').style.display='none';
+    document.getElementById('practiceView').style.display='block';
+    renderSingle();
+  } else {
+    const pid = window.__selectedPassage;
+    if(!pid){ alert('請先選擇一篇文章'); return; }
+    document.getElementById('homeView').style.display='none';
+    document.getElementById('practiceView').style.display='block';
+    renderFull(pid);
+  }
+}
+function goHome(){
+  document.getElementById('homeView').style.display='block';
+  document.getElementById('practiceView').style.display='none';
+}
+function renderSingle(){
+  const it = singleQueue[singleIdx];
+  document.getElementById('progText').innerHTML = `<span>單題模式</span><span>${singleIdx+1} / ${singleQueue.length}</span>`;
+  document.getElementById('progBar').style.width = ((singleIdx+1)/singleQueue.length*100)+'%';
+  const p = PASSAGES[it.passageId];
+  const letters = Object.keys(it.options).sort();
+  let choicesHtml = letters.map(l => `<div class="choice" data-l="${l}" onclick="answerSingle('${l}')">(${l}) ${it.options[l]}</div>`).join('');
+  document.getElementById('practiceBody').innerHTML = `
+    <div class="single-card">
+      <div class="p-label">${p.year} · ${p.title} · 第${it.blankNum}題</div>
+      <div class="catTagBar">${it.categories.map((c,i)=>`<span class="catTag ${i===0?'primary':''}">${c}</span>`).join('')}</div>
+      <div class="single-sentence">${(it.collocation||'').split('；')[0]}</div>
+      <div class="choice-grid">${choicesHtml}</div>
+      <div id="fbBox"></div>
+    </div>
+    <div class="navRow">
+      <button class="ghost-btn" onclick="nextSingle()">下一題 →</button>
+    </div>
+  `;
+}
+function answerSingle(letter){
+  const it = singleQueue[singleIdx];
+  const correct = letter === it.answer;
+  document.querySelectorAll('.choice').forEach(c=>{
+    c.onclick = null;
+    if(c.dataset.l === it.answer) c.classList.add('correct');
+    else if(c.dataset.l === letter && !correct) c.classList.add('wrong');
+  });
+  const pd = (it.accuracyRate!=null) ? `<div class="pdTag">官方答對率 <b>P=${it.accuracyRate}%</b> ／ 鑑別度 <b>D=${it.discrimination}</b> ／ 難易度：<b>${tierOf(it.accuracyRate)}</b></div>` : '';
+  document.getElementById('fbBox').innerHTML = `
+    <div class="feedback">
+      ${correct?'✓ 正確！':'✕ 正解是 ('+it.answer+') '+it.options[it.answer]}
+      <div class="exp"><b>字詞搭配線索：</b>${it.collocation}</div>
+      <div class="exp"><b>常見誤區：</b>${it.explanation}</div>
+      ${pd}
+    </div>`;
+}
+function nextSingle(){
+  singleIdx++;
+  if(singleIdx >= singleQueue.length){ alert('這輪練習結束了！'); goHome(); return; }
+  renderSingle();
+}
+function renderFull(pid){
+  const p = PASSAGES[pid];
+  const items = ITEMS.filter(it=>it.passageId===pid).sort((a,b)=>a.blankNum-b.blankNum);
+  document.getElementById('progText').innerHTML = `<span>全文模式</span><span>${p.year} · ${p.title}</span>`;
+  document.getElementById('progBar').style.width = '100%';
+
+  let html = '';
+  if(p.flagNote) html += `<div class="feedback" style="margin-bottom:16px;">⚠ ${p.flagNote}</div>`;
+  html += `<div class="level-row">
+    <div class="level-btn ${currentLevel==='low'?'active':''}" onclick="setLevel('low')">低分群考生(開提示)</div>
+    <div class="level-btn ${currentLevel==='mid'?'active':''}" onclick="setLevel('mid')">中間群考生(開提示)</div>
+    <div class="level-btn ${currentLevel==='high'?'active':''}" onclick="setLevel('high')">高分群考生(關提示)</div>
+  </div>
+  <div class="hint-toggle"><span class="switch ${hintsOn?'on':''}" onclick="toggleHints()"><span class="dot"></span></span> 主旨句／轉折詞提示：${hintsOn?'開':'關'}</div>
+  <div class="legend"><span class="lg-both">兩者皆是</span><span class="lg-thesis">全文中心思想</span><span class="lg-topic">段落主旨句</span><span class="lg-trans">轉折詞</span></div>
+  <div class="passage-text ${hintsOn?'':'hints-off'}" id="passageText"></div>`;
+
+  html += `<div class="sec-title">選項</div><div class="opts-table">`;
+  Object.keys(p.options).sort().forEach(l => { html += `<div class="opt-cell"><b>(${l})</b> ${p.options[l]}</div>`; });
+  html += `</div>`;
+
+  html += `<div class="sec-title">巨觀結構分析</div><div class="feedback">
+    <b>主要結構：</b>${p.macro.structure}<br>
+    <b>文章結構類型：</b>${p.macro.patterns||'—'}<br>
+    <b>關鍵轉折詞：</b>${p.macro.transitions}<br>
+    <b>綱要：</b><br>${p.macro.outline.map(o=>o).join('<br>')}
+  </div>`;
+
+  document.getElementById('practiceBody').innerHTML = html;
+  renderPassageText(p, items);
+}
+function setLevel(l){ currentLevel = l; hintsOn = (l !== 'high'); renderFull(window.__lastPid); }
+function toggleHints(){ hintsOn = !hintsOn; renderFull(window.__lastPid); }
+function renderPassageText(p, items){
+  window.__lastPid = p.id;
+  const el = document.getElementById('passageText');
+  const itemMap = {}; items.forEach(it => itemMap[it.blankNum] = it);
+  let out = '';
+  p.paras.forEach(para => {
+    out += `<div class="p-label">${para.label}</div><p>`;
+    para.segs.forEach(seg => {
+      let [text, type] = seg;
+      if(type === 'blank'){
+        const it = itemMap[text];
+        out += ` <span class="blankTag" onclick="revealBlank(this,'${text}')" data-n="${text}">?${text}</span> `;
+      } else if(!hintsOn && (type==='topic'||type==='thesis'||type==='gradient'||type==='trans')){
+        out += `${text}`;
+      } else if(type){
+        out += `<span class="${type}">${text}</span>`;
+      } else {
+        out += `${text}`;
+      }
+    });
+    out += `</p>`;
+  });
+  el.innerHTML = out;
+}
+function revealBlank(el, num){
+  const it = ITEMS.find(x=>x.passageId===window.__lastPid && String(x.blankNum)===String(num));
+  if(!it) return;
+  el.textContent = `(${it.answer}) ${it.options[it.answer]}`;
+  el.classList.add('answered','correct');
+  el.onclick = null;
+  el.title = it.explanation;
+}
+init();
+</script>
+</body>
+</html>

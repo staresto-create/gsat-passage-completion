@@ -1,0 +1,7841 @@
+[
+ {
+  "id": "V109_31",
+  "year": "109年",
+  "passageId": "109",
+  "blankNum": 31,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "flaw",
+   "B": "exhibit",
+   "C": "chubby",
+   "D": "attractiveness",
+   "E": "fade",
+   "F": "rare",
+   "G": "range",
+   "H": "transfer",
+   "I": "natural",
+   "J": "presence"
+  },
+  "answer": "F",
+  "gloss": "罕見的",
+  "collocation": "a relatively __ phenomenon；rare + N 修飾抽象名詞",
+  "explanation": "易與 (I) natural 混淆——natural形容「天生的」而非「罕見程度」，句意需要的是「稀有度」而非「真假」。",
+  "accuracyRate": 46,
+  "discrimination": 79
+ },
+ {
+  "id": "V109_32",
+  "year": "109年",
+  "passageId": "109",
+  "blankNum": 32,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "flaw",
+   "B": "exhibit",
+   "C": "chubby",
+   "D": "attractiveness",
+   "E": "fade",
+   "F": "rare",
+   "G": "range",
+   "H": "transfer",
+   "I": "natural",
+   "J": "presence"
+  },
+  "answer": "D",
+  "gloss": "吸引力",
+  "collocation": "a sign of __；抽象名詞當 of 受詞",
+  "explanation": "易誤選 (J) presence，但 presence(存在)無法呼應「文化偏好、視為美的象徵」的語意；此處需具體指「吸引力」這個抽象特質。",
+  "accuracyRate": 53,
+  "discrimination": 78
+ },
+ {
+  "id": "V109_33",
+  "year": "109年",
+  "passageId": "109",
+  "blankNum": 33,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "flaw",
+   "B": "exhibit",
+   "C": "chubby",
+   "D": "attractiveness",
+   "E": "fade",
+   "F": "rare",
+   "G": "range",
+   "H": "transfer",
+   "I": "natural",
+   "J": "presence"
+  },
+  "answer": "A",
+  "gloss": "缺陷",
+  "collocation": "a genetic __ caused by...；genetic 修飾名詞",
+  "explanation": "考生常以為酒窩正面=優點，忽略 Though...but actually 的語意反轉，誤選 (D) attractiveness——但該格前有 Though，句意已轉為「其實是缺陷」。",
+  "accuracyRate": 36,
+  "discrimination": 59
+ },
+ {
+  "id": "V109_34",
+  "year": "109年",
+  "passageId": "109",
+  "blankNum": 34,
+  "categories": [
+   "搭配詞／固定用法",
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "flaw",
+   "B": "exhibit",
+   "C": "chubby",
+   "D": "attractiveness",
+   "E": "fade",
+   "F": "rare",
+   "G": "range",
+   "H": "transfer",
+   "I": "natural",
+   "J": "presence"
+  },
+  "answer": "H",
+  "gloss": "傳遞",
+  "collocation": "the __ of dimples from parents to children；of 片語限定名詞",
+  "explanation": "與 (B) exhibit(展現)詞性/語意都不合，此格需要「遺傳傳遞」的動作名詞，注意 the __ of A from B to C 的搭配結構。",
+  "accuracyRate": 30,
+  "discrimination": 59
+ },
+ {
+  "id": "V109_35",
+  "year": "109年",
+  "passageId": "109",
+  "blankNum": 35,
+  "categories": [
+   "詞性判斷",
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "flaw",
+   "B": "exhibit",
+   "C": "chubby",
+   "D": "attractiveness",
+   "E": "fade",
+   "F": "rare",
+   "G": "range",
+   "H": "transfer",
+   "I": "natural",
+   "J": "presence"
+  },
+  "answer": "B",
+  "gloss": "展現、表現出",
+  "collocation": "will not __ the trait；情態助動詞 + 原形動詞",
+  "explanation": "考生易受前一格 (H) transfer 干擾誤選，但此格為動詞，前面是 will not，必須用原形動詞；exhibit the trait＝表現出這個特徵。",
+  "accuracyRate": 42,
+  "discrimination": 65
+ },
+ {
+  "id": "V109_36",
+  "year": "109年",
+  "passageId": "109",
+  "blankNum": 36,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "flaw",
+   "B": "exhibit",
+   "C": "chubby",
+   "D": "attractiveness",
+   "E": "fade",
+   "F": "rare",
+   "G": "range",
+   "H": "transfer",
+   "I": "natural",
+   "J": "presence"
+  },
+  "answer": "J",
+  "gloss": "存在",
+  "collocation": "due to the __ of excessive fat；due to the N of...",
+  "explanation": "與32題 (D) attractiveness 選項互相干擾，需依語意「因為脂肪的存在」而非「吸引力」判斷，注意 due to + N 的名詞用法。",
+  "accuracyRate": 24,
+  "discrimination": 38
+ },
+ {
+  "id": "V109_37",
+  "year": "109年",
+  "passageId": "109",
+  "blankNum": 37,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "flaw",
+   "B": "exhibit",
+   "C": "chubby",
+   "D": "attractiveness",
+   "E": "fade",
+   "F": "rare",
+   "G": "range",
+   "H": "transfer",
+   "I": "natural",
+   "J": "presence"
+  },
+  "answer": "C",
+  "gloss": "圓潤的、胖嘟嘟的",
+  "collocation": "their __ cheeks；形容詞修飾 cheeks",
+  "explanation": "此為典型「先埋線索、後面才解釋」寫法——後句 lose their baby fat 才點出這格在講嬰兒肥，需前後文互相對照才能鎖定答案。",
+  "accuracyRate": 66,
+  "discrimination": 71
+ },
+ {
+  "id": "V109_38",
+  "year": "109年",
+  "passageId": "109",
+  "blankNum": 38,
+  "categories": [
+   "搭配詞／固定用法",
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "flaw",
+   "B": "exhibit",
+   "C": "chubby",
+   "D": "attractiveness",
+   "E": "fade",
+   "F": "rare",
+   "G": "range",
+   "H": "transfer",
+   "I": "natural",
+   "J": "presence"
+  },
+  "answer": "E",
+  "gloss": "逐漸消失、淡化",
+  "collocation": "the dimples may __ with time；情態助動詞 + 原形動詞",
+  "explanation": "考生容易忽略 with time(隨時間)這個副詞片語，其實正是「fade淡化」的關鍵搭配詞提示。",
+  "accuracyRate": 58,
+  "discrimination": 81
+ },
+ {
+  "id": "V109_39",
+  "year": "109年",
+  "passageId": "109",
+  "blankNum": 39,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "flaw",
+   "B": "exhibit",
+   "C": "chubby",
+   "D": "attractiveness",
+   "E": "fade",
+   "F": "rare",
+   "G": "range",
+   "H": "transfer",
+   "I": "natural",
+   "J": "presence"
+  },
+  "answer": "I",
+  "gloss": "天生的",
+  "collocation": "born without __ dimples；形容詞修飾 dimples",
+  "explanation": "易與31題 (F) rare 搞混——此格談的是「是否天生」，而非「稀不稀有」，需回頭比對兩格語意差異。",
+  "accuracyRate": 52,
+  "discrimination": 72
+ },
+ {
+  "id": "V109_40",
+  "year": "109年",
+  "passageId": "109",
+  "blankNum": 40,
+  "categories": [
+   "搭配詞／固定用法",
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "flaw",
+   "B": "exhibit",
+   "C": "chubby",
+   "D": "attractiveness",
+   "E": "fade",
+   "F": "rare",
+   "G": "range",
+   "H": "transfer",
+   "I": "natural",
+   "J": "presence"
+  },
+  "answer": "G",
+  "gloss": "範圍涵蓋、從…到…",
+  "collocation": "These methods __ from A to B；range from A to B 固定搭配",
+  "explanation": "此為經典固定搭配 range from...to...，若不熟悉此搭配詞考生常誤選其他選項；此格也是本文唯一動詞詞性的收尾句。",
+  "accuracyRate": 39,
+  "discrimination": 69
+ },
+ {
+  "id": "Vy108_31",
+  "year": "108年",
+  "passageId": "y108",
+  "blankNum": 31,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "little",
+   "B": "purchases",
+   "C": "trusted",
+   "D": "requests",
+   "E": "insisted",
+   "F": "ready",
+   "G": "ruined",
+   "H": "privilege",
+   "I": "revealed",
+   "J": "obvious"
+  },
+  "answer": "G",
+  "gloss": "破壞、搞砸",
+  "collocation": "__ their anniversary celebration；ruin + N(慶祝活動)",
+  "explanation": "考生易誤選其他選項，需注意 ruin 為及物動詞，直接接受詞 celebration，且與後面 for 子句(玫瑰花總是遲到一個月)構成因果解釋。",
+  "accuracyRate": 59,
+  "discrimination": 86
+ },
+ {
+  "id": "Vy108_32",
+  "year": "108年",
+  "passageId": "y108",
+  "blankNum": 32,
+  "categories": [
+   "搭配詞／固定用法",
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "little",
+   "B": "purchases",
+   "C": "trusted",
+   "D": "requests",
+   "E": "insisted",
+   "F": "ready",
+   "G": "ruined",
+   "H": "privilege",
+   "I": "revealed",
+   "J": "obvious"
+  },
+  "answer": "E",
+  "gloss": "堅持",
+  "collocation": "__ on V-ing；insist on + 動名詞固定搭配",
+  "explanation": "insist 後面接 on，是常考固定搭配，考生易漏接介詞或誤用其他動詞。",
+  "accuracyRate": 46,
+  "discrimination": 78
+ },
+ {
+  "id": "Vy108_33",
+  "year": "108年",
+  "passageId": "y108",
+  "blankNum": 33,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "little",
+   "B": "purchases",
+   "C": "trusted",
+   "D": "requests",
+   "E": "insisted",
+   "F": "ready",
+   "G": "ruined",
+   "H": "privilege",
+   "I": "revealed",
+   "J": "obvious"
+  },
+  "answer": "F",
+  "gloss": "準備好的",
+  "collocation": "had the list __；have + O + adj. 受詞補語結構",
+  "explanation": "此句型為「have+受詞+形容詞」表示「使某物處於某狀態」，考生易誤判詞性、選成動詞。",
+  "accuracyRate": 45,
+  "discrimination": 79
+ },
+ {
+  "id": "Vy108_34",
+  "year": "108年",
+  "passageId": "y108",
+  "blankNum": 34,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "little",
+   "B": "purchases",
+   "C": "trusted",
+   "D": "requests",
+   "E": "insisted",
+   "F": "ready",
+   "G": "ruined",
+   "H": "privilege",
+   "I": "revealed",
+   "J": "obvious"
+  },
+  "answer": "B",
+  "gloss": "購買的東西",
+  "collocation": "the __ that he made；purchase 當名詞用(非動詞「購買」)",
+  "explanation": "purchase 常見是動詞，但此格前有 the、後接 that 子句，需要名詞「所買之物」，是典型詞性陷阱。",
+  "accuracyRate": 55,
+  "discrimination": 80
+ },
+ {
+  "id": "Vy108_35",
+  "year": "108年",
+  "passageId": "y108",
+  "blankNum": 35,
+  "categories": [
+   "同義改寫／替代指涉"
+  ],
+  "options": {
+   "A": "little",
+   "B": "purchases",
+   "C": "trusted",
+   "D": "requests",
+   "E": "insisted",
+   "F": "ready",
+   "G": "ruined",
+   "H": "privilege",
+   "I": "revealed",
+   "J": "obvious"
+  },
+  "answer": "D",
+  "gloss": "要求、請託",
+  "collocation": "different from Mom's __；different from + N",
+  "explanation": "此格與前文「shopping list」形成前後呼應——list 上的品項＝Mom 的 requests，屬於跨句同指的改寫手法。",
+  "accuracyRate": 62,
+  "discrimination": 79
+ },
+ {
+  "id": "Vy108_36",
+  "year": "108年",
+  "passageId": "y108",
+  "blankNum": 36,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "little",
+   "B": "purchases",
+   "C": "trusted",
+   "D": "requests",
+   "E": "insisted",
+   "F": "ready",
+   "G": "ruined",
+   "H": "privilege",
+   "I": "revealed",
+   "J": "obvious"
+  },
+  "answer": "C",
+  "gloss": "被信任",
+  "collocation": "he was __ with many secrets；be trusted with + N 被動搭配",
+  "explanation": "be trusted with 是固定被動搭配，意思是「被託付、被信任掌管某事」，考生易忽略 with 介詞。",
+  "accuracyRate": 51,
+  "discrimination": 76
+ },
+ {
+  "id": "Vy108_37",
+  "year": "108年",
+  "passageId": "y108",
+  "blankNum": 37,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "little",
+   "B": "purchases",
+   "C": "trusted",
+   "D": "requests",
+   "E": "insisted",
+   "F": "ready",
+   "G": "ruined",
+   "H": "privilege",
+   "I": "revealed",
+   "J": "obvious"
+  },
+  "answer": "H",
+  "gloss": "特權、榮幸",
+  "collocation": "had the __ of V-ing；the privilege of + 動名詞",
+  "explanation": "privilege 常考固定搭配 the privilege of doing，考生易與 advantage 等近義詞混淆但詞性/搭配不同。",
+  "accuracyRate": 53,
+  "discrimination": 85
+ },
+ {
+  "id": "Vy108_38",
+  "year": "108年",
+  "passageId": "y108",
+  "blankNum": 38,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "little",
+   "B": "purchases",
+   "C": "trusted",
+   "D": "requests",
+   "E": "insisted",
+   "F": "ready",
+   "G": "ruined",
+   "H": "privilege",
+   "I": "revealed",
+   "J": "obvious"
+  },
+  "answer": "J",
+  "gloss": "明顯的",
+  "collocation": "The reason was __ ：後面接冒號解釋原因",
+  "explanation": "此格靠邏輯推論：冒號後方直接說明「爸爸不會記得」，呼應「原因很明顯」的語意，沒有明顯搭配詞可循。",
+  "accuracyRate": 60,
+  "discrimination": 84
+ },
+ {
+  "id": "Vy108_39",
+  "year": "108年",
+  "passageId": "y108",
+  "blankNum": 39,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "little",
+   "B": "purchases",
+   "C": "trusted",
+   "D": "requests",
+   "E": "insisted",
+   "F": "ready",
+   "G": "ruined",
+   "H": "privilege",
+   "I": "revealed",
+   "J": "obvious"
+  },
+  "answer": "I",
+  "gloss": "被洩漏",
+  "collocation": "would never be __；助動詞被動式",
+  "explanation": "revealed 為被動語態動詞，考生易與形容詞選項混淆；此格也呼應前文「secrets」，屬於秘密「被揭露」與否的邏輯延續。",
+  "accuracyRate": 58,
+  "discrimination": 82
+ },
+ {
+  "id": "Vy108_40",
+  "year": "108年",
+  "passageId": "y108",
+  "blankNum": 40,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "little",
+   "B": "purchases",
+   "C": "trusted",
+   "D": "requests",
+   "E": "insisted",
+   "F": "ready",
+   "G": "ruined",
+   "H": "privilege",
+   "I": "revealed",
+   "J": "obvious"
+  },
+  "answer": "A",
+  "gloss": "很少地",
+  "collocation": "cared __ about；care little about 固定用法",
+  "explanation": "care little about 是常考固定片語，意思是「不太在乎」，考生易誤解 little 詞性或誤選其他選項。",
+  "accuracyRate": 67,
+  "discrimination": 72
+ },
+ {
+  "id": "Vy107_31",
+  "year": "107年",
+  "passageId": "y107",
+  "blankNum": 31,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "account",
+   "B": "appeared",
+   "C": "competing",
+   "D": "contained",
+   "E": "replaced",
+   "F": "secret",
+   "G": "successful",
+   "H": "tastes",
+   "I": "traces",
+   "J": "treats"
+  },
+  "answer": "C",
+  "gloss": "互相競爭的",
+  "collocation": "several __ stories；competing + N(複數故事)",
+  "explanation": "competing 是分詞當形容詞，修飾「彼此矛盾/競爭」的多個說法，考生易與其他選項混淆詞性。",
+  "accuracyRate": 40,
+  "discrimination": 63
+ },
+ {
+  "id": "Vy107_32",
+  "year": "107年",
+  "passageId": "y107",
+  "blankNum": 32,
+  "categories": [
+   "搭配詞／固定用法",
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "account",
+   "B": "appeared",
+   "C": "competing",
+   "D": "contained",
+   "E": "replaced",
+   "F": "secret",
+   "G": "successful",
+   "H": "tastes",
+   "I": "traces",
+   "J": "treats"
+  },
+  "answer": "I",
+  "gloss": "追溯",
+  "collocation": "__ the cookie's origin back to...；trace back to 固定搭配",
+  "explanation": "traces 此處是動詞第三人稱單數，「追溯至」，容易與名詞 traces(痕跡)搞混，是常見詞性陷阱。",
+  "accuracyRate": 59,
+  "discrimination": 85
+ },
+ {
+  "id": "Vy107_33",
+  "year": "107年",
+  "passageId": "y107",
+  "blankNum": 33,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "account",
+   "B": "appeared",
+   "C": "competing",
+   "D": "contained",
+   "E": "replaced",
+   "F": "secret",
+   "G": "successful",
+   "H": "tastes",
+   "I": "traces",
+   "J": "treats"
+  },
+  "answer": "F",
+  "gloss": "秘密的",
+  "collocation": "__ plans for a revolution；secret 修飾 plans",
+  "explanation": "secret 在此為形容詞修飾 plans(計畫)，語意直接對應「藏在月餅裡的起義計畫」。",
+  "accuracyRate": 56,
+  "discrimination": 71
+ },
+ {
+  "id": "Vy107_34",
+  "year": "107年",
+  "passageId": "y107",
+  "blankNum": 34,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "account",
+   "B": "appeared",
+   "C": "competing",
+   "D": "contained",
+   "E": "replaced",
+   "F": "secret",
+   "G": "successful",
+   "H": "tastes",
+   "I": "traces",
+   "J": "treats"
+  },
+  "answer": "G",
+  "gloss": "成功的",
+  "collocation": "turned out to be __；turn out to be + adj 固定句型",
+  "explanation": "turn out to be 是常考句型，表示「結果證明是…」，考生需掌握此結構才能判斷後面接形容詞。",
+  "accuracyRate": 61,
+  "discrimination": 75
+ },
+ {
+  "id": "Vy107_35",
+  "year": "107年",
+  "passageId": "y107",
+  "blankNum": 35,
+  "categories": [
+   "同義改寫／替代指涉"
+  ],
+  "options": {
+   "A": "account",
+   "B": "appeared",
+   "C": "competing",
+   "D": "contained",
+   "E": "replaced",
+   "F": "secret",
+   "G": "successful",
+   "H": "tastes",
+   "I": "traces",
+   "J": "treats"
+  },
+  "answer": "J",
+  "gloss": "點心、小禮物",
+  "collocation": "the __ we know of today as fortune cookies；treats 呼應「fortune cookies」",
+  "explanation": "此格用 treats 同義替代前面反覆出現的 fortune cookie，是典型跨句同義改寫，考生需理解代換邏輯而非死記字義。",
+  "accuracyRate": 44,
+  "discrimination": 75
+ },
+ {
+  "id": "Vy107_36",
+  "year": "107年",
+  "passageId": "y107",
+  "blankNum": 36,
+  "categories": [
+   "同義改寫／替代指涉"
+  ],
+  "options": {
+   "A": "account",
+   "B": "appeared",
+   "C": "competing",
+   "D": "contained",
+   "E": "replaced",
+   "F": "secret",
+   "G": "successful",
+   "H": "tastes",
+   "I": "traces",
+   "J": "treats"
+  },
+  "answer": "A",
+  "gloss": "說法、敘述",
+  "collocation": "Another __ claims that...；account 呼應前文的 stories",
+  "explanation": "account 在此指「一種說法/版本」，與第一段的 stories 同義替代，屬於全文詞彙變化避免重複的手法。",
+  "accuracyRate": 45,
+  "discrimination": 67
+ },
+ {
+  "id": "Vy107_37",
+  "year": "107年",
+  "passageId": "y107",
+  "blankNum": 37,
+  "categories": [
+   "詞性判斷",
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "account",
+   "B": "appeared",
+   "C": "competing",
+   "D": "contained",
+   "E": "replaced",
+   "F": "secret",
+   "G": "successful",
+   "H": "tastes",
+   "I": "traces",
+   "J": "treats"
+  },
+  "answer": "D",
+  "gloss": "內含",
+  "collocation": "Each cookie __ a strip of paper；contain 及物動詞",
+  "explanation": "contained 是及物動詞過去式，直接接受詞 a strip of paper，考生易與其他選項的詞性混淆。",
+  "accuracyRate": 61,
+  "discrimination": 83
+ },
+ {
+  "id": "Vy107_38",
+  "year": "107年",
+  "passageId": "y107",
+  "blankNum": 38,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "account",
+   "B": "appeared",
+   "C": "competing",
+   "D": "contained",
+   "E": "replaced",
+   "F": "secret",
+   "G": "successful",
+   "H": "tastes",
+   "I": "traces",
+   "J": "treats"
+  },
+  "answer": "B",
+  "gloss": "出現",
+  "collocation": "first __ in 1907 or 1914；appear 不及物動詞",
+  "explanation": "appeared 後面直接接地方/時間副詞(in San Francisco)，不需受詞，是常考不及物動詞搭配。",
+  "accuracyRate": 65,
+  "discrimination": 77
+ },
+ {
+  "id": "Vy107_39",
+  "year": "107年",
+  "passageId": "y107",
+  "blankNum": 39,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "account",
+   "B": "appeared",
+   "C": "competing",
+   "D": "contained",
+   "E": "replaced",
+   "F": "secret",
+   "G": "successful",
+   "H": "tastes",
+   "I": "traces",
+   "J": "treats"
+  },
+  "answer": "H",
+  "gloss": "品味、喜好",
+  "collocation": "appeal to American __；taste 在此非「味覺」而是「品味/喜好」",
+  "explanation": "taste 是多義字，此處指抽象的「品味／喜好」而非具體「味覺感受」，考生易只知常見義而誤解句意。",
+  "accuracyRate": 59,
+  "discrimination": 75
+ },
+ {
+  "id": "Vy107_40",
+  "year": "107年",
+  "passageId": "y107",
+  "blankNum": 40,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "account",
+   "B": "appeared",
+   "C": "competing",
+   "D": "contained",
+   "E": "replaced",
+   "F": "secret",
+   "G": "successful",
+   "H": "tastes",
+   "I": "traces",
+   "J": "treats"
+  },
+  "answer": "E",
+  "gloss": "取代",
+  "collocation": "__ the thank-you notes with fortune notes；replace A with B 固定搭配",
+  "explanation": "replace A with B 是經典固定搭配，考生需認出「用B取代A」的邏輯方向，避免顛倒A、B。",
+  "accuracyRate": 62,
+  "discrimination": 81
+ },
+ {
+  "id": "Vy106_31",
+  "year": "106年",
+  "passageId": "y106",
+  "blankNum": 31,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "reflected",
+   "B": "parts",
+   "C": "admired",
+   "D": "functioned",
+   "E": "prompt",
+   "F": "decorating",
+   "G": "spiritual",
+   "H": "discovered",
+   "I": "symbols",
+   "J": "healing"
+  },
+  "answer": "C",
+  "gloss": "崇敬、欣賞",
+  "collocation": "no culture __ onions quite as much as...；比較句型 as much as",
+  "explanation": "此格需理解「no culture...as much as」的比較邏輯(沒有文化像埃及人那樣崇拜)，沒有明顯固定搭配可直接對應。",
+  "accuracyRate": 43,
+  "discrimination": 60
+ },
+ {
+  "id": "Vy106_32",
+  "year": "106年",
+  "passageId": "y106",
+  "blankNum": 32,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "reflected",
+   "B": "parts",
+   "C": "admired",
+   "D": "functioned",
+   "E": "prompt",
+   "F": "decorating",
+   "G": "spiritual",
+   "H": "discovered",
+   "I": "symbols",
+   "J": "healing"
+  },
+  "answer": "G",
+  "gloss": "精神上的",
+  "collocation": "significant __ meaning；spiritual 修飾 meaning",
+  "explanation": "spiritual meaning 是常見固定搭配，考生需掌握「精神/宗教意涵」這個抽象概念。",
+  "accuracyRate": 47,
+  "discrimination": 75
+ },
+ {
+  "id": "Vy106_33",
+  "year": "106年",
+  "passageId": "y106",
+  "blankNum": 33,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "reflected",
+   "B": "parts",
+   "C": "admired",
+   "D": "functioned",
+   "E": "prompt",
+   "F": "decorating",
+   "G": "spiritual",
+   "H": "discovered",
+   "I": "symbols",
+   "J": "healing"
+  },
+  "answer": "I",
+  "gloss": "象徵",
+  "collocation": "considered to be __ of eternal life；symbol of + N",
+  "explanation": "symbol of 是固定搭配，表示「…的象徵」，考生易與其他抽象名詞選項混淆。",
+  "accuracyRate": 33,
+  "discrimination": 58
+ },
+ {
+  "id": "Vy106_34",
+  "year": "106年",
+  "passageId": "y106",
+  "blankNum": 34,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "reflected",
+   "B": "parts",
+   "C": "admired",
+   "D": "functioned",
+   "E": "prompt",
+   "F": "decorating",
+   "G": "spiritual",
+   "H": "discovered",
+   "I": "symbols",
+   "J": "healing"
+  },
+  "answer": "A",
+  "gloss": "反映、體現",
+  "collocation": "structure...__ the eternity of existence；reflect 引申義(非「反射光線」)",
+  "explanation": "reflect 是多義字，此處取「體現／反映(抽象概念)」的引申義，而非物理上的「反射」，考生易只知常見義。",
+  "accuracyRate": 34,
+  "discrimination": 55
+ },
+ {
+  "id": "Vy106_35",
+  "year": "106年",
+  "passageId": "y106",
+  "blankNum": 35,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "reflected",
+   "B": "parts",
+   "C": "admired",
+   "D": "functioned",
+   "E": "prompt",
+   "F": "decorating",
+   "G": "spiritual",
+   "H": "discovered",
+   "I": "symbols",
+   "J": "healing"
+  },
+  "answer": "J",
+  "gloss": "療癒的",
+  "collocation": "the __ power of the vegetable；healing 修飾 power",
+  "explanation": "healing power 是固定搭配，「療癒的力量」，考生需辨別 healing 當形容詞用的用法。",
+  "accuracyRate": 44,
+  "discrimination": 76
+ },
+ {
+  "id": "Vy106_36",
+  "year": "106年",
+  "passageId": "y106",
+  "blankNum": 36,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "reflected",
+   "B": "parts",
+   "C": "admired",
+   "D": "functioned",
+   "E": "prompt",
+   "F": "decorating",
+   "G": "spiritual",
+   "H": "discovered",
+   "I": "symbols",
+   "J": "healing"
+  },
+  "answer": "H",
+  "gloss": "被發現的",
+  "collocation": "paintings __ inside pyramids；過去分詞修飾 paintings(被動意義)",
+  "explanation": "discovered 是過去分詞當形容詞用，修飾前面的 paintings(壁畫被發現於…)，考生易誤用原形動詞。",
+  "accuracyRate": 38,
+  "discrimination": 66
+ },
+ {
+  "id": "Vy106_37",
+  "year": "106年",
+  "passageId": "y106",
+  "blankNum": 37,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "reflected",
+   "B": "parts",
+   "C": "admired",
+   "D": "functioned",
+   "E": "prompt",
+   "F": "decorating",
+   "G": "spiritual",
+   "H": "discovered",
+   "I": "symbols",
+   "J": "healing"
+  },
+  "answer": "D",
+  "gloss": "發揮功能",
+  "collocation": "They __ as a funeral offering；function as 固定搭配",
+  "explanation": "function as 是常考固定搭配，「作為…之用」，考生需掌握 function 當動詞的用法。",
+  "accuracyRate": 31,
+  "discrimination": 55
+ },
+ {
+  "id": "Vy106_38",
+  "year": "106年",
+  "passageId": "y106",
+  "blankNum": 38,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "reflected",
+   "B": "parts",
+   "C": "admired",
+   "D": "functioned",
+   "E": "prompt",
+   "F": "decorating",
+   "G": "spiritual",
+   "H": "discovered",
+   "I": "symbols",
+   "J": "healing"
+  },
+  "answer": "B",
+  "gloss": "部位",
+  "collocation": "various __ of their bodies；parts of the body 固定搭配",
+  "explanation": "parts of the body 是常見固定搭配，考生易誤選其他抽象名詞。",
+  "accuracyRate": 57,
+  "discrimination": 68
+ },
+ {
+  "id": "Vy106_39",
+  "year": "106年",
+  "passageId": "y106",
+  "blankNum": 39,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "reflected",
+   "B": "parts",
+   "C": "admired",
+   "D": "functioned",
+   "E": "prompt",
+   "F": "decorating",
+   "G": "spiritual",
+   "H": "discovered",
+   "I": "symbols",
+   "J": "healing"
+  },
+  "answer": "F",
+  "gloss": "裝飾著",
+  "collocation": "onion flowers __ their pelvis...；現在分詞片語修飾前面名詞",
+  "explanation": "decorating 是現在分詞，表示「洋蔥花裝飾著身體部位」的主動修飾關係，考生易與過去分詞選項混淆。",
+  "accuracyRate": 42,
+  "discrimination": 67
+ },
+ {
+  "id": "Vy106_40",
+  "year": "106年",
+  "passageId": "y106",
+  "blankNum": 40,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "reflected",
+   "B": "parts",
+   "C": "admired",
+   "D": "functioned",
+   "E": "prompt",
+   "F": "decorating",
+   "G": "spiritual",
+   "H": "discovered",
+   "I": "symbols",
+   "J": "healing"
+  },
+  "answer": "E",
+  "gloss": "促使",
+  "collocation": "would __ the dead to breathe again；prompt sb to V 固定搭配",
+  "explanation": "prompt someone to do something 是常考固定搭配，「促使某人做某事」，考生需認出此結構。",
+  "accuracyRate": 53,
+  "discrimination": 75
+ },
+ {
+  "id": "Vy105_31",
+  "year": "105年",
+  "passageId": "y105",
+  "blankNum": 31,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "deserted",
+   "B": "interference",
+   "C": "vision",
+   "D": "crazy",
+   "E": "creation",
+   "F": "encouraged",
+   "G": "ignored",
+   "H": "survived",
+   "I": "dry",
+   "J": "true"
+  },
+  "answer": "J",
+  "gloss": "真實的",
+  "collocation": "this is not necessarily __；not necessarily + adj",
+  "explanation": "此格需靠邏輯推論：呼應前一句「森林是否一定天然」的提問，此處是回答「不一定如此」，沒有明顯搭配詞可循。",
+  "accuracyRate": 66,
+  "discrimination": 76
+ },
+ {
+  "id": "Vy105_32",
+  "year": "105年",
+  "passageId": "y105",
+  "blankNum": 32,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "deserted",
+   "B": "interference",
+   "C": "vision",
+   "D": "crazy",
+   "E": "creation",
+   "F": "encouraged",
+   "G": "ignored",
+   "H": "survived",
+   "I": "dry",
+   "J": "true"
+  },
+  "answer": "C",
+  "gloss": "願景、構想",
+  "collocation": "with the __ of V-ing；with the vision of 固定搭配",
+  "explanation": "with the vision of doing sth 是常考固定搭配，表示「懷著…的願景/構想」。",
+  "accuracyRate": 45,
+  "discrimination": 67
+ },
+ {
+  "id": "Vy105_33",
+  "year": "105年",
+  "passageId": "y105",
+  "blankNum": 33,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "deserted",
+   "B": "interference",
+   "C": "vision",
+   "D": "crazy",
+   "E": "creation",
+   "F": "encouraged",
+   "G": "ignored",
+   "H": "survived",
+   "I": "dry",
+   "J": "true"
+  },
+  "answer": "D",
+  "gloss": "瘋狂的",
+  "collocation": "people thought he was __ to V；think sb + adj + to V 句型",
+  "explanation": "此為「認為某人做某事很瘋狂」的句型結構，crazy to waste，考生需掌握此句構才能判斷詞性與語意。",
+  "accuracyRate": 77,
+  "discrimination": 59
+ },
+ {
+  "id": "Vy105_34",
+  "year": "105年",
+  "passageId": "y105",
+  "blankNum": 34,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "deserted",
+   "B": "interference",
+   "C": "vision",
+   "D": "crazy",
+   "E": "creation",
+   "F": "encouraged",
+   "G": "ignored",
+   "H": "survived",
+   "I": "dry",
+   "J": "true"
+  },
+  "answer": "G",
+  "gloss": "忽視",
+  "collocation": "he simply __ them；ignore 及物動詞",
+  "explanation": "ignored 為及物動詞，直接接受詞 them(指質疑他的人)，語意呼應下一句「繼續埋頭苦幹」的堅持態度。",
+  "accuracyRate": 65,
+  "discrimination": 77
+ },
+ {
+  "id": "Vy105_35",
+  "year": "105年",
+  "passageId": "y105",
+  "blankNum": 35,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "deserted",
+   "B": "interference",
+   "C": "vision",
+   "D": "crazy",
+   "E": "creation",
+   "F": "encouraged",
+   "G": "ignored",
+   "H": "survived",
+   "I": "dry",
+   "J": "true"
+  },
+  "answer": "I",
+  "gloss": "乾燥的",
+  "collocation": "The land was so __ that...；so...that 因果句型",
+  "explanation": "so...that 是常考因果句型(如此…以致於)，考生需辨認 dry 才能呼應後面「需要每天澆水多次」的結果。",
+  "accuracyRate": 78,
+  "discrimination": 51
+ },
+ {
+  "id": "Vy105_36",
+  "year": "105年",
+  "passageId": "y105",
+  "blankNum": 36,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "deserted",
+   "B": "interference",
+   "C": "vision",
+   "D": "crazy",
+   "E": "creation",
+   "F": "encouraged",
+   "G": "ignored",
+   "H": "survived",
+   "I": "dry",
+   "J": "true"
+  },
+  "answer": "H",
+  "gloss": "存活",
+  "collocation": "none of the trees he planted __；否定句邏輯",
+  "explanation": "此格需邏輯推論：頭兩年「沒有一棵樹活下來」，需與後文 However第三年開始生長 形成對比呼應。",
+  "accuracyRate": 67,
+  "discrimination": 79
+ },
+ {
+  "id": "Vy105_37",
+  "year": "105年",
+  "passageId": "y105",
+  "blankNum": 37,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "deserted",
+   "B": "interference",
+   "C": "vision",
+   "D": "crazy",
+   "E": "creation",
+   "F": "encouraged",
+   "G": "ignored",
+   "H": "survived",
+   "I": "dry",
+   "J": "true"
+  },
+  "answer": "F",
+  "gloss": "受到鼓舞的",
+  "collocation": "Greatly __ by the result；分詞構句置於句首",
+  "explanation": "encouraged 是過去分詞構句，置於句首修飾主詞 Kareem(被結果鼓舞)，考生易誤用現在分詞。",
+  "accuracyRate": 61,
+  "discrimination": 81
+ },
+ {
+  "id": "Vy105_38",
+  "year": "105年",
+  "passageId": "y105",
+  "blankNum": 38,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "deserted",
+   "B": "interference",
+   "C": "vision",
+   "D": "crazy",
+   "E": "creation",
+   "F": "encouraged",
+   "G": "ignored",
+   "H": "survived",
+   "I": "dry",
+   "J": "true"
+  },
+  "answer": "B",
+  "gloss": "干預",
+  "collocation": "without the __ of humans；without the interference of 固定搭配",
+  "explanation": "without the interference of 是常見固定搭配，「沒有…的干預」。",
+  "accuracyRate": 53,
+  "discrimination": 78
+ },
+ {
+  "id": "Vy105_39",
+  "year": "105年",
+  "passageId": "y105",
+  "blankNum": 39,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "deserted",
+   "B": "interference",
+   "C": "vision",
+   "D": "crazy",
+   "E": "creation",
+   "F": "encouraged",
+   "G": "ignored",
+   "H": "survived",
+   "I": "dry",
+   "J": "true"
+  },
+  "answer": "A",
+  "gloss": "荒廢的",
+  "collocation": "a piece of __ property；deserted 修飾 property(非「沙漠的」)",
+  "explanation": "deserted 是多義字易混淆——此處指「荒廢無人使用的」，而非「沙漠的」(desert)，考生需分辨拼字相近詞的意義差異。",
+  "accuracyRate": 47,
+  "discrimination": 74
+ },
+ {
+  "id": "Vy105_40",
+  "year": "105年",
+  "passageId": "y105",
+  "blankNum": 40,
+  "categories": [
+   "同義改寫／替代指涉"
+  ],
+  "options": {
+   "A": "deserted",
+   "B": "interference",
+   "C": "vision",
+   "D": "crazy",
+   "E": "creation",
+   "F": "encouraged",
+   "G": "ignored",
+   "H": "survived",
+   "I": "dry",
+   "J": "true"
+  },
+  "answer": "E",
+  "gloss": "創作、創造物",
+  "collocation": "come to visit his __；creation 呼應「他親手打造的森林」",
+  "explanation": "此格用 creation 同義代稱前文反覆提到的「森林」，是跨句同指的改寫手法，需理解代換邏輯。",
+  "accuracyRate": 62,
+  "discrimination": 66
+ },
+ {
+  "id": "Vy104_31",
+  "year": "104年",
+  "passageId": "y104",
+  "blankNum": 31,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "familiar",
+   "B": "honor",
+   "C": "device",
+   "D": "removable",
+   "E": "known as",
+   "F": "protest",
+   "G": "symbol",
+   "H": "twisted into",
+   "I": "associated with",
+   "J": "historical"
+  },
+  "answer": "C",
+  "gloss": "裝置、器具",
+  "collocation": "This common __ is a wonder；device 泛指「裝置」(此處=迴紋針)",
+  "explanation": "device 是多義字中的常見泛稱用法，考生需知道它可以泛指前面提到的具體物品(迴紋針)，而不只是「電子裝置」的意思。",
+  "accuracyRate": 62,
+  "discrimination": 77
+ },
+ {
+  "id": "Vy104_32",
+  "year": "104年",
+  "passageId": "y104",
+  "blankNum": 32,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "familiar",
+   "B": "honor",
+   "C": "device",
+   "D": "removable",
+   "E": "known as",
+   "F": "protest",
+   "G": "symbol",
+   "H": "twisted into",
+   "I": "associated with",
+   "J": "historical"
+  },
+  "answer": "D",
+  "gloss": "可移除的",
+  "collocation": "easily __；easy + 形容詞子句",
+  "explanation": "removable 是 -able 結尾形容詞，表「可被移除的」，考生需辨別此詞性後綴規律。",
+  "accuracyRate": 55,
+  "discrimination": 65
+ },
+ {
+  "id": "Vy104_33",
+  "year": "104年",
+  "passageId": "y104",
+  "blankNum": 33,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "familiar",
+   "B": "honor",
+   "C": "device",
+   "D": "removable",
+   "E": "known as",
+   "F": "protest",
+   "G": "symbol",
+   "H": "twisted into",
+   "I": "associated with",
+   "J": "historical"
+  },
+  "answer": "H",
+  "gloss": "扭轉成",
+  "collocation": "stretched and __ various clip-like objects；twist into 固定搭配",
+  "explanation": "twist into 是固定搭配，「扭轉成…形狀」，與前面的 stretched 並列，考生需注意兩個動詞平行結構。",
+  "accuracyRate": 56,
+  "discrimination": 74
+ },
+ {
+  "id": "Vy104_34",
+  "year": "104年",
+  "passageId": "y104",
+  "blankNum": 34,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "familiar",
+   "B": "honor",
+   "C": "device",
+   "D": "removable",
+   "E": "known as",
+   "F": "protest",
+   "G": "symbol",
+   "H": "twisted into",
+   "I": "associated with",
+   "J": "historical"
+  },
+  "answer": "I",
+  "gloss": "與…有關聯",
+  "collocation": "The name most frequently __ the paperclip invention；be associated with 固定搭配",
+  "explanation": "associated with 是常考固定搭配，「與…相關聯」，考生需掌握完整片語不能只選 associate。",
+  "accuracyRate": 38,
+  "discrimination": 61
+ },
+ {
+  "id": "Vy104_35",
+  "year": "104年",
+  "passageId": "y104",
+  "blankNum": 35,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "familiar",
+   "B": "honor",
+   "C": "device",
+   "D": "removable",
+   "E": "known as",
+   "F": "protest",
+   "G": "symbol",
+   "H": "twisted into",
+   "I": "associated with",
+   "J": "historical"
+  },
+  "answer": "A",
+  "gloss": "常見的、為人熟知的",
+  "collocation": "The __ looped design；familiar 修飾 design(非「熟悉某人」)",
+  "explanation": "familiar 是多義字，此處指「常見的、為人熟知的」設計，而非「(某人)熟悉的」，考生易誤解語意方向。",
+  "accuracyRate": 44,
+  "discrimination": 62
+ },
+ {
+  "id": "Vy104_36",
+  "year": "104年",
+  "passageId": "y104",
+  "blankNum": 36,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "familiar",
+   "B": "honor",
+   "C": "device",
+   "D": "removable",
+   "E": "known as",
+   "F": "protest",
+   "G": "symbol",
+   "H": "twisted into",
+   "I": "associated with",
+   "J": "historical"
+  },
+  "answer": "E",
+  "gloss": "被稱為",
+  "collocation": "This clip is therefore sometimes __ the Gem clip；be known as 固定搭配",
+  "explanation": "be known as 是常考固定搭配，「被稱為…」，考生易與 known for(以…聞名)搞混。",
+  "accuracyRate": 42,
+  "discrimination": 64
+ },
+ {
+  "id": "Vy104_37",
+  "year": "104年",
+  "passageId": "y104",
+  "blankNum": 37,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "familiar",
+   "B": "honor",
+   "C": "device",
+   "D": "removable",
+   "E": "known as",
+   "F": "protest",
+   "G": "symbol",
+   "H": "twisted into",
+   "I": "associated with",
+   "J": "historical"
+  },
+  "answer": "J",
+  "gloss": "歷史性的",
+  "collocation": "played an important __ role；historical role 固定搭配",
+  "explanation": "historical role 是常見固定搭配，「歷史性的角色」。",
+  "accuracyRate": 53,
+  "discrimination": 73
+ },
+ {
+  "id": "Vy104_38",
+  "year": "104年",
+  "passageId": "y104",
+  "blankNum": 38,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "familiar",
+   "B": "honor",
+   "C": "device",
+   "D": "removable",
+   "E": "known as",
+   "F": "protest",
+   "G": "symbol",
+   "H": "twisted into",
+   "I": "associated with",
+   "J": "historical"
+  },
+  "answer": "G",
+  "gloss": "象徵",
+  "collocation": "any __ of their national unity；symbol of 固定搭配",
+  "explanation": "symbol of 是固定搭配，「…的象徵」，呼應後文「配戴迴紋針表達團結」的語意。",
+  "accuracyRate": 50,
+  "discrimination": 76
+ },
+ {
+  "id": "Vy104_39",
+  "year": "104年",
+  "passageId": "y104",
+  "blankNum": 39,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "familiar",
+   "B": "honor",
+   "C": "device",
+   "D": "removable",
+   "E": "known as",
+   "F": "protest",
+   "G": "symbol",
+   "H": "twisted into",
+   "I": "associated with",
+   "J": "historical"
+  },
+  "answer": "F",
+  "gloss": "抗議",
+  "collocation": "in __, they started wearing paperclips；in protest 固定片語",
+  "explanation": "in protest 是固定片語，「以示抗議」，考生需認出此介系詞片語用法。",
+  "accuracyRate": 33,
+  "discrimination": 65
+ },
+ {
+  "id": "Vy104_40",
+  "year": "104年",
+  "passageId": "y104",
+  "blankNum": 40,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "familiar",
+   "B": "honor",
+   "C": "device",
+   "D": "removable",
+   "E": "known as",
+   "F": "protest",
+   "G": "symbol",
+   "H": "twisted into",
+   "I": "associated with",
+   "J": "historical"
+  },
+  "answer": "B",
+  "gloss": "向…致敬",
+  "collocation": "erected...to __ Vaaler；honor 當動詞用(非常見的名詞用法)",
+  "explanation": "honor 常見是名詞(榮譽)，但此處當動詞「向…致敬」，是典型詞性陷阱，考生易只知名詞用法。",
+  "accuracyRate": 44,
+  "discrimination": 74
+ },
+ {
+  "id": "Vy103_31",
+  "year": "103年",
+  "passageId": "y103",
+  "blankNum": 31,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "drawn to",
+   "B": "fall into",
+   "C": "impact",
+   "D": "involving",
+   "E": "keep",
+   "F": "passing down",
+   "G": "regardless",
+   "H": "religion",
+   "I": "respect",
+   "J": "unique"
+  },
+  "answer": "I",
+  "gloss": "尊敬",
+  "collocation": "show __ for；show respect for 固定搭配",
+  "explanation": "show respect for 是常考固定搭配，「表達對…的尊敬」。",
+  "accuracyRate": 59,
+  "discrimination": 81
+ },
+ {
+  "id": "Vy103_32",
+  "year": "103年",
+  "passageId": "y103",
+  "blankNum": 32,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "drawn to",
+   "B": "fall into",
+   "C": "impact",
+   "D": "involving",
+   "E": "keep",
+   "F": "passing down",
+   "G": "regardless",
+   "H": "religion",
+   "I": "respect",
+   "J": "unique"
+  },
+  "answer": "F",
+  "gloss": "傳承下去",
+  "collocation": "a tradition of __ the father's first name；of + 動名詞",
+  "explanation": "介系詞 of 後面需接動名詞，passing down 表「傳承」，考生易誤用原形動詞。",
+  "accuracyRate": 52,
+  "discrimination": 78
+ },
+ {
+  "id": "Vy103_33",
+  "year": "103年",
+  "passageId": "y103",
+  "blankNum": 33,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "drawn to",
+   "B": "fall into",
+   "C": "impact",
+   "D": "involving",
+   "E": "keep",
+   "F": "passing down",
+   "G": "regardless",
+   "H": "religion",
+   "I": "respect",
+   "J": "unique"
+  },
+  "answer": "E",
+  "gloss": "維持",
+  "collocation": "to __ a family surname going；keep + O + Ving 使役結構",
+  "explanation": "keep...going 是固定句型，「讓…持續下去」，考生需辨認 keep 在此的動詞用法。",
+  "accuracyRate": 61,
+  "discrimination": 71
+ },
+ {
+  "id": "Vy103_34",
+  "year": "103年",
+  "passageId": "y103",
+  "blankNum": 34,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "drawn to",
+   "B": "fall into",
+   "C": "impact",
+   "D": "involving",
+   "E": "keep",
+   "F": "passing down",
+   "G": "regardless",
+   "H": "religion",
+   "I": "respect",
+   "J": "unique"
+  },
+  "answer": "H",
+  "gloss": "宗教",
+  "collocation": "For a long time, __ has also played an important role；主詞名詞",
+  "explanation": "此格需靠邏輯推論：段落主題是宗教對命名的影響，且後文舉聖經人名為例，呼應此處主詞應為 religion。",
+  "accuracyRate": 68,
+  "discrimination": 78
+ },
+ {
+  "id": "Vy103_35",
+  "year": "103年",
+  "passageId": "y103",
+  "blankNum": 35,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "drawn to",
+   "B": "fall into",
+   "C": "impact",
+   "D": "involving",
+   "E": "keep",
+   "F": "passing down",
+   "G": "regardless",
+   "H": "religion",
+   "I": "respect",
+   "J": "unique"
+  },
+  "answer": "D",
+  "gloss": "涉及、包含",
+  "collocation": "names __ things of beauty；分詞片語修飾 names",
+  "explanation": "involving 是現在分詞，修飾前面的 names(涉及美好事物的名字)，考生易誤用其他詞性。",
+  "accuracyRate": 35,
+  "discrimination": 61
+ },
+ {
+  "id": "Vy103_36",
+  "year": "103年",
+  "passageId": "y103",
+  "blankNum": 36,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "drawn to",
+   "B": "fall into",
+   "C": "impact",
+   "D": "involving",
+   "E": "keep",
+   "F": "passing down",
+   "G": "regardless",
+   "H": "religion",
+   "I": "respect",
+   "J": "unique"
+  },
+  "answer": "B",
+  "gloss": "歸類於",
+  "collocation": "Flower and plant names...__ this category；fall into 固定搭配",
+  "explanation": "fall into a category 是常考固定搭配，「歸屬於某類別」。",
+  "accuracyRate": 42,
+  "discrimination": 49
+ },
+ {
+  "id": "Vy103_37",
+  "year": "103年",
+  "passageId": "y103",
+  "blankNum": 37,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "drawn to",
+   "B": "fall into",
+   "C": "impact",
+   "D": "involving",
+   "E": "keep",
+   "F": "passing down",
+   "G": "regardless",
+   "H": "religion",
+   "I": "respect",
+   "J": "unique"
+  },
+  "answer": "C",
+  "gloss": "影響",
+  "collocation": "has had a great __ on...；have an impact on 固定搭配",
+  "explanation": "have an impact on 是常考固定搭配，「對…造成影響」。",
+  "accuracyRate": 62,
+  "discrimination": 79
+ },
+ {
+  "id": "Vy103_38",
+  "year": "103年",
+  "passageId": "y103",
+  "blankNum": 38,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "drawn to",
+   "B": "fall into",
+   "C": "impact",
+   "D": "involving",
+   "E": "keep",
+   "F": "passing down",
+   "G": "regardless",
+   "H": "religion",
+   "I": "respect",
+   "J": "unique"
+  },
+  "answer": "A",
+  "gloss": "被吸引",
+  "collocation": "strongly __ a character；be drawn to 固定搭配",
+  "explanation": "be drawn to 是常考固定搭配，「被…吸引」，考生易誤用 draw 的其他形式。",
+  "accuracyRate": 40,
+  "discrimination": 53
+ },
+ {
+  "id": "Vy103_39",
+  "year": "103年",
+  "passageId": "y103",
+  "blankNum": 39,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "drawn to",
+   "B": "fall into",
+   "C": "impact",
+   "D": "involving",
+   "E": "keep",
+   "F": "passing down",
+   "G": "regardless",
+   "H": "religion",
+   "I": "respect",
+   "J": "unique"
+  },
+  "answer": "J",
+  "gloss": "獨特的",
+  "collocation": "make their children more __ and distinctive；與 distinctive 並列近義形容詞",
+  "explanation": "unique 與後面的 distinctive 是近義並列，考生需理解兩者語意接近、共同修飾 children。",
+  "accuracyRate": 67,
+  "discrimination": 77
+ },
+ {
+  "id": "Vy103_40",
+  "year": "103年",
+  "passageId": "y103",
+  "blankNum": 40,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "drawn to",
+   "B": "fall into",
+   "C": "impact",
+   "D": "involving",
+   "E": "keep",
+   "F": "passing down",
+   "G": "regardless",
+   "H": "religion",
+   "I": "respect",
+   "J": "unique"
+  },
+  "answer": "G",
+  "gloss": "不論、不管",
+  "collocation": "pick a name...__ of its meaning；regardless of 固定搭配",
+  "explanation": "regardless of 是常考固定搭配，「不論、不管」，考生易與 regard 其他形式混淆。",
+  "accuracyRate": 52,
+  "discrimination": 82
+ },
+ {
+  "id": "Vy102_31",
+  "year": "102年",
+  "passageId": "y102",
+  "blankNum": 31,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "resistance",
+   "B": "identified",
+   "C": "last",
+   "D": "escape",
+   "E": "sadly",
+   "F": "eventually",
+   "G": "disappearance",
+   "H": "souvenirs",
+   "I": "endangered",
+   "J": "carry"
+  },
+  "answer": "D",
+  "gloss": "逃脫",
+  "collocation": "lay their eggs and __ from predators；escape from 固定搭配",
+  "explanation": "escape from 是常考固定搭配，「從…逃脫」，考生易漏接介詞 from。",
+  "accuracyRate": 62,
+  "discrimination": 78
+ },
+ {
+  "id": "Vy102_32",
+  "year": "102年",
+  "passageId": "y102",
+  "blankNum": 32,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "resistance",
+   "B": "identified",
+   "C": "last",
+   "D": "escape",
+   "E": "sadly",
+   "F": "eventually",
+   "G": "disappearance",
+   "H": "souvenirs",
+   "I": "endangered",
+   "J": "carry"
+  },
+  "answer": "I",
+  "gloss": "瀕危的",
+  "collocation": "Some species might even become __；become + adj(過去分詞轉形容詞)",
+  "explanation": "endangered 是過去分詞轉形容詞用法，「瀕危的」，考生需辨認 become 後接形容詞的結構。",
+  "accuracyRate": 60,
+  "discrimination": 83
+ },
+ {
+  "id": "Vy102_33",
+  "year": "102年",
+  "passageId": "y102",
+  "blankNum": 33,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "resistance",
+   "B": "identified",
+   "C": "last",
+   "D": "escape",
+   "E": "sadly",
+   "F": "eventually",
+   "G": "disappearance",
+   "H": "souvenirs",
+   "I": "endangered",
+   "J": "carry"
+  },
+  "answer": "E",
+  "gloss": "遺憾地",
+  "collocation": "__, however, they are now in serious danger；句首語氣副詞+however並用",
+  "explanation": "sadly 是句首語氣副詞，表達作者遺憾的態度，與 however 並用加強轉折語氣，屬於固定的語氣鋪陳句型。",
+  "accuracyRate": 63,
+  "discrimination": 80
+ },
+ {
+  "id": "Vy102_34",
+  "year": "102年",
+  "passageId": "y102",
+  "blankNum": 34,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "resistance",
+   "B": "identified",
+   "C": "last",
+   "D": "escape",
+   "E": "sadly",
+   "F": "eventually",
+   "G": "disappearance",
+   "H": "souvenirs",
+   "I": "endangered",
+   "J": "carry"
+  },
+  "answer": "C",
+  "gloss": "持續",
+  "collocation": "Many might not even __ that long；last 當動詞(非形容詞「最後的」)",
+  "explanation": "last 是多義字，此處當動詞「持續、維持」，而非常見的形容詞「最後的」，考生易誤解詞性。",
+  "accuracyRate": 51,
+  "discrimination": 82
+ },
+ {
+  "id": "Vy102_35",
+  "year": "102年",
+  "passageId": "y102",
+  "blankNum": 35,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "resistance",
+   "B": "identified",
+   "C": "last",
+   "D": "escape",
+   "E": "sadly",
+   "F": "eventually",
+   "G": "disappearance",
+   "H": "souvenirs",
+   "I": "endangered",
+   "J": "carry"
+  },
+  "answer": "B",
+  "gloss": "被找出、被確認",
+  "collocation": "three main causes have been __；現在完成式被動語態",
+  "explanation": "identified 是被動語態動詞，「已被找出」，考生需辨認 have been + p.p. 的完成式被動結構。",
+  "accuracyRate": 66,
+  "discrimination": 78
+ },
+ {
+  "id": "Vy102_36",
+  "year": "102年",
+  "passageId": "y102",
+  "blankNum": 36,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "resistance",
+   "B": "identified",
+   "C": "last",
+   "D": "escape",
+   "E": "sadly",
+   "F": "eventually",
+   "G": "disappearance",
+   "H": "souvenirs",
+   "I": "endangered",
+   "J": "carry"
+  },
+  "answer": "J",
+  "gloss": "攜帶、運送",
+  "collocation": "which __ the poisons into the ocean；關代 which 引導的子句動詞",
+  "explanation": "此格為關係子句的動詞，指前面的 rainwater/streams「將毒素帶入海洋」，需理解關係代名詞的先行詞邏輯。",
+  "accuracyRate": 65,
+  "discrimination": 80
+ },
+ {
+  "id": "Vy102_37",
+  "year": "102年",
+  "passageId": "y102",
+  "blankNum": 37,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "resistance",
+   "B": "identified",
+   "C": "last",
+   "D": "escape",
+   "E": "sadly",
+   "F": "eventually",
+   "G": "disappearance",
+   "H": "souvenirs",
+   "I": "endangered",
+   "J": "carry"
+  },
+  "answer": "A",
+  "gloss": "抵抗力",
+  "collocation": "less __ to diseases；resistance to 固定搭配",
+  "explanation": "resistance to 是常考固定搭配，「對…的抵抗力」。",
+  "accuracyRate": 54,
+  "discrimination": 81
+ },
+ {
+  "id": "Vy102_38",
+  "year": "102年",
+  "passageId": "y102",
+  "blankNum": 38,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "resistance",
+   "B": "identified",
+   "C": "last",
+   "D": "escape",
+   "E": "sadly",
+   "F": "eventually",
+   "G": "disappearance",
+   "H": "souvenirs",
+   "I": "endangered",
+   "J": "carry"
+  },
+  "answer": "F",
+  "gloss": "最終",
+  "collocation": "the coral...dies __；eventually 表結果的時間副詞",
+  "explanation": "eventually 是多義字辨析的一種——需分辨「最終」與「立刻/quickly」等其他時間副詞的語意差異。",
+  "accuracyRate": 60,
+  "discrimination": 82
+ },
+ {
+  "id": "Vy102_39",
+  "year": "102年",
+  "passageId": "y102",
+  "blankNum": 39,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "resistance",
+   "B": "identified",
+   "C": "last",
+   "D": "escape",
+   "E": "sadly",
+   "F": "eventually",
+   "G": "disappearance",
+   "H": "souvenirs",
+   "I": "endangered",
+   "J": "carry"
+  },
+  "answer": "G",
+  "gloss": "消失",
+  "collocation": "contributing to the __ of coral reefs；contribute to the N of 固定搭配",
+  "explanation": "contribute to the N of 是常考固定搭配，「導致…的消失」。",
+  "accuracyRate": 53,
+  "discrimination": 86
+ },
+ {
+  "id": "Vy102_40",
+  "year": "102年",
+  "passageId": "y102",
+  "blankNum": 40,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "resistance",
+   "B": "identified",
+   "C": "last",
+   "D": "escape",
+   "E": "sadly",
+   "F": "eventually",
+   "G": "disappearance",
+   "H": "souvenirs",
+   "I": "endangered",
+   "J": "carry"
+  },
+  "answer": "H",
+  "gloss": "紀念品",
+  "collocation": "collect for __ since it is so colorful；因果邏輯(顏色鮮豔→拿來做紀念品)",
+  "explanation": "此格需邏輯推論：因為珊瑚「色彩鮮豔漂亮」，人們才會採集來做紀念品，沒有明顯固定搭配可直接對應。",
+  "accuracyRate": 54,
+  "discrimination": 83
+ },
+ {
+  "id": "Vy101_31",
+  "year": "101年",
+  "passageId": "y101",
+  "blankNum": 31,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "request",
+   "B": "favor",
+   "C": "disadvantage",
+   "D": "composed",
+   "E": "recycled",
+   "F": "practice",
+   "G": "replaced",
+   "H": "raise",
+   "I": "various",
+   "J": "female"
+  },
+  "answer": "I",
+  "gloss": "各式各樣的",
+  "collocation": "coded with __ types of numbers；various + N(複數)",
+  "explanation": "various types of 是常見固定搭配，「各種類型的」。",
+  "accuracyRate": 62,
+  "discrimination": 78
+ },
+ {
+  "id": "Vy101_32",
+  "year": "101年",
+  "passageId": "y101",
+  "blankNum": 32,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "request",
+   "B": "favor",
+   "C": "disadvantage",
+   "D": "composed",
+   "E": "recycled",
+   "F": "practice",
+   "G": "replaced",
+   "H": "raise",
+   "I": "various",
+   "J": "female"
+  },
+  "answer": "C",
+  "gloss": "缺點",
+  "collocation": "The __ of this convention；the disadvantage of 固定搭配",
+  "explanation": "the disadvantage of 是常考固定搭配，「…的缺點」。",
+  "accuracyRate": 55,
+  "discrimination": 73
+ },
+ {
+  "id": "Vy101_33",
+  "year": "101年",
+  "passageId": "y101",
+  "blankNum": 33,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "request",
+   "B": "favor",
+   "C": "disadvantage",
+   "D": "composed",
+   "E": "recycled",
+   "F": "practice",
+   "G": "replaced",
+   "H": "raise",
+   "I": "various",
+   "J": "female"
+  },
+  "answer": "J",
+  "gloss": "女性的",
+  "collocation": "only __ names were used；female 修飾 names",
+  "explanation": "此格需邏輯推論：後文解釋「因為颱風以委員的女友或妻子命名」，故此處應為 female(女性)名字。",
+  "accuracyRate": 75,
+  "discrimination": 65
+ },
+ {
+  "id": "Vy101_34",
+  "year": "101年",
+  "passageId": "y101",
+  "blankNum": 34,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "request",
+   "B": "favor",
+   "C": "disadvantage",
+   "D": "composed",
+   "E": "recycled",
+   "F": "practice",
+   "G": "replaced",
+   "H": "raise",
+   "I": "various",
+   "J": "female"
+  },
+  "answer": "F",
+  "gloss": "慣例、做法",
+  "collocation": "against the original naming __；naming practice 固定搭配",
+  "explanation": "naming practice 是固定搭配，「命名慣例」。",
+  "accuracyRate": 30,
+  "discrimination": 57
+ },
+ {
+  "id": "Vy101_35",
+  "year": "101年",
+  "passageId": "y101",
+  "blankNum": 35,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "request",
+   "B": "favor",
+   "C": "disadvantage",
+   "D": "composed",
+   "E": "recycled",
+   "F": "practice",
+   "G": "replaced",
+   "H": "raise",
+   "I": "various",
+   "J": "female"
+  },
+  "answer": "H",
+  "gloss": "提升",
+  "collocation": "to __ Asians' awareness；raise awareness 固定搭配",
+  "explanation": "raise awareness 是常考固定搭配，「提升意識/認知」。",
+  "accuracyRate": 48,
+  "discrimination": 79
+ },
+ {
+  "id": "Vy101_36",
+  "year": "101年",
+  "passageId": "y101",
+  "blankNum": 36,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "request",
+   "B": "favor",
+   "C": "disadvantage",
+   "D": "composed",
+   "E": "recycled",
+   "F": "practice",
+   "G": "replaced",
+   "H": "raise",
+   "I": "various",
+   "J": "female"
+  },
+  "answer": "D",
+  "gloss": "由…組成的",
+  "collocation": "a name pool __ of 140 names；be composed of 固定搭配",
+  "explanation": "be composed of 是常考固定搭配，「由…組成」，考生易與 compose 的其他形式混淆。",
+  "accuracyRate": 47,
+  "discrimination": 81
+ },
+ {
+  "id": "Vy101_37",
+  "year": "101年",
+  "passageId": "y101",
+  "blankNum": 37,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "request",
+   "B": "favor",
+   "C": "disadvantage",
+   "D": "composed",
+   "E": "recycled",
+   "F": "practice",
+   "G": "replaced",
+   "H": "raise",
+   "I": "various",
+   "J": "female"
+  },
+  "answer": "B",
+  "gloss": "偏好",
+  "collocation": "Korea and Japan __ animal names；favor 當動詞(非「恩惠」)",
+  "explanation": "favor 是多義字，此處當動詞「偏好」，而非常見的名詞「恩惠、favor」，考生易只知名詞義。",
+  "accuracyRate": 53,
+  "discrimination": 70
+ },
+ {
+  "id": "Vy101_38",
+  "year": "101年",
+  "passageId": "y101",
+  "blankNum": 38,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "request",
+   "B": "favor",
+   "C": "disadvantage",
+   "D": "composed",
+   "E": "recycled",
+   "F": "practice",
+   "G": "replaced",
+   "H": "raise",
+   "I": "various",
+   "J": "female"
+  },
+  "answer": "E",
+  "gloss": "被循環使用",
+  "collocation": "they will be __；未來式被動語態",
+  "explanation": "此格需邏輯推論：140個名字用完後「循環使用」，呼應後文「名字可被除名替換」的除名機制脈絡。",
+  "accuracyRate": 68,
+  "discrimination": 72
+ },
+ {
+  "id": "Vy101_39",
+  "year": "101年",
+  "passageId": "y101",
+  "blankNum": 39,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "request",
+   "B": "favor",
+   "C": "disadvantage",
+   "D": "composed",
+   "E": "recycled",
+   "F": "practice",
+   "G": "replaced",
+   "H": "raise",
+   "I": "various",
+   "J": "female"
+  },
+  "answer": "A",
+  "gloss": "要求、請求",
+  "collocation": "it can __ that the name...be deleted；request that + 原形動詞(假設語氣)",
+  "explanation": "request that 子句需用「原形動詞」(假設語氣)，是常考特殊句型，考生易忘記用原形而誤用第三人稱單數。",
+  "accuracyRate": 49,
+  "discrimination": 72
+ },
+ {
+  "id": "Vy101_40",
+  "year": "101年",
+  "passageId": "y101",
+  "blankNum": 40,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "request",
+   "B": "favor",
+   "C": "disadvantage",
+   "D": "composed",
+   "E": "recycled",
+   "F": "practice",
+   "G": "replaced",
+   "H": "raise",
+   "I": "various",
+   "J": "female"
+  },
+  "answer": "G",
+  "gloss": "被取代",
+  "collocation": "were __ with other names in 2007；replace A with B 固定搭配",
+  "explanation": "replace...with... 是固定搭配，「用…取代…」。原稿選項字母此處疑似誤植為C(disadvantage)，但C已用於32題且語意不通，依語意與選項不重複使用之通例訂正為G。",
+  "accuracyRate": 58,
+  "discrimination": 80
+ },
+ {
+  "id": "Vy100_31",
+  "year": "100年",
+  "passageId": "y100",
+  "blankNum": 31,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "chemical",
+   "B": "amount",
+   "C": "popping",
+   "D": "popular",
+   "E": "comes",
+   "F": "healthy",
+   "G": "needed",
+   "H": "responsible",
+   "I": "remove",
+   "J": "problems"
+  },
+  "answer": "D",
+  "gloss": "受歡迎的",
+  "collocation": "this __ snack；popular 修飾 snack",
+  "explanation": "此格需邏輯推論：呼應第一句「rarely fail to make...more fun」，說明爆米花是廣受歡迎的零食。",
+  "accuracyRate": 79,
+  "discrimination": 55
+ },
+ {
+  "id": "Vy100_32",
+  "year": "100年",
+  "passageId": "y100",
+  "blankNum": 32,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "chemical",
+   "B": "amount",
+   "C": "popping",
+   "D": "popular",
+   "E": "comes",
+   "F": "healthy",
+   "G": "needed",
+   "H": "responsible",
+   "I": "remove",
+   "J": "problems"
+  },
+  "answer": "J",
+  "gloss": "問題",
+  "collocation": "can cause health __；health problems 固定搭配",
+  "explanation": "health problems 是常見固定搭配，「健康問題」。",
+  "accuracyRate": 83,
+  "discrimination": 47
+ },
+ {
+  "id": "Vy100_33",
+  "year": "100年",
+  "passageId": "y100",
+  "blankNum": 33,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "chemical",
+   "B": "amount",
+   "C": "popping",
+   "D": "popular",
+   "E": "comes",
+   "F": "healthy",
+   "G": "needed",
+   "H": "responsible",
+   "I": "remove",
+   "J": "problems"
+  },
+  "answer": "A",
+  "gloss": "化學物質",
+  "collocation": "coat...with a __ called PFOA；a chemical called X 固定搭配",
+  "explanation": "a chemical called X 是常見固定搭配，「一種叫做X的化學物質」。",
+  "accuracyRate": 73,
+  "discrimination": 67
+ },
+ {
+  "id": "Vy100_34",
+  "year": "100年",
+  "passageId": "y100",
+  "blankNum": 34,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "chemical",
+   "B": "amount",
+   "C": "popping",
+   "D": "popular",
+   "E": "comes",
+   "F": "healthy",
+   "G": "needed",
+   "H": "responsible",
+   "I": "remove",
+   "J": "problems"
+  },
+  "answer": "E",
+  "gloss": "附帶、伴隨",
+  "collocation": "the butter substitute that generally __ with...；come with 固定搭配",
+  "explanation": "come with 是常考固定搭配，「附帶有…」，考生易漏接介詞 with。",
+  "accuracyRate": 60,
+  "discrimination": 75
+ },
+ {
+  "id": "Vy100_35",
+  "year": "100年",
+  "passageId": "y100",
+  "blankNum": 35,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "chemical",
+   "B": "amount",
+   "C": "popping",
+   "D": "popular",
+   "E": "comes",
+   "F": "healthy",
+   "G": "needed",
+   "H": "responsible",
+   "I": "remove",
+   "J": "problems"
+  },
+  "answer": "H",
+  "gloss": "應負責任的、導致…的",
+  "collocation": "is __ for some serious lung diseases；be responsible for 固定搭配",
+  "explanation": "be responsible for 是常考固定搭配，「導致/應為…負責」。此字選項在原稿清單中被漏列，已依語意補回。",
+  "accuracyRate": 56,
+  "discrimination": 80
+ },
+ {
+  "id": "Vy100_36",
+  "year": "100年",
+  "passageId": "y100",
+  "blankNum": 36,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "chemical",
+   "B": "amount",
+   "C": "popping",
+   "D": "popular",
+   "E": "comes",
+   "F": "healthy",
+   "G": "needed",
+   "H": "responsible",
+   "I": "remove",
+   "J": "problems"
+  },
+  "answer": "F",
+  "gloss": "健康的",
+  "collocation": "an easy and __ alternative；healthy 修飾 alternative",
+  "explanation": "healthy alternative 是常見固定搭配，「健康的替代方案」。",
+  "accuracyRate": 66,
+  "discrimination": 70
+ },
+ {
+  "id": "Vy100_37",
+  "year": "100年",
+  "passageId": "y100",
+  "blankNum": 37,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "chemical",
+   "B": "amount",
+   "C": "popping",
+   "D": "popular",
+   "E": "comes",
+   "F": "healthy",
+   "G": "needed",
+   "H": "responsible",
+   "I": "remove",
+   "J": "problems"
+  },
+  "answer": "G",
+  "gloss": "所需要的",
+  "collocation": "All that is __ is...；all that is + p.p. 句型",
+  "explanation": "all that is needed is... 是常考句型，「所需要的只是…」，考生需辨認 needed 的被動分詞用法。",
+  "accuracyRate": 57,
+  "discrimination": 78
+ },
+ {
+  "id": "Vy100_38",
+  "year": "100年",
+  "passageId": "y100",
+  "blankNum": 38,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "chemical",
+   "B": "amount",
+   "C": "popping",
+   "D": "popular",
+   "E": "comes",
+   "F": "healthy",
+   "G": "needed",
+   "H": "responsible",
+   "I": "remove",
+   "J": "problems"
+  },
+  "answer": "C",
+  "gloss": "爆開",
+  "collocation": "the kernels start __；start + V-ing 固定搭配",
+  "explanation": "start popping 表「開始爆開」，考生需辨認 start 後接動名詞的用法。此字選項在原稿清單中被漏列，已依語意補回。",
+  "accuracyRate": 70,
+  "discrimination": 71
+ },
+ {
+  "id": "Vy100_39",
+  "year": "100年",
+  "passageId": "y100",
+  "blankNum": 39,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "chemical",
+   "B": "amount",
+   "C": "popping",
+   "D": "popular",
+   "E": "comes",
+   "F": "healthy",
+   "G": "needed",
+   "H": "responsible",
+   "I": "remove",
+   "J": "problems"
+  },
+  "answer": "I",
+  "gloss": "移開、拿開",
+  "collocation": "__ the pot from the stove；remove...from 固定搭配",
+  "explanation": "remove...from 是常考固定搭配，「把…從…移開」，此處為步驟指示的祈使句。",
+  "accuracyRate": 67,
+  "discrimination": 74
+ },
+ {
+  "id": "Vy100_40",
+  "year": "100年",
+  "passageId": "y100",
+  "blankNum": 40,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "chemical",
+   "B": "amount",
+   "C": "popping",
+   "D": "popular",
+   "E": "comes",
+   "F": "healthy",
+   "G": "needed",
+   "H": "responsible",
+   "I": "remove",
+   "J": "problems"
+  },
+  "answer": "B",
+  "gloss": "分量",
+  "collocation": "season with a small __ of...；a small amount of 固定搭配",
+  "explanation": "a small amount of 是常見固定搭配，「少量的…」。",
+  "accuracyRate": 65,
+  "discrimination": 75
+ },
+ {
+  "id": "Vy99_31",
+  "year": "99年",
+  "passageId": "y99",
+  "blankNum": 31,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "cooperation",
+   "B": "prosper",
+   "C": "teacher",
+   "D": "behave",
+   "E": "isolated",
+   "F": "essential",
+   "G": "better",
+   "H": "share",
+   "I": "field",
+   "J": "remember"
+  },
+  "answer": "C",
+  "gloss": "老師",
+  "collocation": "an invaluable __；teacher 此處為隱喻(足球=老師)",
+  "explanation": "teacher 在此非字面「授課教師」，而是比喻足球扮演的教育角色，考生需理解隱喻寫法而非只知字面義。",
+  "accuracyRate": 51,
+  "discrimination": 65
+ },
+ {
+  "id": "Vy99_32",
+  "year": "99年",
+  "passageId": "y99",
+  "blankNum": 32,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "cooperation",
+   "B": "prosper",
+   "C": "teacher",
+   "D": "behave",
+   "E": "isolated",
+   "F": "essential",
+   "G": "better",
+   "H": "share",
+   "I": "field",
+   "J": "remember"
+  },
+  "answer": "I",
+  "gloss": "球場",
+  "collocation": "the practice __；practice field 固定搭配",
+  "explanation": "practice field 是常見固定搭配，「練習場」。",
+  "accuracyRate": 49,
+  "discrimination": 78
+ },
+ {
+  "id": "Vy99_33",
+  "year": "99年",
+  "passageId": "y99",
+  "blankNum": 33,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "cooperation",
+   "B": "prosper",
+   "C": "teacher",
+   "D": "behave",
+   "E": "isolated",
+   "F": "essential",
+   "G": "better",
+   "H": "share",
+   "I": "field",
+   "J": "remember"
+  },
+  "answer": "G",
+  "gloss": "更好的",
+  "collocation": "prepares them to be __ citizens；比較級形容詞修飾 citizens",
+  "explanation": "此格需邏輯推論：football 訓練帶來的正面效果，讓球員成為「更好的」公民，屬於上下文語意判斷。",
+  "accuracyRate": 33,
+  "discrimination": 49
+ },
+ {
+  "id": "Vy99_34",
+  "year": "99年",
+  "passageId": "y99",
+  "blankNum": 34,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "cooperation",
+   "B": "prosper",
+   "C": "teacher",
+   "D": "behave",
+   "E": "isolated",
+   "F": "essential",
+   "G": "better",
+   "H": "share",
+   "I": "field",
+   "J": "remember"
+  },
+  "answer": "A",
+  "gloss": "合作",
+  "collocation": "only through the __ of each member；through the cooperation of 固定搭配",
+  "explanation": "through the cooperation of 是常考固定搭配，「透過…的合作」。",
+  "accuracyRate": 48,
+  "discrimination": 74
+ },
+ {
+  "id": "Vy99_35",
+  "year": "99年",
+  "passageId": "y99",
+  "blankNum": 35,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "cooperation",
+   "B": "prosper",
+   "C": "teacher",
+   "D": "behave",
+   "E": "isolated",
+   "F": "essential",
+   "G": "better",
+   "H": "share",
+   "I": "field",
+   "J": "remember"
+  },
+  "answer": "J",
+  "gloss": "記住",
+  "collocation": "must always __ on the field；remember 此處省略受詞(承接前句 lesson)",
+  "explanation": "此格為省略受詞的用法(remember it)，考生需理解上下文承接關係，而非死記固定搭配。",
+  "accuracyRate": 56,
+  "discrimination": 73
+ },
+ {
+  "id": "Vy99_36",
+  "year": "99年",
+  "passageId": "y99",
+  "blankNum": 36,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "cooperation",
+   "B": "prosper",
+   "C": "teacher",
+   "D": "behave",
+   "E": "isolated",
+   "F": "essential",
+   "G": "better",
+   "H": "share",
+   "I": "field",
+   "J": "remember"
+  },
+  "answer": "E",
+  "gloss": "孤立的",
+  "collocation": "remain __ from the society；remain isolated from 固定搭配",
+  "explanation": "remain isolated from 是常考固定搭配，「保持與…隔絕」。",
+  "accuracyRate": 40,
+  "discrimination": 72
+ },
+ {
+  "id": "Vy99_37",
+  "year": "99年",
+  "passageId": "y99",
+  "blankNum": 37,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "cooperation",
+   "B": "prosper",
+   "C": "teacher",
+   "D": "behave",
+   "E": "isolated",
+   "F": "essential",
+   "G": "better",
+   "H": "share",
+   "I": "field",
+   "J": "remember"
+  },
+  "answer": "D",
+  "gloss": "使自己表現、行為端正",
+  "collocation": "must __ himself as such；behave oneself 固定搭配",
+  "explanation": "behave oneself 是固定搭配，「使自己循規蹈矩」，考生易漏接反身代名詞 himself。",
+  "accuracyRate": 35,
+  "discrimination": 53
+ },
+ {
+  "id": "Vy99_38",
+  "year": "99年",
+  "passageId": "y99",
+  "blankNum": 38,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "cooperation",
+   "B": "prosper",
+   "C": "teacher",
+   "D": "behave",
+   "E": "isolated",
+   "F": "essential",
+   "G": "better",
+   "H": "share",
+   "I": "field",
+   "J": "remember"
+  },
+  "answer": "H",
+  "gloss": "本分、份內的事",
+  "collocation": "can he do his __；do one's share 固定搭配",
+  "explanation": "do one's share 是常考固定搭配，「盡自己的本分」。",
+  "accuracyRate": 11,
+  "discrimination": 18
+ },
+ {
+  "id": "Vy99_39",
+  "year": "99年",
+  "passageId": "y99",
+  "blankNum": 39,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "cooperation",
+   "B": "prosper",
+   "C": "teacher",
+   "D": "behave",
+   "E": "isolated",
+   "F": "essential",
+   "G": "better",
+   "H": "share",
+   "I": "field",
+   "J": "remember"
+  },
+  "answer": "F",
+  "gloss": "不可或缺的",
+  "collocation": "teamwork is __ in modern living；be essential in 固定搭配",
+  "explanation": "be essential in 是常考固定搭配，「在…中是必要的」。",
+  "accuracyRate": 56,
+  "discrimination": 79
+ },
+ {
+  "id": "Vy99_40",
+  "year": "99年",
+  "passageId": "y99",
+  "blankNum": 40,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "cooperation",
+   "B": "prosper",
+   "C": "teacher",
+   "D": "behave",
+   "E": "isolated",
+   "F": "essential",
+   "G": "better",
+   "H": "share",
+   "I": "field",
+   "J": "remember"
+  },
+  "answer": "B",
+  "gloss": "繁榮、興盛",
+  "collocation": "if the nation is to __；if 條件句 + 原形動詞",
+  "explanation": "此格需邏輯推論：「若國家要興盛」的條件句意，考生需理解 if...is to V 的句型判斷動詞語意方向。",
+  "accuracyRate": 29,
+  "discrimination": 43
+ },
+ {
+  "id": "Vy98_31",
+  "year": "98年",
+  "passageId": "y98",
+  "blankNum": 31,
+  "categories": [
+   "同義改寫／替代指涉"
+  ],
+  "options": {
+   "A": "arranged",
+   "B": "challenges",
+   "C": "competitors",
+   "D": "cooperate",
+   "E": "fast",
+   "F": "finishing",
+   "G": "identify",
+   "H": "opposite",
+   "I": "same",
+   "J": "teamwork"
+  },
+  "answer": "I",
+  "gloss": "同樣的",
+  "collocation": "the __ fable can be extended；same 呼應前文的 this popular version",
+  "explanation": "same 在此用來同指「這個大家熟悉的版本」，是跨句同指的改寫手法，而非單純字面「相同」。",
+  "accuracyRate": 48,
+  "discrimination": 74
+ },
+ {
+  "id": "Vy98_32",
+  "year": "98年",
+  "passageId": "y98",
+  "blankNum": 32,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "arranged",
+   "B": "challenges",
+   "C": "competitors",
+   "D": "cooperate",
+   "E": "fast",
+   "F": "finishing",
+   "G": "identify",
+   "H": "opposite",
+   "I": "same",
+   "J": "teamwork"
+  },
+  "answer": "A",
+  "gloss": "被安排",
+  "collocation": "a second race is __；race is arranged 被動搭配",
+  "explanation": "arranged 是被動語態動詞，「被安排」，考生需辨認 be + p.p. 的被動結構。",
+  "accuracyRate": 41,
+  "discrimination": 67
+ },
+ {
+  "id": "Vy98_33",
+  "year": "98年",
+  "passageId": "y98",
+  "blankNum": 33,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "arranged",
+   "B": "challenges",
+   "C": "competitors",
+   "D": "cooperate",
+   "E": "fast",
+   "F": "finishing",
+   "G": "identify",
+   "H": "opposite",
+   "I": "same",
+   "J": "teamwork"
+  },
+  "answer": "E",
+  "gloss": "快速的",
+  "collocation": "__, consistent will always beat slow and steady；與 slow and steady 相對的形容詞組",
+  "explanation": "fast 在此與後面的 consistent 並列，構成與經典版本「slow and steady」相對的新寓意，考生需理解對照關係。",
+  "accuracyRate": 45,
+  "discrimination": 78
+ },
+ {
+  "id": "Vy98_34",
+  "year": "98年",
+  "passageId": "y98",
+  "blankNum": 34,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "arranged",
+   "B": "challenges",
+   "C": "competitors",
+   "D": "cooperate",
+   "E": "fast",
+   "F": "finishing",
+   "G": "identify",
+   "H": "opposite",
+   "I": "same",
+   "J": "teamwork"
+  },
+  "answer": "B",
+  "gloss": "挑戰",
+  "collocation": "it is the tortoise that __ the hare to a third race；challenge sb to N 固定搭配",
+  "explanation": "challenge someone to something 是常考固定搭配，「向某人挑戰某事」。",
+  "accuracyRate": 42,
+  "discrimination": 74
+ },
+ {
+  "id": "Vy98_35",
+  "year": "98年",
+  "passageId": "y98",
+  "blankNum": 35,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "arranged",
+   "B": "challenges",
+   "C": "competitors",
+   "D": "cooperate",
+   "E": "fast",
+   "F": "finishing",
+   "G": "identify",
+   "H": "opposite",
+   "I": "same",
+   "J": "teamwork"
+  },
+  "answer": "G",
+  "gloss": "找出、辨識",
+  "collocation": "First __ your strengths；祈使句原形動詞",
+  "explanation": "identify your strengths 是常見固定搭配，「找出自己的優勢」，此處為祈使句需用原形動詞。",
+  "accuracyRate": 44,
+  "discrimination": 80
+ },
+ {
+  "id": "Vy98_36",
+  "year": "98年",
+  "passageId": "y98",
+  "blankNum": 36,
+  "categories": [
+   "同義改寫／替代指涉"
+  ],
+  "options": {
+   "A": "arranged",
+   "B": "challenges",
+   "C": "competitors",
+   "D": "cooperate",
+   "E": "fast",
+   "F": "finishing",
+   "G": "identify",
+   "H": "opposite",
+   "I": "same",
+   "J": "teamwork"
+  },
+  "answer": "C",
+  "gloss": "競爭者",
+  "collocation": "Both __ know their own drawbacks；competitors 呼應前文的烏龜與兔子",
+  "explanation": "competitors 在此同指「烏龜與兔子」這兩位參賽者，是跨句改寫的手法，考生需理解代換邏輯。",
+  "accuracyRate": 59,
+  "discrimination": 70
+ },
+ {
+  "id": "Vy98_37",
+  "year": "98年",
+  "passageId": "y98",
+  "blankNum": 37,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "arranged",
+   "B": "challenges",
+   "C": "competitors",
+   "D": "cooperate",
+   "E": "fast",
+   "F": "finishing",
+   "G": "identify",
+   "H": "opposite",
+   "I": "same",
+   "J": "teamwork"
+  },
+  "answer": "D",
+  "gloss": "合作",
+  "collocation": "The two __ as a team；cooperate as a team 固定搭配",
+  "explanation": "cooperate as a team 是常考固定搭配，「以團隊方式合作」。",
+  "accuracyRate": 40,
+  "discrimination": 76
+ },
+ {
+  "id": "Vy98_38",
+  "year": "98年",
+  "passageId": "y98",
+  "blankNum": 38,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "arranged",
+   "B": "challenges",
+   "C": "competitors",
+   "D": "cooperate",
+   "E": "fast",
+   "F": "finishing",
+   "G": "identify",
+   "H": "opposite",
+   "I": "same",
+   "J": "teamwork"
+  },
+  "answer": "H",
+  "gloss": "對面的",
+  "collocation": "swims to the __ bank of the river；opposite bank 固定搭配",
+  "explanation": "opposite bank 是常見固定搭配，「對岸」。",
+  "accuracyRate": 39,
+  "discrimination": 69
+ },
+ {
+  "id": "Vy98_39",
+  "year": "98年",
+  "passageId": "y98",
+  "blankNum": 39,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "arranged",
+   "B": "challenges",
+   "C": "competitors",
+   "D": "cooperate",
+   "E": "fast",
+   "F": "finishing",
+   "G": "identify",
+   "H": "opposite",
+   "I": "same",
+   "J": "teamwork"
+  },
+  "answer": "F",
+  "gloss": "終點的",
+  "collocation": "reach the __ line together；finishing line 固定搭配",
+  "explanation": "finishing line 是常考固定搭配，「終點線」。",
+  "accuracyRate": 50,
+  "discrimination": 79
+ },
+ {
+  "id": "Vy98_40",
+  "year": "98年",
+  "passageId": "y98",
+  "blankNum": 40,
+  "categories": [
+   "同義改寫／替代指涉",
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "arranged",
+   "B": "challenges",
+   "C": "competitors",
+   "D": "cooperate",
+   "E": "fast",
+   "F": "finishing",
+   "G": "identify",
+   "H": "opposite",
+   "I": "same",
+   "J": "teamwork"
+  },
+  "answer": "J",
+  "gloss": "團隊合作",
+  "collocation": "the importance of __；呼應前文 cooperate as a team",
+  "explanation": "teamwork 呼應前段「兩者合作如一個團隊」的具體描述，是全文寓意的總結性同義代稱。",
+  "accuracyRate": 60,
+  "discrimination": 72
+ },
+ {
+  "id": "Vy97_31",
+  "year": "97年",
+  "passageId": "y97",
+  "blankNum": 31,
+  "categories": [
+   "同義改寫／替代指涉"
+  ],
+  "options": {
+   "A": "shock",
+   "B": "conversation",
+   "C": "like",
+   "D": "promise",
+   "E": "released",
+   "F": "screamed",
+   "G": "learned",
+   "H": "recognize",
+   "I": "stroke",
+   "J": "sharpened"
+  },
+  "answer": "D",
+  "gloss": "承諾",
+  "collocation": "Having received this __；分詞構句，promise 呼應前段弟子的承諾",
+  "explanation": "promise 在此同指前段弟子「願意做任何事報答師恩」的承諾，屬於跨句同指的改寫，而非單獨新資訊。",
+  "accuracyRate": 63,
+  "discrimination": 76
+ },
+ {
+  "id": "Vy97_32",
+  "year": "97年",
+  "passageId": "y97",
+  "blankNum": 32,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "shock",
+   "B": "conversation",
+   "C": "like",
+   "D": "promise",
+   "E": "released",
+   "F": "screamed",
+   "G": "learned",
+   "H": "recognize",
+   "I": "stroke",
+   "J": "sharpened"
+  },
+  "answer": "G",
+  "gloss": "得知",
+  "collocation": "I've just __ that...；have just + p.p. 現在完成式",
+  "explanation": "learn that 子句是常考固定搭配，「得知…」，注意現在完成式 have just + p.p. 的結構。",
+  "accuracyRate": 43,
+  "discrimination": 84
+ },
+ {
+  "id": "Vy97_33",
+  "year": "97年",
+  "passageId": "y97",
+  "blankNum": 33,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "shock",
+   "B": "conversation",
+   "C": "like",
+   "D": "promise",
+   "E": "released",
+   "F": "screamed",
+   "G": "learned",
+   "H": "recognize",
+   "I": "stroke",
+   "J": "sharpened"
+  },
+  "answer": "H",
+  "gloss": "認出",
+  "collocation": "You'll __ me by a mark on my brow；recognize sb by + 特徵 固定搭配",
+  "explanation": "recognize someone by 是常考固定搭配，「藉由…認出某人」。",
+  "accuracyRate": 55,
+  "discrimination": 86
+ },
+ {
+  "id": "Vy97_34",
+  "year": "97年",
+  "passageId": "y97",
+  "blankNum": 34,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "shock",
+   "B": "conversation",
+   "C": "like",
+   "D": "promise",
+   "E": "released",
+   "F": "screamed",
+   "G": "learned",
+   "H": "recognize",
+   "I": "stroke",
+   "J": "sharpened"
+  },
+  "answer": "I",
+  "gloss": "一擊、一刀",
+  "collocation": "with one __ of your knife；one stroke of 固定搭配",
+  "explanation": "one stroke of a knife 是常見固定搭配，「手起刀落的一擊」。",
+  "accuracyRate": 38,
+  "discrimination": 57
+ },
+ {
+  "id": "Vy97_35",
+  "year": "97年",
+  "passageId": "y97",
+  "blankNum": 35,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "shock",
+   "B": "conversation",
+   "C": "like",
+   "D": "promise",
+   "E": "released",
+   "F": "screamed",
+   "G": "learned",
+   "H": "recognize",
+   "I": "stroke",
+   "J": "sharpened"
+  },
+  "answer": "E",
+  "gloss": "被解脫、被釋放",
+  "collocation": "I'll then be __ from a pig's life；be released from 固定搭配",
+  "explanation": "be released from 是常考固定搭配，「從…中被解脫」。",
+  "accuracyRate": 53,
+  "discrimination": 80
+ },
+ {
+  "id": "Vy97_36",
+  "year": "97年",
+  "passageId": "y97",
+  "blankNum": 36,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "shock",
+   "B": "conversation",
+   "C": "like",
+   "D": "promise",
+   "E": "released",
+   "F": "screamed",
+   "G": "learned",
+   "H": "recognize",
+   "I": "stroke",
+   "J": "sharpened"
+  },
+  "answer": "B",
+  "gloss": "對話",
+  "collocation": "Soon after their __, the guru died；soon after + N 固定搭配",
+  "explanation": "soon after their conversation 是常見固定搭配，「他們對話後不久」，考生需注意逗號後面才是主要子句(guru died)。",
+  "accuracyRate": 63,
+  "discrimination": 78
+ },
+ {
+  "id": "Vy97_37",
+  "year": "97年",
+  "passageId": "y97",
+  "blankNum": 37,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "shock",
+   "B": "conversation",
+   "C": "like",
+   "D": "promise",
+   "E": "released",
+   "F": "screamed",
+   "G": "learned",
+   "H": "recognize",
+   "I": "stroke",
+   "J": "sharpened"
+  },
+  "answer": "J",
+  "gloss": "磨利",
+  "collocation": "the disciple __ his knife；sharpen a knife 固定搭配",
+  "explanation": "sharpen a knife 是常見固定搭配，「磨刀」，考生需辨認及物動詞直接接受詞 knife 的結構。",
+  "accuracyRate": 43,
+  "discrimination": 66
+ },
+ {
+  "id": "Vy97_38",
+  "year": "97年",
+  "passageId": "y97",
+  "blankNum": 38,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "shock",
+   "B": "conversation",
+   "C": "like",
+   "D": "promise",
+   "E": "released",
+   "F": "screamed",
+   "G": "learned",
+   "H": "recognize",
+   "I": "stroke",
+   "J": "sharpened"
+  },
+  "answer": "F",
+  "gloss": "尖叫",
+  "collocation": "the little pig suddenly __, “Stop!”；scream + 直接引語",
+  "explanation": "scream 後面直接接引號內容，是常見的「動詞+直接引語」寫作手法。",
+  "accuracyRate": 62,
+  "discrimination": 79
+ },
+ {
+  "id": "Vy97_39",
+  "year": "97年",
+  "passageId": "y97",
+  "blankNum": 39,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "shock",
+   "B": "conversation",
+   "C": "like",
+   "D": "promise",
+   "E": "released",
+   "F": "screamed",
+   "G": "learned",
+   "H": "recognize",
+   "I": "stroke",
+   "J": "sharpened"
+  },
+  "answer": "A",
+  "gloss": "震驚",
+  "collocation": "recover from the __ of hearing...；the shock of + 動名詞 固定搭配",
+  "explanation": "the shock of V-ing 是常考固定搭配，「…帶來的震驚」。",
+  "accuracyRate": 52,
+  "discrimination": 84
+ },
+ {
+  "id": "Vy97_40",
+  "year": "97年",
+  "passageId": "y97",
+  "blankNum": 40,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "shock",
+   "B": "conversation",
+   "C": "like",
+   "D": "promise",
+   "E": "released",
+   "F": "screamed",
+   "G": "learned",
+   "H": "recognize",
+   "I": "stroke",
+   "J": "sharpened"
+  },
+  "answer": "C",
+  "gloss": "像…一樣",
+  "collocation": "what a pig's life would be __；what...be like 固定句型(問狀態，非「喜歡」)",
+  "explanation": "like 在此是介系詞，what...be like 詢問「…是什麼樣子」，考生易誤把 like 當動詞「喜歡」解釋，是常見多義字陷阱。",
+  "accuracyRate": 51,
+  "discrimination": 78
+ },
+ {
+  "id": "Vy96_31",
+  "year": "96年",
+  "passageId": "y96",
+  "blankNum": 31,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "disappointed",
+   "B": "enjoyed",
+   "C": "favorite",
+   "D": "happily",
+   "E": "merely",
+   "F": "noisy",
+   "G": "paycheck",
+   "H": "promised",
+   "I": "reward",
+   "J": "run out of"
+  },
+  "answer": "F",
+  "gloss": "吵鬧的",
+  "collocation": "the boys were particularly __；particularly + adj",
+  "explanation": "此格需邏輯推論：呼應第一句「boys playing cricket and making a lot of noise」的困擾，此處特別強調「特別吵鬧的那一晚」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy96_32",
+  "year": "96年",
+  "passageId": "y96",
+  "blankNum": 32,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "disappointed",
+   "B": "enjoyed",
+   "C": "favorite",
+   "D": "happily",
+   "E": "merely",
+   "F": "noisy",
+   "G": "paycheck",
+   "H": "promised",
+   "I": "reward",
+   "J": "run out of"
+  },
+  "answer": "C",
+  "gloss": "最喜愛的",
+  "collocation": "playing his __ game；favorite game 固定搭配",
+  "explanation": "favorite game 是常見固定搭配，「最喜愛的遊戲」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy96_33",
+  "year": "96年",
+  "passageId": "y96",
+  "blankNum": 33,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "disappointed",
+   "B": "enjoyed",
+   "C": "favorite",
+   "D": "happily",
+   "E": "merely",
+   "F": "noisy",
+   "G": "paycheck",
+   "H": "promised",
+   "I": "reward",
+   "J": "run out of"
+  },
+  "answer": "B",
+  "gloss": "喜愛、享受",
+  "collocation": "something they __；關係子句省略關代 that/which",
+  "explanation": "此格為關係子句動詞，指男孩「本來就喜歡做的事」，考生需理解省略關代的子句結構。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy96_34",
+  "year": "96年",
+  "passageId": "y96",
+  "blankNum": 34,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "disappointed",
+   "B": "enjoyed",
+   "C": "favorite",
+   "D": "happily",
+   "E": "merely",
+   "F": "noisy",
+   "G": "paycheck",
+   "H": "promised",
+   "I": "reward",
+   "J": "run out of"
+  },
+  "answer": "D",
+  "gloss": "開心地",
+  "collocation": "went away __ their 25 rupees；副詞修飾 went away",
+  "explanation": "happily 是副詞，修飾 went away，考生需辨認詞性(易與形容詞選項混淆)。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy96_35",
+  "year": "96年",
+  "passageId": "y96",
+  "blankNum": 35,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "disappointed",
+   "B": "enjoyed",
+   "C": "favorite",
+   "D": "happily",
+   "E": "merely",
+   "F": "noisy",
+   "G": "paycheck",
+   "H": "promised",
+   "I": "reward",
+   "J": "run out of"
+  },
+  "answer": "J",
+  "gloss": "用完",
+  "collocation": "he had __ money；run out of 固定搭配",
+  "explanation": "run out of money 是常考固定搭配，「錢用完了」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy96_36",
+  "year": "96年",
+  "passageId": "y96",
+  "blankNum": 36,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "disappointed",
+   "B": "enjoyed",
+   "C": "favorite",
+   "D": "happily",
+   "E": "merely",
+   "F": "noisy",
+   "G": "paycheck",
+   "H": "promised",
+   "I": "reward",
+   "J": "run out of"
+  },
+  "answer": "G",
+  "gloss": "薪水支票",
+  "collocation": "had not yet received his __ from the government；receive one's paycheck 固定搭配",
+  "explanation": "此格需邏輯推論：老人假裝自己也是靠政府發薪水過活，用來解釋為何要減少給男孩的錢。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy96_37",
+  "year": "96年",
+  "passageId": "y96",
+  "blankNum": 37,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "disappointed",
+   "B": "enjoyed",
+   "C": "favorite",
+   "D": "happily",
+   "E": "merely",
+   "F": "noisy",
+   "G": "paycheck",
+   "H": "promised",
+   "I": "reward",
+   "J": "run out of"
+  },
+  "answer": "A",
+  "gloss": "失望的",
+  "collocation": "The boys were very __；be disappointed 固定搭配",
+  "explanation": "be disappointed 是常見固定搭配，「感到失望」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy96_38",
+  "year": "96年",
+  "passageId": "y96",
+  "blankNum": 38,
+  "categories": [
+   "同義改寫／替代指涉"
+  ],
+  "options": {
+   "A": "disappointed",
+   "B": "enjoyed",
+   "C": "favorite",
+   "D": "happily",
+   "E": "merely",
+   "F": "noisy",
+   "G": "paycheck",
+   "H": "promised",
+   "I": "reward",
+   "J": "run out of"
+  },
+  "answer": "I",
+  "gloss": "獎賞、報酬",
+  "collocation": "waiting for their __；reward 同指前文的「25盧比酬勞」",
+  "explanation": "reward 在此同指男孩每週領到的酬勞，是跨句改寫的手法。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy96_39",
+  "year": "96年",
+  "passageId": "y96",
+  "blankNum": 39,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "disappointed",
+   "B": "enjoyed",
+   "C": "favorite",
+   "D": "happily",
+   "E": "merely",
+   "F": "noisy",
+   "G": "paycheck",
+   "H": "promised",
+   "I": "reward",
+   "J": "run out of"
+  },
+  "answer": "H",
+  "gloss": "承諾過",
+  "collocation": "pay them 25 rupees as he had __；as + had + p.p. 過去完成式子句",
+  "explanation": "as he had promised 是常考固定搭配，「如同他先前承諾的」，注意過去完成式表示「比過去更早」的時間點。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy96_40",
+  "year": "96年",
+  "passageId": "y96",
+  "blankNum": 40,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "disappointed",
+   "B": "enjoyed",
+   "C": "favorite",
+   "D": "happily",
+   "E": "merely",
+   "F": "noisy",
+   "G": "paycheck",
+   "H": "promised",
+   "I": "reward",
+   "J": "run out of"
+  },
+  "answer": "E",
+  "gloss": "僅僅",
+  "collocation": "play seven days a week for __ five rupees；merely 修飾金額，語帶不滿",
+  "explanation": "此格需邏輯推論：男孩用 merely 強調金額少得可憐，語氣中帶著憤怒與諷刺，是全文情緒轉折的高點。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy95_31",
+  "year": "95年",
+  "passageId": "y95",
+  "blankNum": 31,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "ruin",
+   "B": "visit",
+   "C": "neglecting",
+   "D": "lower",
+   "E": "easier",
+   "F": "responsibility",
+   "G": "chronic",
+   "H": "key",
+   "I": "promote",
+   "J": "achieving"
+  },
+  "answer": "B",
+  "gloss": "看診、拜訪",
+  "collocation": "a quick __ to a doctor；visit to 固定搭配",
+  "explanation": "visit to a doctor 是常見固定搭配，「看醫生一趟」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy95_32",
+  "year": "95年",
+  "passageId": "y95",
+  "blankNum": 32,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "ruin",
+   "B": "visit",
+   "C": "neglecting",
+   "D": "lower",
+   "E": "easier",
+   "F": "responsibility",
+   "G": "chronic",
+   "H": "key",
+   "I": "promote",
+   "J": "achieving"
+  },
+  "answer": "F",
+  "gloss": "責任",
+  "collocation": "has to be your own __；one's own responsibility 固定搭配",
+  "explanation": "one's own responsibility 是常見固定搭配，「自己的責任」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy95_33",
+  "year": "95年",
+  "passageId": "y95",
+  "blankNum": 33,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "ruin",
+   "B": "visit",
+   "C": "neglecting",
+   "D": "lower",
+   "E": "easier",
+   "F": "responsibility",
+   "G": "chronic",
+   "H": "key",
+   "I": "promote",
+   "J": "achieving"
+  },
+  "answer": "C",
+  "gloss": "忽視",
+  "collocation": "__ symptoms of illness；與 keeping、ignoring 並列的動名詞",
+  "explanation": "此格為三個並列動名詞之一(keeping bad habits, neglecting symptoms, ignoring rules)，考生需辨認平行結構詞性。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy95_34",
+  "year": "95年",
+  "passageId": "y95",
+  "blankNum": 34,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "ruin",
+   "B": "visit",
+   "C": "neglecting",
+   "D": "lower",
+   "E": "easier",
+   "F": "responsibility",
+   "G": "chronic",
+   "H": "key",
+   "I": "promote",
+   "J": "achieving"
+  },
+  "answer": "I",
+  "gloss": "推廣",
+  "collocation": "health specialists __ the idea of wellness；promote an idea 固定搭配",
+  "explanation": "promote an idea 是常見固定搭配，「推廣某個理念」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy95_35",
+  "year": "95年",
+  "passageId": "y95",
+  "blankNum": 35,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "ruin",
+   "B": "visit",
+   "C": "neglecting",
+   "D": "lower",
+   "E": "easier",
+   "F": "responsibility",
+   "G": "chronic",
+   "H": "key",
+   "I": "promote",
+   "J": "achieving"
+  },
+  "answer": "J",
+  "gloss": "達成",
+  "collocation": "Wellness means __ the best possible health；mean + 動名詞",
+  "explanation": "mean 後面接動名詞作受詞，achieving 表示「達成」，考生需辨認此文法結構。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy95_36",
+  "year": "95年",
+  "passageId": "y95",
+  "blankNum": 36,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "ruin",
+   "B": "visit",
+   "C": "neglecting",
+   "D": "lower",
+   "E": "easier",
+   "F": "responsibility",
+   "G": "chronic",
+   "H": "key",
+   "I": "promote",
+   "J": "achieving"
+  },
+  "answer": "E",
+  "gloss": "較輕鬆的",
+  "collocation": "a lot of __ exercise；與後文 more challenging exercise 相對",
+  "explanation": "easier 與後文的 more challenging 形成語意對照，考生需理解前後對比關係才能判斷正確形容詞。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy95_37",
+  "year": "95年",
+  "passageId": "y95",
+  "blankNum": 37,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "ruin",
+   "B": "visit",
+   "C": "neglecting",
+   "D": "lower",
+   "E": "easier",
+   "F": "responsibility",
+   "G": "chronic",
+   "H": "key",
+   "I": "promote",
+   "J": "achieving"
+  },
+  "answer": "H",
+  "gloss": "關鍵",
+  "collocation": "Understanding...is the __；key 此處為名詞「關鍵」(非「鑰匙」)",
+  "explanation": "key 是多義字，此處取抽象義「關鍵」，而非具體物品「鑰匙」，考生易只知常見義。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy95_38",
+  "year": "95年",
+  "passageId": "y95",
+  "blankNum": 38,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "ruin",
+   "B": "visit",
+   "C": "neglecting",
+   "D": "lower",
+   "E": "easier",
+   "F": "responsibility",
+   "G": "chronic",
+   "H": "key",
+   "I": "promote",
+   "J": "achieving"
+  },
+  "answer": "G",
+  "gloss": "慢性的",
+  "collocation": "avoiding __ disease；chronic disease 固定搭配",
+  "explanation": "chronic disease 是常見固定搭配，「慢性疾病」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy95_39",
+  "year": "95年",
+  "passageId": "y95",
+  "blankNum": 39,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "ruin",
+   "B": "visit",
+   "C": "neglecting",
+   "D": "lower",
+   "E": "easier",
+   "F": "responsibility",
+   "G": "chronic",
+   "H": "key",
+   "I": "promote",
+   "J": "achieving"
+  },
+  "answer": "A",
+  "gloss": "破壞",
+  "collocation": "carelessness can __ good health；ruin + N(健康) 固定搭配",
+  "explanation": "ruin good health 是常見固定搭配，「破壞健康」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy95_40",
+  "year": "95年",
+  "passageId": "y95",
+  "blankNum": 40,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "ruin",
+   "B": "visit",
+   "C": "neglecting",
+   "D": "lower",
+   "E": "easier",
+   "F": "responsibility",
+   "G": "chronic",
+   "H": "key",
+   "I": "promote",
+   "J": "achieving"
+  },
+  "answer": "D",
+  "gloss": "降低",
+  "collocation": "you can __ the risk；lower the risk 固定搭配",
+  "explanation": "lower the risk 是常見固定搭配，「降低風險」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy94_31",
+  "year": "94年",
+  "passageId": "y94",
+  "blankNum": 31,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "breaks down",
+   "B": "Consequently",
+   "C": "similarly",
+   "D": "indeed",
+   "E": "few",
+   "F": "forever",
+   "G": "Instead of",
+   "H": "takes over",
+   "I": "free",
+   "J": "As long as"
+  },
+  "answer": "F",
+  "gloss": "永遠",
+  "collocation": "love will last __；last forever 固定搭配",
+  "explanation": "last forever 是常見固定搭配，「永遠持續」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy94_32",
+  "year": "94年",
+  "passageId": "y94",
+  "blankNum": 32,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "breaks down",
+   "B": "Consequently",
+   "C": "similarly",
+   "D": "indeed",
+   "E": "few",
+   "F": "forever",
+   "G": "Instead of",
+   "H": "takes over",
+   "I": "free",
+   "J": "As long as"
+  },
+  "answer": "I",
+  "gloss": "免於…的",
+  "collocation": "we are __ from the problems；free from 固定搭配",
+  "explanation": "free from 是常考固定搭配，「免於…」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy94_33",
+  "year": "94年",
+  "passageId": "y94",
+  "blankNum": 33,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "breaks down",
+   "B": "Consequently",
+   "C": "similarly",
+   "D": "indeed",
+   "E": "few",
+   "F": "forever",
+   "G": "Instead of",
+   "H": "takes over",
+   "I": "free",
+   "J": "As long as"
+  },
+  "answer": "H",
+  "gloss": "接管、取代",
+  "collocation": "daily life __；take over 固定搭配",
+  "explanation": "take over 是常見固定搭配，「接管、佔上風」，此處指日常生活取代了戀愛初期的浪漫。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy94_34",
+  "year": "94年",
+  "passageId": "y94",
+  "blankNum": 34,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "breaks down",
+   "B": "Consequently",
+   "C": "similarly",
+   "D": "indeed",
+   "E": "few",
+   "F": "forever",
+   "G": "Instead of",
+   "H": "takes over",
+   "I": "free",
+   "J": "As long as"
+  },
+  "answer": "C",
+  "gloss": "同樣地",
+  "collocation": "women, __, expect men to...；插入語，與前句 men...expect women 平行對照",
+  "explanation": "similarly 是插入語副詞，用來連接與前句平行對照的句子結構(男生如何、女生同樣地如何)，考生需理解對稱句型。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy94_35",
+  "year": "94年",
+  "passageId": "y94",
+  "blankNum": 35,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "breaks down",
+   "B": "Consequently",
+   "C": "similarly",
+   "D": "indeed",
+   "E": "few",
+   "F": "forever",
+   "G": "Instead of",
+   "H": "takes over",
+   "I": "free",
+   "J": "As long as"
+  },
+  "answer": "G",
+  "gloss": "不…而是",
+  "collocation": "__ taking time to understand...；instead of + 動名詞",
+  "explanation": "instead of 後面接動名詞，是常考固定搭配，「不…而是」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy94_36",
+  "year": "94年",
+  "passageId": "y94",
+  "blankNum": 36,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "breaks down",
+   "B": "Consequently",
+   "C": "similarly",
+   "D": "indeed",
+   "E": "few",
+   "F": "forever",
+   "G": "Instead of",
+   "H": "takes over",
+   "I": "free",
+   "J": "As long as"
+  },
+  "answer": "B",
+  "gloss": "因此",
+  "collocation": "__, our relationships are filled with...；句首連接副詞，表結果",
+  "explanation": "Consequently 是常見句首連接副詞，表示「因此、結果」，考生需辨認邏輯連接詞的語意方向(因果非對比)。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy94_37",
+  "year": "94年",
+  "passageId": "y94",
+  "blankNum": 37,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "breaks down",
+   "B": "Consequently",
+   "C": "similarly",
+   "D": "indeed",
+   "E": "few",
+   "F": "forever",
+   "G": "Instead of",
+   "H": "takes over",
+   "I": "free",
+   "J": "As long as"
+  },
+  "answer": "A",
+  "gloss": "瓦解、故障",
+  "collocation": "communication __；communication breaks down 固定搭配",
+  "explanation": "communication breaks down 是常見固定搭配，「溝通破裂」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy94_38",
+  "year": "94年",
+  "passageId": "y94",
+  "blankNum": 38,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "breaks down",
+   "B": "Consequently",
+   "C": "similarly",
+   "D": "indeed",
+   "E": "few",
+   "F": "forever",
+   "G": "Instead of",
+   "H": "takes over",
+   "I": "free",
+   "J": "As long as"
+  },
+  "answer": "E",
+  "gloss": "很少的",
+  "collocation": "Very __ people are able to grow in love；very few + 複數名詞",
+  "explanation": "very few 是常見固定搭配，「非常少的」，修飾複數名詞 people。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy94_39",
+  "year": "94年",
+  "passageId": "y94",
+  "blankNum": 39,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "breaks down",
+   "B": "Consequently",
+   "C": "similarly",
+   "D": "indeed",
+   "E": "few",
+   "F": "forever",
+   "G": "Instead of",
+   "H": "takes over",
+   "I": "free",
+   "J": "As long as"
+  },
+  "answer": "J",
+  "gloss": "只要",
+  "collocation": "__ men and women are able to respect...；連接詞引導條件子句",
+  "explanation": "as long as 是常考連接詞，「只要」，引導條件子句，考生需辨認此連接詞的邏輯用法。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy94_40",
+  "year": "94年",
+  "passageId": "y94",
+  "blankNum": 40,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "breaks down",
+   "B": "Consequently",
+   "C": "similarly",
+   "D": "indeed",
+   "E": "few",
+   "F": "forever",
+   "G": "Instead of",
+   "H": "takes over",
+   "I": "free",
+   "J": "As long as"
+  },
+  "answer": "D",
+  "gloss": "的確",
+  "collocation": "Love is, __, magical；插入語加強語氣",
+  "explanation": "indeed 是插入語副詞，用來加強語氣「的確如此」，呼應開頭第一句話，是首尾呼應的關鍵字。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy93_31",
+  "year": "93年",
+  "passageId": "y93",
+  "blankNum": 31,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "as well as",
+   "B": "beings",
+   "C": "drawings",
+   "D": "in any way",
+   "E": "kept an eye on",
+   "F": "like",
+   "G": "others",
+   "H": "originated",
+   "I": "since",
+   "J": "harm"
+  },
+  "answer": "B",
+  "gloss": "生物、存在體",
+  "collocation": "Many people believe that __ from outer space；beings 泛稱「生物」",
+  "explanation": "beings 是抽象泛稱詞，指「(外星)生物、存在體」，考生需理解此字可泛指任何生命形式。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy93_32",
+  "year": "93年",
+  "passageId": "y93",
+  "blankNum": 32,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "as well as",
+   "B": "beings",
+   "C": "drawings",
+   "D": "in any way",
+   "E": "kept an eye on",
+   "F": "like",
+   "G": "others",
+   "H": "originated",
+   "I": "since",
+   "J": "harm"
+  },
+  "answer": "H",
+  "gloss": "起源",
+  "collocation": "life on Earth __ “out there”；originate 不及物動詞",
+  "explanation": "originate 是常考不及物動詞，「起源於」，考生需辨認詞性避免誤加受詞。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy93_33",
+  "year": "93年",
+  "passageId": "y93",
+  "blankNum": 33,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "as well as",
+   "B": "beings",
+   "C": "drawings",
+   "D": "in any way",
+   "E": "kept an eye on",
+   "F": "like",
+   "G": "others",
+   "H": "originated",
+   "I": "since",
+   "J": "harm"
+  },
+  "answer": "E",
+  "gloss": "密切注意",
+  "collocation": "aliens have __ what happens on Earth；keep an eye on 固定片語",
+  "explanation": "keep an eye on 是常考固定片語，「密切注意、監視」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy93_34",
+  "year": "93年",
+  "passageId": "y93",
+  "blankNum": 34,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "as well as",
+   "B": "beings",
+   "C": "drawings",
+   "D": "in any way",
+   "E": "kept an eye on",
+   "F": "like",
+   "G": "others",
+   "H": "originated",
+   "I": "since",
+   "J": "harm"
+  },
+  "answer": "A",
+  "gloss": "以及",
+  "collocation": "the ancient Greek and Roman gods, __ the fairies and dwarfs；as well as 連接對等成分",
+  "explanation": "as well as 是常考連接詞，「以及」，連接兩個對等的名詞成分。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy93_35",
+  "year": "93年",
+  "passageId": "y93",
+  "blankNum": 35,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "as well as",
+   "B": "beings",
+   "C": "drawings",
+   "D": "in any way",
+   "E": "kept an eye on",
+   "F": "like",
+   "G": "others",
+   "H": "originated",
+   "I": "since",
+   "J": "harm"
+  },
+  "answer": "G",
+  "gloss": "另有人",
+  "collocation": "Still __ say that...；Some...Others...Still others 平行列舉結構",
+  "explanation": "此為 Some say...Others say...Still others say... 的平行列舉句型，考生需辨認第三層列舉的用詞。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy93_36",
+  "year": "93年",
+  "passageId": "y93",
+  "blankNum": 36,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "as well as",
+   "B": "beings",
+   "C": "drawings",
+   "D": "in any way",
+   "E": "kept an eye on",
+   "F": "like",
+   "G": "others",
+   "H": "originated",
+   "I": "since",
+   "J": "harm"
+  },
+  "answer": "I",
+  "gloss": "從那之後",
+  "collocation": "civilizations which have __ perished；since 當副詞(非連接詞「因為」)",
+  "explanation": "since 在此當副詞用，「從那之後」，考生易誤認為連接詞「因為」，是常見多義字陷阱。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy93_37",
+  "year": "93年",
+  "passageId": "y93",
+  "blankNum": 37,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "as well as",
+   "B": "beings",
+   "C": "drawings",
+   "D": "in any way",
+   "E": "kept an eye on",
+   "F": "like",
+   "G": "others",
+   "H": "originated",
+   "I": "since",
+   "J": "harm"
+  },
+  "answer": "F",
+  "gloss": "像是、例如",
+  "collocation": "ancient civilizations, __ the Egyptians...；like 舉例用法",
+  "explanation": "like 在此當介系詞，「例如」，考生易與動詞「喜歡」混淆，是常見多義字陷阱。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy93_38",
+  "year": "93年",
+  "passageId": "y93",
+  "blankNum": 38,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "as well as",
+   "B": "beings",
+   "C": "drawings",
+   "D": "in any way",
+   "E": "kept an eye on",
+   "F": "like",
+   "G": "others",
+   "H": "originated",
+   "I": "since",
+   "J": "harm"
+  },
+  "answer": "C",
+  "gloss": "圖畫",
+  "collocation": "left writings and __；writings and drawings 並列名詞",
+  "explanation": "writings and drawings 是常見並列搭配，「文字與圖畫」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy93_39",
+  "year": "93年",
+  "passageId": "y93",
+  "blankNum": 39,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "as well as",
+   "B": "beings",
+   "C": "drawings",
+   "D": "in any way",
+   "E": "kept an eye on",
+   "F": "like",
+   "G": "others",
+   "H": "originated",
+   "I": "since",
+   "J": "harm"
+  },
+  "answer": "J",
+  "gloss": "傷害",
+  "collocation": "the aliens intend us __；intend sb harm 固定搭配",
+  "explanation": "intend someone harm 是常考固定搭配，「意圖傷害某人」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy93_40",
+  "year": "93年",
+  "passageId": "y93",
+  "blankNum": 40,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "as well as",
+   "B": "beings",
+   "C": "drawings",
+   "D": "in any way",
+   "E": "kept an eye on",
+   "F": "like",
+   "G": "others",
+   "H": "originated",
+   "I": "since",
+   "J": "harm"
+  },
+  "answer": "D",
+  "gloss": "以任何方式",
+  "collocation": "no interest in helping us __；in any way 固定片語",
+  "explanation": "in any way 是常見固定片語，「以任何方式」，常用於否定句加強語氣。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy92_31",
+  "year": "92年",
+  "passageId": "y92",
+  "blankNum": 31,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "about",
+   "B": "from",
+   "C": "even",
+   "D": "as",
+   "E": "managing",
+   "F": "like",
+   "G": "to",
+   "H": "that",
+   "I": "unusual",
+   "J": "leading"
+  },
+  "answer": "I",
+  "gloss": "不尋常的",
+  "collocation": "It is not __ to hear...；not unusual 雙重否定表「常見」",
+  "explanation": "not unusual 是雙重否定的委婉說法，意思其實是「很常見」，考生需理解此邏輯而非直譯「不尋常」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy92_32",
+  "year": "92年",
+  "passageId": "y92",
+  "blankNum": 32,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "about",
+   "B": "from",
+   "C": "even",
+   "D": "as",
+   "E": "managing",
+   "F": "like",
+   "G": "to",
+   "H": "that",
+   "I": "unusual",
+   "J": "leading"
+  },
+  "answer": "E",
+  "gloss": "應付、管理",
+  "collocation": "the difficulty they have in __ the stress；have difficulty in V-ing 固定句型",
+  "explanation": "have difficulty in V-ing 是常考固定句型，「在…方面有困難」，介系詞 in 後面需接動名詞。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy92_33",
+  "year": "92年",
+  "passageId": "y92",
+  "blankNum": 33,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "about",
+   "B": "from",
+   "C": "even",
+   "D": "as",
+   "E": "managing",
+   "F": "like",
+   "G": "to",
+   "H": "that",
+   "I": "unusual",
+   "J": "leading"
+  },
+  "answer": "H",
+  "gloss": "(關係代名詞)",
+  "collocation": "the events __ cause stress；關係代名詞引導形容詞子句",
+  "explanation": "that 在此是關係代名詞，引導修飾 events 的形容詞子句，考生需辨認關代的文法功能。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy92_34",
+  "year": "92年",
+  "passageId": "y92",
+  "blankNum": 34,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "about",
+   "B": "from",
+   "C": "even",
+   "D": "as",
+   "E": "managing",
+   "F": "like",
+   "G": "to",
+   "H": "that",
+   "I": "unusual",
+   "J": "leading"
+  },
+  "answer": "G",
+  "gloss": "對於",
+  "collocation": "our reactions __ stress；reaction to 固定搭配",
+  "explanation": "reaction to 是常見固定搭配，「對…的反應」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy92_35",
+  "year": "92年",
+  "passageId": "y92",
+  "blankNum": 35,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "about",
+   "B": "from",
+   "C": "even",
+   "D": "as",
+   "E": "managing",
+   "F": "like",
+   "G": "to",
+   "H": "that",
+   "I": "unusual",
+   "J": "leading"
+  },
+  "answer": "B",
+  "gloss": "來自",
+  "collocation": "suffer health effects __ stress；effects from 固定搭配",
+  "explanation": "effects from 是常見固定搭配，「來自…的影響」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy92_36",
+  "year": "92年",
+  "passageId": "y92",
+  "blankNum": 36,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "about",
+   "B": "from",
+   "C": "even",
+   "D": "as",
+   "E": "managing",
+   "F": "like",
+   "G": "to",
+   "H": "that",
+   "I": "unusual",
+   "J": "leading"
+  },
+  "answer": "J",
+  "gloss": "主要的、首要的",
+  "collocation": "the six __ causes of death；leading cause 固定搭配",
+  "explanation": "leading cause 是常考固定搭配，「主要成因」，考生易與 lead 的其他形式混淆。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy92_37",
+  "year": "92年",
+  "passageId": "y92",
+  "blankNum": 37,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "about",
+   "B": "from",
+   "C": "even",
+   "D": "as",
+   "E": "managing",
+   "F": "like",
+   "G": "to",
+   "H": "that",
+   "I": "unusual",
+   "J": "leading"
+  },
+  "answer": "A",
+  "gloss": "大約",
+  "collocation": "account for __ twelve percent；about + 數字",
+  "explanation": "about 修飾數字，「大約」，考生需辨認此為約數用法。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy92_38",
+  "year": "92年",
+  "passageId": "y92",
+  "blankNum": 38,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "about",
+   "B": "from",
+   "C": "even",
+   "D": "as",
+   "E": "managing",
+   "F": "like",
+   "G": "to",
+   "H": "that",
+   "I": "unusual",
+   "J": "leading"
+  },
+  "answer": "C",
+  "gloss": "甚至",
+  "collocation": "necessary, __ desirable；necessary, even desirable 遞進強調句型",
+  "explanation": "even 在此為遞進強調副詞，「甚至」，連接兩個程度遞增的形容詞。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy92_39",
+  "year": "92年",
+  "passageId": "y92",
+  "blankNum": 39,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "about",
+   "B": "from",
+   "C": "even",
+   "D": "as",
+   "E": "managing",
+   "F": "like",
+   "G": "to",
+   "H": "that",
+   "I": "unusual",
+   "J": "leading"
+  },
+  "answer": "F",
+  "gloss": "像是、例如",
+  "collocation": "Exciting or challenging events __ the birth of a child；like 舉例用法",
+  "explanation": "like 在此當介系詞舉例，「例如」，考生易與動詞「喜歡」混淆。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy92_40",
+  "year": "92年",
+  "passageId": "y92",
+  "blankNum": 40,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "about",
+   "B": "from",
+   "C": "even",
+   "D": "as",
+   "E": "managing",
+   "F": "like",
+   "G": "to",
+   "H": "that",
+   "I": "unusual",
+   "J": "leading"
+  },
+  "answer": "D",
+  "gloss": "同樣地",
+  "collocation": "generate __ much stress as does tragedy；as much...as 比較句型",
+  "explanation": "as much...as 是常考比較句型，「和…一樣多」，考生需辨認此固定句構。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy92b_31",
+  "year": "92年補考",
+  "passageId": "y92b",
+  "blankNum": 31,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "these",
+   "B": "lower",
+   "C": "evenly",
+   "D": "other",
+   "E": "while",
+   "F": "not only",
+   "G": "methods",
+   "H": "with",
+   "I": "such as",
+   "J": "also"
+  },
+  "answer": "F",
+  "gloss": "不僅",
+  "collocation": "includes __ necessities but also...；not only...but also 固定句型",
+  "explanation": "not only...but also 是常考固定句型，「不僅…而且…」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy92b_32",
+  "year": "92年補考",
+  "passageId": "y92b",
+  "blankNum": 32,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "these",
+   "B": "lower",
+   "C": "evenly",
+   "D": "other",
+   "E": "while",
+   "F": "not only",
+   "G": "methods",
+   "H": "with",
+   "I": "such as",
+   "J": "also"
+  },
+  "answer": "D",
+  "gloss": "其他的",
+  "collocation": "housing, and __ necessities；other + N(複數)",
+  "explanation": "other necessities 是常見固定搭配，「其他必需品」，與前面列舉的 food, clean water, housing 並列。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy92b_33",
+  "year": "92年補考",
+  "passageId": "y92b",
+  "blankNum": 33,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "these",
+   "B": "lower",
+   "C": "evenly",
+   "D": "other",
+   "E": "while",
+   "F": "not only",
+   "G": "methods",
+   "H": "with",
+   "I": "such as",
+   "J": "also"
+  },
+  "answer": "G",
+  "gloss": "方法",
+  "collocation": "Different __ have been employed；method 當主詞",
+  "explanation": "methods 在此作主詞，「不同的方法」，考生需辨認複數名詞當主詞的句構。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy92b_34",
+  "year": "92年補考",
+  "passageId": "y92b",
+  "blankNum": 34,
+  "categories": [
+   "同義改寫／替代指涉"
+  ],
+  "options": {
+   "A": "these",
+   "B": "lower",
+   "C": "evenly",
+   "D": "other",
+   "E": "while",
+   "F": "not only",
+   "G": "methods",
+   "H": "with",
+   "I": "such as",
+   "J": "also"
+  },
+  "answer": "A",
+  "gloss": "這些",
+  "collocation": "One of __ measures；these 呼應前句的 methods",
+  "explanation": "these 在此同指前一句提到的 different methods，是跨句同指的改寫手法。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy92b_35",
+  "year": "92年補考",
+  "passageId": "y92b",
+  "blankNum": 35,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "these",
+   "B": "lower",
+   "C": "evenly",
+   "D": "other",
+   "E": "while",
+   "F": "not only",
+   "G": "methods",
+   "H": "with",
+   "I": "such as",
+   "J": "also"
+  },
+  "answer": "B",
+  "gloss": "較低的",
+  "collocation": "the higher this percentage is, the __ is the standard of living；the + 比較級, the + 比較級 句型",
+  "explanation": "the higher..., the lower... 是常考「越…越…」比較句型，考生需理解此處為反向關係(支出比例越高，生活水準反而越低)。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy92b_36",
+  "year": "92年補考",
+  "passageId": "y92b",
+  "blankNum": 36,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "these",
+   "B": "lower",
+   "C": "evenly",
+   "D": "other",
+   "E": "while",
+   "F": "not only",
+   "G": "methods",
+   "H": "with",
+   "I": "such as",
+   "J": "also"
+  },
+  "answer": "C",
+  "gloss": "平均地",
+  "collocation": "income is not distributed __；distribute evenly 固定搭配",
+  "explanation": "distribute evenly 是常見固定搭配，「平均分配」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy92b_37",
+  "year": "92年補考",
+  "passageId": "y92b",
+  "blankNum": 37,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "these",
+   "B": "lower",
+   "C": "evenly",
+   "D": "other",
+   "E": "while",
+   "F": "not only",
+   "G": "methods",
+   "H": "with",
+   "I": "such as",
+   "J": "also"
+  },
+  "answer": "E",
+  "gloss": "然而、但是",
+  "collocation": "Some enjoy wealth, __ others suffer in poverty；while 表對比連接詞",
+  "explanation": "while 在此為對比連接詞，「然而」，連接兩個相對的情況。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy92b_38",
+  "year": "92年補考",
+  "passageId": "y92b",
+  "blankNum": 38,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "these",
+   "B": "lower",
+   "C": "evenly",
+   "D": "other",
+   "E": "while",
+   "F": "not only",
+   "G": "methods",
+   "H": "with",
+   "I": "such as",
+   "J": "also"
+  },
+  "answer": "H",
+  "gloss": "具有、帶有",
+  "collocation": "Americans __ different racial and educational backgrounds；with + N 修飾主詞",
+  "explanation": "with 引導的介系詞片語修飾 Americans，「具有不同種族與教育背景的美國人」。原稿此處答案字母疑似誤植為F(not only)，但F已用於31題且語意不合，已依語意訂正為H。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy92b_39",
+  "year": "92年補考",
+  "passageId": "y92b",
+  "blankNum": 39,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "these",
+   "B": "lower",
+   "C": "evenly",
+   "D": "other",
+   "E": "while",
+   "F": "not only",
+   "G": "methods",
+   "H": "with",
+   "I": "such as",
+   "J": "also"
+  },
+  "answer": "J",
+  "gloss": "也",
+  "collocation": "People living in different parts...__ show different standards；also 副詞",
+  "explanation": "also 是常見副詞，「也」，考生需辨認其在句中的位置(動詞前)。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy92b_40",
+  "year": "92年補考",
+  "passageId": "y92b",
+  "blankNum": 40,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "these",
+   "B": "lower",
+   "C": "evenly",
+   "D": "other",
+   "E": "while",
+   "F": "not only",
+   "G": "methods",
+   "H": "with",
+   "I": "such as",
+   "J": "also"
+  },
+  "answer": "I",
+  "gloss": "例如",
+  "collocation": "factors __ household composition and family size；such as 舉例用法",
+  "explanation": "such as 是常考舉例片語，「例如」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy91_31",
+  "year": "91年",
+  "passageId": "y91",
+  "blankNum": 31,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "dutifully",
+   "B": "played",
+   "C": "heavier",
+   "D": "the way",
+   "E": "not",
+   "F": "lightening",
+   "G": "finally",
+   "H": "himself",
+   "I": "teach",
+   "J": "troubled"
+  },
+  "answer": "D",
+  "gloss": "路上",
+  "collocation": "On __, Amir and the donkey passed a stream；on the way 固定片語",
+  "explanation": "on the way 是常考固定片語，「在路上」。",
+  "accuracyRate": 85,
+  "discrimination": 33
+ },
+ {
+  "id": "Vy91_32",
+  "year": "91年",
+  "passageId": "y91",
+  "blankNum": 32,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "dutifully",
+   "B": "played",
+   "C": "heavier",
+   "D": "the way",
+   "E": "not",
+   "F": "lightening",
+   "G": "finally",
+   "H": "himself",
+   "I": "teach",
+   "J": "troubled"
+  },
+  "answer": "H",
+  "gloss": "他自己",
+  "collocation": "jumped into the stream to cool __；cool oneself 反身代名詞用法",
+  "explanation": "cool oneself 是固定用法，「讓自己涼快」，考生需辨認反身代名詞的使用時機。",
+  "accuracyRate": 57,
+  "discrimination": 75
+ },
+ {
+  "id": "Vy91_33",
+  "year": "91年",
+  "passageId": "y91",
+  "blankNum": 33,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "dutifully",
+   "B": "played",
+   "C": "heavier",
+   "D": "the way",
+   "E": "not",
+   "F": "lightening",
+   "G": "finally",
+   "H": "himself",
+   "I": "teach",
+   "J": "troubled"
+  },
+  "answer": "F",
+  "gloss": "使變輕",
+  "collocation": "ruining the salt for Amir but __ the load for the donkey；lighten(使變輕)非lightning(閃電)",
+  "explanation": "lightening 是多義字拼寫陷阱——與 lightning(閃電)拼字相近但意義完全不同，此處是動詞 lighten(使變輕)的動名詞形式，考生易看錯字混淆。",
+  "accuracyRate": 46,
+  "discrimination": 63
+ },
+ {
+  "id": "Vy91_34",
+  "year": "91年",
+  "passageId": "y91",
+  "blankNum": 34,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "dutifully",
+   "B": "played",
+   "C": "heavier",
+   "D": "the way",
+   "E": "not",
+   "F": "lightening",
+   "G": "finally",
+   "H": "himself",
+   "I": "teach",
+   "J": "troubled"
+  },
+  "answer": "B",
+  "gloss": "耍(把戲)",
+  "collocation": "the donkey __ the same trick；play a trick 固定搭配",
+  "explanation": "play a trick 是常考固定搭配，「耍花招」。",
+  "accuracyRate": 70,
+  "discrimination": 66
+ },
+ {
+  "id": "Vy91_35",
+  "year": "91年",
+  "passageId": "y91",
+  "blankNum": 35,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "dutifully",
+   "B": "played",
+   "C": "heavier",
+   "D": "the way",
+   "E": "not",
+   "F": "lightening",
+   "G": "finally",
+   "H": "himself",
+   "I": "teach",
+   "J": "troubled"
+  },
+  "answer": "J",
+  "gloss": "困擾的",
+  "collocation": "Amir was very much __ by the donkey's trick；be troubled by 固定搭配",
+  "explanation": "be troubled by 是常見固定搭配，「被…困擾」，troubled 為過去分詞當形容詞用。",
+  "accuracyRate": 65,
+  "discrimination": 65
+ },
+ {
+  "id": "Vy91_36",
+  "year": "91年",
+  "passageId": "y91",
+  "blankNum": 36,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "dutifully",
+   "B": "played",
+   "C": "heavier",
+   "D": "the way",
+   "E": "not",
+   "F": "lightening",
+   "G": "finally",
+   "H": "himself",
+   "I": "teach",
+   "J": "troubled"
+  },
+  "answer": "I",
+  "gloss": "教訓",
+  "collocation": "tried to think of a way to __ the donkey a lesson；teach sb a lesson 固定搭配",
+  "explanation": "teach someone a lesson 是常考固定搭配，「給某人一個教訓」。",
+  "accuracyRate": 81,
+  "discrimination": 52
+ },
+ {
+  "id": "Vy91_37",
+  "year": "91年",
+  "passageId": "y91",
+  "blankNum": 37,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "dutifully",
+   "B": "played",
+   "C": "heavier",
+   "D": "the way",
+   "E": "not",
+   "F": "lightening",
+   "G": "finally",
+   "H": "himself",
+   "I": "teach",
+   "J": "troubled"
+  },
+  "answer": "G",
+  "gloss": "終於",
+  "collocation": "On the third day, he __ came up with a good idea；finally 副詞修飾動詞",
+  "explanation": "finally 是常見副詞，「終於」，考生需辨認其修飾動詞片語 came up with 的位置。",
+  "accuracyRate": 57,
+  "discrimination": 55
+ },
+ {
+  "id": "Vy91_38",
+  "year": "91年",
+  "passageId": "y91",
+  "blankNum": 38,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "dutifully",
+   "B": "played",
+   "C": "heavier",
+   "D": "the way",
+   "E": "not",
+   "F": "lightening",
+   "G": "finally",
+   "H": "himself",
+   "I": "teach",
+   "J": "troubled"
+  },
+  "answer": "E",
+  "gloss": "不是",
+  "collocation": "loaded the sacks __ with salt but with sand；not A but B 固定句型",
+  "explanation": "not A but B 是常考固定句型，「不是A而是B」。",
+  "accuracyRate": 46,
+  "discrimination": 71
+ },
+ {
+  "id": "Vy91_39",
+  "year": "91年",
+  "passageId": "y91",
+  "blankNum": 39,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "dutifully",
+   "B": "played",
+   "C": "heavier",
+   "D": "the way",
+   "E": "not",
+   "F": "lightening",
+   "G": "finally",
+   "H": "himself",
+   "I": "teach",
+   "J": "troubled"
+  },
+  "answer": "C",
+  "gloss": "更重的",
+  "collocation": "they became much __；become + 比較級形容詞",
+  "explanation": "此格需邏輯推論：沙子泡水後吸水變重，與鹽泡水溶解變輕正好相反，是全文情節反轉的關鍵。",
+  "accuracyRate": 53,
+  "discrimination": 71
+ },
+ {
+  "id": "Vy91_40",
+  "year": "91年",
+  "passageId": "y91",
+  "blankNum": 40,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "dutifully",
+   "B": "played",
+   "C": "heavier",
+   "D": "the way",
+   "E": "not",
+   "F": "lightening",
+   "G": "finally",
+   "H": "himself",
+   "I": "teach",
+   "J": "troubled"
+  },
+  "answer": "A",
+  "gloss": "盡責地",
+  "collocation": "__ carried Amir's salt to the market；dutifully 修飾 carried",
+  "explanation": "此格需邏輯推論：呼應前句「驢子學到教訓」，此後盡責運送不再耍花招，是全文結局的總結性副詞。",
+  "accuracyRate": 31,
+  "discrimination": 61
+ },
+ {
+  "id": "Vy91b_31",
+  "year": "91年補考",
+  "passageId": "y91b",
+  "blankNum": 31,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "also",
+   "B": "trapped",
+   "C": "between",
+   "D": "stretch",
+   "E": "save",
+   "F": "senseless",
+   "G": "competition",
+   "H": "aboard",
+   "I": "yourself",
+   "J": "off"
+  },
+  "answer": "I",
+  "gloss": "你自己",
+  "collocation": "decide for __；decide for oneself 固定搭配",
+  "explanation": "decide for yourself 是常見固定搭配，「自己判斷決定」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy91b_32",
+  "year": "91年補考",
+  "passageId": "y91b",
+  "blankNum": 32,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "also",
+   "B": "trapped",
+   "C": "between",
+   "D": "stretch",
+   "E": "save",
+   "F": "senseless",
+   "G": "competition",
+   "H": "aboard",
+   "I": "yourself",
+   "J": "off"
+  },
+  "answer": "G",
+  "gloss": "競爭",
+  "collocation": "dolphins and fishermen are in __ for tuna；in competition for 固定搭配",
+  "explanation": "in competition for 是常考固定搭配，「為了…而競爭」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy91b_33",
+  "year": "91年補考",
+  "passageId": "y91b",
+  "blankNum": 33,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "also",
+   "B": "trapped",
+   "C": "between",
+   "D": "stretch",
+   "E": "save",
+   "F": "senseless",
+   "G": "competition",
+   "H": "aboard",
+   "I": "yourself",
+   "J": "off"
+  },
+  "answer": "C",
+  "gloss": "在…之間",
+  "collocation": "conflict __ dolphins and fishermen；conflict between A and B 固定搭配",
+  "explanation": "conflict between A and B 是常見固定搭配，「A與B之間的衝突」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy91b_34",
+  "year": "91年補考",
+  "passageId": "y91b",
+  "blankNum": 34,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "also",
+   "B": "trapped",
+   "C": "between",
+   "D": "stretch",
+   "E": "save",
+   "F": "senseless",
+   "G": "competition",
+   "H": "aboard",
+   "I": "yourself",
+   "J": "off"
+  },
+  "answer": "D",
+  "gloss": "延伸",
+  "collocation": "“walls” that __ for miles；stretch for + 距離 固定搭配",
+  "explanation": "stretch for miles 是常見固定搭配，「綿延數英里」，考生易誤解為「伸展身體」的常見義。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy91b_35",
+  "year": "91年補考",
+  "passageId": "y91b",
+  "blankNum": 35,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "also",
+   "B": "trapped",
+   "C": "between",
+   "D": "stretch",
+   "E": "save",
+   "F": "senseless",
+   "G": "competition",
+   "H": "aboard",
+   "I": "yourself",
+   "J": "off"
+  },
+  "answer": "A",
+  "gloss": "也",
+  "collocation": "they __ catch many dolphins；also 副詞置於助動詞/一般動詞前",
+  "explanation": "also 是常見副詞，需辨認其在句中修飾動詞的位置。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy91b_36",
+  "year": "91年補考",
+  "passageId": "y91b",
+  "blankNum": 36,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "also",
+   "B": "trapped",
+   "C": "between",
+   "D": "stretch",
+   "E": "save",
+   "F": "senseless",
+   "G": "competition",
+   "H": "aboard",
+   "I": "yourself",
+   "J": "off"
+  },
+  "answer": "B",
+  "gloss": "受困的",
+  "collocation": "When they are __ in the nets too long；be trapped in 固定搭配",
+  "explanation": "be trapped in 是常考固定搭配，「受困於…」，trapped 為過去分詞當形容詞用。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy91b_37",
+  "year": "91年補考",
+  "passageId": "y91b",
+  "blankNum": 37,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "also",
+   "B": "trapped",
+   "C": "between",
+   "D": "stretch",
+   "E": "save",
+   "F": "senseless",
+   "G": "competition",
+   "H": "aboard",
+   "I": "yourself",
+   "J": "off"
+  },
+  "answer": "H",
+  "gloss": "在船上",
+  "collocation": "brought __ the ship；bring sb aboard 固定搭配",
+  "explanation": "bring aboard 是常見固定搭配，「帶上船」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy91b_38",
+  "year": "91年補考",
+  "passageId": "y91b",
+  "blankNum": 38,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "also",
+   "B": "trapped",
+   "C": "between",
+   "D": "stretch",
+   "E": "save",
+   "F": "senseless",
+   "G": "competition",
+   "H": "aboard",
+   "I": "yourself",
+   "J": "off"
+  },
+  "answer": "F",
+  "gloss": "無意義的、毫無道理的",
+  "collocation": "the __ death of these wonderful sea creatures；senseless death 固定搭配",
+  "explanation": "senseless death 是常見固定搭配，「毫無意義的死亡」，帶有惋惜語氣。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy91b_39",
+  "year": "91年補考",
+  "passageId": "y91b",
+  "blankNum": 39,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "also",
+   "B": "trapped",
+   "C": "between",
+   "D": "stretch",
+   "E": "save",
+   "F": "senseless",
+   "G": "competition",
+   "H": "aboard",
+   "I": "yourself",
+   "J": "off"
+  },
+  "answer": "E",
+  "gloss": "拯救",
+  "collocation": "decided to help __ them；help + 原形動詞 固定句型",
+  "explanation": "help + 原形動詞(省略to)是常考固定句型，「幫忙做某事」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy91b_40",
+  "year": "91年補考",
+  "passageId": "y91b",
+  "blankNum": 40,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "also",
+   "B": "trapped",
+   "C": "between",
+   "D": "stretch",
+   "E": "save",
+   "F": "senseless",
+   "G": "competition",
+   "H": "aboard",
+   "I": "yourself",
+   "J": "off"
+  },
+  "answer": "J",
+  "gloss": "(片語)",
+  "collocation": "their hard work paid __；pay off 固定片語(有回報)",
+  "explanation": "pay off 是常考固定片語，「有回報、奏效」，考生需整體記憶此片語動詞。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy90_31",
+  "year": "90年",
+  "passageId": "y90",
+  "blankNum": 31,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "sorry",
+   "B": "outside",
+   "C": "leaving",
+   "D": "securely",
+   "E": "any",
+   "F": "normal",
+   "G": "quite",
+   "H": "came",
+   "I": "make",
+   "J": "way"
+  },
+  "answer": "C",
+  "gloss": "留下",
+  "collocation": "insisted on my __ my legs behind；insist on + 所有格 + V-ing",
+  "explanation": "此格為介系詞 on 後接動名詞的結構，且前面用所有格 my 修飾動名詞(意義上的主詞)，考生易忽略此文法細節。部分考生會誤以為 my 後面只能接名詞而聯想選 (J) way，卻忽略動名詞後面還帶著受詞 my legs 及介系詞片語 behind，需要一個能接受詞的動名詞。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy90_32",
+  "year": "90年",
+  "passageId": "y90",
+  "blankNum": 32,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "sorry",
+   "B": "outside",
+   "C": "leaving",
+   "D": "securely",
+   "E": "any",
+   "F": "normal",
+   "G": "quite",
+   "H": "came",
+   "I": "make",
+   "J": "way"
+  },
+  "answer": "G",
+  "gloss": "相當",
+  "collocation": "I was __ annoyed；quite + adj 程度副詞",
+  "explanation": "quite 是常見程度副詞，修飾形容詞 annoyed。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy90_33",
+  "year": "90年",
+  "passageId": "y90",
+  "blankNum": 33,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "sorry",
+   "B": "outside",
+   "C": "leaving",
+   "D": "securely",
+   "E": "any",
+   "F": "normal",
+   "G": "quite",
+   "H": "came",
+   "I": "make",
+   "J": "way"
+  },
+  "answer": "A",
+  "gloss": "抱歉的",
+  "collocation": "he was very __ about it；sorry about 固定搭配",
+  "explanation": "sorry about 是常見固定搭配，「對…感到抱歉」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy90_34",
+  "year": "90年",
+  "passageId": "y90",
+  "blankNum": 34,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "sorry",
+   "B": "outside",
+   "C": "leaving",
+   "D": "securely",
+   "E": "any",
+   "F": "normal",
+   "G": "quite",
+   "H": "came",
+   "I": "make",
+   "J": "way"
+  },
+  "answer": "J",
+  "gloss": "路、通道",
+  "collocation": "always in the __；in the way 固定片語(擋路)",
+  "explanation": "in the way 是常考固定片語，「擋路、造成妨礙」，考生易誤解為字面「在路上」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy90_35",
+  "year": "90年",
+  "passageId": "y90",
+  "blankNum": 35,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "sorry",
+   "B": "outside",
+   "C": "leaving",
+   "D": "securely",
+   "E": "any",
+   "F": "normal",
+   "G": "quite",
+   "H": "came",
+   "I": "make",
+   "J": "way"
+  },
+  "answer": "B",
+  "gloss": "在外面",
+  "collocation": "leave their legs __；邏輯呼應前文「寄放」的規定",
+  "explanation": "此格需邏輯推論：呼應開頭「insisted on leaving my legs behind」的規定精神，此處是政策的正式說法。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy90_36",
+  "year": "90年",
+  "passageId": "y90",
+  "blankNum": 36,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "sorry",
+   "B": "outside",
+   "C": "leaving",
+   "D": "securely",
+   "E": "any",
+   "F": "normal",
+   "G": "quite",
+   "H": "came",
+   "I": "make",
+   "J": "way"
+  },
+  "answer": "F",
+  "gloss": "正常的",
+  "collocation": "Under __ circumstances；under normal circumstances 固定搭配",
+  "explanation": "under normal circumstances 是常考固定搭配，「在正常情況下」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy90_37",
+  "year": "90年",
+  "passageId": "y90",
+  "blankNum": 37,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "sorry",
+   "B": "outside",
+   "C": "leaving",
+   "D": "securely",
+   "E": "any",
+   "F": "normal",
+   "G": "quite",
+   "H": "came",
+   "I": "make",
+   "J": "way"
+  },
+  "answer": "I",
+  "gloss": "引起、造成",
+  "collocation": "didn't want to __ a disturbance；make a disturbance 固定搭配",
+  "explanation": "make a disturbance 是常見固定搭配，「引起騷動」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy90_38",
+  "year": "90年",
+  "passageId": "y90",
+  "blankNum": 38,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "sorry",
+   "B": "outside",
+   "C": "leaving",
+   "D": "securely",
+   "E": "any",
+   "F": "normal",
+   "G": "quite",
+   "H": "came",
+   "I": "make",
+   "J": "way"
+  },
+  "answer": "D",
+  "gloss": "牢固地",
+  "collocation": "more __ fixed；副詞修飾過去分詞 fixed",
+  "explanation": "securely 是副詞，修飾過去分詞 fixed，考生需辨認此詞性搭配(副詞+形容詞化的過去分詞)。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy90_39",
+  "year": "90年",
+  "passageId": "y90",
+  "blankNum": 39,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "sorry",
+   "B": "outside",
+   "C": "leaving",
+   "D": "securely",
+   "E": "any",
+   "F": "normal",
+   "G": "quite",
+   "H": "came",
+   "I": "make",
+   "J": "way"
+  },
+  "answer": "H",
+  "gloss": "脫落",
+  "collocation": "they __ off quite easily；come off 固定搭配(脫落、鬆開)",
+  "explanation": "come off 是常考固定搭配，「脫落」，考生易與 came from 等其他片語混淆。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy90_40",
+  "year": "90年",
+  "passageId": "y90",
+  "blankNum": 40,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "sorry",
+   "B": "outside",
+   "C": "leaving",
+   "D": "securely",
+   "E": "any",
+   "F": "normal",
+   "G": "quite",
+   "H": "came",
+   "I": "make",
+   "J": "way"
+  },
+  "answer": "E",
+  "gloss": "(加強否定語氣)",
+  "collocation": "did not surprise me __ more than...；not...any more than 固定句型",
+  "explanation": "not...any more than 是常考固定句型，「並不比…更加」，用來加強比較的否定語氣。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy111r_21",
+  "year": "111年（＝115學年度參考試卷同內容）",
+  "passageId": "y111r",
+  "blankNum": 21,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "possible",
+   "B": "sensation",
+   "C": "risky",
+   "D": "cost",
+   "E": "witnessed",
+   "F": "professional",
+   "G": "called for",
+   "H": "tried out",
+   "I": "necessity",
+   "J": "career"
+  },
+  "answer": "C",
+  "gloss": "冒險的",
+  "collocation": "too __ for the regular actor；risky 修飾動作的危險程度",
+  "explanation": "此格需邏輯推論：呼應後文列舉的高空跳躍、撞車等危險動作，判斷需要「風險過高」的形容詞。",
+  "accuracyRate": 64,
+  "discrimination": 71
+ },
+ {
+  "id": "Vy111r_22",
+  "year": "111年（＝115學年度參考試卷同內容）",
+  "passageId": "y111r",
+  "blankNum": 22,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "possible",
+   "B": "sensation",
+   "C": "risky",
+   "D": "cost",
+   "E": "witnessed",
+   "F": "professional",
+   "G": "called for",
+   "H": "tried out",
+   "I": "necessity",
+   "J": "career"
+  },
+  "answer": "I",
+  "gloss": "必要性、需求",
+  "collocation": "emerged out of __；out of necessity 固定搭配",
+  "explanation": "out of necessity 是常考固定搭配，「因應需求/情勢所迫」。",
+  "accuracyRate": 29,
+  "discrimination": 50
+ },
+ {
+  "id": "Vy111r_23",
+  "year": "111年（＝115學年度參考試卷同內容）",
+  "passageId": "y111r",
+  "blankNum": 23,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "possible",
+   "B": "sensation",
+   "C": "risky",
+   "D": "cost",
+   "E": "witnessed",
+   "F": "professional",
+   "G": "called for",
+   "H": "tried out",
+   "I": "necessity",
+   "J": "career"
+  },
+  "answer": "F",
+  "gloss": "專業的",
+  "collocation": "no __ crew members；professional 修飾 crew members",
+  "explanation": "professional crew members 是常見固定搭配，「專業工作人員」。",
+  "accuracyRate": 53,
+  "discrimination": 79
+ },
+ {
+  "id": "Vy111r_24",
+  "year": "111年（＝115學年度參考試卷同內容）",
+  "passageId": "y111r",
+  "blankNum": 24,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "possible",
+   "B": "sensation",
+   "C": "risky",
+   "D": "cost",
+   "E": "witnessed",
+   "F": "professional",
+   "G": "called for",
+   "H": "tried out",
+   "I": "necessity",
+   "J": "career"
+  },
+  "answer": "H",
+  "gloss": "嘗試、試做",
+  "collocation": "they often __ things for the first time；try out 固定搭配",
+  "explanation": "try out 是常考固定搭配，「嘗試、試做」。",
+  "accuracyRate": 56,
+  "discrimination": 65
+ },
+ {
+  "id": "Vy111r_25",
+  "year": "111年（＝115學年度參考試卷同內容）",
+  "passageId": "y111r",
+  "blankNum": 25,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "possible",
+   "B": "sensation",
+   "C": "risky",
+   "D": "cost",
+   "E": "witnessed",
+   "F": "professional",
+   "G": "called for",
+   "H": "tried out",
+   "I": "necessity",
+   "J": "career"
+  },
+  "answer": "D",
+  "gloss": "使付出(代價)",
+  "collocation": "which __ some their lives；cost sb sth 固定搭配",
+  "explanation": "cost someone something 是常考固定搭配，「使某人付出…(代價)」，此處為 cost sb their lives(使某人喪命)。cost 三態同形(cost-cost-cost)，此處主詞 which 指代前面「自己犯的錯」，動作發生在過去(與前後文 had to learn、suffered 呼應)，考生易誤判為現在式。",
+  "accuracyRate": 53,
+  "discrimination": 75
+ },
+ {
+  "id": "Vy111r_26",
+  "year": "111年（＝115學年度參考試卷同內容）",
+  "passageId": "y111r",
+  "blankNum": 26,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "possible",
+   "B": "sensation",
+   "C": "risky",
+   "D": "cost",
+   "E": "witnessed",
+   "F": "professional",
+   "G": "called for",
+   "H": "tried out",
+   "I": "necessity",
+   "J": "career"
+  },
+  "answer": "G",
+  "gloss": "需要、要求",
+  "collocation": "which __ the use of dedicated stunt people；call for 固定搭配",
+  "explanation": "call for 是常考固定搭配，「需要、促使」。",
+  "accuracyRate": 44,
+  "discrimination": 63
+ },
+ {
+  "id": "Vy111r_27",
+  "year": "111年（＝115學年度參考試卷同內容）",
+  "passageId": "y111r",
+  "blankNum": 27,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "possible",
+   "B": "sensation",
+   "C": "risky",
+   "D": "cost",
+   "E": "witnessed",
+   "F": "professional",
+   "G": "called for",
+   "H": "tried out",
+   "I": "necessity",
+   "J": "career"
+  },
+  "answer": "J",
+  "gloss": "職業生涯",
+  "collocation": "found a new __ as a stunt person；career 呼應「新職業」的語意",
+  "explanation": "career 是常見固定搭配，「找到新的職業生涯」。",
+  "accuracyRate": 58,
+  "discrimination": 72
+ },
+ {
+  "id": "Vy111r_28",
+  "year": "111年（＝115學年度參考試卷同內容）",
+  "passageId": "y111r",
+  "blankNum": 28,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "possible",
+   "B": "sensation",
+   "C": "risky",
+   "D": "cost",
+   "E": "witnessed",
+   "F": "professional",
+   "G": "called for",
+   "H": "tried out",
+   "I": "necessity",
+   "J": "career"
+  },
+  "answer": "E",
+  "gloss": "見證、經歷",
+  "collocation": "The 1960s and '70s __ the development；witness 主詞為時代(非人)",
+  "explanation": "witness 常見主詞是「人」(目擊)，此處主詞是「1960與70年代」這個時間段，屬於「時代見證了…」的擬人化多義用法，考生易只知常見義。",
+  "accuracyRate": 35,
+  "discrimination": 63
+ },
+ {
+  "id": "Vy111r_29",
+  "year": "111年（＝115學年度參考試卷同內容）",
+  "passageId": "y111r",
+  "blankNum": 29,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "possible",
+   "B": "sensation",
+   "C": "risky",
+   "D": "cost",
+   "E": "witnessed",
+   "F": "professional",
+   "G": "called for",
+   "H": "tried out",
+   "I": "necessity",
+   "J": "career"
+  },
+  "answer": "A",
+  "gloss": "可能的",
+  "collocation": "it is now __ to create...；it is possible to V 句型",
+  "explanation": "it is possible to V 是常考句型，「…是可能的」。",
+  "accuracyRate": 55,
+  "discrimination": 75
+ },
+ {
+  "id": "Vy111r_30",
+  "year": "111年（＝115學年度參考試卷同內容）",
+  "passageId": "y111r",
+  "blankNum": 30,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "possible",
+   "B": "sensation",
+   "C": "risky",
+   "D": "cost",
+   "E": "witnessed",
+   "F": "professional",
+   "G": "called for",
+   "H": "tried out",
+   "I": "necessity",
+   "J": "career"
+  },
+  "answer": "B",
+  "gloss": "感受、震撼感",
+  "collocation": "the realism and thrilling __；thrilling sensation 固定搭配",
+  "explanation": "thrilling sensation 是常見固定搭配，「刺激的感受」。",
+  "accuracyRate": 36,
+  "discrimination": 50
+ },
+ {
+  "id": "Vy99r_31",
+  "year": "99課綱(102年施測)",
+  "passageId": "y99r",
+  "blankNum": 31,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "therefore",
+   "B": "alert",
+   "C": "due to",
+   "D": "in conflict with",
+   "E": "cause",
+   "F": "reluctant",
+   "G": "allowing",
+   "H": "awaken",
+   "I": "for example",
+   "J": "lack"
+  },
+  "answer": "F",
+  "gloss": "不情願的",
+  "collocation": "they are __ to get up early；reluctant to V 固定搭配",
+  "explanation": "reluctant to V 是常考固定搭配，「不情願做某事」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy99r_32",
+  "year": "99課綱(102年施測)",
+  "passageId": "y99r",
+  "blankNum": 32,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "therefore",
+   "B": "alert",
+   "C": "due to",
+   "D": "in conflict with",
+   "E": "cause",
+   "F": "reluctant",
+   "G": "allowing",
+   "H": "awaken",
+   "I": "for example",
+   "J": "lack"
+  },
+  "answer": "E",
+  "gloss": "原因",
+  "collocation": "this teen behavior actually has a physical __；physical cause 固定搭配",
+  "explanation": "physical cause 是常見固定搭配，「生理上的原因」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy99r_33",
+  "year": "99課綱(102年施測)",
+  "passageId": "y99r",
+  "blankNum": 33,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "therefore",
+   "B": "alert",
+   "C": "due to",
+   "D": "in conflict with",
+   "E": "cause",
+   "F": "reluctant",
+   "G": "allowing",
+   "H": "awaken",
+   "I": "for example",
+   "J": "lack"
+  },
+  "answer": "H",
+  "gloss": "甦醒",
+  "collocation": "they cannot __ until 8:00 a.m.；awaken 不及物動詞(甦醒)",
+  "explanation": "awaken 是多義字，此處作不及物動詞「甦醒」，考生需與 wake sb up(喚醒某人)的及物用法區辨。awaken 語氣比 wake up 更正式，cannot awaken until 8:00 a.m. 相當於 cannot wake up until 8:00 a.m.，同時複習 not...until(直到…才…)的經典句型。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy99r_34",
+  "year": "99課綱(102年施測)",
+  "passageId": "y99r",
+  "blankNum": 34,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "therefore",
+   "B": "alert",
+   "C": "due to",
+   "D": "in conflict with",
+   "E": "cause",
+   "F": "reluctant",
+   "G": "allowing",
+   "H": "awaken",
+   "I": "for example",
+   "J": "lack"
+  },
+  "answer": "D",
+  "gloss": "與…相衝突",
+  "collocation": "their biological rhythm is __ an early school start time；be in conflict with 固定搭配",
+  "explanation": "be in conflict with 是常考固定搭配，「與…相衝突」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy99r_35",
+  "year": "99課綱(102年施測)",
+  "passageId": "y99r",
+  "blankNum": 35,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "therefore",
+   "B": "alert",
+   "C": "due to",
+   "D": "in conflict with",
+   "E": "cause",
+   "F": "reluctant",
+   "G": "allowing",
+   "H": "awaken",
+   "I": "for example",
+   "J": "lack"
+  },
+  "answer": "A",
+  "gloss": "因此",
+  "collocation": "They are, __, not getting the sleep；插入語，表結果",
+  "explanation": "therefore 在此為插入語，置於 be動詞與現在分詞之間，考生需辨認此插入位置。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy99r_36",
+  "year": "99課綱(102年施測)",
+  "passageId": "y99r",
+  "blankNum": 36,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "therefore",
+   "B": "alert",
+   "C": "due to",
+   "D": "in conflict with",
+   "E": "cause",
+   "F": "reluctant",
+   "G": "allowing",
+   "H": "awaken",
+   "I": "for example",
+   "J": "lack"
+  },
+  "answer": "J",
+  "gloss": "缺乏",
+  "collocation": "The __ of sleep has negative effects；the lack of 固定搭配",
+  "explanation": "the lack of 是常考固定搭配，「…的缺乏」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy99r_37",
+  "year": "99課綱(102年施測)",
+  "passageId": "y99r",
+  "blankNum": 37,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "therefore",
+   "B": "alert",
+   "C": "due to",
+   "D": "in conflict with",
+   "E": "cause",
+   "F": "reluctant",
+   "G": "allowing",
+   "H": "awaken",
+   "I": "for example",
+   "J": "lack"
+  },
+  "answer": "C",
+  "gloss": "由於",
+  "collocation": "performances may drop __ insufficient sleep；due to + N 固定搭配",
+  "explanation": "due to 是常見固定搭配，「由於」，後接名詞。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy99r_38",
+  "year": "99課綱(102年施測)",
+  "passageId": "y99r",
+  "blankNum": 38,
+  "categories": [
+   "句型／固定搭配句構",
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "therefore",
+   "B": "alert",
+   "C": "due to",
+   "D": "in conflict with",
+   "E": "cause",
+   "F": "reluctant",
+   "G": "allowing",
+   "H": "awaken",
+   "I": "for example",
+   "J": "lack"
+  },
+  "answer": "G",
+  "gloss": "允許",
+  "collocation": "changed the school start time, __ children to start later；分詞構句表結果",
+  "explanation": "allowing 是現在分詞構句，表示前面動作(改變上學時間)所帶來的結果，相當於 which allows children to start later，是「V-ing表結果的分詞構句」經典句型，考生需辨認此文法結構。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy99r_39",
+  "year": "99課綱(102年施測)",
+  "passageId": "y99r",
+  "blankNum": 39,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "therefore",
+   "B": "alert",
+   "C": "due to",
+   "D": "in conflict with",
+   "E": "cause",
+   "F": "reluctant",
+   "G": "allowing",
+   "H": "awaken",
+   "I": "for example",
+   "J": "lack"
+  },
+  "answer": "I",
+  "gloss": "例如",
+  "collocation": "many positive results, __, a decrease in...；插入語舉例",
+  "explanation": "for example 在此為插入語，用來具體舉例說明前面提到的「正面成效」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy99r_40",
+  "year": "99課綱(102年施測)",
+  "passageId": "y99r",
+  "blankNum": 40,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "therefore",
+   "B": "alert",
+   "C": "due to",
+   "D": "in conflict with",
+   "E": "cause",
+   "F": "reluctant",
+   "G": "allowing",
+   "H": "awaken",
+   "I": "for example",
+   "J": "lack"
+  },
+  "answer": "B",
+  "gloss": "警覺的、精神好的",
+  "collocation": "were more __ during the day；與 less sleepy 相對的形容詞",
+  "explanation": "此格需邏輯推論：與前面「felt less sleepy」語意平行對照，需要表示「精神更好」的形容詞。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy95r_31",
+  "year": "95課綱(98年施測)",
+  "passageId": "y95r",
+  "blankNum": 31,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "work",
+   "B": "absorb",
+   "C": "available",
+   "D": "dry",
+   "E": "lessen",
+   "F": "design",
+   "G": "free",
+   "H": "important",
+   "I": "manner",
+   "J": "rise"
+  },
+  "answer": "G",
+  "gloss": "免費的",
+  "collocation": "is, therefore, __；邏輯推論(不屬於任何人→免費)",
+  "explanation": "此格需邏輯推論：因為太陽能「不屬於任何人」，所以推導出「免費」的結論，沒有明顯固定搭配可直接對應。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy95r_32",
+  "year": "95課綱(98年施測)",
+  "passageId": "y95r",
+  "blankNum": 32,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "work",
+   "B": "absorb",
+   "C": "available",
+   "D": "dry",
+   "E": "lessen",
+   "F": "design",
+   "G": "free",
+   "H": "important",
+   "I": "manner",
+   "J": "rise"
+  },
+  "answer": "H",
+  "gloss": "重要的",
+  "collocation": "it is the most __；the most + adj 最高級",
+  "explanation": "此格需邏輯推論：因為不會造成污染、能減少溫室效應，所以是「最重要的」能源選項。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy95r_33",
+  "year": "95課綱(98年施測)",
+  "passageId": "y95r",
+  "blankNum": 33,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "work",
+   "B": "absorb",
+   "C": "available",
+   "D": "dry",
+   "E": "lessen",
+   "F": "design",
+   "G": "free",
+   "H": "important",
+   "I": "manner",
+   "J": "rise"
+  },
+  "answer": "E",
+  "gloss": "減少",
+  "collocation": "helps to __ the greenhouse effect；lessen + N 固定搭配",
+  "explanation": "lessen the greenhouse effect 是常見固定搭配，「減緩溫室效應」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy95r_34",
+  "year": "95課綱(98年施測)",
+  "passageId": "y95r",
+  "blankNum": 34,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "work",
+   "B": "absorb",
+   "C": "available",
+   "D": "dry",
+   "E": "lessen",
+   "F": "design",
+   "G": "free",
+   "H": "important",
+   "I": "manner",
+   "J": "rise"
+  },
+  "answer": "I",
+  "gloss": "方式",
+  "collocation": "in a most primitive __；in a...manner 固定搭配",
+  "explanation": "in a...manner 是常考固定搭配，「以…的方式」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy95r_35",
+  "year": "95課綱(98年施測)",
+  "passageId": "y95r",
+  "blankNum": 35,
+  "categories": [
+   "同義改寫／替代指涉"
+  ],
+  "options": {
+   "A": "work",
+   "B": "absorb",
+   "C": "available",
+   "D": "dry",
+   "E": "lessen",
+   "F": "design",
+   "G": "free",
+   "H": "important",
+   "I": "manner",
+   "J": "rise"
+  },
+  "answer": "A",
+  "gloss": "研究工作",
+  "collocation": "most of this __ remained mainly academic；work 呼應前句 research and development",
+  "explanation": "work 在此同指前句提到的「研究與開發」工作，是跨句同指的改寫手法。work 作「工作/研究」解時為不可數名詞，前面才能用限定詞 this 修飾(most of this work)，這也是排除其他可數名詞選項的關鍵線索。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy95r_36",
+  "year": "95課綱(98年施測)",
+  "passageId": "y95r",
+  "blankNum": 36,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "work",
+   "B": "absorb",
+   "C": "available",
+   "D": "dry",
+   "E": "lessen",
+   "F": "design",
+   "G": "free",
+   "H": "important",
+   "I": "manner",
+   "J": "rise"
+  },
+  "answer": "J",
+  "gloss": "上漲",
+  "collocation": "the dramatic __ in oil prices；rise in 固定搭配",
+  "explanation": "rise in 是常考固定搭配，「…的上漲」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy95r_37",
+  "year": "95課綱(98年施測)",
+  "passageId": "y95r",
+  "blankNum": 37,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "work",
+   "B": "absorb",
+   "C": "available",
+   "D": "dry",
+   "E": "lessen",
+   "F": "design",
+   "G": "free",
+   "H": "important",
+   "I": "manner",
+   "J": "rise"
+  },
+  "answer": "F",
+  "gloss": "設計、規劃",
+  "collocation": "several countries began to __ extensive research programs；design a program 固定搭配",
+  "explanation": "design a research program 是常見固定搭配，「規劃研究計畫」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy95r_38",
+  "year": "95課綱(98年施測)",
+  "passageId": "y95r",
+  "blankNum": 38,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "work",
+   "B": "absorb",
+   "C": "available",
+   "D": "dry",
+   "E": "lessen",
+   "F": "design",
+   "G": "free",
+   "H": "important",
+   "I": "manner",
+   "J": "rise"
+  },
+  "answer": "D",
+  "gloss": "曬乾",
+  "collocation": "hang out our clothes to __ in the sun；hang...to dry 固定搭配",
+  "explanation": "此格需邏輯推論：曬衣服的目的是要「曬乾」，呼應後文「使用太陽的能量」的語意。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy95r_39",
+  "year": "95課綱(98年施測)",
+  "passageId": "y95r",
+  "blankNum": 39,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "work",
+   "B": "absorb",
+   "C": "available",
+   "D": "dry",
+   "E": "lessen",
+   "F": "design",
+   "G": "free",
+   "H": "important",
+   "I": "manner",
+   "J": "rise"
+  },
+  "answer": "B",
+  "gloss": "吸收",
+  "collocation": "solar panels __ the energy of the sun；absorb energy 固定搭配",
+  "explanation": "absorb energy 是常見固定搭配，「吸收能量」。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy95r_40",
+  "year": "95課綱(98年施測)",
+  "passageId": "y95r",
+  "blankNum": 40,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "work",
+   "B": "absorb",
+   "C": "available",
+   "D": "dry",
+   "E": "lessen",
+   "F": "design",
+   "G": "free",
+   "H": "important",
+   "I": "manner",
+   "J": "rise"
+  },
+  "answer": "C",
+  "gloss": "可取得的",
+  "collocation": "Such systems are __ on the market；available on the market 固定搭配",
+  "explanation": "available on the market 是常見固定搭配，「在市面上可買到」，呼應第一段開頭 available 的用法。",
+  "accuracyRate": null,
+  "discrimination": null
+ },
+ {
+  "id": "Vy113_21",
+  "year": "113年",
+  "passageId": "y113",
+  "blankNum": 21,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "passed on",
+   "B": "bridge",
+   "C": "sorrow",
+   "D": "hope",
+   "E": "departed",
+   "F": "mechanism",
+   "G": "housed",
+   "H": "manageable",
+   "I": "fateful",
+   "J": "brought forth"
+  },
+  "answer": "E",
+  "gloss": "已故的",
+  "collocation": "their __ loved ones；the departed 固定用法(委婉語，指亡者)",
+  "explanation": "departed 在此是委婉語形容詞，「已故的」，考生易誤解為「離開的」字面義，需理解此為對死者的委婉稱呼。",
+  "accuracyRate": 35,
+  "discrimination": 65
+ },
+ {
+  "id": "Vy113_22",
+  "year": "113年",
+  "passageId": "y113",
+  "blankNum": 22,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "passed on",
+   "B": "bridge",
+   "C": "sorrow",
+   "D": "hope",
+   "E": "departed",
+   "F": "mechanism",
+   "G": "housed",
+   "H": "manageable",
+   "I": "fateful",
+   "J": "brought forth"
+  },
+  "answer": "I",
+  "gloss": "命中注定的、重大的",
+  "collocation": "that __ day；fateful day 固定搭配",
+  "explanation": "fateful day 是常見固定搭配，「命運攸關的一天」，指海嘯發生的那天。",
+  "accuracyRate": 40,
+  "discrimination": 48
+ },
+ {
+  "id": "Vy113_23",
+  "year": "113年",
+  "passageId": "y113",
+  "blankNum": 23,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "passed on",
+   "B": "bridge",
+   "C": "sorrow",
+   "D": "hope",
+   "E": "departed",
+   "F": "mechanism",
+   "G": "housed",
+   "H": "manageable",
+   "I": "fateful",
+   "J": "brought forth"
+  },
+  "answer": "J",
+  "gloss": "提出",
+  "collocation": "The idea...was first __ by...；bring forth 固定搭配(被動)",
+  "explanation": "bring forth 是常考固定搭配，「提出、產生」，此處為被動語態 be brought forth by。",
+  "accuracyRate": 37,
+  "discrimination": 65
+ },
+ {
+  "id": "Vy113_24",
+  "year": "113年",
+  "passageId": "y113",
+  "blankNum": 24,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "passed on",
+   "B": "bridge",
+   "C": "sorrow",
+   "D": "hope",
+   "E": "departed",
+   "F": "mechanism",
+   "G": "housed",
+   "H": "manageable",
+   "I": "fateful",
+   "J": "brought forth"
+  },
+  "answer": "C",
+  "gloss": "悲傷",
+  "collocation": "navigate through the __；navigate through 固定搭配",
+  "explanation": "navigate through sorrow 是常見固定搭配，「走過悲傷」，需理解 navigate 引申為「度過(困難情緒)」的比喻用法。",
+  "accuracyRate": 41,
+  "discrimination": 64
+ },
+ {
+  "id": "Vy113_25",
+  "year": "113年",
+  "passageId": "y113",
+  "blankNum": 25,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "passed on",
+   "B": "bridge",
+   "C": "sorrow",
+   "D": "hope",
+   "E": "departed",
+   "F": "mechanism",
+   "G": "housed",
+   "H": "manageable",
+   "I": "fateful",
+   "J": "brought forth"
+  },
+  "answer": "G",
+  "gloss": "容納、裝有",
+  "collocation": "The booth he built __ only an old dial phone；house 當動詞(容納)",
+  "explanation": "house 在此當動詞用，「內部裝有/容納」，考生易只認得常見名詞「房子」的用法，是常見詞性陷阱。",
+  "accuracyRate": 37,
+  "discrimination": 57
+ },
+ {
+  "id": "Vy113_26",
+  "year": "113年",
+  "passageId": "y113",
+  "blankNum": 26,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "passed on",
+   "B": "bridge",
+   "C": "sorrow",
+   "D": "hope",
+   "E": "departed",
+   "F": "mechanism",
+   "G": "housed",
+   "H": "manageable",
+   "I": "fateful",
+   "J": "brought forth"
+  },
+  "answer": "A",
+  "gloss": "被傳遞",
+  "collocation": "my thoughts couldn't be __ through a regular phone line；pass on 固定搭配(被動)",
+  "explanation": "pass on 是常考固定搭配，「傳遞」，此處為被動語態，考生需辨認 be passed on 的結構。",
+  "accuracyRate": 44,
+  "discrimination": 55
+ },
+ {
+  "id": "Vy113_27",
+  "year": "113年",
+  "passageId": "y113",
+  "blankNum": 27,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "passed on",
+   "B": "bridge",
+   "C": "sorrow",
+   "D": "hope",
+   "E": "departed",
+   "F": "mechanism",
+   "G": "housed",
+   "H": "manageable",
+   "I": "fateful",
+   "J": "brought forth"
+  },
+  "answer": "H",
+  "gloss": "可應付的",
+  "collocation": "renders the grieving process more __；render + O + adj 固定句型",
+  "explanation": "render + 受詞 + 形容詞 是常考固定句型，「使…變得…」，manageable 表「可控制、可應付的」。",
+  "accuracyRate": 44,
+  "discrimination": 66
+ },
+ {
+  "id": "Vy113_28",
+  "year": "113年",
+  "passageId": "y113",
+  "blankNum": 28,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "passed on",
+   "B": "bridge",
+   "C": "sorrow",
+   "D": "hope",
+   "E": "departed",
+   "F": "mechanism",
+   "G": "housed",
+   "H": "manageable",
+   "I": "fateful",
+   "J": "brought forth"
+  },
+  "answer": "B",
+  "gloss": "橋樑",
+  "collocation": "the booth has become a __ between the living and the dead；bridge between A and B 固定搭配",
+  "explanation": "bridge between A and B 是常見固定搭配(比喻用法)，「A與B之間的橋樑」。",
+  "accuracyRate": 68,
+  "discrimination": 72
+ },
+ {
+  "id": "Vy113_29",
+  "year": "113年",
+  "passageId": "y113",
+  "blankNum": 29,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "passed on",
+   "B": "bridge",
+   "C": "sorrow",
+   "D": "hope",
+   "E": "departed",
+   "F": "mechanism",
+   "G": "housed",
+   "H": "manageable",
+   "I": "fateful",
+   "J": "brought forth"
+  },
+  "answer": "F",
+  "gloss": "機制",
+  "collocation": "Grieving is a natural __ for coping with loss；natural mechanism 固定搭配",
+  "explanation": "natural mechanism 是常見固定搭配，「天生的機制」，此格也是全文核心思想句的關鍵詞。",
+  "accuracyRate": 44,
+  "discrimination": 65
+ },
+ {
+  "id": "Vy113_30",
+  "year": "113年",
+  "passageId": "y113",
+  "blankNum": 30,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "passed on",
+   "B": "bridge",
+   "C": "sorrow",
+   "D": "hope",
+   "E": "departed",
+   "F": "mechanism",
+   "G": "housed",
+   "H": "manageable",
+   "I": "fateful",
+   "J": "brought forth"
+  },
+  "answer": "D",
+  "gloss": "希望",
+  "collocation": "__ is always there；此格為句子主詞，呼應全文結語的核心思想",
+  "explanation": "此格需邏輯推論：作為句子主詞，呼應後文「他們相信訊息終將傳達給逝者」的信念，答案應為抽象名詞「希望」。",
+  "accuracyRate": 56,
+  "discrimination": 74
+ },
+ {
+  "id": "Vy114_21",
+  "year": "114年",
+  "passageId": "y114",
+  "blankNum": 21,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "reference",
+   "B": "bearing",
+   "C": "familiar",
+   "D": "retained",
+   "E": "faithful",
+   "F": "survived",
+   "G": "celebration",
+   "H": "restoration",
+   "I": "noted",
+   "J": "silent"
+  },
+  "answer": "I",
+  "gloss": "以…聞名的",
+  "collocation": "this cathedral is __ for...；be noted for 固定搭配",
+  "explanation": "be noted for 是常考固定搭配，「以…聞名」，與 be known for 同義。",
+  "accuracyRate": 29,
+  "discrimination": 53
+ },
+ {
+  "id": "Vy114_22",
+  "year": "114年",
+  "passageId": "y114",
+  "blankNum": 22,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "reference",
+   "B": "bearing",
+   "C": "familiar",
+   "D": "retained",
+   "E": "faithful",
+   "F": "survived",
+   "G": "celebration",
+   "H": "restoration",
+   "I": "noted",
+   "J": "silent"
+  },
+  "answer": "A",
+  "gloss": "提及、記載",
+  "collocation": "documented __ to the ringing of bells；reference to 固定搭配",
+  "explanation": "reference to 是常考固定搭配，「對…的提及/記載」。",
+  "accuracyRate": 37,
+  "discrimination": 53
+ },
+ {
+  "id": "Vy114_23",
+  "year": "114年",
+  "passageId": "y114",
+  "blankNum": 23,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "reference",
+   "B": "bearing",
+   "C": "familiar",
+   "D": "retained",
+   "E": "faithful",
+   "F": "survived",
+   "G": "celebration",
+   "H": "restoration",
+   "I": "noted",
+   "J": "silent"
+  },
+  "answer": "B",
+  "gloss": "帶有",
+  "collocation": "each __ a name；bear a name 固定搭配",
+  "explanation": "bear a name 是常考固定搭配，「帶有名字」，bear 在此有「擁有、帶有」的多義用法，是常考詞彙。",
+  "accuracyRate": 22,
+  "discrimination": 42
+ },
+ {
+  "id": "Vy114_24",
+  "year": "114年",
+  "passageId": "y114",
+  "blankNum": 24,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "reference",
+   "B": "bearing",
+   "C": "familiar",
+   "D": "retained",
+   "E": "faithful",
+   "F": "survived",
+   "G": "celebration",
+   "H": "restoration",
+   "I": "noted",
+   "J": "silent"
+  },
+  "answer": "F",
+  "gloss": "倖存於",
+  "collocation": "the only one that __ the French Revolution；survive + N 及物動詞",
+  "explanation": "survive + N(事件) 是常考固定搭配，「倖存於某事件」，不需加介詞。",
+  "accuracyRate": 55,
+  "discrimination": 77
+ },
+ {
+  "id": "Vy114_25",
+  "year": "114年",
+  "passageId": "y114",
+  "blankNum": 25,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "reference",
+   "B": "bearing",
+   "C": "familiar",
+   "D": "retained",
+   "E": "faithful",
+   "F": "survived",
+   "G": "celebration",
+   "H": "restoration",
+   "I": "noted",
+   "J": "silent"
+  },
+  "answer": "D",
+  "gloss": "保留",
+  "collocation": "which __ its renowned, excellent sound；retain + N 固定搭配",
+  "explanation": "retain 是常見及物動詞，「保留」，與前一格 survived 呼應(倖存下來且保留了音質)。",
+  "accuracyRate": 40,
+  "discrimination": 63
+ },
+ {
+  "id": "Vy114_26",
+  "year": "114年",
+  "passageId": "y114",
+  "blankNum": 26,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "reference",
+   "B": "bearing",
+   "C": "familiar",
+   "D": "retained",
+   "E": "faithful",
+   "F": "survived",
+   "G": "celebration",
+   "H": "restoration",
+   "I": "noted",
+   "J": "silent"
+  },
+  "answer": "C",
+  "gloss": "熟悉的",
+  "collocation": "the bells have become a __ part of life；familiar part of 固定搭配",
+  "explanation": "familiar part of 是常見固定搭配，「熟悉的一部分」。",
+  "accuracyRate": 42,
+  "discrimination": 45
+ },
+ {
+  "id": "Vy114_27",
+  "year": "114年",
+  "passageId": "y114",
+  "blankNum": 27,
+  "categories": [
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "reference",
+   "B": "bearing",
+   "C": "familiar",
+   "D": "retained",
+   "E": "faithful",
+   "F": "survived",
+   "G": "celebration",
+   "H": "restoration",
+   "I": "noted",
+   "J": "silent"
+  },
+  "answer": "E",
+  "gloss": "信徒",
+  "collocation": "call the __ to prayer；the faithful 固定用法(the+形容詞=一群人)",
+  "explanation": "the faithful 是常考「the+形容詞＝一群人」的文法規則，指「信徒們」，考生易誤以為 faithful 只能當形容詞用。",
+  "accuracyRate": 26,
+  "discrimination": 40
+ },
+ {
+  "id": "Vy114_28",
+  "year": "114年",
+  "passageId": "y114",
+  "blankNum": 28,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "reference",
+   "B": "bearing",
+   "C": "familiar",
+   "D": "retained",
+   "E": "faithful",
+   "F": "survived",
+   "G": "celebration",
+   "H": "restoration",
+   "I": "noted",
+   "J": "silent"
+  },
+  "answer": "G",
+  "gloss": "慶祝",
+  "collocation": "rung in times of __ and of mourning；celebration 與 mourning 相對並列",
+  "explanation": "celebration 與後文的 mourning(哀悼)形成語意對照，考生需理解此對比關係。",
+  "accuracyRate": 46,
+  "discrimination": 72
+ },
+ {
+  "id": "Vy114_29",
+  "year": "114年",
+  "passageId": "y114",
+  "blankNum": 29,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "reference",
+   "B": "bearing",
+   "C": "familiar",
+   "D": "retained",
+   "E": "faithful",
+   "F": "survived",
+   "G": "celebration",
+   "H": "restoration",
+   "I": "noted",
+   "J": "silent"
+  },
+  "answer": "J",
+  "gloss": "沉默的",
+  "collocation": "the bells fell __；fall silent 固定搭配",
+  "explanation": "fall silent 是常考固定搭配，「陷入沉默」。",
+  "accuracyRate": 48,
+  "discrimination": 73
+ },
+ {
+  "id": "Vy114_30",
+  "year": "114年",
+  "passageId": "y114",
+  "blankNum": 30,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "reference",
+   "B": "bearing",
+   "C": "familiar",
+   "D": "retained",
+   "E": "faithful",
+   "F": "survived",
+   "G": "celebration",
+   "H": "restoration",
+   "I": "noted",
+   "J": "silent"
+  },
+  "answer": "H",
+  "gloss": "修復",
+  "collocation": "a complex and time-consuming process of __；process of restoration 固定搭配",
+  "explanation": "process of restoration 是常見固定搭配，「修復的過程」。",
+  "accuracyRate": 58,
+  "discrimination": 77
+ },
+ {
+  "id": "Vy115_21",
+  "year": "115年",
+  "passageId": "y115",
+  "blankNum": 21,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "retain",
+   "B": "depend on",
+   "C": "atmosphere",
+   "D": "delay",
+   "E": "unproductive",
+   "F": "risk",
+   "G": "function",
+   "H": "minimal",
+   "I": "dramatic",
+   "J": "point to"
+  },
+  "answer": "E",
+  "gloss": "沒有生產力的",
+  "collocation": "by no means __；by no means + adj 固定搭配(絕不…)",
+  "explanation": "by no means 是常考固定搭配，「絕不、決不」，用來加強否定語氣，考生易忽略此片語需接形容詞。",
+  "accuracyRate": 49,
+  "discrimination": 75
+ },
+ {
+  "id": "Vy115_22",
+  "year": "115年",
+  "passageId": "y115",
+  "blankNum": 22,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "retain",
+   "B": "depend on",
+   "C": "atmosphere",
+   "D": "delay",
+   "E": "unproductive",
+   "F": "risk",
+   "G": "function",
+   "H": "minimal",
+   "I": "dramatic",
+   "J": "point to"
+  },
+  "answer": "G",
+  "gloss": "功能",
+  "collocation": "brain size and __；與 brain size 並列的名詞",
+  "explanation": "function 在此與 brain size 並列，作 linked with 的受詞，考生需辨認此並列結構。",
+  "accuracyRate": 61,
+  "discrimination": 81
+ },
+ {
+  "id": "Vy115_23",
+  "year": "115年",
+  "passageId": "y115",
+  "blankNum": 23,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "retain",
+   "B": "depend on",
+   "C": "atmosphere",
+   "D": "delay",
+   "E": "unproductive",
+   "F": "risk",
+   "G": "function",
+   "H": "minimal",
+   "I": "dramatic",
+   "J": "point to"
+  },
+  "answer": "F",
+  "gloss": "風險",
+  "collocation": "dementia __；dementia risk 固定搭配",
+  "explanation": "dementia risk 是常見固定搭配，「失智風險」。",
+  "accuracyRate": 54,
+  "discrimination": 77
+ },
+ {
+  "id": "Vy115_24",
+  "year": "115年",
+  "passageId": "y115",
+  "blankNum": 24,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "retain",
+   "B": "depend on",
+   "C": "atmosphere",
+   "D": "delay",
+   "E": "unproductive",
+   "F": "risk",
+   "G": "function",
+   "H": "minimal",
+   "I": "dramatic",
+   "J": "point to"
+  },
+  "answer": "D",
+  "gloss": "延緩",
+  "collocation": "may significantly __ age-related brain shrinkage；delay + N 固定搭配",
+  "explanation": "delay 是常見及物動詞，「延緩」，考生需辨認此處為動詞用法(非名詞)。",
+  "accuracyRate": 47,
+  "discrimination": 75
+ },
+ {
+  "id": "Vy115_25",
+  "year": "115年",
+  "passageId": "y115",
+  "blankNum": 25,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "retain",
+   "B": "depend on",
+   "C": "atmosphere",
+   "D": "delay",
+   "E": "unproductive",
+   "F": "risk",
+   "G": "function",
+   "H": "minimal",
+   "I": "dramatic",
+   "J": "point to"
+  },
+  "answer": "A",
+  "gloss": "保留、記住",
+  "collocation": "help __ acquired knowledge；retain knowledge 固定搭配",
+  "explanation": "retain knowledge 是常見固定搭配，「保留/記住知識」。",
+  "accuracyRate": 57,
+  "discrimination": 75
+ },
+ {
+  "id": "Vy115_26",
+  "year": "115年",
+  "passageId": "y115",
+  "blankNum": 26,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "retain",
+   "B": "depend on",
+   "C": "atmosphere",
+   "D": "delay",
+   "E": "unproductive",
+   "F": "risk",
+   "G": "function",
+   "H": "minimal",
+   "I": "dramatic",
+   "J": "point to"
+  },
+  "answer": "J",
+  "gloss": "指向、主張",
+  "collocation": "others __ shorter naps；point to 在此引申為「主張、指向」",
+  "explanation": "point to 是多義片語，此處取「主張、傾向支持」的引申義，而非字面「用手指」，考生易只知常見義。",
+  "accuracyRate": 48,
+  "discrimination": 77
+ },
+ {
+  "id": "Vy115_27",
+  "year": "115年",
+  "passageId": "y115",
+  "blankNum": 27,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "retain",
+   "B": "depend on",
+   "C": "atmosphere",
+   "D": "delay",
+   "E": "unproductive",
+   "F": "risk",
+   "G": "function",
+   "H": "minimal",
+   "I": "dramatic",
+   "J": "point to"
+  },
+  "answer": "B",
+  "gloss": "取決於",
+  "collocation": "may __ a person's physical condition；depend on 固定搭配",
+  "explanation": "depend on 是常考固定搭配，「取決於」。",
+  "accuracyRate": 56,
+  "discrimination": 77
+ },
+ {
+  "id": "Vy115_28",
+  "year": "115年",
+  "passageId": "y115",
+  "blankNum": 28,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "retain",
+   "B": "depend on",
+   "C": "atmosphere",
+   "D": "delay",
+   "E": "unproductive",
+   "F": "risk",
+   "G": "function",
+   "H": "minimal",
+   "I": "dramatic",
+   "J": "point to"
+  },
+  "answer": "I",
+  "gloss": "顯著的、驚人的",
+  "collocation": "surprisingly __ benefits；surprisingly + adj 程度副詞修飾",
+  "explanation": "此格需邏輯推論：呼應 surprisingly(令人驚訝地)的語氣，需要一個表示「效果顯著」的強烈形容詞。",
+  "accuracyRate": 59,
+  "discrimination": 81
+ },
+ {
+  "id": "Vy115_29",
+  "year": "115年",
+  "passageId": "y115",
+  "blankNum": 29,
+  "categories": [
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "retain",
+   "B": "depend on",
+   "C": "atmosphere",
+   "D": "delay",
+   "E": "unproductive",
+   "F": "risk",
+   "G": "function",
+   "H": "minimal",
+   "I": "dramatic",
+   "J": "point to"
+  },
+  "answer": "H",
+  "gloss": "極少的",
+  "collocation": "a quiet place with __ light；呼應前文 dark space 的語意",
+  "explanation": "此格需邏輯推論：呼應前一句「A dark space」的語意，需要「光線極少」的形容詞。",
+  "accuracyRate": 58,
+  "discrimination": 79
+ },
+ {
+  "id": "Vy115_30",
+  "year": "115年",
+  "passageId": "y115",
+  "blankNum": 30,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "retain",
+   "B": "depend on",
+   "C": "atmosphere",
+   "D": "delay",
+   "E": "unproductive",
+   "F": "risk",
+   "G": "function",
+   "H": "minimal",
+   "I": "dramatic",
+   "J": "point to"
+  },
+  "answer": "C",
+  "gloss": "氛圍",
+  "collocation": "create a relaxing __；relaxing atmosphere 固定搭配",
+  "explanation": "relaxing atmosphere 是常見固定搭配，「放鬆的氛圍」。",
+  "accuracyRate": 69,
+  "discrimination": 77
+ },
+ {
+  "id": "Vy110_31",
+  "year": "110年",
+  "passageId": "y110",
+  "blankNum": 31,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "means",
+   "B": "soreness",
+   "C": "point to",
+   "D": "argue",
+   "E": "demanding",
+   "F": "abide by",
+   "G": "fanatic",
+   "H": "current",
+   "I": "make time",
+   "J": "modest"
+  },
+  "answer": "J",
+  "gloss": "適度的、不多的",
+  "collocation": "__ amounts of exercise；modest amount of 固定搭配",
+  "explanation": "modest amount of 是常見固定搭配，「適度、不多的量」，考生易誤解 modest 只有「謙虛的」這個常見義。",
+  "accuracyRate": 30,
+  "discrimination": 61
+ },
+ {
+  "id": "Vy110_32",
+  "year": "110年",
+  "passageId": "y110",
+  "blankNum": 32,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "means",
+   "B": "soreness",
+   "C": "point to",
+   "D": "argue",
+   "E": "demanding",
+   "F": "abide by",
+   "G": "fanatic",
+   "H": "current",
+   "I": "make time",
+   "J": "modest"
+  },
+  "answer": "G",
+  "gloss": "狂熱者",
+  "collocation": "a fitness __；fitness fanatic 固定搭配",
+  "explanation": "fitness fanatic 是常見固定搭配，「健身狂熱者」。",
+  "accuracyRate": 27,
+  "discrimination": 47
+ },
+ {
+  "id": "Vy110_33",
+  "year": "110年",
+  "passageId": "y110",
+  "blankNum": 33,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "means",
+   "B": "soreness",
+   "C": "point to",
+   "D": "argue",
+   "E": "demanding",
+   "F": "abide by",
+   "G": "fanatic",
+   "H": "current",
+   "I": "make time",
+   "J": "modest"
+  },
+  "answer": "F",
+  "gloss": "遵守、奉行",
+  "collocation": "a motto to __；abide by 固定搭配",
+  "explanation": "abide by 是常考固定搭配，「遵守、奉行」，此處指「奉行的座右銘」。",
+  "accuracyRate": 35,
+  "discrimination": 71
+ },
+ {
+  "id": "Vy110_34",
+  "year": "110年",
+  "passageId": "y110",
+  "blankNum": 34,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "means",
+   "B": "soreness",
+   "C": "point to",
+   "D": "argue",
+   "E": "demanding",
+   "F": "abide by",
+   "G": "fanatic",
+   "H": "current",
+   "I": "make time",
+   "J": "modest"
+  },
+  "answer": "H",
+  "gloss": "當前的、最新的",
+  "collocation": "__ health studies；current studies 固定搭配",
+  "explanation": "current studies 是常見固定搭配，「當前的研究」，呼應與舊觀念(old-fashioned)的對比。",
+  "accuracyRate": 48,
+  "discrimination": 83
+ },
+ {
+  "id": "Vy110_35",
+  "year": "110年",
+  "passageId": "y110",
+  "blankNum": 35,
+  "categories": [
+   "句型／固定搭配句構"
+  ],
+  "options": {
+   "A": "means",
+   "B": "soreness",
+   "C": "point to",
+   "D": "argue",
+   "E": "demanding",
+   "F": "abide by",
+   "G": "fanatic",
+   "H": "current",
+   "I": "make time",
+   "J": "modest"
+  },
+  "answer": "D",
+  "gloss": "主張、爭辯",
+  "collocation": "You might __ that...；might + 原形動詞 + that子句",
+  "explanation": "此為常考句型 might + 原形動詞，argue that 表「主張」，考生需辨認此處為原形動詞(非現在式)。",
+  "accuracyRate": 61,
+  "discrimination": 77
+ },
+ {
+  "id": "Vy110_36",
+  "year": "110年",
+  "passageId": "y110",
+  "blankNum": 36,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "means",
+   "B": "soreness",
+   "C": "point to",
+   "D": "argue",
+   "E": "demanding",
+   "F": "abide by",
+   "G": "fanatic",
+   "H": "current",
+   "I": "make time",
+   "J": "modest"
+  },
+  "answer": "E",
+  "gloss": "費力的、高要求的",
+  "collocation": "physically __ exercises；physically demanding 固定搭配",
+  "explanation": "physically demanding 是常見固定搭配，「體力上費力的」。",
+  "accuracyRate": 26,
+  "discrimination": 52
+ },
+ {
+  "id": "Vy110_37",
+  "year": "110年",
+  "passageId": "y110",
+  "blankNum": 37,
+  "categories": [
+   "字義辨析／多義字"
+  ],
+  "options": {
+   "A": "means",
+   "B": "soreness",
+   "C": "point to",
+   "D": "argue",
+   "E": "demanding",
+   "F": "abide by",
+   "G": "fanatic",
+   "H": "current",
+   "I": "make time",
+   "J": "modest"
+  },
+  "answer": "C",
+  "gloss": "顯示、暗示",
+  "collocation": "it may __ an injury；point to 引申義(顯示/暗示，非字面「指向」)",
+  "explanation": "point to 是多義片語，此處取「顯示、暗示」的引申義，而非字面「用手指向」，考生易只知常見義。",
+  "accuracyRate": 40,
+  "discrimination": 62
+ },
+ {
+  "id": "Vy110_38",
+  "year": "110年",
+  "passageId": "y110",
+  "blankNum": 38,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "means",
+   "B": "soreness",
+   "C": "point to",
+   "D": "argue",
+   "E": "demanding",
+   "F": "abide by",
+   "G": "fanatic",
+   "H": "current",
+   "I": "make time",
+   "J": "modest"
+  },
+  "answer": "B",
+  "gloss": "痠痛",
+  "collocation": "without the __ or discomfort；與 discomfort 並列的名詞",
+  "explanation": "soreness 與後面的 discomfort 並列，兩者都是常與運動相關的負面感受名詞。",
+  "accuracyRate": 55,
+  "discrimination": 71
+ },
+ {
+  "id": "Vy110_39",
+  "year": "110年",
+  "passageId": "y110",
+  "blankNum": 39,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "means",
+   "B": "soreness",
+   "C": "point to",
+   "D": "argue",
+   "E": "demanding",
+   "F": "abide by",
+   "G": "fanatic",
+   "H": "current",
+   "I": "make time",
+   "J": "modest"
+  },
+  "answer": "A",
+  "gloss": "方法、手段",
+  "collocation": "a powerful __ to improve your health；means to V 固定搭配",
+  "explanation": "means to V 是常考固定搭配，「達成…的方法」，means 單複數同形，考生易誤判詞性。",
+  "accuracyRate": 37,
+  "discrimination": 58
+ },
+ {
+  "id": "Vy110_40",
+  "year": "110年",
+  "passageId": "y110",
+  "blankNum": 40,
+  "categories": [
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "means",
+   "B": "soreness",
+   "C": "point to",
+   "D": "argue",
+   "E": "demanding",
+   "F": "abide by",
+   "G": "fanatic",
+   "H": "current",
+   "I": "make time",
+   "J": "modest"
+  },
+  "answer": "I",
+  "gloss": "騰出時間",
+  "collocation": "try to __ for exercise；make time for 固定片語",
+  "explanation": "make time for 是常考固定片語，「為…騰出時間」。",
+  "accuracyRate": 74,
+  "discrimination": 59
+ }
+]
