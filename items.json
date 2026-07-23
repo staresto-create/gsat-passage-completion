@@ -878,7 +878,9 @@
   "passageId": "y106",
   "blankNum": 33,
   "categories": [
-   "搭配詞／固定用法"
+   "搭配詞／固定用法",
+   "詞性判斷",
+   "上下文線索／邏輯推論"
   ],
   "options": {
    "A": "reflected",
@@ -893,9 +895,9 @@
    "J": "healing"
   },
   "answer": "I",
-  "gloss": "象徵",
-  "collocation": "considered to be __ of eternal life；symbol of + N",
-  "explanation": "symbol of 是固定搭配，表示「…的象徵」，考生易與其他抽象名詞選項混淆。",
+  "gloss": "（名詞複數）象徵、象徵物",
+  "collocation": "were considered to be ___ of eternal life；a symbol of + 抽象概念；be considered (to be) + N",
+  "explanation": "答對率 33%。學生腦中的 symbol 多半是「符號」——數學符號、標點符號、地圖圖例，是看得見的記號；本題要的卻是「象徵物」，指一個具體的東西（洋蔥）承載一個抽象概念（永生）。這層落差一產生，掃到 (I) symbols 就會跳過。【搭配依據】a symbol of + 抽象名詞是固定搭配（a symbol of peace／status／hope），本句是 be considered to be + 名詞補語的結構，補語位置要放名詞而非形容詞，學生常誤以為 considered to be 後面該接形容詞而去搶 (G) spiritual。【文內驗證一：靠形式篩選】空格後緊接 of，且需要複數形（無冠詞、與 eternal life 搭配泛指），全部選項中複數名詞只有 (B) parts 與 (I) symbols 兩個。【文內驗證二：靠另一格排擠】第 38 格 various ___ of their bodies（身體的各個部位）非 parts 不可，兩格互相排擠，33 就只剩 symbols。文意選填最有效的解題動作，就是把同形式的候選字放在一起比，看哪一格「非它不可」。【文內驗證三：前後包夾】前一句 it held significant spiritual meaning（精神上的意義）與後一句 The circle-within-a-circle structure ... reflected the eternity of existence（圈中有圈的結構體現了存在的永恆），一前一後都在講象徵，本句正是這兩句的總述。【常考搭配】a symbol of…、be considered (to be) a symbol of…、be symbolic of、symbolize；名詞 symbol／形容詞 symbolic／動詞 symbolize 三者詞形變化要一起記。",
   "accuracyRate": 33,
   "discrimination": 58
  },
@@ -905,7 +907,9 @@
   "passageId": "y106",
   "blankNum": 34,
   "categories": [
-   "字義辨析／多義字"
+   "字義辨析／多義字",
+   "同義改寫／替代指涉",
+   "詞性判斷"
   ],
   "options": {
    "A": "reflected",
@@ -920,9 +924,9 @@
    "J": "healing"
   },
   "answer": "A",
-  "gloss": "反映、體現",
-  "collocation": "structure...__ the eternity of existence；reflect 引申義(非「反射光線」)",
-  "explanation": "reflect 是多義字，此處取「體現／反映(抽象概念)」的引申義，而非物理上的「反射」，考生易只知常見義。",
+  "gloss": "（動詞過去式）體現、反映、顯示",
+  "collocation": "the structure of an onion, for them, ___ the eternity of existence；reflect + 抽象名詞（體現、反映）；reflect a change／trend；be reflected in",
+  "explanation": "答對率 34%。學生腦中的 reflect 幾乎只有一個畫面：鏡子、水面把光反射回去（I could see my face reflected in his glasses.）。本題用的是它的抽象引申義。【字義依據】劍橋詞典把 reflect 標為 B2 字，第二義是「顯示、表達、成為某事的徵象」，例 Her paintings reflect the values of that era.（她的畫作反映了那個時代的價值觀）。判斷訣竅很簡單：主詞若是鏡面、水面、玻璃，取「反射」；主詞若是抽象事物（數據、作品、制度、結構），取「體現、反映」。本句主詞是 The circle-within-a-circle structure（圈中有圈的結構），受詞是 the eternity of existence（存在的永恆），兩端都是抽象的，物理反射根本講不通。【文內驗證：同義改寫】上一句 symbols of eternal life 與本句 the eternity of existence 是同一個概念換句話說（eternal life ↔ eternity of existence），洋蔥的環狀結構「體現」的正是這件事，回頭對照這兩句就能確認答案。【句構線索】主詞 The circle-within-a-circle structure of an onion 後面插入 for them 並用逗號隔開，學生常被這個插入語打斷、找不到主要動詞的位置。把插入語遮起來讀：The structure ___ the eternity of existence，空格顯然是本句唯一的主要動詞，且全文敘述古埃及人，須用過去式。【常考搭配】reflect the fact that…、reflect a change／trend／attitude、be reflected in、a reflection of…。",
   "accuracyRate": 34,
   "discrimination": 55
  },
@@ -959,7 +963,8 @@
   "passageId": "y106",
   "blankNum": 36,
   "categories": [
-   "詞性判斷"
+   "詞性判斷",
+   "句型／固定搭配句構"
   ],
   "options": {
    "A": "reflected",
@@ -974,9 +979,9 @@
    "J": "healing"
   },
   "answer": "H",
-  "gloss": "被發現的",
-  "collocation": "paintings __ inside pyramids；過去分詞修飾 paintings(被動意義)",
-  "explanation": "discovered 是過去分詞當形容詞用，修飾前面的 paintings(壁畫被發現於…)，考生易誤用原形動詞。",
+  "gloss": "（過去分詞）被發現的",
+  "collocation": "paintings ___ inside pyramids and tombs；名詞 + 過去分詞片語（被動、後位修飾）；objects discovered at the site",
+  "explanation": "答對率 38%。學生腦中的規則是「一個句子只能有一個動詞」，看到 Onions are depicted 已經有動詞，後面又冒出一格要填動詞形式，就慌了；另一半的人則被 (F) decorating 吸引，覺得「壁畫裝飾在金字塔裡」很順。【文法依據】這是減化關係子句（reduced relative clause），也就是英美文法書所稱的分詞片語後位修飾：many paintings (which were) discovered inside pyramids，關係代名詞與 be 動詞一起省略，只留下分詞。British Council 與劍橋文法書的規則很明確——原本是主動語態就留現在分詞（-ing），原本是被動語態就留過去分詞（-ed／p.p.）。壁畫是「被人發現」的，屬被動，所以用 discovered。【辨析 (F) decorating】decorating 代表主動，且 decorate 是及物動詞，後面要接受詞（decorating the walls of the tombs 才成立），本句 decorating inside pyramids 少了受詞，文法上就不通。【接上學生已經會的東西】這跟國中就學過的兩個句型是同一件事：The boy standing there is my brother.（＝who is standing，主動用 -ing）；a letter written in English（＝which was written，被動用 p.p.）。【文內驗證】同一句後面還有一個完整的關係子句 that span the history of ancient Egypt，一句之內剛好一個減化、一個沒減化，可以直接對照著看，是課堂上示範這個結構最好的例子。【常考搭配】objects found／discovered at the site、a painting discovered in a tomb、the language spoken in that country。",
   "accuracyRate": 38,
   "discrimination": 66
  },
@@ -986,6 +991,7 @@
   "passageId": "y106",
   "blankNum": 37,
   "categories": [
+   "詞性判斷",
    "搭配詞／固定用法"
   ],
   "options": {
@@ -1001,9 +1007,9 @@
    "J": "healing"
   },
   "answer": "D",
-  "gloss": "發揮功能",
-  "collocation": "They __ as a funeral offering；function as 固定搭配",
-  "explanation": "function as 是常考固定搭配，「作為…之用」，考生需掌握 function 當動詞的用法。",
+  "gloss": "（動詞過去式）充當、起…作用",
+  "collocation": "They ___ as a funeral offering；function as + 名詞（充當、作為…之用）；serve as／act as",
+  "explanation": "答對率僅 31%，是本篇最難的一格。學生腦中的 function 只有名詞「功能」（手機的功能、鍵盤的 function key），根本沒有「function 可以當動詞」這個抽象概念；再加上看到空格後面接 as，直覺會想填被動的 were used as，於是整組候選字都被排除掉。【搭配依據】劍橋詞典把 function as sth／sb 單獨立為一個詞條，釋義是「發揮某物的功用、履行某人的職責」；Collins 詞典也把 function 當動詞接 as 的用法獨立標出，例句 one third of the room functions as workspace，同義詞列為 act、serve、operate。function as a funeral offering 就是「充當祭品之用」。【文內驗證：先刪再選】本篇第 31 格已用掉 admired（no culture admired onions quite as much as the ancient Egyptians），第 34 格已用掉 reflected；空格主詞 They 指的是前一段的 onions，複數且全文為過去式，空格後直接接 as + 名詞，需要一個能單獨接 as 的不及物動詞——剩下的選項只有 functioned 合格。文意選填務必邊做邊把用掉的選項劃掉，最難的一格往往是靠「刪到最後」確認的。【順帶複習】同一句 a funeral offering shown upon the altars of the gods 的 shown 也是過去分詞後位修飾（＝which was shown），與第 36 格 discovered 完全同一結構，兩格可以一起看。【常考搭配】function as…、serve as…、act as…、the function of…、perform a function。【易錯提醒】function 當動詞是不及物的，不可寫 function a role，「扮演角色」要用 play a role。",
   "accuracyRate": 31,
   "discrimination": 55
  },
@@ -3881,6 +3887,7 @@
   "passageId": "y95",
   "blankNum": 34,
   "categories": [
+   "字義辨析／多義字",
    "搭配詞／固定用法"
   ],
   "options": {
@@ -3896,9 +3903,9 @@
    "J": "achieving"
   },
   "answer": "I",
-  "gloss": "推廣",
-  "collocation": "health specialists __ the idea of wellness；promote an idea 固定搭配",
-  "explanation": "promote an idea 是常見固定搭配，「推廣某個理念」。",
+  "gloss": "（動詞原形）提倡、推廣",
+  "collocation": "health specialists ___ the idea of wellness；promote the idea of…；promote health／safe driving",
+  "explanation": "答對率 36%。學生腦中的 promote 幾乎都是「升職」（He was promoted to manager.）或「促銷、打廣告」，這兩義都要有「人被拉上去」或「商品被推銷」，套進本句就不通，於是不敢選。【字義依據】劍橋詞典 promote 的第一義是 to encourage people to like, buy, use, do, or support something；劍橋學習詞典另立一義「促使某事發生或發展」；牛津詞典更直接把它的同義詞標為 encourage，例句 The exhibition was intended to promote interest in contemporary sculpture.（這場展覽意在推廣大眾對當代雕塑的興趣）。本句取的正是這一義：專家「提倡、推廣」健康新觀念。三個義項的共同核心是「往前推」——pro-（向前）＋ mot-（movement 的字根，移動），升職是把人往上推、促銷是把商品往外推、倡導是把觀念往前推，用字根串起來學生就不會覺得是三個不相干的字。【文內驗證】主詞是 health specialists（專家），受詞是 the idea of wellness（抽象理念），既不是人也不是商品，可直接排除「升遷／促銷」；緊接的下一句 Wellness means... 立刻為這個 idea 下定義，正是「先提出觀念、再解釋觀念」的行文順序。【句構線索】句首 Nowadays 加複數主詞，要用現在簡單式的原形動詞；選項中的原形動詞有 ruin、visit、lower、promote，語意需要正面的倡導，只有 promote 合適（ruin 是破壞，第 39 格才用得上）。【常考搭配】promote the idea of…、promote health／growth／safe driving、be promoted to + 職位、a promotion（升遷、促銷活動）。",
   "accuracyRate": 36,
   "discrimination": 61
  },
@@ -3908,6 +3915,8 @@
   "passageId": "y95",
   "blankNum": 35,
   "categories": [
+   "句型／固定搭配句構",
+   "字義辨析／多義字",
    "詞性判斷"
   ],
   "options": {
@@ -3923,9 +3932,9 @@
    "J": "achieving"
   },
   "answer": "J",
-  "gloss": "達成",
-  "collocation": "Wellness means __ the best possible health；mean + 動名詞",
-  "explanation": "mean 後面接動名詞作受詞，achieving 表示「達成」，考生需辨認此文法結構。",
+  "gloss": "（動名詞）達成、實現",
+  "collocation": "Wellness means ___ the best possible health；mean + V-ing（意味著、必然涉及）；對比 mean + to V（打算）",
+  "explanation": "答對率 33%。只說「mean 後面接動名詞當受詞」並沒有講到考點——真正的關鍵是 mean 後面接 V-ing 或 to V，意思完全不同，這是本題的命門。【文法依據】劍橋《English Grammar Today》mean 條目分得很清楚：mean + to-infinitive 表示「打算、意圖」，例 Sorry, I didn't mean to upset you.（我不是故意要惹你難過）；mean + -ing 則用來說明「某件事必然牽涉到什麼、會造成什麼結果」，例 Living alone means doing all the housework yourself.（一個人住就意味著所有家事都得自己來）。簡單的判別法：mean to V 換成 intend（打算），mean + V-ing 換成 involve（涉及、等於）。【接上學生已經會的東西】這跟國中背過的 stop／remember／forget 後面接 V-ing 或 to V 意思會變是同一類考點：stop smoking（戒菸）vs. stop to smoke（停下來抽菸）。看到這幾個動詞，先問「後面接什麼」再翻譯。【文內驗證】主詞 Wellness 是抽象概念，沒有意志、不會「打算」做什麼，只能是「意味著」；再看後面連續兩句 One person may need fewer calories than another. Some people might prefer a lot of ___ exercise...，全都在說明 wellness 包含哪些情況，正是 involve 的語意，可回頭確認。【句構線索】means 後需要名詞性成分，選項中的 -ing 形只有 achieving 與 neglecting，而 neglecting（忽視）語意相反且已用在第 33 格。【常考搭配】mean + V-ing（意味著）、mean to V（打算）、be meant to（被認為應該、原本要）、achieve one's goal、achieve the best possible results。",
   "accuracyRate": 33,
   "discrimination": 57
  },
@@ -3989,7 +3998,9 @@
   "passageId": "y95",
   "blankNum": 38,
   "categories": [
-   "搭配詞／固定用法"
+   "字義辨析／多義字",
+   "搭配詞／固定用法",
+   "上下文線索／邏輯推論"
   ],
   "options": {
    "A": "ruin",
@@ -4004,9 +4015,9 @@
    "J": "achieving"
   },
   "answer": "G",
-  "gloss": "慢性的",
-  "collocation": "avoiding __ disease；chronic disease 固定搭配",
-  "explanation": "chronic disease 是常見固定搭配，「慢性疾病」。",
+  "gloss": "（形容詞）慢性的、長期不癒的",
+  "collocation": "avoiding ___ disease；chronic disease／illness／pain；對比 acute（急性的）",
+  "explanation": "答對率僅 31%，是本篇最難的一格。學生就算看過 chronic，腦中多半只有「慢性的」這三個中文字，卻沒有真正的概念；更常見的錯誤印象是把它跟「嚴重的」畫上等號，於是與 acute（急性的）對調。【字義依據】OED 對 chronic 用於疾病的定義是 lasting a long time, long-continued，並直接標明它與 acute 相對；劍橋詞典的釋義同樣是「持續很長一段時間的」；美國國家醫學圖書館的 MedlinePlus 也寫明 chronic 是 acute 的反義詞。兩者對比的是時間，不是嚴重程度：acute 是來得又急又快、持續時間短（感冒、骨折）；chronic 是來得慢、拖得久、不易痊癒（糖尿病、關節炎、慢性疼痛）。【掛回字根】chron- 就是「時間」：chronic（長期的）、chronicle（編年史）、chronological（按時間先後的）、synchronize（使同步）。學生只要記住字根是時間，就不會再把 chronic 誤解成「嚴重」。【文內驗證】本句前半 Everyone runs the risk of accidents 講的是突發的意外，後半接 and no one can be sure of avoiding ___ disease，一突發、一長期，是刻意的對比；下一句列出 poor diet, stress, a bad working environment, and carelessness，全是長年累積的生活因素；末句 lower the risk or reduce the damage of disease 也呼應「無法完全避免、只能降低風險」的長期疾病邏輯。【句構線索】空格後 disease 是名詞，需要形容詞修飾；選項中的形容詞只有 easier 與 chronic（key 已用在第 37 格作名詞），easier disease 語意不通。【常考搭配】chronic disease／illness／pain／shortage、a chronic problem；對照組 acute pain、an acute illness。",
   "accuracyRate": 31,
   "discrimination": 51
  },
@@ -4043,6 +4054,8 @@
   "passageId": "y95",
   "blankNum": 40,
   "categories": [
+   "詞性判斷",
+   "同義改寫／替代指涉",
    "搭配詞／固定用法"
   ],
   "options": {
@@ -4058,9 +4071,9 @@
    "J": "achieving"
   },
   "answer": "D",
-  "gloss": "降低",
-  "collocation": "you can __ the risk；lower the risk 固定搭配",
-  "explanation": "lower the risk 是常見固定搭配，「降低風險」。",
+  "gloss": "（動詞原形）降低、減少",
+  "collocation": "you can ___ the risk or reduce the damage；lower the risk／price／blood pressure；反義 raise",
+  "explanation": "答對率 32%。學生腦中的 lower 是 low 的比較級形容詞「較低的」（a lower price、the lower deck），完全沒有「lower 本身就是及物動詞」這個概念，於是明明認得這個字卻不敢填。【字義依據】劍橋詞典把 lower 的動詞義分成兩項：一是把某物移到較低的位置，二是「降低、減少」；牛津詞典的例句 This drug is used to lower blood pressure.（這種藥是用來降血壓的）也標明它的反義動詞是 raise。本題取「降低」義。【文內驗證：對等結構是最強線索】空格所在的 you can ___ the risk or reduce the damage of disease，是用對等連接詞 or 連接的平行結構。對等連接詞前後的成分詞性與功能必須一致，or 後面是「原形及物動詞 reduce ＋受詞 the damage」，前面自然也要是「原形及物動詞＋受詞 the risk」，而且兩者語意相近（reduce ↔ lower 是同義改寫）。看懂這個平行結構，答案不必猜就能確定，這也是回頭驗證答案最直接的位置。【第二層線索：刪去法】can 後面要接原形動詞，選項中的原形動詞為 ruin（已用於第 39 格）、visit（已用於第 31 格）、promote（已用於第 34 格）、lower，只剩一個。【易混提醒】lower 當形容詞（the lower half）與當動詞（lower the volume）拼法完全相同，是典型的「熟字轉詞性」陷阱；同一類的還有 house（房子／容納）、even（甚至／使平衡）、mean（意思／刻薄的／方法）。【常考搭配】lower the risk／cost／price／blood pressure、lower one's voice；同義 reduce、cut、decrease；反義 raise。",
   "accuracyRate": 32,
   "discrimination": 61
  },
