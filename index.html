@@ -147,6 +147,9 @@
   .ctx-box code{font-family:'IBM Plex Mono',monospace; font-size:12px; background:#EFE7CE; border-radius:3px; padding:1px 5px; color:var(--ink);}
   .span-legend{font-size:12px; color:var(--ink-soft); line-height:1.9; margin:8px 0 4px;}
   .span-legend b{color:var(--ink);}
+  .flagLine{font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--crimson); cursor:pointer; text-decoration:underline; display:inline-block; margin:2px 0 8px;}
+  .flagBox{display:none; margin:0 0 10px; padding:10px 12px; background:#FBF1EE; border:1px solid var(--rule); border-left:3px solid var(--crimson); border-radius:3px; font-size:12.5px; line-height:1.8; color:var(--ink-soft);}
+  .flagBox.show{display:block;}
 
   .navRow{display:flex; gap:10px; margin-top:16px;}
   .navRow button{flex:1;}
@@ -238,17 +241,20 @@
         <div class="span-legend">
           每一格需要的線索範圍並不一樣。<b>句內</b>＝讀懂空格所在的那一句就足以作答；<b>跨句</b>＝必須回頭看前一句或後一句；<b>篇章</b>＝要跨段落、或掌握全文走向才選得出來。標籤與線索說明都是在你作答之後才出現，先自己判斷一次，再對照。
         </div>
-        <div class="diff-note">
-          <b>線索範圍與答對率是兩個各自獨立的維度，難題不一定是線索藏得遠。</b>93 年第 36 題 <code>have since perished</code> 答對率只有 15%，112 年第 23 題 <code>even things out</code> 答對率只有 14%，這兩題卻都是純句內題——難的是 since 單獨當時間副詞（＝since then）、even 用作動詞這兩個用法本身，不是線索躲得遠。所以請把這兩個標籤分開看，別把「跨句」直接讀成「比較難」。<br><br>
-          <b>92 年（正式考）「壓力的雙面性」那篇請單獨看待。</b>它的十個選項裡 about、from、even、as、like、to、that 共七個是虛詞，只有 managing、unusual、leading 三個是實詞，與其餘 29 篇以實詞為主的型態完全不同；那十題也全部是句內題。拿來練沒問題，但別把它當成文意選填的代表性練習。<br><br>
-          <b>關於標註依據。</b>30 篇裡只有 107 年「幸運餅乾的起源」與 108 年「失憶父親的溫暖」兩篇有大考中心公布的官方逐題作答線索說明可供對照，其餘 28 篇是依同一套口徑判定：只要空格所在句以外的句子對「選出答案」有貢獻，就算跨句；線索需跨段落或依賴全文，才算篇章；句中雖出現指涉詞、但答案實際由本句字詞搭配決定的，仍算句內。
-        </div>
+
       </div>
 
       <div id="fullControls" style="display:none;">
         <div class="sec-title">選擇年度／文章</div>
         <div class="year-list" id="yearList"></div>
       </div>
+
+      <span class="strategy-toggle" onclick="toggleSpanNote()">📖 展開／收合：線索範圍是怎麼標的？三件你該先知道的事</span>
+<div class="diff-note" id="spanNoteBox" style="display:none;">
+          <b>線索範圍與答對率是兩個各自獨立的維度，難題不一定是線索藏得遠。</b>93 年第 36 題 <code>have since perished</code> 答對率只有 15%，112 年第 23 題 <code>even things out</code> 答對率只有 14%，這兩題卻都是純句內題——難的是 since 單獨當時間副詞（＝since then）、even 用作動詞這兩個用法本身，不是線索躲得遠。所以請把這兩個標籤分開看，別把「跨句」直接讀成「比較難」。<br><br>
+          <b>92 年（正式考）「壓力的雙面性」那篇請單獨看待。</b>它的十個選項裡 about、from、even、as、like、to、that 共七個是虛詞，只有 managing、unusual、leading 三個是實詞，與其餘 29 篇以實詞為主的型態完全不同；那十題也全部是句內題。拿來練沒問題，但別把它當成文意選填的代表性練習。<br><br>
+          <b>關於標註依據。</b>30 篇裡只有 107 年「幸運餅乾的起源」與 108 年「失憶父親的溫暖」兩篇有大考中心公布的官方逐題作答線索說明可供對照，其餘 28 篇是依同一套口徑判定：只要空格所在句以外的句子對「選出答案」有貢獻，就算跨句；線索需跨段落或依賴全文，才算篇章；句中雖出現指涉詞、但答案實際由本句字詞搭配決定的，仍算句內。
+        </div>
 
       <div class="row" style="margin-top:16px;">
         <button class="ghost-btn" id="startBtn" onclick="startPractice()">開始練習</button>
@@ -270,6 +276,9 @@
       <div id="histOverall" style="text-align:center; margin:16px 0;"></div>
       <div class="sec-title">各分類表現</div>
       <div id="histByCategory"></div>
+      <div class="sec-title">各線索範圍表現</div>
+      <div id="histBySpan"></div>
+      <div class="span-legend">題數少的時候比率會跳動得很厲害，累積幾十題以後再看比較準。三個範圍的題數本來就不平均（句內 269、跨句 26、篇章 5），比率低不一定代表你弱，先看分母。</div>
       <div class="sec-title">最近作答記錄</div>
       <div id="histRecent"></div>
     </div>
@@ -443,6 +452,15 @@ function buildSpanGrid(){
 function escapeHtml(str){
   return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
+function spanTagHtml(it){
+  return it.contextSpan
+    ? `<span class="spanTag${it.contextSpan !== '句內' ? ' cross' : ''}">線索：${it.contextSpan}</span>` : '';
+}
+function ctxBoxHtml(it){
+  if(it.contextNote) return `<div class="ctx-box">${renderNote(it.contextNote)}</div>`;
+  if(it.contextSpan === '句內') return `<div class="ctx-box inner">這一格是<b>句內</b>：讀懂空格所在的那一句就足以作答，不必回頭翻前後文。上面那條字詞搭配線索就落在本句之內，把它記下來。</div>`;
+  return '';
+}
 function renderNote(str){
   return escapeHtml(str).replace(/`([^`]+)`/g, '<code>$1</code>');
 }
@@ -531,6 +549,23 @@ function showHistoryDetail(){
     catHtml += `<div class="year-item"><span>${c}</span><span class="cnt">${s.correct}/${s.total}（${r}%）</span></div>`;
   });
   document.getElementById('histByCategory').innerHTML = `<div class="year-list">${catHtml}</div>`;
+  // 各線索範圍表現
+  const spanStats = {};
+  SPANS.forEach(sp => spanStats[sp] = {total:0, correct:0});
+  hist.forEach(h => {
+    const it = ITEMS.find(x=>x.id===h.id);
+    if(!it || !spanStats[it.contextSpan]) return;
+    spanStats[it.contextSpan].total++;
+    if(h.correct) spanStats[it.contextSpan].correct++;
+  });
+  let spanHtml = '';
+  SPANS.forEach(sp => {
+    const st = spanStats[sp];
+    if(!st || st.total===0){ spanHtml += `<div class="year-item"><span>${sp}</span><span class="cnt">尚未作答</span></div>`; return; }
+    const r = Math.round(st.correct/st.total*100);
+    spanHtml += `<div class="year-item"><span>${sp}</span><span class="cnt">${st.correct}/${st.total}（${r}%）</span></div>`;
+  });
+  document.getElementById('histBySpan').innerHTML = `<div class="year-list">${spanHtml}</div>`;
   // 最近作答記錄
   const recent = hist.slice(-20).reverse();
   let recHtml = '';
@@ -578,6 +613,7 @@ function renderSingle(){
         <a class="report-btn" style="margin-left:10px;" target="_blank" rel="noopener"
            href="https://docs.google.com/forms/d/e/1FAIpQLSd6P1s7HqjvOmGqOzNDWcBQQ3F539SifSNiAfXvi6NqD2YP-Q/viewform?usp=pp_url&entry.1257494378=${encodeURIComponent(it.id)}">🐛 回報這題</a>
       </div>
+      ${p.flagNote ? `<div class="flagLine" onclick="toggleFlag(this)">⚠ 本篇提醒（點此展開）</div><div class="flagBox">${escapeHtml(p.flagNote)}</div>` : ''}
       <div class="catTagBar">${it.categories.map((c,i)=>`<span class="catTag ${i===0?'primary':''}">${c}</span>`).join('')}</div>
       <div class="single-sentence">${context}</div>
       <div class="choice-grid">${choicesHtml}</div>
@@ -587,6 +623,15 @@ function renderSingle(){
       <button class="ghost-btn" onclick="nextSingle()">下一題 →</button>
     </div>
   `;
+}
+function toggleSpanNote(){
+  const el = document.getElementById('spanNoteBox');
+  el.style.display = (el.style.display === 'none' ? 'block' : 'none');
+}
+function toggleFlag(el){
+  const box = el.nextElementSibling;
+  const open = box.classList.toggle('show');
+  el.textContent = open ? '⚠ 本篇提醒（點此收合）' : '⚠ 本篇提醒（點此展開）';
 }
 function viewFullFromSingle(pid){
   window.__lastPid = pid;
@@ -609,14 +654,8 @@ function answerSingle(letter){
     if(c.dataset.l === it.answer) c.classList.add('correct');
     else if(c.dataset.l === letter && !correct) c.classList.add('wrong');
   });
-  const spanTag = it.contextSpan
-    ? `<span class="spanTag${it.contextSpan !== '句內' ? ' cross' : ''}">線索：${it.contextSpan}</span>` : '';
-  let ctxHtml = '';
-  if(it.contextNote){
-    ctxHtml = `<div class="ctx-box">${renderNote(it.contextNote)}</div>`;
-  } else if(it.contextSpan === '句內'){
-    ctxHtml = `<div class="ctx-box inner">這一格是<b>句內</b>：讀懂空格所在的那一句就足以作答，不必回頭翻前後文。上面那條字詞搭配線索就落在本句之內，把它記下來。</div>`;
-  }
+  const spanTag = spanTagHtml(it);
+  const ctxHtml = ctxBoxHtml(it);
   const pd = (it.accuracyRate!=null) ? `<div class="pdTag">官方答對率 <b>P=${it.accuracyRate}%</b> ／ 鑑別度 <b>D=${it.discrimination}</b> ／ 難易度：<b>${tierOf(it.accuracyRate, it.discrimination)}</b></div>` : '';
   document.getElementById('fbBox').innerHTML = `
     <div class="feedback">
@@ -800,9 +839,10 @@ function gradeFullPassage(){
       ? `<div class="pdTag">官方答對率 <b>P=${it.accuracyRate}%</b> ／ 鑑別度 <b>D=${it.discrimination}</b> ／ 難易度：<b>${tierOf(it.accuracyRate, it.discrimination)}</b></div>`
       : `<div class="pdTag">本年度尚無官方答對率資料</div>`;
     review += `<div class="rv-item ${ok?'ok':'ng'}">
-      <div class="rv-hd"><b>第${it.blankNum}題</b>　${ok ? '✓ 答對' : '✕ 你選 '+(chosen?'('+chosen+') '+it.options[chosen]:'未作答')+'　正解 ('+it.answer+') '+it.options[it.answer]}</div>
+      <div class="rv-hd"><b>第${it.blankNum}題</b>　${ok ? '✓ 答對' : '✕ 你選 '+(chosen?'('+chosen+') '+it.options[chosen]:'未作答')+'　正解 ('+it.answer+') '+it.options[it.answer]}${spanTagHtml(it)}</div>
       <div class="rv-bd"><b>${it.options[it.answer]}</b>　${it.gloss||''}<br>
         <span class="rv-col">字詞搭配：${it.collocation||'—'}</span><br>${it.explanation||''}</div>
+      ${ctxBoxHtml(it)}
       ${pd}
       <a class="report-btn" style="margin-top:6px;" target="_blank" rel="noopener"
          href="https://docs.google.com/forms/d/e/1FAIpQLSd6P1s7HqjvOmGqOzNDWcBQQ3F539SifSNiAfXvi6NqD2YP-Q/viewform?usp=pp_url&entry.1257494378=${encodeURIComponent(it.id)}">🐛 回報這題</a></div>`;
