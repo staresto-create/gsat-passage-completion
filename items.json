@@ -8548,5 +8548,300 @@
   "accuracyRate": 25,
   "discrimination": 40,
   "contextSpan": "句內"
+ },
+ {
+  "id": "Vy110t_21",
+  "year": "110年試辦考試",
+  "passageId": "y110t",
+  "blankNum": 21,
+  "categories": [
+   "詞性判斷",
+   "同義改寫／替代指涉",
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "due",
+   "B": "subjects",
+   "C": "guardians",
+   "D": "conditions",
+   "E": "live on",
+   "F": "resting",
+   "G": "hope for",
+   "H": "significant",
+   "I": "violations",
+   "J": "comprise"
+  },
+  "answer": "E",
+  "gloss": "繼續存在、延續下去",
+  "collocation": "continue to __ as spirits；live on（延續下去、流傳下去）",
+  "explanation": "【句構線索】continue to 後面要接原形動詞，空格是動詞。【文章線索】空格前一句 life does not end with death 就是全文主旨句，這一格等於把主旨換句話說——live on 是 does not end 的正面說法，前後互為同義改寫。【常考搭配】live on（延續下去）／live up to（不辜負期待）／live through（撐過某段時期），三者只差一個介系詞，語意完全不同。",
+  "accuracyRate": null,
+  "discrimination": null,
+  "contextSpan": "跨句"
+ },
+ {
+  "id": "Vy110t_22",
+  "year": "110年試辦考試",
+  "passageId": "y110t",
+  "blankNum": 22,
+  "categories": [
+   "搭配詞／固定用法",
+   "字義辨析／多義字",
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "due",
+   "B": "subjects",
+   "C": "guardians",
+   "D": "conditions",
+   "E": "live on",
+   "F": "resting",
+   "G": "hope for",
+   "H": "significant",
+   "I": "violations",
+   "J": "comprise"
+  },
+  "answer": "F",
+  "gloss": "安息的",
+  "collocation": "the permanent __ place；(final／last) resting place（長眠之地）；rest in peace（安息，即 RIP）",
+  "explanation": "【句構線索】the permanent ___ place，前有冠詞與形容詞、後有名詞，空格要能修飾 place。【文章線索】前一句說有些族群認為亡靈住在地底，這一句用 Other groups 轉到另一種說法：天空才是死者的歸處；空格後一句 go up to the sky and become stars 進一步坐實。【你可能會這樣想】rest 你從國中就會，RIP（rest in peace）你也知道是「安息吧」，但多半沒把這兩件事接起來——這裡的 rest 取的是「長眠」這個意思，不是「休息」。形式上 resting place 屬於「-ing ＋ 名詞」的複合名詞，跟 waiting room（等候室）、swimming pool（游泳池）同一類——前面那個 -ing 說明這個地方是用來做什麼的。熟字換一個意思、又換一種組合方式，這一格難就難在這裡。【常考搭配】resting place（安息之所）／final resting place（長眠之地）／rest in peace（安息，RIP）／lay someone to rest（安葬）。",
+  "accuracyRate": null,
+  "discrimination": null,
+  "contextSpan": "跨句"
+ },
+ {
+  "id": "Vy110t_23",
+  "year": "110年試辦考試",
+  "passageId": "y110t",
+  "blankNum": 23,
+  "categories": [
+   "詞性判斷",
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "due",
+   "B": "subjects",
+   "C": "guardians",
+   "D": "conditions",
+   "E": "live on",
+   "F": "resting",
+   "G": "hope for",
+   "H": "significant",
+   "I": "violations",
+   "J": "comprise"
+  },
+  "answer": "J",
+  "gloss": "構成、組成",
+  "collocation": "the ancestors __ a special category；comprise ＋ 受詞（構成……）；comprise ＝ consist of ＝ be composed of",
+  "explanation": "【句構線索】主詞 the ancestors 是複數、空格後直接接受詞，所以要及物動詞原形；十個選項裡只有它符合，不認得這個字也能靠句構推論出來。【文章線索】線索在空格後 a special category of their own——祖靈在眾靈之中「自成一類」。【辨析】本題是「部分」當主詞：Oil and coal comprise 70% of the nation's exports.（石油與煤占全國出口的七成）；也可以「整體」當主詞：The book comprises 12 chapters.（這本書分為十二章）。【常考搭配】四個說法意思接近，但句型各有限制：comprise 只用主動、後面直接接受詞（The USA comprises 50 states.）；consist 只用主動、一定加 of（Their flat consists of two bedrooms.）；compose 只用被動（Muscle is composed of protein.）。comprise 也可以用被動 be comprised of——這個用法劍橋詞典已經收錄，但部分寫作規範仍主張避免；自己作答時用 comprise 或 be composed of 最安全，閱讀時看到 be comprised of 不必當成錯誤。至於 comprise of，那是另一回事：詞典直接說它不正確，屬於錯誤，不是用法在變。",
+  "accuracyRate": null,
+  "discrimination": null,
+  "contextSpan": "句內"
+ },
+ {
+  "id": "Vy110t_24",
+  "year": "110年試辦考試",
+  "passageId": "y110t",
+  "blankNum": 24,
+  "categories": [
+   "搭配詞／固定用法",
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "due",
+   "B": "subjects",
+   "C": "guardians",
+   "D": "conditions",
+   "E": "live on",
+   "F": "resting",
+   "G": "hope for",
+   "H": "significant",
+   "I": "violations",
+   "J": "comprise"
+  },
+  "answer": "G",
+  "gloss": "指望、盼望",
+  "collocation": "the best that one can __；hope for（盼望）；hope for the best（往好處想）",
+  "explanation": "【句構線索】the best that one can ___ after death 是關係子句，空格是 can 後面的原形動詞。這裡要看清楚的是：hope for 的受詞就是先行詞 the best，被關係代名詞 that 拉到前面去了，所以 for 後面看起來空著，其實不缺。還原成兩句就清楚：This is the best. One can hope for it after death.【文章線索】前一句才說祖靈多了一些能力，這一句順著說「成為祖靈是死後最好的指望」。【常考搭配】hope for + 名詞（盼望某事）／hope to + 原形（希望做某事）／hope that 子句；hope 不能寫成 hope somebody to do，這一點與 want 不同。",
+  "accuracyRate": null,
+  "discrimination": null,
+  "contextSpan": "跨句"
+ },
+ {
+  "id": "Vy110t_25",
+  "year": "110年試辦考試",
+  "passageId": "y110t",
+  "blankNum": 25,
+  "categories": [
+   "詞性判斷",
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "due",
+   "B": "subjects",
+   "C": "guardians",
+   "D": "conditions",
+   "E": "live on",
+   "F": "resting",
+   "G": "hope for",
+   "H": "significant",
+   "I": "violations",
+   "J": "comprise"
+  },
+  "answer": "D",
+  "gloss": "條件",
+  "collocation": "there are __ to be fulfilled；meet／fulfill the conditions（滿足條件）；meet sb.'s needs／expectations／the standard（滿足需求／符合期待／達到標準）",
+  "explanation": "【句構線索】there are 後面要接複數名詞，空格填單數會塞不進去。【文章線索】前一句說「不是每個死去的人都會變成祖靈」，破折號後面的 living an upright life and fulfilling all social and religious duties 就是條件的具體內容——文意選填很愛用破折號直接把空格的意思講給你聽，看到破折號要習慣往後看一眼。【常考搭配】meet 後面接的東西是一組的：meet the conditions（滿足條件）／meet sb.'s needs（滿足需求）／meet sb.'s expectations（符合期待）／meet the standard（達到標準），中文都不是「遇見」。另有 fulfill／satisfy the conditions、on condition that（條件是）。",
+  "accuracyRate": null,
+  "discrimination": null,
+  "contextSpan": "跨句"
+ },
+ {
+  "id": "Vy110t_26",
+  "year": "110年試辦考試",
+  "passageId": "y110t",
+  "blankNum": 26,
+  "categories": [
+   "詞性判斷",
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "due",
+   "B": "subjects",
+   "C": "guardians",
+   "D": "conditions",
+   "E": "live on",
+   "F": "resting",
+   "G": "hope for",
+   "H": "significant",
+   "I": "violations",
+   "J": "comprise"
+  },
+  "answer": "C",
+  "gloss": "守護者",
+  "collocation": "remain near ... as __ of the family；guardian of（……的守護者）",
+  "explanation": "【句構線索】as 後面要名詞，主詞是複數的 the spirits of ancestors，空格也要用複數。【文章線索】空格後一句 They help in times of trouble 直接說明了祖靈的角色是「有難時伸援手」，那正是 guardian 這個字的內容。【常考搭配】guardian angel（守護天使）／legal guardian（法定監護人）／guardian of tradition（傳統的守護者）。",
+  "accuracyRate": null,
+  "discrimination": null,
+  "contextSpan": "跨句"
+ },
+ {
+  "id": "Vy110t_27",
+  "year": "110年試辦考試",
+  "passageId": "y110t",
+  "blankNum": 27,
+  "categories": [
+   "搭配詞／固定用法",
+   "字義辨析／多義字",
+   "詞性判斷"
+  ],
+  "options": {
+   "A": "due",
+   "B": "subjects",
+   "C": "guardians",
+   "D": "conditions",
+   "E": "live on",
+   "F": "resting",
+   "G": "hope for",
+   "H": "significant",
+   "I": "violations",
+   "J": "comprise"
+  },
+  "answer": "A",
+  "gloss": "應有的、恰當的",
+  "collocation": "pay them __ respect；due respect（應有的敬意）；with all due respect（恕我直言）；be due（預定、該到了）；due to（由於）",
+  "explanation": "【句構線索】空格夾在 them 與名詞 respect 中間，要形容詞。【文章線索】同一句裡 perform proper rituals 與 pay them ___ respect 是並列的兩件事，proper 與空格語意相近，等於句內就給了同義線索，不必往外找。【你可能會這樣想】你對 due 的印象大概只有 due to（由於），而且多半當成 because of 的同義詞背下來。但 due 有三個常考面貌：due to（由於）、be due（預定、該到了，如 The bus is due at six.）、以及本題的「應有的、恰當的」。這三個差在意思；後兩個都是形容詞，只是位置不同——be due 放在 be 動詞後面當補語，本題放在名詞前面修飾 respect。113 年學測第 3 題就考過第二個——問公車幾點該到，全體答對率只有 23%，比四選一亂猜的 25% 還低，鑑別度只有 6，代表高分群也一起錯。同一個熟字換一個面貌就認不出來，這是 due 最麻煩的地方。【常考搭配】pay due respect to（對……致上應有的敬意）／with all due respect（恕我直言，用於禮貌地反駁）／in due course（在適當的時候）。",
+  "accuracyRate": null,
+  "discrimination": null,
+  "contextSpan": "句內"
+ },
+ {
+  "id": "Vy110t_28",
+  "year": "110年試辦考試",
+  "passageId": "y110t",
+  "blankNum": 28,
+  "categories": [
+   "詞性判斷",
+   "搭配詞／固定用法"
+  ],
+  "options": {
+   "A": "due",
+   "B": "subjects",
+   "C": "guardians",
+   "D": "conditions",
+   "E": "live on",
+   "F": "resting",
+   "G": "hope for",
+   "H": "significant",
+   "I": "violations",
+   "J": "comprise"
+  },
+  "answer": "I",
+  "gloss": "違反、觸犯",
+  "collocation": "some __ of community laws；a violation of（違反……）；in violation of（違反）",
+  "explanation": "【句構線索】some 後面接可數複數名詞，空格要名詞複數。【文章線索】本句 or 前後是並列的兩種情況——「儀式沒有按規矩舉行」與「觸犯律法」，語意方向一致，都是做錯事。【常考搭配】a violation of the law／the rules（違法／違規）；in violation of（違反）；動詞 violate 直接接受詞，不加 of。",
+  "accuracyRate": null,
+  "discrimination": null,
+  "contextSpan": "句內"
+ },
+ {
+  "id": "Vy110t_29",
+  "year": "110年試辦考試",
+  "passageId": "y110t",
+  "blankNum": 29,
+  "categories": [
+   "詞性判斷",
+   "搭配詞／固定用法",
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "due",
+   "B": "subjects",
+   "C": "guardians",
+   "D": "conditions",
+   "E": "live on",
+   "F": "resting",
+   "G": "hope for",
+   "H": "significant",
+   "I": "violations",
+   "J": "comprise"
+  },
+  "answer": "H",
+  "gloss": "重要的、顯著的",
+  "collocation": "plays a very __ role；play a significant／important／key role in（在……扮演重要角色）；play a part in（參與其中）",
+  "explanation": "【句構線索】very 只能修飾形容詞或副詞，這裡後面是名詞 role，空格必須是形容詞。【文章線索】判斷「重要」的依據在空格後的整段——後面連舉布干達的金圖與蘇丹丁卡族的加朗、阿布克兩個例子，都是祖先直接成為神話源頭，整段都在支撐這個形容詞。【常考搭配】play a significant／important／key／crucial role in（在……扮演重要／關鍵角色）；play a part in（參與、有份）；a significant increase／difference／improvement（顯著的成長／差異／改善）。",
+  "accuracyRate": null,
+  "discrimination": null,
+  "contextSpan": "篇章"
+ },
+ {
+  "id": "Vy110t_30",
+  "year": "110年試辦考試",
+  "passageId": "y110t",
+  "blankNum": 30,
+  "categories": [
+   "字義辨析／多義字",
+   "句型／固定搭配句構",
+   "上下文線索／邏輯推論"
+  ],
+  "options": {
+   "A": "due",
+   "B": "subjects",
+   "C": "guardians",
+   "D": "conditions",
+   "E": "live on",
+   "F": "resting",
+   "G": "hope for",
+   "H": "significant",
+   "I": "violations",
+   "J": "comprise"
+  },
+  "answer": "B",
+  "gloss": "題材、主題",
+  "collocation": "not only objects of worship but also __ of tales and legends；the subject of（……的題材）",
+  "explanation": "【句構線索】not only A but also B 要求 A、B 對稱，A 是 objects of worship（複數名詞＋of 片語），B 也得是複數名詞＋of 片語。【文章線索】前面兩個例子都是祖先變成神話故事的主角，這一句收尾把祖先的兩種身分並列：既是崇拜的對象，也是傳說的題材。【常考搭配】the subject of a book／a painting／a study（書／畫／研究的主題）。subject 另有「科目」與「主詞」的意思，這裡取「題材」，是典型的第二義考法。",
+  "accuracyRate": null,
+  "discrimination": null,
+  "contextSpan": "跨句"
  }
 ]
