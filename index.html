@@ -602,7 +602,7 @@ function yearSortKey(p){
   const m = p.year.match(/^(\d+)/);
   const num = m ? parseInt(m[1]) : 999;
   const isMakeup = p.year.includes('補考') ? 1 : 0;
-  const isRef = (p.year.includes('課綱')||p.year.includes('參考試卷')||p.year.includes('＝')) ? 1 : 0;
+  const isRef = (p.year.includes('課綱')||p.year.includes('參考試卷')||p.year.includes('試辦')||p.year.includes('＝')) ? 1 : 0;
   return num*10 + isMakeup*2 + isRef;
 }
 function buildYearList(){
