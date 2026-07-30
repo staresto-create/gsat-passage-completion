@@ -216,6 +216,7 @@
         <button class="link-btn" onclick="clearHistory()">清除學習歷程統計</button>
         <button class="link-btn" onclick="clearWrongBook()">清除錯題本</button>
       </div>
+      <button class="big-btn" style="margin-bottom:16px;" onclick="quickStart()">立即開始 · 隨機一篇</button>
       <label style="display:flex; align-items:center; gap:8px; margin:4px 0 16px; font-size:12.5px; color:var(--ink-soft); cursor:pointer; font-family:'IBM Plex Mono',monospace;">
         <input type="checkbox" id="testModeToggle" style="width:15px; height:15px; cursor:pointer;">
         測試模式（本次作答不計入學習歷程與錯題本）
@@ -499,6 +500,20 @@ function clearWrongBook(){
   localStorage.removeItem(WRONG_KEY);
   renderStatsBox();
 }
+function quickStart(){
+  const pids = [...new Set(ITEMS.filter(it => it.passageId !== 'y92').map(it => it.passageId))];
+  if(pids.length === 0) return;
+  const pid = pids[Math.floor(Math.random() * pids.length)];
+  singleQueue = ITEMS.filter(it => it.passageId === pid)
+                     .sort((a,b) => Number(a.blankNum) - Number(b.blankNum));
+  if(singleQueue.length === 0) return;
+  singleIdx = 0;
+  setMode('single');
+  document.getElementById('homeView').style.display='none';
+  document.getElementById('practiceView').style.display='block';
+  renderSingle();
+}
+
 function startWrongBook(){
   const wrong = loadWrongIds();
   if(wrong.length === 0){ alert('錯題本目前是空的，還沒有答錯的題目。'); return; }
