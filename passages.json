@@ -2,6 +2,18 @@
  {
   "id": "y109",
   "year": "109年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "酒窩的成因（The Causes of Dimples）",
   "flagNote": null,
   "options": {
@@ -243,6 +255,18 @@
  {
   "id": "y108",
   "year": "108年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "失憶父親的溫暖（A Forgetful Father's Love）",
   "flagNote": "開頭的 “Or so my mother told us.” 是省略句式，用來表示這是母親轉述、並非敘事者親眼所見的語氣，詳見下方的巨觀結構分析。",
   "options": {
@@ -463,6 +487,18 @@
  {
   "id": "y107",
   "year": "107年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "幸運餅乾的起源（The Origins of Fortune Cookies）",
   "flagNote": null,
   "options": {
@@ -670,6 +706,18 @@
  {
   "id": "y106",
   "year": "106年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "古埃及人與洋蔥（Onions in Ancient Egypt）",
   "flagNote": null,
   "options": {
@@ -873,6 +921,18 @@
  {
   "id": "y105",
   "year": "105年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "印度人造林（A Man-Made Forest in India）",
   "flagNote": null,
   "options": {
@@ -1088,6 +1148,18 @@
  {
   "id": "y104",
   "year": "104年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "迴紋針的發明（The Invention of the Paperclip）",
   "flagNote": null,
   "options": {
@@ -1327,6 +1399,18 @@
  {
   "id": "y103",
   "year": "103年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "命名的藝術（The Art of Choosing First Names）",
   "flagNote": null,
   "options": {
@@ -1537,6 +1621,18 @@
  {
   "id": "y102",
   "year": "102年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "珊瑚礁危機（Coral Reefs in Danger）",
   "flagNote": null,
   "options": {
@@ -1732,6 +1828,18 @@
  {
   "id": "y101",
   "year": "101年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "颱風命名方式（Typhoon Naming Conventions）",
   "flagNote": "第 40 題的選項字母與語意不符（C 已用於第 32 題，且「與其他名字 disadvantage」語意不通），本站依語意及「每個選項只用一次」的原則，以 (G) replaced 為正解。",
   "options": {
@@ -1936,8 +2044,20 @@
  {
   "id": "y100",
   "year": "100年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "微波爆米花健康疑慮（Health Concerns About Microwave Popcorn）",
-  "flagNote": "本篇原始選項清單只印出 8 個選項，(C) popping 與 (H) responsible 是依上下文語意與答案字母還原補齊的，對應題號下方有★訂正標記。若與手邊試卷版本不同，歡迎使用頁面下方的回報按鈕告知。",
+  "flagNote": "本篇原始選項清單只印出 8 個選項，(C) popping 與 (H) responsible 這兩個字是依上下文語意與答案字母還原補齊的。若與你手邊的試卷不同，請用下方的回報按鈕告知。",
   "options": {
    "A": "chemical",
    "B": "amount",
@@ -2136,11 +2256,23 @@
    "研究人員發現，商業爆米花公司經常在微波爆米花袋上塗上一種名為全氟辛酸(PFOA)的化學物質，這種物質已被發現會在實驗動物身上引發癌症和肺部疾病。更糟的是，微波爆米花通常搭配的人工奶油代用品，含有一種常見的食品調味物質。根據健康科學家的說法，這種物質正是導致某些嚴重肺部疾病的元兇。",
    "為了提供簡單又健康的替代方案，營養師建議我們自己爆爆米花。所需要的東西只有一個大而深的鍋子、大約四湯匙的植物油，以及一小把有機玉米粒。當玉米粒開始爆開時，搖晃鍋子讓蒸氣散出，並讓沒爆開的玉米粒落到鍋底。一旦爆裂聲逐漸變慢，就把鍋子從爐子上移開。接著把爆米花倒進碗裡，撒上少許真奶油或橄欖油，以及天然鹽調味即可。這樣一份健康又有趣的零食就完成了。"
   ],
-  "internalNote": "原稿選項清單漏列C、H兩個選項文字(僅印出8個選項)，已依上下文語意與答案字母反推補回：C＝popping，H＝responsible，並在下方對應題號註記★訂正。建議您核對官方試卷確認這兩個字正確無誤。"
+  "internalNote": "原稿選項清單漏列C、H兩個選項文字(僅印出8個選項)，已依上下文語意與答案字母反推補回：C＝popping，H＝responsible。原 flagNote 承諾的逐題訂正記號從未實作(全庫 index.html 相關符號數為 0)，2026-08-05 已刪去該項承諾，改為請使用者回報。建議核對官方試卷確認這兩個字正確無誤。"
  },
  {
   "id": "y99",
   "year": "99年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "足球與團隊精神（Football and Teamwork）",
   "flagNote": null,
   "options": {
@@ -2336,6 +2468,18 @@
  {
   "id": "y98",
   "year": "98年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "龜兔賽跑的新解讀（A New Ending to the Tortoise and the Hare）",
   "flagNote": "第 40 題後面那兩句（Another moral which also means a great deal is…）在原始試卷上就是直接相連的寫法，並非排版跑位。",
   "options": {
@@ -2543,6 +2687,18 @@
  {
   "id": "y97",
   "year": "97年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "師徒與轉世小豬（The Guru, the Disciple, and the Pig）",
   "flagNote": "第 36、37 題的句子依大考中心原始試卷還原：第 36 題後有逗號（Soon after their __36__, the guru died…），第 37 題原文為 the disciple __37__ his knife。",
   "options": {
@@ -2727,6 +2883,18 @@
  {
   "id": "y96",
   "year": "96年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "老人與打板球的男孩（The Old Man and the Cricket Players）",
   "flagNote": null,
   "options": {
@@ -2938,6 +3106,18 @@
  {
   "id": "y95",
   "year": "95年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "健康與自我照顧（Taking Care of Your Health）",
   "flagNote": null,
   "options": {
@@ -3145,6 +3325,18 @@
  {
   "id": "y94",
   "year": "94年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "愛情與磨合（Love After the Magic Fades）",
   "flagNote": null,
   "options": {
@@ -3332,6 +3524,18 @@
  {
   "id": "y93",
   "year": "93年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "外星人的各種猜測（Speculations About Aliens）",
   "flagNote": null,
   "options": {
@@ -3535,8 +3739,20 @@
  {
   "id": "y92",
   "year": "92年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "壓力的雙面性（The Two Faces of Stress）",
-  "flagNote": "這篇的十個選項裡，about、from、even、as、like、to、that 共七個是虛詞，只有 managing、unusual、leading 三個是實詞——全站三十篇裡唯一一篇以虛詞為主的考題，其餘各篇虛詞最多只有四個。十題的線索也全部落在空格所在句之內。你可以拿它練虛詞的語感，但別把它當成文意選填的代表性練習。",
+  "flagNote": "這篇的十個選項裡，about、from、even、as、like、to、that 共七個是虛詞，只有 managing、unusual、leading 三個是實詞。同樣型態的還有 92 年補考那一篇，其餘各篇以實詞為主；這兩篇的十題線索也都落在空格所在句之內。你可以拿它練虛詞的語感，但別把它當成文意選填的代表性練習。",
   "options": {
    "A": "about",
    "B": "from",
@@ -3699,8 +3915,20 @@
  {
   "id": "y92b",
   "year": "92年補考",
+  "exam": "學測",
+  "examType": "補考",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "生活水準的衡量（Measuring the Standard of Living）",
-  "flagNote": "第 38 題的選項字母與語意不符（F 已用於第 31 題，且「Americans not only different backgrounds」語意不通），本站以 (H) with 為正解——Americans with different backgrounds 才通順。",
+  "flagNote": "第 38 題的選項字母與語意不符（F 已用於第 31 題，且「Americans not only different backgrounds」語意不通），本站以 (H) with 為正解——Americans with different backgrounds 才通順。另外，這篇的十個選項裡 these、other、while、not only、with、such as、also 共七個是虛詞，只有 lower、methods、evenly 三個是實詞，與 92 年正式考那一篇同型；拿來練沒問題，但別把它當成文意選填的代表性練習。",
   "options": {
    "A": "these",
    "B": "lower",
@@ -3887,6 +4115,18 @@
  {
   "id": "y91",
   "year": "91年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "驢子與鹽包的智慧（A Lesson from Amir's Donkey）",
   "flagNote": null,
   "options": {
@@ -4090,6 +4330,18 @@
  {
   "id": "y91b",
   "year": "91年補考",
+  "exam": "學測",
+  "examType": "補考",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "海豚與鮪魚捕撈（Dolphins and Tuna Fishing）",
   "flagNote": null,
   "options": {
@@ -4277,6 +4529,18 @@
  {
   "id": "y90",
   "year": "90年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "劇院寄放雙腿的夢（A Strange Dream at the Theater Cloakroom）",
   "flagNote": "90 年學測正式考題。這是學測文意選填現存最早的年份，89 年以前的學測沒有這個題型。",
   "options": {
@@ -4496,6 +4760,18 @@
  {
   "id": "y111r",
   "year": "111年（＝115學年度參考試卷同內容）",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   21,
+   30
+  ],
+  "titleStatus": null,
+  "sourceNote": "本篇為 111 年學測正式試題；115 學年度參考試卷沿用同一內容。",
   "title": "特技演員的崛起（The Rise of Stunt Performers）",
   "flagNote": "111 年學測正式考題（第 21–30 題，選項 A–J）。附大考中心官方答對率（P）與鑑別度（D）。115 學年度參考試卷沿用了同一篇內容。",
   "options": {
@@ -4704,6 +4980,18 @@
  {
   "id": "y99r",
   "year": "99課綱（102年施測）",
+  "exam": "學測",
+  "examType": "參考試卷",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": "99 課綱學測參考試卷（102 年施測），非正式施測，大考中心未公布逐題答對率。",
   "title": "青少年晚起之謎（Teenage Sleep Patterns）",
   "flagNote": "99 課綱適用的學測參考試卷內容（非正式考題）。",
   "options": {
@@ -4900,6 +5188,18 @@
  {
   "id": "y95r",
   "year": "95課綱（98年施測）",
+  "exam": "學測",
+  "examType": "參考試卷",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": "95 課綱學測參考試卷（98 年施測），非正式施測，大考中心未公布逐題答對率。",
   "title": "太陽能的興起（The Rise of Solar Energy）",
   "flagNote": "95 課綱適用的學測參考試卷內容（非正式考題）。",
   "options": {
@@ -5104,6 +5404,18 @@
  {
   "id": "y113",
   "year": "113年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   21,
+   30
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "風之電話（The Wind Phone）",
   "flagNote": "113 年學測正式考題（第 21–30 題）。附大考中心官方答對率（P）與鑑別度（D）。",
   "options": {
@@ -5288,6 +5600,18 @@
  {
   "id": "y114",
   "year": "114年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   21,
+   30
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "巴黎聖母院的鐘聲（The Bells of Notre-Dame）",
   "flagNote": "114 年學測正式考題（第 21–30 題）。附大考中心官方答對率（P）與鑑別度（D）。",
   "options": {
@@ -5472,6 +5796,18 @@
  {
   "id": "y115",
   "year": "115年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   21,
+   30
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "午睡的科學（The Science of Napping）",
   "flagNote": "115 年學測正式考題（第 21–30 題）。附大考中心官方答對率（P）與鑑別度（D）。115 學年度起題型改版：詞彙題 1–10、綜合測驗 11–20、文意選填 21–30、篇章結構 31–34、閱讀測驗 35–46。",
   "options": {
@@ -5688,6 +6024,18 @@
  {
   "id": "y110",
   "year": "110年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   31,
+   40
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "運動不必痛苦（Exercise Without Pain）",
   "flagNote": "110 年學測正式考題（第 31–40 題，當年文意選填的題號與現行不同）。附大考中心官方答對率（P）與鑑別度（D）。",
   "options": {
@@ -5904,6 +6252,18 @@
  {
   "id": "y112",
   "year": "112年",
+  "exam": "學測",
+  "examType": "正式考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   21,
+   30
+  ],
+  "titleStatus": null,
+  "sourceNote": null,
   "title": "喝水的迷思（Myths About Drinking Water）",
   "flagNote": "112 年學測正式考題（第 21–30 題，10 選 10，選項 A–J）。附大考中心官方答對率（P）與鑑別度（D）。",
   "options": {
@@ -6105,6 +6465,18 @@
  {
   "id": "y110t",
   "year": "110年試辦考試",
+  "exam": "學測",
+  "examType": "試辦考試",
+  "blankCount": 10,
+  "optionCount": 10,
+  "eliminationValid": true,
+  "unusedOptions": [],
+  "blankRange": [
+   21,
+   30
+  ],
+  "titleStatus": null,
+  "sourceNote": "110 年試辦考試（適用於 108 課綱），非正式施測，大考中心未公布逐題答對率。",
   "title": "非洲傳統宗教的亡者信仰（African Traditional Religions）",
   "flagNote": "110 年試辦考試內容（適用於 108 課綱，非正式考題），第 21–30 題。大考中心未公布本場逐題答對率與鑑別度。",
   "options": {
